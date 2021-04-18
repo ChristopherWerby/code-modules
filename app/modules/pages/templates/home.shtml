@@ -1,0 +1,113 @@
+<!-- #bbinclude "parts/top.shtml"
+#bbincludeoptions#="inline=true"
+#PAGE_TITLE# 		= "Home"
+#SUBHEAD#			= ""
+#HEADERTEMPLATE#	= "home"
+#CANONICAL-URL# 	= "/home"
+#ID#				= "homePage"
+#CLASS#				= "home"
+-->
+<!-- end bbinclude -->
+<!-- Home Page Content Here -->
+		<div class="section">
+			<div class="container">
+<!-- #bbinclude "/elements/default.shtml"
+#bbincludeoptions#="inline=true"
+#TEMPLATE#	= "markup"
+#ITEM#		= "subhead"
+#TITLE#		= "The Team"
+-->
+<!-- end bbinclude -->
+				<div class="bigfont">
+					<p class="text-center">
+						We’re a crack team of dedicated professionals.
+					</p>
+				</div>
+<!-- /.bigfont -->
+				<div class="row justify-content-center margin-top-60">
+					<div class="col-md-12 col-lg-6">
+<!-- #bbinclude "/markup/team/default.shtml"
+#bbincludeoptions#="inline=true"
+#TEMPLATE#	= 'default'
+-->
+<!-- end bbinclude -->
+					</div>
+<!-- /.col-md /.col-offset-3 -->
+				</div>
+<!-- /.row -->
+			</div>
+<!-- /.container -->
+		</div>
+<!-- /.section -->
+		<div class="section">
+			<div class="container">
+<!-- #bbinclude "/elements/default.shtml"
+#bbincludeoptions#="inline=true"
+#TEMPLATE#	= "markup"
+#ITEM#		= "subhead"
+#TITLE#		= "Featured Social Media for #DATETIME MMMM#"
+-->
+<!-- end bbinclude -->
+				<div class="bigfont">
+					<p class="text-center">
+						Our Featured Social Media Link
+					</p>
+				</div>
+<!-- /.bigfont -->
+				<div class="row justify-content-center margin-top-60">
+					<div class="col-md-12 col-lg-6">
+<!-- #bbinclude "/markup/social/default.shtml"
+#bbincludeoptions#="inline=true"
+#TEMPLATE#	= 'featured'
+-->
+<!-- end bbinclude -->
+					</div>
+<!-- /.col-md /.col-offset-3 -->
+				</div>
+<!-- /.row -->
+			</div>
+<!-- /.container -->
+		</div>
+<!-- /.section -->
+		<div class="section">
+			<div class="container">
+<!-- #bbinclude "/elements/default.shtml"
+#bbincludeoptions#="inline=true"
+#TEMPLATE#	= "markup"
+#ITEM#		= "subhead"
+#TITLE#		= "Inspirational Quote"
+#INDENT#	= "				"
+-->
+<!-- end bbinclude -->
+				<div class="bigfont">
+					<p class="text-center">
+						Here are some inspirational quotes
+					</p>
+				</div>
+<!-- /.bigfont -->
+				<div class="row justify-content-center margin-top-60">
+					<div class="col-md-12 col-lg-6">
+<!-- #bbinclude "/markup/quotes/default.shtml"
+#bbincludeoptions#="inline=true"
+#QUOTETYPE#	= 'team'
+#ITEM#		= 'we-always-give-110'
+-->
+<!-- end bbinclude -->
+					</div>
+<!-- /.col-md /.col-offset-3 -->
+					<div class="col-md-12 col-lg-6">
+<!-- #bbinclude "/markup/quotes/default.shtml"
+#bbincludeoptions#="inline=true"
+#QUOTETYPE#	= 'famous'
+#ITEM#		= 'be-yourself'
+-->
+<!-- end bbinclude -->
+					</div>
+<!-- /.col-md /.col-offset-3 -->
+				</div>
+<!-- /.row -->
+			</div>
+<!-- /.container -->
+		</div>
+<!-- /.section -->
+#bbinclude "parts/bottom.shtml"

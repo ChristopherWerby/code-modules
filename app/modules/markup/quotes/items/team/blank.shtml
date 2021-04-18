@@ -1,0 +1,7 @@
+<!-- #bbinclude "/markup/#MODULE#/types/#QUOTETYPE#.shtml"
+#bbincludeoptions#="inline=true"
+#QUOTE#			= ''
+#PERSON#		= ''
+#COMMENT#		= 'Use team for internal quotes. Person should be the team/item/filename without extension.'
+-->
+<!-- end bbinclude -->

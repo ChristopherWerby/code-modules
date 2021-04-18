@@ -1,0 +1,10 @@
+<!-- #bbinclude "/markup/#MODULE#/types/#TYPE#.shtml"
+#bbincludeoptions#="inline=true"
+#NAME#			= 'Caroline Favre'
+#POSITION#		= 'Marketing Manager'
+#PORTRAIT#		= 'Portrait-Caroline_Favre-60-180x220.jpg'
+#TWITTER#		= 'carolinefavre'
+#STORY#			= 'Amazon has invented time travel and introduced pre-emptive shipping. Today, you receive something completely unexpected from your future self.'
+#BIO#			= 'Caroline Favre connects online brands to their target audiences for the perfect marketing experience. At the University of California, Davis, Caroline learned the importance of applying classic marketing techniques to modern brand strategies from experts in the field, including her Communications professor, Dr. Marvin Miguel. Recently she finished a research paper on customer conversion and participated in a group project on improving SEO. Caroline has a Bachelor of Arts in Communications and is excited to lead the online marketing team.'
+-->
+<!-- end bbinclude -->

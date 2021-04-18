@@ -1,0 +1,5 @@
+<!-- #bbinclude "/markup/#MODULE#/items/#PERSON#.shtml"
+#bbincludeoptions#="inline=true"
+#TYPE#	= 'quote'
+-->
+<!-- end bbinclude -->

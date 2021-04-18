@@ -1,0 +1,22 @@
+#INDENT#	<script>
+#INDENT#		//Call Pretty Photo
+#INDENT#		$(document).ready
+#INDENT#		(
+#INDENT#			function()
+#INDENT#			{
+#INDENT#				$("a[data-rel^='prettyPhoto']")
+#INDENT#				.prettyPhoto
+#INDENT#				(
+#INDENT#					{
+#INDENT#						social_tools:				''
+#INDENT#						, animation_speed: 			'normal' 
+#INDENT#						, theme: 					'dark_square'
+#INDENT#						, default_height: 			333
+#INDENT#						, allow_resize: 			true
+#INDENT#						, counter_separator_label: 	' of '
+#INDENT#						, overlay_gallery: 			false
+#INDENT#					}
+#INDENT#				);
+#INDENT#			}
+#INDENT#		);
+#INDENT#	</script>

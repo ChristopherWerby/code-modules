@@ -1,0 +1,6 @@
+<!-- #bbinclude "/markup/#MODULE#/types/#QUOTETYPE#.shtml"
+#bbincludeoptions#="inline=true"
+#QUOTE#			= 'Be yourself; everyone else is already taken.'
+#PERSON#		= 'Oscar Wilde'
+-->
+<!-- end bbinclude -->

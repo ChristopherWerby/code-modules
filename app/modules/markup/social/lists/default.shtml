@@ -1,0 +1,4 @@
+#bbinclude "/markup/#MODULE#/items/facebook.shtml"
+#bbinclude "/markup/#MODULE#/items/twitter.shtml"
+#bbinclude "/markup/#MODULE#/items/linkedin.shtml"
+#bbinclude "/markup/#MODULE#/items/youtube.shtml"

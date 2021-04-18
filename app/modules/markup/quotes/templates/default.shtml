@@ -1,0 +1,4 @@
+<div class="quote-wrap">
+#bbinclude "/markup/#MODULE#/lists/default.shtml"
+</div>
+<!-- /.quote-wrap -->

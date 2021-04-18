@@ -1,0 +1,53 @@
+#INDENT#	<script>
+#INDENT#	// Create the carousel.
+#INDENT#	$(
+#INDENT#		function() 
+#INDENT#		{
+#INDENT#			$('.kc-wrap').KillerCarousel
+#INDENT#			(
+#INDENT#				{
+#INDENT#					infiniteLoop: 				true
+#INDENT#					, width: 					800
+#INDENT#					, autoChangeDirection: 		1
+#INDENT#					, autoChangeDelay: 			3000
+#INDENT#					, showNavigation: 			true
+#INDENT#					, navigationHorizontalPos: 	"middle"
+#INDENT#					, navigationVerticalPos: 	"top: 15px"
+#INDENT#					, showShadow: 				true
+#INDENT#					, showReflection: 			true
+#INDENT#					, spacing2d: 				220
+#INDENT#					, renderer2d: 				"render2dBasic"
+#INDENT#					, spacing3d: 				120
+#INDENT#					, perspectiveOrigin: 		"50% -250px"
+#INDENT#					, horizon: 					"top: 90%"
+#INDENT#					, itemAlign: 				"bottom"
+#INDENT#					, profiles:
+#INDENT#						[
+#INDENT#							{
+#INDENT#								minWidth:					0
+#INDENT#								, maxWidth: 				588
+#INDENT#								, renderer3d: 				null
+#INDENT#								, autoScale: 				150
+#INDENT#							}
+#INDENT#							,{
+#INDENT#								minWidth:					589
+#INDENT#								, maxWidth: 				992
+#INDENT#								, width: 					800
+#INDENT#								, renderer3d: 				"render3dFlow"
+#INDENT#								, autoScale: 				80
+#INDENT#							}
+#INDENT#							,{
+#INDENT#								minWidth:					993
+#INDENT#								, maxWidth: 				99999
+#INDENT#								, width: 					800
+#INDENT#								, renderer3d: 				"render3dFlow"
+#INDENT#								, autoScale: 				75
+#INDENT#							}			
+#INDENT#						]
+#INDENT#				}
+#INDENT#			);
+#INDENT#			
+#INDENT#			$(window).trigger('resize'); //trigger a resize event on page load.
+#INDENT#		}
+#INDENT#	);
+#INDENT#	</script>

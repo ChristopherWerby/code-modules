@@ -1,0 +1,6 @@
+<!-- #bbinclude "/markup/#MODULE#/types/#QUOTETYPE#.shtml"
+#bbincludeoptions#="inline=true"
+#QUOTE#			= 'If you set your goals ridiculously high and it’s a failure, you will fail above everyone else's success.'
+#PERSON#		= 'James Cameron'
+-->
+<!-- end bbinclude -->

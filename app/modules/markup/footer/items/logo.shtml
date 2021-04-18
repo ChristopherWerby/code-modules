@@ -1,0 +1,6 @@
+#INDENT#<h3 class="ir">
+#INDENT#	#NAME#
+#INDENT#</h3>
+#INDENT#<a href="/home">
+#INDENT#	<img class="logo" src="#LOGO#" alt="Logo for #NAME#." />
+#INDENT#</a>

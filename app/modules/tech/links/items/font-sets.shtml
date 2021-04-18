@@ -1,0 +1,7 @@
+<!-- Fonts/Icons -->
+#INDENT#<link rel="stylesheet"
+#INDENT#	href="/theme/assets/plugins/font-awesome/css/all.css"
+#INDENT#	type="text/css" />
+#INDENT#<link rel="stylesheet"
+#INDENT#	href="/theme/assets/plugins/themify/themify-icons.min.css"
+#INDENT#	type="text/css" />

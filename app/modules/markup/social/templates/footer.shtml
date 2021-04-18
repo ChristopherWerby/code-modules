@@ -1,0 +1,4 @@
+<ul class="social-icons list-soc">
+#bbinclude "/markup/#MODULE#/lists/default.shtml"
+</ul>
+<!-- /.social-icons /.list-soc -->

@@ -1,0 +1,16 @@
+{
+  "name": "module-system-sample-files",
+  "version": "0.2.1",
+  "description": "BMS Sample Files",
+  "main": "public/index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel public/index.html",
+    "build": "parcel build index.html"
+  },
+  "author": "Christopher Werby",
+  "license": "MIT",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5"
+  }
+}

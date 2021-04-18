@@ -1,0 +1,6 @@
+#INDENT#<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+#INDENT#<script>
+#INDENT#	!window.jQuery && document.write(
+#INDENT#		'<script src="/theme/assets/plugins/jquery.min.js"><\/script>'
+#INDENT#	)
+#INDENT#</script>

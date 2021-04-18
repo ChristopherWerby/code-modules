@@ -1,0 +1,6 @@
+<!-- #bbinclude "/markup/#MODULE#/types/#TEMPLATE#.shtml"
+#bbincludeoptions#="inline=true"
+#CLASS#		= 'twitter'
+#LINK#		= 'https://twitter.com/example'
+-->
+<!-- end bbinclude -->

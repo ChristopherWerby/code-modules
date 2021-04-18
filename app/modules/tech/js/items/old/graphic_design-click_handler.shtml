@@ -1,0 +1,10 @@
+#INDENT#	<script>
+#INDENT#		//Add a click handler to the Car Salesman animation
+#INDENT#		$("#salesman").click
+#INDENT#		(
+#INDENT#			function()
+#INDENT#			{
+#INDENT#				$(this).addClass("hinge");
+#INDENT#			}
+#INDENT#		);
+#INDENT#	</script>

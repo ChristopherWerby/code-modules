@@ -1,0 +1,6 @@
+#INDENT#				<h1 class="mainhead">
+#INDENT#					#TEXT#
+#INDENT#				</h1>
+#INDENT#				<h2 class="subhead">
+#INDENT#					#SUBHEAD#
+#INDENT#				</h2>

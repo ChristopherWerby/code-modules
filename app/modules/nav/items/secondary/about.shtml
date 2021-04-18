@@ -1,0 +1,7 @@
+<!-- #bbinclude "/#MODULE#/types/simple.shtml"
+#bbincludeoptions#="inline=true"
+#URL#				= '/about'
+#TEXT#				= 'About Us'
+#LIST#				= 'about'
+-->
+<!-- end bbinclude -->

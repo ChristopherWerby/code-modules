@@ -1,0 +1,6 @@
+<!-- #bbinclude "/markup/#MODULE#/types/#QUOTETYPE#.shtml"
+#bbincludeoptions#="inline=true"
+#QUOTE#			= 'Quit watering the damn plant in reception. It’s taking over.'
+#PERSON#		= 'taji-okafor'
+-->
+<!-- end bbinclude -->

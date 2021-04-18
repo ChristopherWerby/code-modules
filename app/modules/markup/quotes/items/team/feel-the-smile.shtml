@@ -1,0 +1,6 @@
+<!-- #bbinclude "/markup/#MODULE#/types/#QUOTETYPE#.shtml"
+#bbincludeoptions#="inline=true"
+#QUOTE#			= 'When on the phone with a customer, make them feel the smile on your face.'
+#PERSON#		= 'caroline-favre'
+-->
+<!-- end bbinclude -->

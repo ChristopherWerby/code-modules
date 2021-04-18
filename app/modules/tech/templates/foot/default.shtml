@@ -1,0 +1,2 @@
+#bbinclude "parts/scroll-to-top.shtml"
+#bbinclude "/#MODULE#/js/lists/default.shtml"

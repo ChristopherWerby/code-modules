@@ -1,0 +1,6 @@
+<!-- #bbinclude "/markup/#MODULE#/types/#QUOTETYPE#.shtml"
+#bbincludeoptions#="inline=true"
+#QUOTE#			= 'We want team players who are self starters.'
+#PERSON#		= 'sybil-rios'
+-->
+<!-- end bbinclude -->

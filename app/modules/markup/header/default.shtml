@@ -1,0 +1,7 @@
+<!-- #bbinclude "templates/#HEADERTEMPLATE#.shtml"
+#bbincludeoptions#="inline=true"
+#MODULE# 		= "header"
+#MOTTO# 		= "#MOTTO#"
+#INDENT#		= '#INDENT#'
+-->
+<!-- end bbinclude -->

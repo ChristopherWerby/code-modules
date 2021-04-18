@@ -1,0 +1,11 @@
+#bbinclude "parts/top.shtml"
+#INDENT#		<p class="meta">
+#INDENT#			<span class="date"><span class="day">#DAY#</span> #DATE#</span>
+#INDENT#			<span class="location">#LOCATION#</span>
+#INDENT#		</p>
+#INDENT#		<h3>
+#INDENT#			<span class="event">#TITLE#</span>
+#INDENT#			<span class="speaker">#SPEAKER#</span>
+#INDENT#		</h3>
+#INDENT#		#DESCRIPTION#
+#bbinclude "parts/bottom.shtml"

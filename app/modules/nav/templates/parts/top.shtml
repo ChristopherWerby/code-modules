@@ -1,0 +1,11 @@
+#INDENT#<nav class="navbar navbar-transparent navbar-sticky">
+<!-- add 'navbar-dark/navbar-grey/navbar-transparent/navbar-transparent-dark' -->
+#INDENT#	<div class="container">
+#INDENT#		<a class="navbar-brand" href="/home">
+#INDENT#			<h1 class="ir">
+#INDENT#				#NAVNAME#
+#INDENT#			</h1>
+#INDENT#			<img class="logo" src="#LOGO#" alt="Logo for #NAVNAME#" />
+#INDENT#		</a>
+#INDENT#		<ul class="nav">
+<!-- add 'dropdown-dark/dropdown-grey/dropdown-transparent/dropdown-transparent-dark' -->

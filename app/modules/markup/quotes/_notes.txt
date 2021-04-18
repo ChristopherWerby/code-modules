@@ -1,0 +1,16 @@
+Calls to the module go here.
+
+<!-- #bbinclude "/markup/quotes/default.shtml"
+#bbincludeoptions#="inline=true"
+#QUOTETYPE#	= 'team'
+#ITEM#		= 'we-always-give-110'
+-->
+<!-- end bbinclude -->
+
+
+<!-- #bbinclude "/markup/quotes/default.shtml"
+#bbincludeoptions#="inline=true"
+#QUOTETYPE#	= 'famous'
+#ITEM#		= 'be-yourself'
+-->
+<!-- end bbinclude -->

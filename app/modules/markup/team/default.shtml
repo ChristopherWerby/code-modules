@@ -1,0 +1,6 @@
+<!-- #bbinclude "templates/#TEMPLATE#.shtml"
+#bbincludeoptions#="inline=true"
+#MODULE# 		= 'team'
+#PORTRAITPATH#	= '/images/'
+-->
+<!-- end bbinclude -->

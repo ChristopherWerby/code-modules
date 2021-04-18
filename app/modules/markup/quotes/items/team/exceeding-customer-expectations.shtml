@@ -1,0 +1,6 @@
+<!-- #bbinclude "/markup/#MODULE#/types/#QUOTETYPE#.shtml"
+#bbincludeoptions#="inline=true"
+#QUOTE#			= 'Exceeding customer expectations is really fun. It makes us sparkle.'
+#PERSON#		= 'caroline-favre'
+-->
+<!-- end bbinclude -->

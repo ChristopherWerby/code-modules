@@ -1,0 +1,8 @@
+<!-- #bbinclude "templates/default.shtml"
+#bbincludeoptions#="inline=true"
+#MODULE# 		= "quotes"
+#ITEM#			= #ITEM#
+#QUOTETYPE#		= #QUOTETYPE#
+#COMMENT#		= "ITEM is the filename of the quote item without extension. QUOTETYPE is either famous or team."
+-->
+<!-- end bbinclude -->

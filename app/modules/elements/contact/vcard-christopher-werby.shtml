@@ -1,0 +1,24 @@
+<div itemscope itemtype="https://schema.org/Person">
+    <span itemprop="name">
+        Christopher Werby</span>
+    <img src="christopher-werby.jpg" itemprop="image" alt="Photo of Christopher Werby" />
+    <span itemprop="jobTitle">
+        Software Engineer</span>
+    <div itemprop="address" itemscope itemtype="https://schema.org/PostalAddress">
+        <span itemprop="streetAddress">
+            120 El Camino Del Mar</span>
+        <span itemprop="addressLocality">
+            San Francisco</span>,
+        <span itemprop="addressRegion">
+            CA</span>
+        <span itemprop="postalCode">
+            94121</span>
+    </div>
+    <span itemprop="telephone">
+        (415) 668-4372</span>
+    <a href="mailto:cwerby@pipsqueak.com" itemprop="email">
+        cwerby@pipsqueak.com</a>
+    Christopher’s home page:
+    <a href="https://pipsqueak.com/" itemprop="url">
+        pipsqueak.com</a>
+</div>

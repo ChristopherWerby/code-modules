@@ -1,0 +1,18 @@
+<!-- #bbinclude "/#MODULE#/templates/#TEMPLATE#/default.shtml"
+#bbincludeoptions#="inline=true" 
+#MODULE# 					= "tech"
+#CSSCACHE# 					= "#CSSCACHE#"
+#JSCACHE# 					= "#JSCACHE#"
+#ANALYTICS-GOOGLE#			= "#GOOGLE_ACCOUNT#"
+#COMPANY#					= "#COMPANY#"
+#SHORT_DESCRIPTION# 		= "#SHORT_DESCRIPTION#"
+#MED_DESCRIPTION#			= "#MED_DESCRIPTION#"
+#LONG_DESCRIPTION#			= "#LONG_DESCRIPTION#"
+#LOGO#						= "#LOGO#"
+#VERIFICATION-GOOGLE#		= "#VERIFICATION-GOOGLE#"
+#VERIFICATION2-GOOGLE#		= "#VERIFICATION2-GOOGLE#"
+#VERIFICATION-MICROSOFT#	= "#VERIFICATION-MICROSOFT#"
+#HEADMETA#					= "#HEADMETA#"
+#INDENT# 					= "#INDENT#"
+-->
+<!-- end bbinclude -->

@@ -1,0 +1,7 @@
+<!-- #bbinclude "/elements/default.shtml"
+#bbincludeoptions#  ="inline=true"
+#TEMPLATE#  = "contact"
+#ITEM#      = "vcard-christopher-werby"
+-->
+<!-- end bbinclude -->
+

@@ -1,0 +1,6 @@
+<!-- #bbinclude "templates/default.shtml"
+#bbincludeoptions#="inline=true"
+#MODULE# 		= "footer"
+#INDENT#		= "#INDENT#"
+-->
+<!-- end bbinclude -->

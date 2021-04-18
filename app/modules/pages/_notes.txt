@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<!-- #bbinclude "/pages/default.shtml" 
+#bbincludeoptions#="inline=true"
+#TEMPLATE#		= 'home'
+#PAGE#			= 'default'
+-->
+<!-- end bbinclude -->
+
+
+
+
+<!DOCTYPE html>
+<!-- #bbinclude "/pages/default.shtml" 
+#bbincludeoptions#="inline=true"
+#TEMPLATE#		= 'placeholder'
+#PAGE#			= 'default'
+-->
+
+

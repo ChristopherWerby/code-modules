@@ -1,0 +1,13 @@
+<!-- #bbinclude "/tech/default.shtml"
+#TEMPLATE#='head'
+#bbincludeoptions#="inline=true"
+#INDENT#	= '		'
+-->
+<!-- end bbinclude -->
+
+<!-- #bbinclude "/tech/default.shtml"
+#TEMPLATE#='foot'
+#bbincludeoptions#="inline=true"
+#INDENT#	= '		'
+-->
+<!-- end bbinclude -->

@@ -1,0 +1,12 @@
+					<li class="nav-item nav-dropdown">
+						<a href="#URL#" class="nav-link">
+							#TEXT#</a>
+						<ul class="dropdown-menu">
+<!-- #bbinclude "/nav/default.shtml"
+#bbincludeoptions#="inline=true"
+#TEMPLATE#	= 'dropdown'
+#LIST#		= #LIST#
+-->
+<!-- end bbinclude -->
+						</ul>
+					</li>

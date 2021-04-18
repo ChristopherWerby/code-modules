@@ -1,0 +1,40 @@
+#INDENT#<div id="mc_embed_signup">
+#INDENT#	<h3>
+#INDENT#		#NEWSLETTER-SIGNUP#
+#INDENT#	</h3>
+#INDENT#	<form 
+#INDENT#		action="//largescreenvideo.us13.list-manage.com/subscribe/post?u=9c10fcfba332a2064f53910bd&amp;id=d536ff7c12" 
+#INDENT#		method="post" 
+#INDENT#		id="mc-embedded-subscribe-form" 
+#INDENT#		name="mc-embedded-subscribe-form" 
+#INDENT#		class="validate" 
+#INDENT#		target="_blank" 
+#INDENT#		novalidate>
+#INDENT#		<div id="mc_embed_signup_scroll">
+#INDENT#			<input 
+#INDENT#				type="email" 
+#INDENT#				value="" 
+#INDENT#				name="EMAIL" 
+#INDENT#				class="email" 
+#INDENT#				id="mce-EMAIL" 
+#INDENT#				placeholder="email address" 
+#INDENT#				required>
+#INDENT#			<div 
+#INDENT#				style="position: absolute; left: -5000px;" 
+#INDENT#				aria-hidden="true">
+#INDENT#					<input type="text" name="b_9c10fcfba332a2064f53910bd_d536ff7c12" tabindex="-1" value="">
+#INDENT#			</div>
+#INDENT#			<div class="clear">
+#INDENT#				<input 
+#INDENT#					type="submit" 
+#INDENT#					value="Subscribe" 
+#INDENT#					name="subscribe" 
+#INDENT#					id="mc-embedded-subscribe" 
+#INDENT#					class="button">
+#INDENT#			</div>
+<!-- /.clear -->
+#INDENT#		</div>
+<!-- /#mc_embed_signup_scroll -->
+#INDENT#	</form>
+#INDENT#</div>
+<!-- /#mc_embed_signup-->

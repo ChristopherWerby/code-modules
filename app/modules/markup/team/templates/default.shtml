@@ -1,0 +1,8 @@
+<ul class="team">
+<!-- #bbinclude "/markup/#MODULE#/lists/default.shtml"
+#bbincludeoptions#="inline=true"
+#TYPE#	= 'default'
+-->
+<!-- end bbinclude -->
+</ul>
+<!-- /ul.team -->

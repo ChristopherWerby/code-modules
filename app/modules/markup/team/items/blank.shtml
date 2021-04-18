@@ -1,0 +1,11 @@
+<!-- #bbinclude "/markup/#MODULE#/types/#TYPE#.shtml"
+#bbincludeoptions#="inline=true"
+#NAME#			= ''
+#NAMECLASS#		= ''
+#POSITION#		= ''
+#PORTRAIT#		= ''
+#STORY#			= ''
+#BIO#			= ''
+#COMMENT#		= 'Outer p tags for bio are added.
+-->
+<!-- end bbinclude -->

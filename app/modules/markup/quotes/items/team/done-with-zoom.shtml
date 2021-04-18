@@ -1,0 +1,6 @@
+<!-- #bbinclude "/markup/#MODULE#/types/#QUOTETYPE#.shtml"
+#bbincludeoptions#="inline=true"
+#QUOTE#			= 'I’m done with Zoom. I want us to be together in an office again.'
+#PERSON#		= 'sybil-rios'
+-->
+<!-- end bbinclude -->

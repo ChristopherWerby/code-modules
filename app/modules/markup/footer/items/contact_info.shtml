@@ -1,0 +1,26 @@
+#INDENT#<h6 class="heading-uppercase">
+#INDENT#	Contact Info 
+#INDENT#</h6>
+#INDENT#<ul class="list-unstyled">
+#INDENT#	<li>
+<!-- #bbinclude "address.shtml"
+#bbincludeoptions#="inline=true" 
+#INDENT#	= '#INDENT#					'
+-->
+<!-- end bbinclude -->								
+#INDENT#	</li>
+#INDENT#	<li>
+<!-- #bbinclude "email.shtml"
+#bbincludeoptions#="inline=true" 
+#INDENT#	= '#INDENT#					'
+-->
+<!-- end bbinclude -->								
+#INDENT#	</li>
+#INDENT#	<li>
+<!-- #bbinclude "phone.shtml"
+#bbincludeoptions#="inline=true" 
+#INDENT#	= '#INDENT#					'
+-->
+<!-- end bbinclude -->								
+#INDENT#	</li>
+#INDENT#</ul>

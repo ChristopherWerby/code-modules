@@ -1,0 +1,13 @@
+<!-- #bbinclude "/markup/footer/default.shtml"
+#bbincludeoptions#="inline=true"
+#INDENT#	= '		'
+-->
+<!-- end bbinclude -->
+<!-- #bbinclude "/tech/default.shtml"
+#bbincludeoptions#="inline=true"
+#TEMPLATE#='foot'
+#INDENT#	= '		'
+-->
+<!-- end bbinclude -->
+	</body>
+</html>

@@ -1,0 +1,8 @@
+<!-- #bbinclude "/#MODULE#/types/simple.shtml"
+#bbincludeoptions#="inline=true"
+#URL#				= ''
+#TEXT#				= ''
+#LIST#				= ''
+#COMMENT#			= "LIST is used for tertiary menu items, if any. The types can be simple or dropdown. This blank item can be used for secondary or tertiary items."
+-->
+<!-- end bbinclude -->

@@ -1,0 +1,10 @@
+<!-- #bbinclude "/markup/#MODULE#/types/default.shtml"
+#bbincludeoptions#="inline=true"
+#DAY#			= ''
+#DATE#			= ''
+#LOCATION#		= ''
+#TITLE#			= ''
+#SPEAKER#		= ''
+#DESCRIPTION#	= ''
+-->
+<!-- end bbinclude -->

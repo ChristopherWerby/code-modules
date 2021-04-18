@@ -1,0 +1,10 @@
+<!-- #bbinclude "/markup/#MODULE#/types/#TYPE#.shtml"
+#bbincludeoptions#="inline=true"
+#NAME#			= 'Taji Okafor'
+#POSITION#		= 'President'
+#PORTRAIT#		= 'Portrait-Taji_Okafor-60-180x220.jpg'
+#TWITTER#		= 'tajiokafor'
+#STORY#			= 'You work at an airport and notice the same person waiting in arrivals every week. Each time, they leave alone. One day you muster the courage to ask who they are waiting for.'
+#BIO#			= 'Taji Okafor opens the line of communication between clients, customers, and businesses to get projects done. With over 20 years in both public and private sectors, Taji has experience in management consultation, team building, professional development, strategic implementation, and company collaboration. Taji has managed projects at BigPoint International, SysPeach, and Blicker, where he was a finalist for the Project of the Year. Taji holds an MBA from Stanford University and a current PMP certification.'
+-->
+<!-- end bbinclude -->

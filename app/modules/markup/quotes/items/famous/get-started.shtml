@@ -1,0 +1,6 @@
+<!-- #bbinclude "/markup/#MODULE#/types/#QUOTETYPE#.shtml"
+#bbincludeoptions#="inline=true"
+#QUOTE#			= 'The way to get started is to quit talking and begin doing.'
+#PERSON#		= 'Walt Disney'
+-->
+<!-- end bbinclude -->

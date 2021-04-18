@@ -1,0 +1,6 @@
+<!-- #bbinclude "/markup/#MODULE#/types/#QUOTETYPE#.shtml"
+#bbincludeoptions#="inline=true"
+#QUOTE#			= 'FYI. Only some walls are Dry Erase.'
+#PERSON#		= 'blake-dickinson'
+-->
+<!-- end bbinclude -->

@@ -1,0 +1,6 @@
+<!-- #bbinclude "/markup/#MODULE#/types/#QUOTETYPE#.shtml"
+#bbincludeoptions#="inline=true"
+#QUOTE#			= 'Life is what happens when you’re busy making other plans.'
+#PERSON#		= 'John Lennon'
+-->
+<!-- end bbinclude -->

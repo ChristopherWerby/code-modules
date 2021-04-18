@@ -1,0 +1,6 @@
+<!-- #bbinclude "/markup/#MODULE#/types/#TEMPLATE#.shtml"
+#bbincludeoptions#="inline=true"
+#CLASS#		= ''
+#LINK#		= ''
+-->
+<!-- end bbinclude -->

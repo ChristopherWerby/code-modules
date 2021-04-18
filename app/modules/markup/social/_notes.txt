@@ -1,0 +1,20 @@
+<!-- #bbinclude "/markup/social/default.shtml"
+#bbincludeoptions#="inline=true"
+#TEMPLATE#	= 'header'
+-->
+<!-- end bbinclude -->
+
+
+<!-- #bbinclude "/markup/social/default.shtml"
+#bbincludeoptions#="inline=true"
+#TEMPLATE#	= 'footer'
+-->
+<!-- end bbinclude -->
+
+
+<!-- #bbinclude "/markup/social/default.shtml"
+#bbincludeoptions#="inline=true"
+#TEMPLATE#	= 'featured'
+-->
+<!-- end bbinclude -->
+

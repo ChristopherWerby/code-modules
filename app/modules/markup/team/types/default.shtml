@@ -1,0 +1,29 @@
+	<li>
+		<h1>
+			#NAME#
+		</h1>
+		<h2>
+			#POSITION#
+			<span class="twitter">
+				<a href="https://twitter.com/#TWITTER#">
+					@#TWITTER#
+				</a>
+			</span>
+		</h2>
+		<div class="bio">
+			<img class="portrait" src="#PORTRAITPATH##PORTRAIT#" alt="Portrait of #NAME#" />
+			<p>
+				#BIO#
+			</p>
+		</div>
+<!-- /.bio -->
+		<div class="story">
+			<h3>
+				My Story Idea:
+			</h3>
+			<p>
+				#STORY#
+			</p>
+		</div>
+<!-- /.story -->
+	</li>

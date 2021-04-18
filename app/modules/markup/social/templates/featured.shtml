@@ -1,0 +1,7 @@
+<div class="box social-featured">
+    <div class="inner-box">
+#bbinclude "/markup/#MODULE#/lists/featured.shtml"
+​   </div>
+<!-- /.inner-box -->
+</div>
+<!-- /.box /.social-featured -->

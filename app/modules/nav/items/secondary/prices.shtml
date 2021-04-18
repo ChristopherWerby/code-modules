@@ -1,0 +1,7 @@
+<!-- #bbinclude "/#MODULE#/types/simple.shtml"
+#bbincludeoptions#="inline=true"
+#URL#				= '/prices'
+#TEXT#				= 'Prices'
+#LIST#				= 'prices'
+-->
+<!-- end bbinclude -->

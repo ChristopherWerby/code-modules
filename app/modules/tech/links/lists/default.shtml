@@ -1,0 +1,4 @@
+#bbinclude "/#MODULE#/links/items/favicon.shtml"
+#bbinclude "/#MODULE#/links/items/stylesheets.shtml"
+#bbinclude "/#MODULE#/links/items/font-sets.shtml"
+#bbinclude "/#MODULE#/links/items/html5_shim.shtml"

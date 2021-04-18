@@ -1,0 +1,5 @@
+<!-- #bbinclude "/markup/footer/default.shtml"
+#bbincludeoptions#="inline=true"
+#INDENT#	= '		'
+-->
+<!-- end bbinclude -->

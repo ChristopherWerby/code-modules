@@ -1,0 +1,7 @@
+<!-- #bbinclude "/markup/#MODULE#/types/#QUOTETYPE#.shtml"
+#bbincludeoptions#="inline=true"
+#QUOTE#			= ''
+#PERSON#		= ''
+#COMMENT#		= 'Use famous for external quotes. Person should be the full name.'
+-->
+<!-- end bbinclude -->

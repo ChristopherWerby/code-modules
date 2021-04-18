@@ -1,0 +1,77 @@
+<!-- #bbinclude "/pages/templates/#PAGE#.shtml"
+#bbincludeoptions#="inline=true"
+#COMPANY# 					= 'ABC School'
+#NAME#						= 'ABC School'
+#NAMEALLCAPS#				= 'ABC SCHOOL'
+#NAVNAME#					= 'ABC School: Great School for Great Kids'
+#TITLE_PHRASE#				= 'ABC School: Great School for Great Kids'
+
+#MOTTO#						= 'Great School for Great Kids'
+
+#COMMENT#					= 'ABC School is just made up. It’s not related to the Italian language and culture school in Florence Italy.'
+
+#DOMAIN#					= 'http://sample.codemodules.net'
+#URL#						= 'https://example.com'
+#COMMENT#					= 'no trailing slash'
+
+#LOGO#						= '/images/Logo-ABC_School-by_Clipartix-sample-RCV-650x440.jpg'
+
+#BASE_DESCRIPTION#			= 'ABC School is a great school for kids.'
+#LONG_DESC_DEFAULT#			= 'Let us help your child reach their full potential.'
+#COMMENT#					= 'Note: The base description is used at the beginning of each description type and is the entirety of the short description.'
+
+#KEYWORDS_BASE#				= "elementary school,school,kids"
+#KEYWORDS_ADD_DEFAULT#		= "learning,fun,education"
+
+#EMAIL#						= '<a href="&#x6d;&#x61;&#x69;&#x6c;&#x74;&#x6f;&#x3a;&#x69;&#x6e;&#x66;&#x6f;&#x40;&#x65;&#x78;&#x61;&#x6d;&#x70;&#x6c;&#x65;&#x2e;&#x63;&#x6f;&#x6d;">&#x69;&#x6e;&#x66;&#x6f;&#x40;&#x65;&#x78;&#x61;&#x6d;&#x70;&#x6c;&#x65;&#x2e;&#x63;&#x6f;&#x6d;</a>'
+#COMMENT#					= 'encoded: <a href="mailto:info@example.com">info@example.com</a>'
+
+#EMAIL_PART#				= '&#x69;&#x6e;&#x66;&#x6f;&#x40;&#x65;&#x78;&#x61;&#x6d;&#x70;&#x6c;&#x65;&#x2e;&#x63;&#x6f;&#x6d;'
+#COMMENT#					= 'encoded: info@example.com'
+
+#MAILTO#					= '&#x6d;&#x61;&#x69;&#x6c;&#x74;&#x6f;&#x3a;'
+
+#PHONE#						= '(415) 555-1212'
+#PHONE-LABEL#				= 'main'
+#PHONE-MARKUP#				= '<a class="nobreak" href="tel:+14155551212">(415) 555-1212</a>'
+#STREET#					= "123 Main Street"
+#CITY#						= "Anytown"
+#STATE#						= "CA"
+#ZIP#						= "54321"
+
+#VERIFICATION-GOOGLE# 		= 'Lejd9JgDKjKKFoBAUjMxNCCe9vULVPmQhih7T4cq'
+#VERIFICATION2-GOOGLE# 		= '4GJB6vfaFCLoRaWjwRKQs6DNTpDDez6hGhnWPaHk'
+#COMMENT#					= 'verification 1 is for Google Analytics; 2 is for G-Suite'
+
+#VERIFICATION-MICROSOFT# 	= 'VH9OYWHAOBUYHNC68XAVBT2DTLVVMDCJMXVJTDPT'
+
+#LINKEDIN#					= 'https://www.linkedin.com/company/example/'
+#FACEBOOK#					= 'https://www.facebook.com/example/'
+#TWITTER#					= 'https://twitter.com/example'
+#YOUTUBE#					= 'https://www.youtube.com/user/example'
+
+#YEARSTART#					= '2021'
+#GOOGLE_ACCOUNT#			= 'UA-123456789-1'
+
+#PRIVACY-POLICY-UPDATE#		= 'April 17, 2021'
+#TERMS-OF-USE-UPDATE#		= 'April 17, 2021'
+
+#US#						= '<span class="us"><span class="lightBlue">A</span><span class="gray e">B</span><span class="red">C</span> <span class="lightBlue">School</span></span>'
+
+#STEM#						= '<abbr title="Science, Technology, Engineering, and Mathematics">STEM</abbr>'
+
+#HEADMETA#					= 'default'
+#HEADTEMPLATE#				= 'default'
+#HEADERTEMPLATE#			= 'default'
+#FOOTTEMPLATE#				= 'default'
+#DESCRIPTION_ITEM#			= 'default'
+#KEYWORD_ITEM#				= 'default'
+#CONTACT_FORM#				= 'contact'
+#INDENT#					= '		'
+
+#CSSCACHE#					= '015'
+#JSCACHE#					= '006'
+#BUNDLECACHE#				= '001'
+#FAVICONCACHE#				= '002'
+-->
+<!-- end bbinclude -->

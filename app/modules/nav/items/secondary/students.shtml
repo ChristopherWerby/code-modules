@@ -1,0 +1,7 @@
+<!-- #bbinclude "/#MODULE#/types/dropdown.shtml"
+#bbincludeoptions#="inline=true"
+#URL#				= '/students'
+#TEXT#				= 'Students'
+#LIST#				= 'students'
+-->
+<!-- end bbinclude -->
