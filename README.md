@@ -30,6 +30,17 @@ _Begin Date - 2021-04-16_
 
 
 
+**v0.3.0** 
+_Release Date - 2021-04-20_
+
+*	Initial setup of web hosting for sample.codemodules.net production and dev servers
+*	On do.server1.super.com, for user pip_cm
+*	Server IP is 198.199.92.62
+*	Git Push to both dev and production servers.
+*	Initial placeholder site.
+
+
+
 
 [![][piplogo]][pipurl]
 
