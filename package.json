@@ -1,36 +1,40 @@
 {
-    "title": "Modern Business",
-    "name": "startbootstrap-modern-business",
-    "version": "4.2.3",
+    "title": "Code Modules Sample Files",
+    "name": "code-modules-sample",
+    "version": "0.4.2",
     "scripts": {
-        "start": "node_modules/.bin/gulp watch"
+        "start-legacy": "node_modules/.bin/gulp watch",
+        "start": "parcel public/index.html",
+        "build": "parcel build public/index.html"
     },
-    "description": "A multipurpose HTML website template built with Bootstrap",
+    "description": "Code Modules is a BBEdit Module System for Web Development. These are sample files using that system.",
     "keywords": [
-        "css",
-        "sass",
+        "bbedit",
+        "modules",
         "html",
-        "responsive",
-        "theme",
-        "template"
+        "html5",
+        "markup",
+        "code modules"
     ],
-    "homepage": "https://startbootstrap.com/template-overviews/modern-business",
+    "homepage": "https://sample.codemodules.net",
     "bugs": {
-        "url": "https://github.com/StartBootstrap/startbootstrap-modern-business/issues",
-        "email": "feedback@startbootstrap.com"
+        "url": "https://github.com/ChristopherWerby/code-modules",
+        "email": "cwerby@pipsqueak.com"
     },
+    "documentation": "https://codemodules.net",
     "license": "MIT",
-    "author": "Start Bootstrap",
+    "author": "Christopher Werby",
     "contributors": [
-        "David Miller (https://davidmiller.io/)"
+        "David Miller — Start Bootstrap Modern Business Theme (https://davidmiller.io/)"
     ],
     "repository": {
         "type": "git",
-        "url": "https://github.com/StartBootstrap/startbootstrap-modern-business.git"
+        "url": "https://github.com/ChristopherWerby/code-modules"
     },
     "dependencies": {
         "bootstrap": "4.5.3",
-        "jquery": "3.5.1"
+        "jquery": "3.5.1",
+        "vendor": "^1.7.0"
     },
     "devDependencies": {
         "browser-sync": "2.26.13",
@@ -38,6 +42,7 @@
         "gulp": "4.0.2",
         "gulp-autoprefixer": "^7.0.1",
         "gulp-less": "^4.0.1",
-        "merge-stream": "2.0.0"
+        "merge-stream": "2.0.0",
+        "parcel-bundler": "^1.12.5"
     }
 }

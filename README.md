@@ -49,11 +49,27 @@ _Release Date - 2021-04-26_
 
 
 **v0.4.1** 
-_Begin Date - 2021-04-27_
+_Release Date - 2021-04-27_
 
 *	Change placehold.it to [dummyimage.com][5] links to support https://
 	*	`====http://placehold.it/(\d+x\d+)====` s/r All `====https://dummyimage.com/\1/CCC/999.gif====`
 	*	Here's a sample: `https://dummyimage.com/500x300/CCC/999.gif`
+*	Add the ability to process less files with gulp. [ref][6]
+	*	`npm install --save-dev gulp-less gulp-autoprefixer`
+*	Convert style system to less.
+
+
+
+**v0.4.2** 
+_Begin Date - 2021-04-27_
+
+*	Add parcel to the local project.
+	*	`npm install parcel-bundler --save-dev`
+*	Update `package.json`
+*	Change javascript to a bundle using Parcel.
+*	Test js modules with Parcel.
+*	Update theme html files to use new styles and js when moved to public.
+*	Add .htaccess with Pipsqueak Shortcuts system.
 
 
 
@@ -80,3 +96,4 @@ _Begin Date - 2021-04-27_
 [3]: https://startbootstrap.com/template/modern-business
 [4]: https://github.com/startbootstrap/startbootstrap-modern-business
 [5]: https://dummyimage.com/
+[6]: https://medium.com/@JSdevelop/compiling-less-to-css-in-gulp-7dddf30a63e1
