@@ -5,7 +5,9 @@
     "scripts": {
         "start-legacy": "node_modules/.bin/gulp watch",
         "start": "parcel public/index.html",
-        "build": "parcel build public/index.html"
+        "build": "parcel build public/index.html",
+        "pushdev": "rsync -rlptDP '/Volumes/Condor/Code Modules/Web/code-modules-sample/Current/dist/' pip_cm@198.199.92.62:/var/www/codemodules/sample/dev/public",
+        "pushlive": "rsync -rlptDP '/Volumes/Condor/Code Modules/Web/code-modules-sample/Current/dist/' pip_cm@198.199.92.62:/var/www/codemodules/sample/production/public"
     },
     "description": "Code Modules is a BBEdit Module System for Web Development. These are sample files using that system.",
     "keywords": [
