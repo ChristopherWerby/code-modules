@@ -43,6 +43,7 @@ _Release Date - 2021-04-20_
 _Release Date - 2021-04-26_
 
 *	Adopt [Start Bootstrap’s Modern Business Theme][3] + [GitHub][4] and its build process using Gulp.
+	*	`npm i startbootstrap-modern-business`
 	*	Make adjustments to paths so that `public/` is separate and thinned from `theme/`
 
 
