@@ -2,11 +2,11 @@
 
 # Code Modules — Sample Files
 
-This is an HTML5 project using BBEdit and Parcel.
+This is an HTML5 project using BBEdit and Gulp.
 
-`npm start` — development
+`npm start` — development using Gulp build process
 
-`npm run build` — build for production
+
 
 Code Modules documentation can be found at [https://codemodules.net][1]
 
@@ -14,8 +14,6 @@ These sample files can be demoed at [https://sample.codemodules.net][2]
 
 
 ## To Do
-
-Make sample site work with Parcel.
 
 Set up `app/styles/` using less compiled to main.css in the root.
 
