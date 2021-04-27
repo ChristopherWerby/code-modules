@@ -84,8 +84,8 @@ RewriteRule ^home/?$							index.html								[L,NC]
 #SAMPLE (RegEx Version)
 #RewriteRule ^(about|biography|bio|team)(-|_)*(us|pipsqueak|pip|olga|christopher|chris|werby)*/?$			/about								[R,NC]
 
-RewriteRule ^$ 																								/home 								[R,NC]
-RewriteRule ^index.html/?$ 																					/home 								[R,NC]
+#RewriteRule ^$ 																								/home 								[R,NC]
+#RewriteRule ^index.html/?$ 																					/home 								[R,NC]
 
 
 
