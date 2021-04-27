@@ -36,6 +36,8 @@
         "browser-sync": "2.26.13",
         "del": "6.0.0",
         "gulp": "4.0.2",
+        "gulp-autoprefixer": "^7.0.1",
+        "gulp-less": "^4.0.1",
         "merge-stream": "2.0.0"
     }
 }
