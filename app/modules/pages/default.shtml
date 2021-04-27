@@ -1,27 +1,27 @@
 <!-- #bbinclude "/pages/templates/#PAGE#.shtml"
 #bbincludeoptions#="inline=true"
-#COMPANY# 					= 'ABC School'
-#NAME#						= 'ABC School'
-#NAMEALLCAPS#				= 'ABC SCHOOL'
-#NAVNAME#					= 'ABC School: Great School for Great Kids'
-#TITLE_PHRASE#				= 'ABC School: Great School for Great Kids'
+#COMPANY# 					= 'Code Modules'
+#NAME#						= 'Code Modules'
+#NAMEALLCAPS#				= 'CODE MODULES'
+#NAVNAME#					= 'Code Modules Sample Files - Not Yet Launched'
+#TITLE_PHRASE#				= 'Code Modules Sample Files - Not Yet Launched'
 
-#MOTTO#						= 'Great School for Great Kids'
+#MOTTO#						= 'Fancy BBEdit Include System'
 
-#COMMENT#					= 'ABC School is just made up. It’s not related to the Italian language and culture school in Florence Italy.'
+#COMMENT#					= 'Code Modules Sample Files have not yet launched. Check back after June 1, 2021.'
 
 #DOMAIN#					= 'http://sample.codemodules.net'
-#URL#						= 'https://example.com'
+#URL#						= 'https://sample.codemodules.net'
 #COMMENT#					= 'no trailing slash'
 
 #LOGO#						= '/images/Logo-ABC_School-by_Clipartix-sample-RCV-650x440.jpg'
 
-#BASE_DESCRIPTION#			= 'ABC School is a great school for kids.'
-#LONG_DESC_DEFAULT#			= 'Let us help your child reach their full potential.'
+#BASE_DESCRIPTION#			= 'Code Modules Sample Files have not yet launched. Check back after June 1, 2021..'
+#LONG_DESC_DEFAULT#			= 'Code Modules Sample Files have not yet launched. Check back after June 1, 2021.'
 #COMMENT#					= 'Note: The base description is used at the beginning of each description type and is the entirety of the short description.'
 
-#KEYWORDS_BASE#				= "elementary school,school,kids"
-#KEYWORDS_ADD_DEFAULT#		= "learning,fun,education"
+#KEYWORDS_BASE#				= "bbedit,code,modules,include"
+#KEYWORDS_ADD_DEFAULT#		= ""
 
 #EMAIL#						= '<a href="&#x6d;&#x61;&#x69;&#x6c;&#x74;&#x6f;&#x3a;&#x69;&#x6e;&#x66;&#x6f;&#x40;&#x65;&#x78;&#x61;&#x6d;&#x70;&#x6c;&#x65;&#x2e;&#x63;&#x6f;&#x6d;">&#x69;&#x6e;&#x66;&#x6f;&#x40;&#x65;&#x78;&#x61;&#x6d;&#x70;&#x6c;&#x65;&#x2e;&#x63;&#x6f;&#x6d;</a>'
 #COMMENT#					= 'encoded: <a href="mailto:info@example.com">info@example.com</a>'
@@ -31,13 +31,13 @@
 
 #MAILTO#					= '&#x6d;&#x61;&#x69;&#x6c;&#x74;&#x6f;&#x3a;'
 
-#PHONE#						= '(415) 555-1212'
+#PHONE#						= '(415) 668-4372'
 #PHONE-LABEL#				= 'main'
-#PHONE-MARKUP#				= '<a class="nobreak" href="tel:+14155551212">(415) 555-1212</a>'
-#STREET#					= "123 Main Street"
-#CITY#						= "Anytown"
+#PHONE-MARKUP#				= '<a class="nobreak" href="tel:+14156684372">(415) 668-4372</a>'
+#STREET#					= "120 El Camino Del Mar"
+#CITY#						= "San Francisco"
 #STATE#						= "CA"
-#ZIP#						= "54321"
+#ZIP#						= "94121"
 
 #VERIFICATION-GOOGLE# 		= 'Lejd9JgDKjKKFoBAUjMxNCCe9vULVPmQhih7T4cq'
 #VERIFICATION2-GOOGLE# 		= '4GJB6vfaFCLoRaWjwRKQs6DNTpDDez6hGhnWPaHk'

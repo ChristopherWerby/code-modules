@@ -1,0 +1,7 @@
+<!-- #bbinclude "/markup/banner/default.shtml"
+#bbincludeoptions#="inline=true"
+#INDENT#	= '					'
+-->
+<!-- end bbinclude -->
+
+

@@ -1,0 +1,10 @@
+<!-- #bbinclude "lists/default.shtml" 
+#bbincludeoptions#="inline=true"
+#MODULE# 		= "banner"
+#NAME# 			= "#NAMEALLCAPS#"
+#MOTTO# 		= "#MOTTO#"
+#ACTIONTEXT#	= 'Scroll Down'
+#TYPE#			= 'default'
+#INDENT# 		= "#INDENT#"
+-->
+<!-- end bbinclude -->

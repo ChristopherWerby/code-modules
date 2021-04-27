@@ -1,0 +1,5 @@
+#bbinclude "parts/top.shtml"
+#bbinclude "parts/transparent_background.shtml"
+#bbinclude "parts/middle-first.shtml"
+#bbinclude "parts/button-top-first_slide.shtml"
+#bbinclude "parts/bottom.shtml"

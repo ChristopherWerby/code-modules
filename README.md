@@ -41,6 +41,15 @@ _Release Date - 2021-04-20_
 
 
 
+**v0.4.0** 
+_Release Date - 2021-04-26_
+
+*	Adopt [Start Bootstrap’s Modern Business Theme][3] + [GitHub][4] and its build process using Gulp.
+	*	Make adjustments to paths so that `public/` is separate and thinned from `theme/`
+
+
+
+
 
 [![][piplogo]][pipurl]
 
@@ -60,3 +69,5 @@ _Release Date - 2021-04-20_
 
 [1]: https://codemodules.net
 [2]: https://sample.codemodules.net
+[3]: https://startbootstrap.com/template/modern-business
+[4]: https://github.com/startbootstrap/startbootstrap-modern-business

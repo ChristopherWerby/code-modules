@@ -1,0 +1,4 @@
+#bbinclude "parts/top.shtml"
+#bbinclude "parts/middle-default.shtml"
+#bbinclude "parts/button-top-default.shtml"
+#bbinclude "parts/bottom.shtml"

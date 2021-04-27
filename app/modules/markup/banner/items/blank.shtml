@@ -1,0 +1,7 @@
+<!-- #bbinclude "/markup/#MODULE#/types/#TYPE#.shtml"
+#bbincludeoptions#="inline=true"
+#SLIDETITLE#	= ''
+#ALTTITLE#		= ''
+#IMAGEFILE#		= ''
+-->
+<!-- end bbinclude -->

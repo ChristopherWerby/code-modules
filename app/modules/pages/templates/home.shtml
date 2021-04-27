@@ -9,6 +9,10 @@
 -->
 <!-- end bbinclude -->
 <!-- Home Page Content Here -->
+<!-- #bbinclude "/markup/banner/default.shtml"
+#bbincludeoptions#="inline=true"
+-->
+<!-- end bbinclude -->
 		<div class="section">
 			<div class="container">
 <!-- #bbinclude "/elements/default.shtml"

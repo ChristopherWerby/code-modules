@@ -1,0 +1,7 @@
+<!-- #bbinclude "/markup/#MODULE#/types/#TYPE#.shtml"
+#bbincludeoptions#="inline=true"
+#SLIDETITLE#	= 'Dummy'
+#ALTTITLE#		= 'Dummy Single Image'
+#IMAGEFILE#		= 'https://dummyimage.com/2500x1260/#AAA/fff.png'
+-->
+<!-- end bbinclude -->
