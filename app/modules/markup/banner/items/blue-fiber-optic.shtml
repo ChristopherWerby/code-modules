@@ -1,0 +1,9 @@
+<!-- #bbinclude "/markup/#MODULE#/types/#TYPE#.shtml"
+#bbincludeoptions#="inline=true"
+#TITLE#			= 'Plumb Your Tech'
+#DESCRIPTION#	= 'Pipe Your Data Throughout Your Website Using Code Modules'
+#ALTTITLE#		= 'Blue Fiber Optic Strands by JJ Ying via Unsplash'
+#IMAGE#			= 'originals/2020-08-17-Blue_Fiber_Optic_Strands-by_JJ_Ying_via_Unsplash-iPhoneSE-RCV-4032x3024.jpg'
+#ATTRIBUTION#	= 'Blue Fiber Optic Strands by JJ Ying - jj-ying-8bghKxNU1j0-unsplash.jpg'
+-->
+<!-- end bbinclude -->

@@ -1,0 +1,9 @@
+<!-- #bbinclude "/markup/#MODULE#/types/#TYPE#.shtml"
+#bbincludeoptions#="inline=true"
+#TITLE#			= 'Play the 2001 Theme Music'
+#DESCRIPTION#	= 'Isolate Your Data Through Module Encapsulation'
+#ALTTITLE#		= 'Laptop Opening by Ales Nesetril via Unsplash'
+#IMAGE#			= 'originals/2018-07-11-Laptop-by_Ales_Nesetril_via_Unsplash-EOS_70D-RCV-4846x3431.jpg'
+#ATTRIBUTION#	= 'Laptop by Ales Nesetril - ales-nesetril-Im7lZjxeLhg-unsplash.jpg'
+-->
+<!-- end bbinclude -->

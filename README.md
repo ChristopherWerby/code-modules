@@ -71,7 +71,7 @@ _Release Date - 2021-04-27_
 
 
 **v0.4.2** 
-_Begin Date - 2021-04-27_
+_Release Date - 2021-04-27_
 
 *	Add parcel to the local project.
 	*	`npm install parcel-bundler --save-dev`
@@ -82,6 +82,18 @@ _Begin Date - 2021-04-27_
 *	Add .htaccess with Pipsqueak Shortcuts system.
 *	Remove git push to production or dev.
 	*	Instead, need to push the dist/ files created by `npm run build`
+
+
+
+**v0.4.3** 
+_Begin Date - 2021-04-27_
+
+*	Begin to move markup from home page into modules.
+	*	Made a banner module.
+		*	Populated four slides.
+			*	Using images from [Unsplash][8]
+			*	Attribution in alt tags and in the items themselves.
+		*	Banner Module calls itself in order to make the nav indicators using the same list of images.
 
 
 
@@ -107,3 +119,4 @@ _Begin Date - 2021-04-27_
 [5]: https://github.com/startbootstrap/startbootstrap-modern-business
 [6]: https://dummyimage.com/
 [7]: https://medium.com/@JSdevelop/compiling-less-to-css-in-gulp-7dddf30a63e1
+[8]: https://unsplash.com/

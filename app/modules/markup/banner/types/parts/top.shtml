@@ -1,2 +1,2 @@
-								<li id="bannerSlide#ORDER#" data-transition="crossfade" data-slotamount="default" data-masterspeed="default" data-duration="3000" data-title="#SLIDETITLE#">
-									<img class="mainImage" src="images/#IMAGEFILE#" alt="#ALTTITLE#" data-bgposition="center top" data-bgrepeat="no-repeat" data-bgfit="cover" data-no-retina>
+					<div class="carousel-item #ACTIVECLASS#" style="background-image: url('#IMAGEPATH##IMAGE#')">
+						<div class="carousel-caption d-none d-md-block">

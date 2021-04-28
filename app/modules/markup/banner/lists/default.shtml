@@ -1,8 +1,21 @@
-#bbinclude "parts/top.shtml"
-<!-- #bbinclude "/markup/#MODULE#/items/dummy.shtml"
+<!-- #bbinclude "/markup/#MODULE#/items/plasma-ball.shtml"
 #bbincludeoptions#="inline=true"
-#TYPE#			= 'dummy'
+#ORDER#			= '0'
+#ACTIVECLASS#	= 'active'
+-->
+<!-- end bbinclude -->
+<!-- #bbinclude "/markup/#MODULE#/items/laptop.shtml"
+#bbincludeoptions#="inline=true"
 #ORDER#			= '1'
 -->
 <!-- end bbinclude -->
-#bbinclude "parts/bottom.shtml"
+<!-- #bbinclude "/markup/#MODULE#/items/blue-fiber-optic.shtml"
+#bbincludeoptions#="inline=true"
+#ORDER#			= '2'
+-->
+<!-- end bbinclude -->
+<!-- #bbinclude "/markup/#MODULE#/items/camera-and-lenses.shtml"
+#bbincludeoptions#="inline=true"
+#ORDER#			= '3'
+-->
+<!-- end bbinclude -->

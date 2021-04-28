@@ -1,10 +1,8 @@
-<!-- #bbinclude "lists/default.shtml" 
+<!-- #bbinclude "templates/#TEMPLATE#.shtml" 
 #bbincludeoptions#="inline=true"
 #MODULE# 		= "banner"
-#NAME# 			= "#NAMEALLCAPS#"
-#MOTTO# 		= "#MOTTO#"
-#ACTIONTEXT#	= 'Scroll Down'
-#TYPE#			= 'default'
-#INDENT# 		= "#INDENT#"
+#ACTIVECLASS#	= ''
+#IMAGEPATH#		= '/images/slides/'
+#ID#			= 'carouselBanner'
 -->
 <!-- end bbinclude -->

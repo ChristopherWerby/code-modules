@@ -20,7 +20,7 @@
 #LONG_DESC_DEFAULT#			= 'Code Modules Sample Files have not yet launched. Check back after June 1, 2021.'
 #COMMENT#					= 'Note: The base description is used at the beginning of each description type and is the entirety of the short description.'
 
-#KEYWORDS_BASE#				= "bbedit,code,modules,include"
+#KEYWORDS_BASE#				= "bbedit,code,modules,include,html,markup,html5"
 #KEYWORDS_ADD_DEFAULT#		= ""
 
 #EMAIL#						= '<a href="&#x6d;&#x61;&#x69;&#x6c;&#x74;&#x6f;&#x3a;&#x69;&#x6e;&#x66;&#x6f;&#x40;&#x65;&#x78;&#x61;&#x6d;&#x70;&#x6c;&#x65;&#x2e;&#x63;&#x6f;&#x6d;">&#x69;&#x6e;&#x66;&#x6f;&#x40;&#x65;&#x78;&#x61;&#x6d;&#x70;&#x6c;&#x65;&#x2e;&#x63;&#x6f;&#x6d;</a>'
@@ -64,13 +64,14 @@
 #HEADTEMPLATE#				= 'default'
 #HEADERTEMPLATE#			= 'default'
 #FOOTTEMPLATE#				= 'default'
+#TYPE#						= 'default'
 #DESCRIPTION_ITEM#			= 'default'
 #KEYWORD_ITEM#				= 'default'
 #CONTACT_FORM#				= 'contact'
 #INDENT#					= '		'
 
-#CSSCACHE#					= '015'
-#JSCACHE#					= '006'
+#CSSCACHE#					= '001'
+#JSCACHE#					= '001'
 #BUNDLECACHE#				= '001'
 #FAVICONCACHE#				= '002'
 -->

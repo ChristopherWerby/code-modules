@@ -1,0 +1,8 @@
+				<ol class="carousel-indicators">
+<!-- #bbinclude "/markup/#MODULE#/lists/default.shtml"
+#bbincludeoptions#="inline=true"
+#TYPE#		= 'nav'
+#INDENT#	= '					'
+-->
+<!-- end bbinclude -->
+				</ol>

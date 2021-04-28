@@ -1,2 +1,0 @@
-								<li id="bannerSlide#ORDER#" data-transition="crossfade" data-slotamount="default" data-title="#SLIDETITLE#">
-									<img class="mainImage" src="/images/#IMAGEFILE#" alt="#ALTTITLE#" data-bgposition="right top" data-bgrepeat="no-repeat" data-bgfit="cover" data-no-retina>

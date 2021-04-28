@@ -1,0 +1,13 @@
+#bbinclude "parts/top.shtml"
+<!-- #bbinclude "/markup/#MODULE#/default.shtml"
+#bbincludeoptions#="inline=true"
+#TEMPLATE#	= 'nav'
+#INDENT#	= '					'
+-->
+<!-- end bbinclude -->
+				<div class="carousel-inner" role="listbox">
+#bbinclude "/markup/#MODULE#/lists/default.shtml"
+				</div>
+<!-- /.carousel-inner -->
+#bbinclude "parts/arrows.shtml"
+#bbinclude "parts/bottom.shtml"
