@@ -89,10 +89,11 @@ _Release Date - 2021-04-27_
 _Begin Date - 2021-04-27_
 
 *	Begin to move markup from home page into modules.
+	*	Created the doppelgänger home page in the Pages module.
 	*	Made a banner module.
 		*	Populated four slides.
 			*	Using images from [Unsplash][8]
-			*	Attribution in alt tags and in the items themselves.
+			*	Attribution in alt tags and in the filenames themselves.
 		*	Banner Module calls itself in order to make the nav indicators using the same list of images.
 
 

@@ -2,7 +2,7 @@
 #bbincludeoptions#="inline=true"
 #MODULE# 		= "banner"
 #ACTIVECLASS#	= ''
-#IMAGEPATH#		= '/images/slides/'
+#IMAGEPATH#		= '/images/slides/originals/'
 #ID#			= 'carouselBanner'
 -->
 <!-- end bbinclude -->
