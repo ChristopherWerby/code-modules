@@ -1,0 +1,9 @@
+<!-- #bbinclude "/markup/#MODULE#/types/default.shtml"
+#bbincludeoptions#="inline=true"
+#TITLE#			= 'Documentation'
+#TEXT#			= 'There’s a website for #NAME# documentation.'
+#URL#			= '#URL-DOCUMENTATION#/'
+#LINKTEXT#		= 'View Docs'
+#TARGET#		= 'CodeModulesDocs'
+-->
+<!-- end bbinclude -->

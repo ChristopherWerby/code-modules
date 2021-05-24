@@ -11,7 +11,15 @@
 #COMMENT#					= 'Code Modules Sample Files have not yet launched. Check back after August 1, 2021.'
 
 #URL-ROOT#					= 'https://sample.codemodules.net'
+#URL-DOCUMENTATION#			= 'https://codemodules.net'
 #COMMENT#					= 'no trailing slash'
+
+#URL-SAMPLE-REPO#			= 'https://github.com/ChristopherWerby/code-modules'
+#SAMPLE-REPO-TARGET#		= 'GitHub'
+#COMMENT#					= 'Plan is for sample repo to be public.'
+#URL-DOCS-REPO#				= 'https://gitlab.com/ChristopherWerby/code-modules-docs'
+#DOCS-REPO-TARGET#			= 'GitLab'
+#COMMENT#					= 'Plan is for docs repo to remain private.'
 
 #LOGO#						= '/images/Logo-ABC_School-by_Clipartix-sample-RCV-650x440.jpg'
 #COMMENT#					= 'From URL Root'
@@ -38,13 +46,6 @@
 #CITY#						= 'San Francisco'
 #STATE#						= 'CA'
 #ZIP#						= '94121'
-
-#SAMPLE-REPO#				= 'https://github.com/ChristopherWerby/code-modules'
-#SAMPLE-REPO-TARGET#		= 'GitHub'
-#COMMENT#					= 'Plan is for sample repo to be public.'
-#DOCS-REPO#					= 'https://gitlab.com/ChristopherWerby/code-modules-docs'
-#DOCS-REPO-TARGET#			= 'GitLab'
-#COMMENT#					= 'Plan is for docs repo to remain private.'
 
 #VERIFICATION-GOOGLE# 		= 'Lejd9JgDKjKKFoBAUjMxNCCe9vULVPmQhih7T4cq'
 #VERIFICATION2-GOOGLE# 		= '4GJB6vfaFCLoRaWjwRKQs6DNTpDDez6hGhnWPaHk'
@@ -76,6 +77,8 @@
 #KEYWORD_ITEM#				= 'default'
 #CONTACT_FORM#				= 'contact'
 #INDENT#					= '		'
+#COLUMNS#					= '4'
+#COMMENT#					= 'Default columns is for three items - 4 columns'
 
 #CSSCACHE#					= '001'
 #JSCACHE#					= '001'

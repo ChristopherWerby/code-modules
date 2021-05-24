@@ -1,0 +1,14 @@
+#bbinclude "parts/top.shtml"
+#INDENT#			<h4 class="card-header">
+#INDENT#				#TITLE#
+#INDENT#			</h4>
+#INDENT#			<div class="card-body">
+#INDENT#				<p class="card-text">
+#INDENT#					#TEXT#
+#INDENT#				</p>
+#INDENT#			</div>
+#INDENT#			<div class="card-footer">
+#INDENT#				<a href="#URL#" class="btn btn-primary" target="#TARGET#">
+#INDENT#					#LINKTEXT#</a>
+#INDENT#			</div>
+#bbinclude "parts/bottom.shtml"

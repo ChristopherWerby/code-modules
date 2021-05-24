@@ -1,0 +1,7 @@
+#bbinclude "parts/top.shtml"
+<!-- #bbinclude "/markup/#MODULE#/lists/#TEMPLATE#.shtml"
+#bbincludeoptions#="inline=true"
+#COLUMNS#	= '6'
+-->
+<!-- end bbinclude -->
+#bbinclude "parts/bottom.shtml"

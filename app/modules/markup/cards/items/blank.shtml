@@ -1,0 +1,10 @@
+<!-- #bbinclude "/markup/#MODULE#/types/default.shtml"
+#bbincludeoptions#="inline=true"
+#TITLE#			= ''
+#TEXT#			= ''
+#URL#			= ''
+#LINKTEXT#		= ''
+#TARGET#		= ''
+#COMMENT#		= 'TEXT will be wrapped within P tags. If there’s inner HTML, omit the open and close p tags from TEXT.'
+-->
+<!-- end bbinclude -->

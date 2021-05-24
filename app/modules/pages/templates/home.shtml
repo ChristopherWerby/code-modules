@@ -95,60 +95,16 @@
 				Code Modules — Sample Files
 			</h1>
 			<p>
-				This is a silly sample website built using code modules techniques. Code Modules hasn’t been released yet — we’re aiming at August 1, 2021. When released, the open source files for building this site can be accessed at <a href="#SAMPLE-REPO#" target="#SAMPLE-REPO-TARGET#">GitHub</a>.
+				This is a silly sample website built using code modules techniques. Code Modules hasn’t been released yet — we’re aiming at August 1, 2021. When released, the open source files for building this site can be accessed at <a href="#URL-SAMPLE-REPO#" target="#SAMPLE-REPO-TARGET#">GitHub</a>.
 			</p>
-<!-- Marketing Icons Section -->
-			<div class="row">
-				<div class="col-lg-4 mb-4">
-					<div class="card h-100">
-						<h4 class="card-header">
-							Card Title
-						</h4>
-						<div class="card-body">
-							<p class="card-text">
-								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque.
-							</p>
-						</div>
-						<div class="card-footer">
-							<a href="#" class="btn btn-primary">
-								Learn More</a>
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-4 mb-4">
-					<div class="card h-100">
-						<h4 class="card-header">
-							Card Title
-						</h4>
-						<div class="card-body">
-							<p class="card-text">
-								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis ipsam eos, nam perspiciatis natus commodi similique totam consectetur praesentium molestiae atque exercitationem ut consequuntur, sed eveniet, magni nostrum sint fuga.
-							</p>
-						</div>
-						<div class="card-footer">
-							<a href="#" class="btn btn-primary">
-								Learn More</a>
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-4 mb-4">
-					<div class="card h-100">
-						<h4 class="card-header">
-							Card Title
-						</h4>
-						<div class="card-body">
-							<p class="card-text">
-								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque.
-							</p>
-						</div>
-						<div class="card-footer">
-							<a href="#" class="btn btn-primary">
-								Learn More</a>
-						</div>
-					</div>
-				</div>
-			</div>
-<!-- /.row -->
+<!-- Online Location Cards -->
+<!-- #bbinclude "/markup/cards/default.shtml"
+#bbincludeoptions#="inline=true"
+#TEMPLATE#	= 'online'
+#COLUMNS#	= '6'
+#INDENT#	= "			"
+-->
+<!-- end bbinclude -->
 <!-- Portfolio Section -->
 			<h2>
 				Portfolio Heading
