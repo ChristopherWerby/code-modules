@@ -1,4 +1,9 @@
-#bbinclude "parts/top.shtml"
+<!-- #bbinclude "/parts/top.shtml"
+#bbincludeoptions#="inline=true"
+#ID#	= '#TEMPLATE#Cards'
+#CLASS#	= 'center'
+-->
+<!-- end bbinclude -->
 <!-- #bbinclude "/markup/#MODULE#/lists/#TEMPLATE#.shtml"
 #bbincludeoptions#="inline=true"
 #COLUMNS#	= '6'

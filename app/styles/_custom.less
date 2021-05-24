@@ -1,3 +1,6 @@
+@section-spacing: .75in;
+
+
 a {
 	color: red;
 }
@@ -5,3 +8,28 @@ a {
 .carousel-control-prev-icon, .carousel-control-next-icon {
 	background-size: 20px;
 }
+
+.cards {
+	margin-top: @section-spacing;
+	margin-bottom: @section-spacing;
+
+	&.center {
+		.card-header {	
+			text-align: center;
+		}
+	
+		.card-body {
+			text-align: center;
+		}
+	
+		.card-footer {
+			a {
+				display: block;
+				width: fit-content;
+				margin-left: auto;
+				margin-right: auto;
+			}
+		}
+	}
+} //.cards
+
