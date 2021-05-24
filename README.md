@@ -98,6 +98,15 @@ _Begin Date - 2021-04-27_
 
 
 
+**v0.4.4** 
+_Begin Date - 2021-05-24_
+
+*	Work on home page.
+*	Add a cards modules with an "online" template for documentation and repo links.
+	*	Uses a columns variable to set online for 2 items and default for 3.
+
+
+
 
 
 [![][piplogo]][pipurl]
