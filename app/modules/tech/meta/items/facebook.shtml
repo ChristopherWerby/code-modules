@@ -1,8 +1,8 @@
 #INDENT#<meta property="og:url"
-#INDENT#	content="#DOMAIN##CANONICAL-URL#" />
+#INDENT#	content="#URL-ROOT##CANONICAL-URL#" />
 #INDENT#<meta property="og:type"
 #INDENT#	content="website" />
 #INDENT#<meta property="og:locale"
 #INDENT#	content="en_US" />
 #INDENT#<meta property="og:image"
-#INDENT#	content="#DOMAIN##LOGO#" />
+#INDENT#	content="#URL-ROOT##LOGO#" />

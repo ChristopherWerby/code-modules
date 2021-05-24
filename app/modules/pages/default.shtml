@@ -3,25 +3,25 @@
 #COMPANY# 					= 'Code Modules'
 #NAME#						= 'Code Modules'
 #NAMEALLCAPS#				= 'CODE MODULES'
-#NAVNAME#					= 'Code Modules Sample Files - Not Yet Launched'
-#TITLE_PHRASE#				= 'Code Modules Sample Files - Not Yet Launched'
+#NAVNAME#					= 'Code Modules Sample Files'
+#TITLE_PHRASE#				= 'Code Modules Sample Files'
 
 #MOTTO#						= 'Fancy BBEdit Include System'
 
-#COMMENT#					= 'Code Modules Sample Files have not yet launched. Check back after June 1, 2021.'
+#COMMENT#					= 'Code Modules Sample Files have not yet launched. Check back after August 1, 2021.'
 
-#DOMAIN#					= 'http://sample.codemodules.net'
-#URL#						= 'https://sample.codemodules.net'
+#URL-ROOT#					= 'https://sample.codemodules.net'
 #COMMENT#					= 'no trailing slash'
 
 #LOGO#						= '/images/Logo-ABC_School-by_Clipartix-sample-RCV-650x440.jpg'
+#COMMENT#					= 'From URL Root'
 
-#BASE_DESCRIPTION#			= 'Code Modules Sample Files have not yet launched. Check back after June 1, 2021..'
-#LONG_DESC_DEFAULT#			= 'Code Modules Sample Files have not yet launched. Check back after June 1, 2021.'
+#BASE_DESCRIPTION#			= 'Code Modules Sample Files have not yet launched. Check back after August 1, 2021.'
+#LONG_DESC_DEFAULT#			= 'Code Modules Sample Files have not yet launched. Check back after August 1, 2021.'
 #COMMENT#					= 'Note: The base description is used at the beginning of each description type and is the entirety of the short description.'
 
-#KEYWORDS_BASE#				= "bbedit,code,modules,include,html,markup,html5"
-#KEYWORDS_ADD_DEFAULT#		= ""
+#KEYWORDS_BASE#				= 'bbedit,code,modules,include,html,markup,html5'
+#KEYWORDS_ADD_DEFAULT#		= ''
 
 #EMAIL#						= '<a href="&#x6d;&#x61;&#x69;&#x6c;&#x74;&#x6f;&#x3a;&#x69;&#x6e;&#x66;&#x6f;&#x40;&#x65;&#x78;&#x61;&#x6d;&#x70;&#x6c;&#x65;&#x2e;&#x63;&#x6f;&#x6d;">&#x69;&#x6e;&#x66;&#x6f;&#x40;&#x65;&#x78;&#x61;&#x6d;&#x70;&#x6c;&#x65;&#x2e;&#x63;&#x6f;&#x6d;</a>'
 #COMMENT#					= 'encoded: <a href="mailto:info@example.com">info@example.com</a>'
@@ -34,10 +34,17 @@
 #PHONE#						= '(415) 668-4372'
 #PHONE-LABEL#				= 'main'
 #PHONE-MARKUP#				= '<a class="nobreak" href="tel:+14156684372">(415) 668-4372</a>'
-#STREET#					= "120 El Camino Del Mar"
-#CITY#						= "San Francisco"
-#STATE#						= "CA"
-#ZIP#						= "94121"
+#STREET#					= '120 El Camino Del Mar'
+#CITY#						= 'San Francisco'
+#STATE#						= 'CA'
+#ZIP#						= '94121'
+
+#SAMPLE-REPO#				= 'https://github.com/ChristopherWerby/code-modules'
+#SAMPLE-REPO-TARGET#		= 'GitHub'
+#COMMENT#					= 'Plan is for sample repo to be public.'
+#DOCS-REPO#					= 'https://gitlab.com/ChristopherWerby/code-modules-docs'
+#DOCS-REPO-TARGET#			= 'GitLab'
+#COMMENT#					= 'Plan is for docs repo to remain private.'
 
 #VERIFICATION-GOOGLE# 		= 'Lejd9JgDKjKKFoBAUjMxNCCe9vULVPmQhih7T4cq'
 #VERIFICATION2-GOOGLE# 		= '4GJB6vfaFCLoRaWjwRKQs6DNTpDDez6hGhnWPaHk'
