@@ -112,7 +112,7 @@ _Begin Date - 2021-05-24_
 [![][piplogo]][pipurl]
 
 
-[header]: https://picsum.photos/id/1073/1200/400
+[header]: https://pipsqueak.com/images/Logo-Code_Modules-OW-256-scaled-fgBlack-bgTrans-600x600.png
 [siteurl]: https://sample.codemodules.com
 [piplogo]: https://pipsqueak.com/images/Logo-Pipsqueak_Bookplate-Red_Text-bgTrans-200x190.png
 [pipurl]: https://pipsqueak.com/
