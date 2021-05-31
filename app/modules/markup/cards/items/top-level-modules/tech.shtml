@@ -1,0 +1,10 @@
+<!-- #bbinclude "/markup/#MODULE#/types/#TYPE#.shtml"
+#bbincludeoptions#="inline=true"
+#IMAGE#			= 'https://source.unsplash.com/MTny44oAFx0/700x400'
+#ALT#			= 'Plate with a Coke, French Fries, Ketchup, and Assorted Others'
+#TITLE#			= 'Tech Module'
+#TEXT#			= 'The <strong>Tech module</strong> builds the &lt;head&gt; section and the non-displaying “foot” section of a web page. This is where metatags, stylesheets, font links, keywords, analytics, and javascripts are placed.'
+#URL#			= '#URL-DOCUMENTATION#/usage/tech-module'
+#TARGET#		= '#DOCUMENTATION-TARGET#'
+-->
+<!-- end bbinclude -->

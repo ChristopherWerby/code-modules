@@ -12,6 +12,7 @@
 
 #URL-ROOT#					= 'https://sample.codemodules.net'
 #URL-DOCUMENTATION#			= 'https://codemodules.net'
+#DOCUMENTATION-TARGET#		= 'CodeModulesDocs'
 #COMMENT#					= 'no trailing slash'
 
 #URL-SAMPLE-REPO#			= 'https://github.com/ChristopherWerby/code-modules'
@@ -20,6 +21,8 @@
 #URL-DOCS-REPO#				= 'https://gitlab.com/ChristopherWerby/code-modules-docs'
 #DOCS-REPO-TARGET#			= 'GitLab'
 #COMMENT#					= 'Plan is for docs repo to remain private.'
+
+#URL-PIPSQUEAK#				= 'https://pipsqueak.com'
 
 #LOGO#						= '/images/Logo-ABC_School-by_Clipartix-sample-RCV-650x440.jpg'
 #COMMENT#					= 'From URL Root'
@@ -78,7 +81,7 @@
 #CONTACT_FORM#				= 'contact'
 #INDENT#					= '		'
 #COLUMNS#					= '4'
-#COMMENT#					= 'Default columns is for three items - 4 columns'
+#COMMENT#					= 'Default columns is for three items - 4 columns out of 12'
 
 #CSSCACHE#					= '001'
 #JSCACHE#					= '001'

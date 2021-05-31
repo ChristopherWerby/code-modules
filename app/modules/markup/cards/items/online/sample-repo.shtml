@@ -1,4 +1,4 @@
-<!-- #bbinclude "/markup/#MODULE#/types/default.shtml"
+<!-- #bbinclude "/markup/#MODULE#/types/#TYPE#.shtml"
 #bbincludeoptions#="inline=true"
 #TITLE#			= 'Repo for Sample Files'
 #TEXT#			= 'GitHub repo for the files that make this website. Shows #NAME# in use.'

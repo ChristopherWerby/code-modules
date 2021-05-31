@@ -3,7 +3,6 @@
 #TEMPLATE#      = 'secondary'
 #PAGE#          = 'home'
 -->
-<!DOCTYPE html>
 <html lang="en">
 	<head>
 		<meta charset="utf-8">
@@ -132,7 +131,7 @@
 <!-- /.carousel-caption -->
 					</div>
 <!-- /.carousel-item -->
-					<div class="carousel-item " style="background-image: url('/images/slides/originals/2020-03-07-Camera_and_Lenses-by_Claudio_Schwarz_via_Unsplash-Sony_7RM3-30-2500x1668.jpg')">
+					<div class="carousel-item " style="background-image: url('/images/slides/originals/2018-05-15-Camera_Gear_Layout-by_Lucas_Favre_via_Unsplash-Sony_ILCE_6000-cropped-no_meta-scaled-UNC-2500x2003.jpg')">
 						<div class="carousel-caption d-none d-md-block">
 							<h3>
 								Systematize Your Markup
@@ -162,6 +161,9 @@
 			</h1>
 			<p>
 				This is a silly sample website built using code modules techniques. Code Modules hasn’t been released yet — we’re aiming at August 1, 2021. When released, the open source files for building this site can be accessed at <a href="https://github.com/ChristopherWerby/code-modules" target="GitHub">GitHub</a>.
+			</p>
+			<p>
+				Code Modules is built upon the use of BBEdit’s include system which is a dependency. If you don’t wish to use BBEdit, a paid program, Code Modules won’t work for you.
 			</p>
 <!-- Online Location Cards -->
 			<div id="onlineCards" class="row cards center">
@@ -199,97 +201,75 @@
 				</div>
 			</div>
 <!-- /.row -->
-<!-- Portfolio Section -->
-			<h2>
-				Portfolio Heading
+<!-- Module Types Section -->
+			<h2 class="text-center">
+				Top Level Module Types
 			</h2>
-			<div class="row">
-				<div class="col-lg-4 col-sm-6 portfolio-item">
+			<p>
+				There are five top level module types. Each of the items below are linked to the documentation for that type.
+			</p>
+			<div id="top-level-modulesCards" class="row cards ">
+				<div class="col-lg-4 mb-4">
 					<div class="card h-100">
-						<a href="#">
-							<img class="card-img-top" src="https://dummyimage.com/700x400/CCC/999.gif" alt=""></a>
 						<div class="card-body">
-							<h4 class="card-title">
-								<a href="#">
-									Project One</a>
+							<a href="https://codemodules.net/usage/markup-modules" target="CodeModulesDocs"><img class="card-img-top" src="https://source.unsplash.com/DGHy9KgdTj0/700x400" alt="Hotdogs with scattered condiments"></a>
+							<h4 class="card-title mt-3">
+								<a href="https://codemodules.net/usage/markup-modules" target="CodeModulesDocs">Markup Modules</a>
 							</h4>
 							<p class="card-text">
-								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur eum quasi sapiente nesciunt? Voluptatibus sit, repellat sequi itaque deserunt, dolores in, nesciunt, illum tempora ex quae? Nihil, dolorem!
+								<strong>Markup modules</strong> return a bit of markup. Each of these modules live as a subfolder of <code>app/modules/markup/</code>. Most websites will have many markup modules. This card comes from the markup/cards module.
 							</p>
 						</div>
 					</div>
 				</div>
-				<div class="col-lg-4 col-sm-6 portfolio-item">
+				<div class="col-lg-4 mb-4">
 					<div class="card h-100">
-						<a href="#">
-							<img class="card-img-top" src="https://dummyimage.com/700x400/CCC/999.gif" alt=""></a>
 						<div class="card-body">
-							<h4 class="card-title">
-								<a href="#">
-									Project Two</a>
+							<a href="https://codemodules.net/usage/pages-module" target="CodeModulesDocs"><img class="card-img-top" src="https://source.unsplash.com/-zmHJsYXjqM/700x400" alt="Scattered Hotdogs"></a>
+							<h4 class="card-title mt-3">
+								<a href="https://codemodules.net/usage/pages-module" target="CodeModulesDocs">Page Module</a>
 							</h4>
 							<p class="card-text">
-								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.
+								The <strong>Page module</strong> is located at <code>app/modules/pages/</code>. Top level HTML pages contain almost no content other than a call to the Pages module. The Pages module sets a number of global variables and then calls all the other modules needed to build the top level page.
 							</p>
 						</div>
 					</div>
 				</div>
-				<div class="col-lg-4 col-sm-6 portfolio-item">
+				<div class="col-lg-4 mb-4">
 					<div class="card h-100">
-						<a href="#">
-							<img class="card-img-top" src="https://dummyimage.com/700x400/CCC/999.gif" alt=""></a>
 						<div class="card-body">
-							<h4 class="card-title">
-								<a href="#">
-									Project Three</a>
+							<a href="https://codemodules.net/usage/nav-module" target="CodeModulesDocs"><img class="card-img-top" src="https://source.unsplash.com/VNcWRWZn4Dw/700x400" alt="Hotdogs"></a>
+							<h4 class="card-title mt-3">
+								<a href="https://codemodules.net/usage/nav-module" target="CodeModulesDocs">Nav Module</a>
 							</h4>
 							<p class="card-text">
-								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos quisquam, error quod sed cumque, odio distinctio velit nostrum temporibus necessitatibus et facere atque iure perspiciatis mollitia recusandae vero vel quam!
+								Navigation is always an important website feature. The <strong>Nav module</strong> returns the markup necessary for both desktop and mobile navigation. Sometimes, nav markup will be used for headers, and sometimes for sidebars and footers. But, with a nav module, it all comes from the same source of data.
 							</p>
 						</div>
 					</div>
 				</div>
-				<div class="col-lg-4 col-sm-6 portfolio-item">
+				<div class="col-lg-4 mb-4">
 					<div class="card h-100">
-						<a href="#">
-							<img class="card-img-top" src="https://dummyimage.com/700x400/CCC/999.gif" alt=""></a>
 						<div class="card-body">
-							<h4 class="card-title">
-								<a href="#">
-									Project Four</a>
+							<a href="https://codemodules.net/usage/elements-module" target="CodeModulesDocs"><img class="card-img-top" src="https://source.unsplash.com/0GDN7NSoYRI/700x400" alt="Dressed Hotdogs"></a>
+							<h4 class="card-title mt-3">
+								<a href="https://codemodules.net/usage/elements-module" target="CodeModulesDocs">Elements Module</a>
 							</h4>
 							<p class="card-text">
-								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.
+								Websites usually have pieces of markup that don’t deserve a whole module — they need to be served via something akin to a traditional include. It can still be handy to separate them into a separate file and allow them to use global variables. I use a special <strong>Elements module</strong> for this purpose.
 							</p>
 						</div>
 					</div>
 				</div>
-				<div class="col-lg-4 col-sm-6 portfolio-item">
+				<div class="col-lg-4 mb-4">
 					<div class="card h-100">
-						<a href="#">
-							<img class="card-img-top" src="https://dummyimage.com/700x400/CCC/999.gif" alt=""></a>
 						<div class="card-body">
-							<h4 class="card-title">
-								<a href="#">
-									Project Five</a>
+							<a href="https://codemodules.net/usage/tech-module" target="CodeModulesDocs"><img class="card-img-top" src="https://source.unsplash.com/MTny44oAFx0/700x400" alt="Plate with a Coke, French Fries, Ketchup, and Assorted Others"></a>
+							<h4 class="card-title mt-3">
+								<a href="https://codemodules.net/usage/tech-module" target="CodeModulesDocs">Tech Module</a>
 							</h4>
 							<p class="card-text">
-								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.
-							</p>
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-4 col-sm-6 portfolio-item">
-					<div class="card h-100">
-						<a href="#">
-							<img class="card-img-top" src="https://dummyimage.com/700x400/CCC/999.gif" alt=""></a>
-						<div class="card-body">
-							<h4 class="card-title">
-								<a href="#">
-									Project Six</a>
-							</h4>
-							<p class="card-text">
-								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque earum nostrum suscipit ducimus nihil provident, perferendis rem illo, voluptate atque, sit eius in voluptates, nemo repellat fugiat excepturi! Nemo, esse.
+								The <strong>Tech module</strong> builds the &lt;head&gt; section and the non-displaying “foot” section of a web page. This is where metatags, stylesheets, font links, keywords, analytics, and javascripts are placed.
 							</p>
 						</div>
 					</div>
@@ -300,36 +280,34 @@
 			<div class="row">
 				<div class="col-lg-6">
 					<h2>
-						Modern Business Features
+						Features of Code Modules
 					</h2>
-					<p>
-						The Modern Business template by Start Bootstrap includes:
-					</p>
 					<ul>
 						<li>
-							<strong>
-								Bootstrap v4
-							</strong>
+							Static Websites
 						</li>
 						<li>
-							jQuery
+							DRY principle — “don't repeat yourself”
 						</li>
 						<li>
-							Font Awesome
+							Encapsulation
 						</li>
 						<li>
-							Working contact form with validation
+							Separation of Concerns
 						</li>
 						<li>
-							Unstyled page elements for easy customization
+							Text-based Source of Data at Build Time
+						</li>
+						<li>
+							Maintainability
+						</li>
+						<li>
+							Avoid Messy Markup
 						</li>
 					</ul>
-					<p>
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis, omnis doloremque non cum id reprehenderit, quisquam totam aspernatur tempora minima unde aliquid ea culpa sunt. Reiciendis quia dolorum ducimus unde.
-					</p>
 				</div>
 				<div class="col-lg-6">
-					<img class="img-fluid rounded" src="https://dummyimage.com/700x450/CCC/999.gif" alt=""> 
+					<img class="img-fluid rounded" src="/images/cards/2020-12-02-Pomegranate_with_Seeds_and_Leaves-by_Tamanna_Rumee_via_Unsplash-EOS_70D-cropped-no_meta-scaled-UNC-700x450.jpg" alt=""> 
 				</div>
 			</div>
 <!-- /.row -->
@@ -338,12 +316,12 @@
 			<div class="row mb-4">
 				<div class="col-md-8">
 					<p>
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias, expedita, saepe, vero rerum deleniti beatae veniam harum neque nemo praesentium cum alias asperiores commodi.
+						This site demonstrates a website built using Code Modules. The source code for this website is available on <a href="https://github.com/ChristopherWerby/code-modules" target="GitHub">GitHub</a>. Documentation for Code Modules is on a separate <a href="https://codemodules.net/" target="CodeModulesDocs">website.</a>
 					</p>
 				</div>
 				<div class="col-md-4">
-					<a class="btn btn-lg btn-secondary btn-block" href="#">
-						Call to Action</a>
+					<a class="btn btn-lg btn-secondary btn-block" href="https://codemodules.net/" target="CodeModulesDocs">
+						Visit Documentation</a>
 				</div>
 			</div>
 		</div>
@@ -352,7 +330,7 @@
 		<footer class="py-5 bg-dark">
 			<div class="container">
 				<p class="m-0 text-center text-white">
-					Copyright &copy; Pipsqueak Productions LLC 2021 (MIT Licensed Open Source)
+					Copyright &copy; 2021 <a href="https://pipsqueak.com/">Pipsqueak Productions LLC</a> (MIT Licensed Open Source)
 				</p>
 			</div>
 <!-- /.container -->

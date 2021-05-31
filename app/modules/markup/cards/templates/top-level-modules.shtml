@@ -1,13 +1,13 @@
 <!-- #bbinclude "/parts/top.shtml"
 #bbincludeoptions#="inline=true"
 #ID#	= '#TEMPLATE#Cards'
-#CLASS#	= 'center'
+#CLASS#	= ''
 -->
 <!-- end bbinclude -->
 <!-- #bbinclude "/markup/#MODULE#/lists/#TEMPLATE#.shtml"
 #bbincludeoptions#="inline=true"
-#TYPE#		= 'item-with-button'
-#COLUMNS#	= '6'
+#TYPE#		= 'item-with-hero-image-and-link'
+#COLUMNS#	= '4'
 -->
 <!-- end bbinclude -->
 #bbinclude "parts/bottom.shtml"

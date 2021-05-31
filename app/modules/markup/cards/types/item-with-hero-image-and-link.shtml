@@ -1,0 +1,11 @@
+#bbinclude "parts/top.shtml"
+#INDENT#			<div class="card-body">
+#INDENT#				<a href="#URL#" target="#TARGET#"><img class="card-img-top" src="#IMAGE#" alt="#ALT#"></a>
+#INDENT#				<h4 class="card-title mt-3">
+#INDENT#					<a href="#URL#" target="#TARGET#">#TITLE#</a>
+#INDENT#				</h4>
+#INDENT#				<p class="card-text">
+#INDENT#					#TEXT#
+#INDENT#				</p>
+#INDENT#			</div>
+#bbinclude "parts/bottom.shtml"

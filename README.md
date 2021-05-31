@@ -107,6 +107,24 @@ _Begin Date - 2021-05-24_
 
 
 
+**v0.4.5** 
+_Begin Date - 2021-05-27_
+
+*	Work on "portfolio panels", which I'm going to use in cards module, for module types.
+	*	Each requires a hero image 700x400.
+
+
+
+**v0.4.6** 
+_Begin Date - 2021-05-31_
+
+*	Add "Features of Code Modules" list. 
+	*	Add pomegranate image.
+*	Update footer text.
+*	Swap an image in the banner carousel.
+
+
+
 
 
 [![][piplogo]][pipurl]

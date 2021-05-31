@@ -5,3 +5,10 @@
 -->
 <!-- end bbinclude -->
 
+<!-- #bbinclude "/elements/default.shtml"
+#bbincludeoptions#  ="inline=true"
+#TEMPLATE#  = 'markup'
+#ITEM#      = 'features'
+#INDENT#	= '					'
+-->
+<!-- end bbinclude -->

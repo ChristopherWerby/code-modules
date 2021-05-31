@@ -1,0 +1,10 @@
+<!-- #bbinclude "/markup/#MODULE#/types/#TYPE#.shtml"
+#bbincludeoptions#="inline=true"
+#IMAGE#			= 'https://source.unsplash.com/0GDN7NSoYRI/700x400'
+#ALT#			= 'Dressed Hotdogs'
+#TITLE#			= 'Elements Module'
+#TEXT#			= 'Websites usually have pieces of markup that don’t deserve a whole module — they need to be served via something akin to a traditional include. It can still be handy to separate them into a separate file and allow them to use global variables. I use a special <strong>Elements module</strong> for this purpose.'
+#URL#			= '#URL-DOCUMENTATION#/usage/elements-module'
+#TARGET#		= '#DOCUMENTATION-TARGET#'
+-->
+<!-- end bbinclude -->
