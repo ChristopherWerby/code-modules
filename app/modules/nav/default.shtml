@@ -1,7 +1,6 @@
 <!-- #bbinclude "/#MODULE#/templates/#TEMPLATE#.shtml" 
 #bbincludeoptions#="inline=true"
 #MODULE# 			= "nav"
-#DROPDOWN-CLASS#	= 'dropdown'
 #INDENT# 			= "#INDENT#"
 -->
 <!-- end bbinclude -->

@@ -3,6 +3,7 @@
 #URL#				= ''
 #TEXT#				= ''
 #LIST#				= ''
-#COMMENT#			= "LIST is used for tertiary menu items, if any. The types can be simple or dropdown. This blank item can be used for secondary or tertiary items."
+#IDPART#			= 'Portfolio'
+#COMMENT#			= "LIST is used for tertiary menu items, if any. The types can be simple or dropdown-item or, for tertiary, dropdown-item. IDPart is usually the same name as Text, only used for dropdown. This blank item can be used for secondary (delete LIST and IDPART, or tertiary items."
 -->
 <!-- end bbinclude -->

@@ -1,4 +1,4 @@
-​           <li class="nav-item">
-                <a href="#URL#">
-                    #TEXT#</a>
-            </li>
+#INDENT#				<li class="nav-item">
+#INDENT#					<a class="nav-link" href="#URL#">
+#INDENT#						#TEXT#</a>
+#INDENT#				</li>

@@ -2,6 +2,5 @@
 #bbincludeoptions#="inline=true"
 #URL#				= '/contact'
 #TEXT#				= 'Contact'
-#LIST#				= 'contact'
 -->
 <!-- end bbinclude -->

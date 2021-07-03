@@ -1,5 +1,0 @@
-#bbinclude "/#MODULE#/items/tertiary/scholarships.shtml"
-#bbinclude "/#MODULE#/items/tertiary/financial-aid.shtml"
-#bbinclude "/#MODULE#/items/tertiary/housing.shtml"
-#bbinclude "/#MODULE#/items/tertiary/job-board.shtml"
-#bbinclude "/#MODULE#/items/tertiary/alumni-services.shtml"

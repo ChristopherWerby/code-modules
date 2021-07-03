@@ -3,7 +3,8 @@
 #COMPANY# 					= 'Code Modules'
 #NAME#						= 'Code Modules'
 #NAMEALLCAPS#				= 'CODE MODULES'
-#NAVNAME#					= 'Code Modules Sample Files'
+#NAVNAME#					= 'Code Modules — Sample'
+#MAIN-TITLE#				= 'Code Modules — Sample Files'
 #TITLE_PHRASE#				= 'Code Modules Sample Files'
 
 #MOTTO#						= 'Fancy BBEdit Include System'

@@ -1,7 +1,8 @@
 <!-- #bbinclude "/#MODULE#/types/dropdown.shtml"
 #bbincludeoptions#="inline=true"
-#URL#				= '/students'
-#TEXT#				= 'Students'
-#LIST#				= 'students'
+#URL#				= '/blog'
+#TEXT#				= 'Blog'
+#IDPART#			= 'Blog'
+#LIST#				= 'blog'
 -->
 <!-- end bbinclude -->

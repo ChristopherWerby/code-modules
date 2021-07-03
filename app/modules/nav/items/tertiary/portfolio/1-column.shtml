@@ -1,0 +1,6 @@
+<!-- #bbinclude "/#MODULE#/types/dropdown-item.shtml"
+#bbincludeoptions#="inline=true"
+#URL#				= '/portfolio/column-1'
+#TEXT#				= '1 Column Portfolio'
+-->
+<!-- end bbinclude -->

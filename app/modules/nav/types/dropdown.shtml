@@ -1,12 +1,12 @@
-					<li class="nav-item nav-dropdown">
-						<a href="#URL#" class="nav-link">
-							#TEXT#</a>
-						<ul class="dropdown-menu">
+#INDENT#				<li class="nav-item dropdown">
+#INDENT#					<a class="nav-link dropdown-toggle" href="#URL#" id="navbarDropdown#IDPART#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+#INDENT#						#TEXT#</a>
+#INDENT#					<ul class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown#IDPART#">
 <!-- #bbinclude "/nav/default.shtml"
 #bbincludeoptions#="inline=true"
 #TEMPLATE#	= 'dropdown'
 #LIST#		= #LIST#
 -->
 <!-- end bbinclude -->
-						</ul>
-					</li>
+#INDENT#					</ul>
+#INDENT#				</li>

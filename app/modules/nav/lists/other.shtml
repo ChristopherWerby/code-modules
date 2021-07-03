@@ -1,0 +1,5 @@
+#bbinclude "/#MODULE#/items/tertiary/other/404.shtml"
+#bbinclude "/#MODULE#/items/tertiary/other/faq.shtml"
+#bbinclude "/#MODULE#/items/tertiary/other/full-width-page.shtml"
+#bbinclude "/#MODULE#/items/tertiary/other/pricing-table.shtml"
+#bbinclude "/#MODULE#/items/tertiary/other/sidebar-page.shtml"

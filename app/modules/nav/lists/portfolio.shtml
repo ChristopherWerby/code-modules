@@ -1,0 +1,5 @@
+#bbinclude "/#MODULE#/items/tertiary/portfolio/1-column.shtml"
+#bbinclude "/#MODULE#/items/tertiary/portfolio/2-column.shtml"
+#bbinclude "/#MODULE#/items/tertiary/portfolio/3-column.shtml"
+#bbinclude "/#MODULE#/items/tertiary/portfolio/4-column.shtml"
+#bbinclude "/#MODULE#/items/tertiary/portfolio/single.shtml"

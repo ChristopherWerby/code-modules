@@ -1,0 +1,6 @@
+<!-- #bbinclude "/#MODULE#/types/dropdown-item.shtml"
+#bbincludeoptions#="inline=true"
+#URL#				= '/other/full-width-page'
+#TEXT#				= 'Full Width Page'
+-->
+<!-- end bbinclude -->

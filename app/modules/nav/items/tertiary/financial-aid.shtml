@@ -1,6 +1,0 @@
-<!-- #bbinclude "/#MODULE#/types/simple.shtml"
-#bbincludeoptions#="inline=true"
-#URL#				= '/financial-aid'
-#TEXT#				= 'Financial Aid'
--->
-<!-- end bbinclude -->
