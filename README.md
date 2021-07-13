@@ -2,7 +2,7 @@
 
 # Code Modules — Sample Files
 
-This is an HTML5 project using BBEdit and Parcel.
+This is an HTML5 project using BBEdit and Parcel. Theme is [Modern Business][4] from Start Bootstrap.
 
 `npm start` — development using Parcel process
 
@@ -94,7 +94,7 @@ _Begin Date - 2021-04-27_
 		*	Populated four slides.
 			*	Using images from [Unsplash][8]
 			*	Attribution in alt tags and in the filenames themselves.
-		*	Banner Module calls itself in order to make the nav indicators using the same list of images.
+		*	Banner Module calls itself in order to make the nav indicator dashes using the same list of images.
 
 
 
@@ -122,6 +122,27 @@ _Begin Date - 2021-05-31_
 	*	Add pomegranate image.
 *	Update footer text.
 *	Swap an image in the banner carousel.
+
+
+
+**v0.4.7** 
+_Begin Date - 2021-07-03_
+
+*	Set up the Nav top-level module using navigation from the theme.
+
+
+
+**v0.4.8** 
+_Begin Date - 2021-07-13_
+
+*	Add all the pages from Modern Business theme to the public root.
+	*	Only the about.html page is slightly integrated into Code Modules.
+*	.htaccess and Parcel are not compatible.
+	*	Remove .htaccess file.
+	*	Put all pages in the public root.
+	*	Change nav to use non-abstracted URLs.
+	*	Use absolute paths starting at the public root.
+		*	e.g. "/images/..."
 
 
 

@@ -1,6 +1,6 @@
 <!-- #bbinclude "/#MODULE#/types/dropdown-item.shtml"
 #bbincludeoptions#="inline=true"
-#URL#				= '/other/pricing-table'
+#URL#				= 'pricing.html'
 #TEXT#				= 'Pricing Table'
 -->
 <!-- end bbinclude -->

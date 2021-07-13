@@ -1,6 +1,6 @@
 <!-- #bbinclude "/#MODULE#/types/dropdown.shtml"
 #bbincludeoptions#="inline=true"
-#URL#				= '/other'
+#URL#				= '#'
 #TEXT#				= 'Other Pages'
 #IDPART#			= 'Other'
 #LIST#				= 'other'

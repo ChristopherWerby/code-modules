@@ -1,6 +1,6 @@
 <!-- #bbinclude "/#MODULE#/types/dropdown-item.shtml"
 #bbincludeoptions#="inline=true"
-#URL#				= '/other/404'
+#URL#				= '404.html'
 #TEXT#				= '404'
 -->
 <!-- end bbinclude -->

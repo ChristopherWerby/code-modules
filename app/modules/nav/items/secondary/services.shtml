@@ -1,6 +1,6 @@
 <!-- #bbinclude "/#MODULE#/types/simple.shtml"
 #bbincludeoptions#="inline=true"
-#URL#				= '/services'
+#URL#				= 'services.html'
 #TEXT#				= 'Services'
 -->
 <!-- end bbinclude -->

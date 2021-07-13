@@ -1,7 +1,6 @@
 <!-- #bbinclude "/#MODULE#/types/simple.shtml"
 #bbincludeoptions#="inline=true"
-#URL#				= '/types'
+#URL#				= 'types.html'
 #TEXT#				= 'Top Level Types'
-#LIST#				= 'types'
 -->
 <!-- end bbinclude -->

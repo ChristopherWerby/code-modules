@@ -1,6 +1,6 @@
 <!-- #bbinclude "/#MODULE#/types/dropdown-item.shtml"
 #bbincludeoptions#="inline=true"
-#URL#				= '/other/sidebar-page'
+#URL#				= 'sidebar.html'
 #TEXT#				= 'Sidebar Page'
 -->
 <!-- end bbinclude -->

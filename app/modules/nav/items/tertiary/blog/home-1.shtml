@@ -1,6 +1,6 @@
 <!-- #bbinclude "/#MODULE#/types/dropdown-item.shtml"
 #bbincludeoptions#="inline=true"
-#URL#				= '/blog/home-1'
+#URL#				= 'blog-home-1.html'
 #TEXT#				= 'Blog Home 1'
 -->
 <!-- end bbinclude -->
