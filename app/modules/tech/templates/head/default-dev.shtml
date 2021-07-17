@@ -1,2 +1,0 @@
-#bbinclude "/#MODULE#/meta/lists/#HEADMETA#.shtml"
-#bbinclude "/#MODULE#/links/lists/default-dev.shtml"

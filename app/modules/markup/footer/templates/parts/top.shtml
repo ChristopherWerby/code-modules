@@ -1,3 +1,3 @@
-#INDENT#<footer>
-#INDENT#	<div class="footer bg-dark">
-#INDENT#		<div class="container">
+<!-- Footer -->
+#INDENT#<footer class="py-5 bg-dark">
+#INDENT#	<div class="container">

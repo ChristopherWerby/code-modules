@@ -1,0 +1,5 @@
+<!-- #bbinclude "/markup/banner/default.shtml"
+#bbincludeoptions#="inline=true"
+#TEMPLATE#  = 'default'
+-->
+<!-- end bbinclude -->

@@ -1,0 +1,6 @@
+<!-- Twitter Card -->
+#INDENT#<meta name="twitter:card"				content="summary" />			
+#INDENT#<meta name="twitter:title"				content="#PAGE_TITLE# — #COMPANY#" />			
+#INDENT#<meta name="twitter:description"		content="#DESCRIPTION#" />			
+#INDENT#<meta name="twitter:url" 				content="#URL-ROOT##CANONICAL-URL#" />
+#INDENT#<meta name="twitter:image"				content="#URL-ROOT##PAGEIMAGEPATH#/#PAGEIMAGE#" />

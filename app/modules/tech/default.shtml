@@ -1,5 +1,5 @@
 <!-- #bbinclude "/#MODULE#/templates/#TEMPLATE#/default.shtml"
 #bbincludeoptions#="inline=true" 
-#MODULE# 					= "tech"
+#MODULE#	= "tech"
 -->
 <!-- end bbinclude -->

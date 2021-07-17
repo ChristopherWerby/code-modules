@@ -1,28 +1,16 @@
-<html lang="en">
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-		<meta name="description" content="Code Modules - Sample Files">
-		<meta name="author" content="Christopher Werby of Pipsqueak Productions LLC"> 
-		<title>
-			#MAIN-TITLE#
-		</title>
-<!-- Custom styles for this template (includes Bootstrap and Modern Business Theme files) -->
-		<link href="../app/styles/main.less" rel="stylesheet"> 
-	</head>
-	<body>
-<!-- #bbinclude "/nav/default.shtml"
+<!-- #bbinclude "parts/top.shtml"
 #bbincludeoptions#="inline=true"
-#TEMPLATE#  = 'default'
-#INDENT#	= '		'
+#PAGE_TITLE# 		= "Home"
+#SUBHEAD#			= ""
+#DESCRIPTION_ITEM#	= "#PAGE#"
+#KEYWORD_ITEM#		= "#PAGE#"
+#CANONICAL-URL# 	= "/index.html"
+#ID#				= "homePage"
+#CLASS#				= "primary"
 -->
 <!-- end bbinclude -->
 		<header>
-<!-- #bbinclude "/markup/banner/default.shtml"
-#bbincludeoptions#="inline=true"
-#TEMPLATE#  = 'default'
--->
-<!-- end bbinclude -->
+#bbinclude "parts/carousel.shtml"
 		</header>
 <!-- Page Content -->
 		<div class="container">
@@ -88,17 +76,4 @@
 			</div>
 		</div>
 <!-- /.container -->
-<!-- Footer -->
-		<footer class="py-5 bg-dark">
-			<div class="container">
-				<p class="m-0 text-center text-white">
-					Copyright &copy; 2021 <a href="https://pipsqueak.com/">Pipsqueak Productions LLC</a> (MIT Licensed Open Source)
-				</p>
-			</div>
-<!-- /.container -->
-		</footer>
-<!-- JavaScript Bundle (includes jQuery and Bootstrap) -->
-		<script src="../app/js/app.js">
-		</script>
-	</body>
-</html>
+#bbinclude "parts/bottom.shtml"

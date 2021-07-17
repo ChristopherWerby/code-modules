@@ -1,8 +1,8 @@
-<ul class="team">
+#INDENT#<div class="row team">
 <!-- #bbinclude "/markup/#MODULE#/lists/default.shtml"
 #bbincludeoptions#="inline=true"
 #TYPE#	= 'default'
 -->
 <!-- end bbinclude -->
-</ul>
-<!-- /ul.team -->
+</div>
+<!-- /.row -->

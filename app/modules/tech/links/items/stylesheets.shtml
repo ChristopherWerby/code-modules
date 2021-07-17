@@ -1,8 +1,3 @@
 #INDENT#<link rel="stylesheet"
-#INDENT#	href="/css/bundle-#BUNDLECACHE#.css"
-#INDENT#	media="all"
-#INDENT#	type="text/css" />
-#INDENT#<link rel="stylesheet"
-#INDENT#	href="/css/app-#CSSCACHE#.css"
-#INDENT#	media="all"
-#INDENT#	type="text/css" />
+#INDENT#	href="/../app/styles/main.less"
+#INDENT#	media="all" />

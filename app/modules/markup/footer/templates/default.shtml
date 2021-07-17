@@ -1,67 +1,7 @@
 #bbinclude "parts/top.shtml"
-#INDENT#			<div class="row col-spacing-40">
-#INDENT#				<div class="col-12 col-md-6 col-lg-3">
-<!-- #bbinclude "/markup/#MODULE#/items/logo.shtml"
-#bbincludeoptions#="inline=true" 
-#INDENT#	= '#INDENT#					'
--->
-<!-- end bbinclude -->								
-#INDENT#				</div>
-#INDENT#				<div class="col-12 col-md-6 col-lg-3">
-<!-- #bbinclude "/nav/default.shtml"
-#bbincludeoptions#="inline=true"
-#TEMPLATE#	= 'main-links'
-#INDENT#	= '#INDENT#					'
--->
-<!-- end bbinclude -->
-#INDENT#				</div>
-#INDENT#				<div class="col-12 col-md-6 col-lg-3">
-<!-- #bbinclude "/nav/default.shtml"
-#bbincludeoptions#="inline=true"
-#TEMPLATE#	= 'other-links'
-#INDENT#	= '#INDENT#					'
--->
-<!-- end bbinclude -->
-#INDENT#				</div>
-#INDENT#				<div class="col-12 col-md-6 col-lg-3">
-<!-- #bbinclude "/markup/#MODULE#/items/contact_info.shtml"
-#bbincludeoptions#="inline=true" 
-#INDENT#	= '#INDENT#					'
--->
-<!-- end bbinclude -->								
-#INDENT#				</div>
-#INDENT#			</div>
-<!-- end row(1) -->
-#INDENT#			<hr class="margin-top-50 margin-bottom-30">
-#INDENT#			<div class="row">
-#INDENT#				<div class="col-12 col-md-6 text-center text-md-left">
-#INDENT#					<p>
 <!-- #bbinclude "/markup/#MODULE#/items/copyright.shtml"
 #bbincludeoptions#="inline=true" 
 #INDENT#	= '#INDENT#					'
 -->
 <!-- end bbinclude -->								
-<!-- #bbinclude "/markup/#MODULE#/items/terms.shtml"
-#bbincludeoptions#="inline=true" 
-#INDENT#	= '#INDENT#					'
--->
-<!-- end bbinclude -->								
-#INDENT#					</p>
-#INDENT#					<p>
-<!-- #bbinclude "/markup/#MODULE#/items/credit.shtml"
-#bbincludeoptions#="inline=true" 
-#INDENT#	= '#INDENT#					'
--->
-<!-- end bbinclude -->								
-#INDENT#					</p>
-#INDENT#				</div>
-#INDENT#				<div class="col-12 col-md-6 text-center text-md-right">
-<!-- #bbinclude "/markup/social/default.shtml"
-#bbincludeoptions#="inline=true"
-#INDENT#	= '							'
--->
-<!-- end bbinclude -->
-#INDENT#				</div>
-#INDENT#			</div>
-<!-- end row(2) -->
 #bbinclude "parts/bottom.shtml"

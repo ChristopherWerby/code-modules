@@ -5,7 +5,7 @@
 <!-- end bbinclude -->
 <!-- #bbinclude "/tech/default.shtml"
 #bbincludeoptions#="inline=true"
-#TEMPLATE#='foot'
+#TEMPLATE#	='foot'
 #INDENT#	= '		'
 -->
 <!-- end bbinclude -->

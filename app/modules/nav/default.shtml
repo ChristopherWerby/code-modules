@@ -1,6 +1,5 @@
 <!-- #bbinclude "/#MODULE#/templates/#TEMPLATE#.shtml" 
 #bbincludeoptions#="inline=true"
 #MODULE# 			= "nav"
-#INDENT# 			= "#INDENT#"
 -->
 <!-- end bbinclude -->

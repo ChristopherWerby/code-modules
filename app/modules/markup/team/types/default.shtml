@@ -1,29 +1,23 @@
-	<li>
-		<h1>
-			#NAME#
-		</h1>
-		<h2>
-			#POSITION#
-			<span class="twitter">
-				<a href="https://twitter.com/#TWITTER#">
-					@#TWITTER#
-				</a>
-			</span>
-		</h2>
-		<div class="bio">
-			<img class="portrait" src="#PORTRAITPATH##PORTRAIT#" alt="Portrait of #NAME#" />
-			<p>
-				#BIO#
-			</p>
-		</div>
-<!-- /.bio -->
-		<div class="story">
-			<h3>
-				My Story Idea:
-			</h3>
-			<p>
-				#STORY#
-			</p>
-		</div>
-<!-- /.story -->
-	</li>
+#INDENT#	<div class="col-lg-3 mb-4">
+#INDENT#		<div class="card h-100 text-center">
+#INDENT#			<img class="portrait card-img-top" src="#PORTRAITPATH##PORTRAIT#" alt="Portrait of #NAME#" />
+#INDENT#			<div class="card-body">
+#INDENT#				<h4 class="card-title">
+#INDENT#					#NAME#
+#INDENT#				</h4>
+#INDENT#				<h6 class="card-subtitle mb-2 text-muted">
+#INDENT#					#POSITION#
+#INDENT#				</h6>
+#INDENT#				<p class="card-text text-left">
+#INDENT#					#BIO#
+#INDENT#				</p>
+#INDENT#			</div>
+#INDENT#			<div class="card-footer">
+#INDENT#				<span class="twitter">
+#INDENT#					<a href="https://twitter.com/#TWITTER#">
+#INDENT#						@#TWITTER#
+#INDENT#					</a>
+#INDENT#				</span>
+#INDENT#			</div>
+#INDENT#		</div>
+#INDENT#	</div>

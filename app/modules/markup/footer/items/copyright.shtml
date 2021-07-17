@@ -1,1 +1,3 @@
-#INDENT#© 2019–#YEARNUM# <a class="copyright" href="/home">#US#</a>. <span class="nobreak">All Rights Reserved.</span>
+#INDENT#		<p class="m-0 text-center text-white">
+#INDENT#			Copyright © #YEARNUM# <a href="#URL-COPYRIGHT#/">#US#</a> Open Source using #LICENSE#
+#INDENT#		</p>

@@ -1,0 +1,8 @@
+<!-- Open Graph -->
+#INDENT#<meta property="og:title"				key="ogtitle"		content="#PAGE_TITLE# — #COMPANY#" />
+#INDENT#<meta property="og:site_name" 			key="ogsitename"	content="#COMPANY#" />
+#INDENT#<meta property="og:url" 				key="ogurl"			content="#URL-ROOT##CANONICAL-URL#" />
+#INDENT#<meta property="og:description"			key="ogdesc"		content="#DESCRIPTION#" />
+#INDENT#<meta property="og:type" 				key="ogtype"		content="website" />
+#INDENT#<meta property="og:locale" 				key="oglocale"		content="en_US" />
+#INDENT#<meta property="og:image"				key="ogimage"		content="#URL-ROOT##PAGEIMAGEPATH#/#PAGEIMAGE#" />

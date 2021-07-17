@@ -9,105 +9,78 @@
 #CLASS#				= "secondary"
 -->
 <!-- end bbinclude -->
-		<div class="section">
-			<div class="container">
-<!-- #bbinclude "/elements/default.shtml"
-#bbincludeoptions#="inline=true"
-#TEMPLATE#	= "markup"
-#ITEM#		= "subhead"
-#TITLE#		= "The Team"
--->
-<!-- end bbinclude -->
-				<div class="bigfont">
-					<p class="text-center">
-						We’re a crack team of dedicated professionals.
+<!-- Page Content -->
+		<div class="container">
+<!-- Page Heading/Breadcrumbs -->
+			<h1 class="mt-4 mb-3">
+				About 
+				<small>Subheading</small>
+			</h1>
+			<ol class="breadcrumb">
+				<li class="breadcrumb-item">
+					<a href="index.html">
+						Home</a>
+				</li>
+				<li class="breadcrumb-item active">
+					About
+				</li>
+			</ol>
+<!-- Intro Content -->
+			<div class="row">
+				<div class="col-lg-6">
+					<img class="img-fluid rounded mb-4" src="https://dummyimage.com/750x450/CCC/999.gif" alt=""> 
+				</div>
+				<div class="col-lg-6">
+					<h2>
+						About Modern Business
+					</h2>
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed voluptate nihil eum consectetur similique? Consectetur, quod, incidunt, harum nisi dolores delectus reprehenderit voluptatem perferendis dicta dolorem non blanditiis ex fugiat.
+					</p>
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe, magni, aperiam vitae illum voluptatum aut sequi impedit non velit ab ea pariatur sint quidem corporis eveniet. Odit, temporibus reprehenderit dolorum!
+					</p>
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et, consequuntur, modi mollitia corporis ipsa voluptate corrupti eum ratione ex ea praesentium quibusdam? Aut, in eum facere corrupti necessitatibus perspiciatis quis?
 					</p>
 				</div>
-<!-- /.bigfont -->
-				<div class="row justify-content-center margin-top-60">
-					<div class="col-md-12 col-lg-6">
+			</div>
+<!-- /.row -->
+<!-- Team Members -->
+			<h2>
+				Our Team
+			</h2>
 <!-- #bbinclude "/markup/team/default.shtml"
 #bbincludeoptions#="inline=true"
 #TEMPLATE#	= 'default'
--->
-<!-- end bbinclude -->
-					</div>
-<!-- /.col-md /.col-offset-3 -->
-				</div>
-<!-- /.row -->
-			</div>
-<!-- /.container -->
-		</div>
-<!-- /.section -->
-		<div class="section">
-			<div class="container">
-<!-- #bbinclude "/elements/default.shtml"
-#bbincludeoptions#="inline=true"
-#TEMPLATE#	= "markup"
-#ITEM#		= "subhead"
-#TITLE#		= "Featured Social Media for #DATETIME MMMM#"
--->
-<!-- end bbinclude -->
-				<div class="bigfont">
-					<p class="text-center">
-						Our Featured Social Media Link
-					</p>
-				</div>
-<!-- /.bigfont -->
-				<div class="row justify-content-center margin-top-60">
-					<div class="col-md-12 col-lg-6">
-<!-- #bbinclude "/markup/social/default.shtml"
-#bbincludeoptions#="inline=true"
-#TEMPLATE#	= 'featured'
--->
-<!-- end bbinclude -->
-					</div>
-<!-- /.col-md /.col-offset-3 -->
-				</div>
-<!-- /.row -->
-			</div>
-<!-- /.container -->
-		</div>
-<!-- /.section -->
-		<div class="section">
-			<div class="container">
-<!-- #bbinclude "/elements/default.shtml"
-#bbincludeoptions#="inline=true"
-#TEMPLATE#	= "markup"
-#ITEM#		= "subhead"
-#TITLE#		= "Inspirational Quote"
 #INDENT#	= "				"
 -->
 <!-- end bbinclude -->
-				<div class="bigfont">
-					<p class="text-center">
-						Here are some inspirational quotes
-					</p>
+<!-- Our Customers -->
+			<h2>
+				Our Customers
+			</h2>
+			<div class="row">
+				<div class="col-lg-2 col-sm-4 mb-4">
+					<img class="img-fluid" src="https://dummyimage.com/500x300/CCC/999.gif" alt=""> 
 				</div>
-<!-- /.bigfont -->
-				<div class="row justify-content-center margin-top-60">
-					<div class="col-md-12 col-lg-6">
-<!-- #bbinclude "/markup/quotes/default.shtml"
-#bbincludeoptions#="inline=true"
-#QUOTETYPE#	= 'team'
-#ITEM#		= 'we-always-give-110'
--->
-<!-- end bbinclude -->
-					</div>
-<!-- /.col-md /.col-offset-3 -->
-					<div class="col-md-12 col-lg-6">
-<!-- #bbinclude "/markup/quotes/default.shtml"
-#bbincludeoptions#="inline=true"
-#QUOTETYPE#	= 'famous'
-#ITEM#		= 'be-yourself'
--->
-<!-- end bbinclude -->
-					</div>
-<!-- /.col-md /.col-offset-3 -->
+				<div class="col-lg-2 col-sm-4 mb-4">
+					<img class="img-fluid" src="https://dummyimage.com/500x300/CCC/999.gif" alt=""> 
 				</div>
-<!-- /.row -->
+				<div class="col-lg-2 col-sm-4 mb-4">
+					<img class="img-fluid" src="https://dummyimage.com/500x300/CCC/999.gif" alt=""> 
+				</div>
+				<div class="col-lg-2 col-sm-4 mb-4">
+					<img class="img-fluid" src="https://dummyimage.com/500x300/CCC/999.gif" alt=""> 
+				</div>
+				<div class="col-lg-2 col-sm-4 mb-4">
+					<img class="img-fluid" src="https://dummyimage.com/500x300/CCC/999.gif" alt=""> 
+				</div>
+				<div class="col-lg-2 col-sm-4 mb-4">
+					<img class="img-fluid" src="https://dummyimage.com/500x300/CCC/999.gif" alt=""> 
+				</div>
 			</div>
-<!-- /.container -->
+<!-- /.row -->
 		</div>
-<!-- /.section -->
+<!-- /.container -->
 #bbinclude "parts/bottom.shtml"

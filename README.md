@@ -80,6 +80,7 @@ _Release Date - 2021-04-27_
 *	Test js modules with Parcel.
 *	Update theme html files to use new styles and js when moved to public.
 *	Add .htaccess with Pipsqueak Shortcuts system.
+	*	This didn't work with Parcel and was removed in v0.4.8
 *	Remove git push to production or dev.
 	*	Instead, need to push the dist/ files created by `npm run build`
 
@@ -146,6 +147,15 @@ _Begin Date - 2021-07-13_
 
 
 
+**v0.4.9** 
+_Begin Date - 2021-07-17_
+
+*	Continue work on the Tech module.
+*	The Home and About pages are templated for head, header, nav, footer, and foot.
+*	About page uses the Team module.
+
+
+
 
 
 [![][piplogo]][pipurl]
@@ -158,7 +168,7 @@ _Begin Date - 2021-07-13_
 
 
 
-✔	✘	⚪	⇧	∧	⌥	⌘	↩	⇧∧⌥⌘↩	← → ⟵ ⟶
+✔	✘	⚪	⇧	∧	⌥	⌘	↩	← → ⟵ ⟶
 
 
 [1]: https://codemodules.net

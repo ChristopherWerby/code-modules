@@ -1,2 +1,2 @@
-#bbinclude "/#MODULE#/meta/lists/#HEADMETA#.shtml"
+#bbinclude "/#MODULE#/meta/lists/default.shtml"
 #bbinclude "/#MODULE#/links/lists/default.shtml"
