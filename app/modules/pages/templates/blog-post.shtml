@@ -1,148 +1,14 @@
-<!DOCTYPE html>
-<!-- #bbinclude '/pages/default.shtml'
-#PAGE#          = 'blog-post'
+<!-- #bbinclude "parts/top.shtml"
+#bbincludeoptions#="inline=true"
+#PAGE_TITLE# 		= "Blog Post"
+#SUBHEAD#			= "Subheading"
+#DESCRIPTION_ITEM#	= "#PAGE#"
+#KEYWORD_ITEM#		= "#PAGE#"
+#CANONICAL-URL# 	= "/blog-post"
+#ID#				= "blogPostPage"
+#CLASS#				= "secondary"
 -->
-<!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->
-<!--[if gt IE 9]> <html lang="en" class="ie"> <![endif]-->
-<!--[if !IE]><!-->
-<html lang="en">
-<!--<![endif]-->
-	<head data-fold="true">
-		<meta charset="utf-8" />
-		<meta http-equiv="X-UA-Compatible"
-			content="IE=edge" />
-		<meta name="viewport"
-			content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-		<title>
-			Code Modules Sample Files — Blog Post
-		</title>
-		<meta name="DC.title"
-			content="Blog Post — Code Modules Sample Files" />
-		<meta property="og:title"
-			content="Blog Post — Code Modules Sample Files" />
-		<meta name="author"
-			content="Site Design and Maintenance by Pipsqueak Productions, LLC.  If you’re looking at the code, you must care.  So do we.  Pipsqueak.com" />
-		<meta name="DC.creator"
-			content="Code Modules" />
-		<meta name="Copyright"
-			content="Copyright © 2021, Code Modules. Open Source MIT License." />
-		<link rel="canonical"
-			href="https://sample.codemodules.net/blog-post" />
-<!-- Open Graph -->
-		<meta property="og:title"				key="ogtitle"		content="Blog Post — Code Modules" />
-		<meta property="og:site_name" 			key="ogsitename"	content="Code Modules" />
-		<meta property="og:url" 				key="ogurl"			content="https://sample.codemodules.net/blog-post" />
-		<meta property="og:description"			key="ogdesc"		content="#DESCRIPTION#" />
-		<meta property="og:type" 				key="ogtype"		content="website" />
-		<meta property="og:locale" 				key="oglocale"		content="en_US" />
-		<meta property="og:image"				key="ogimage"		content="https://sample.codemodules.net/images/logos/Logo-Code_Modules-OW-256-scaled-fgBlack-bgTrans-600x600.png" />
-		<meta name="google-site-verification"
-			content="Lejd9JgDKjKKFoBAUjMxNCCe9vULVPmQhih7T4cq" />
-		<meta name="google-site-verification"
-			content="4GJB6vfaFCLoRaWjwRKQs6DNTpDDez6hGhnWPaHk" />
-		<meta name="msvalidate.01"
-			content="VH9OYWHAOBUYHNC68XAVBT2DTLVVMDCJMXVJTDPT" />
-		<link rel="stylesheet"
-			href="/../app/styles/main.less"
-			media="all" />
-	</head>
-	<body id="blogPostPage" class="secondary" data-preloader="2">
-<!-- Navigation -->
-		<nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark fixed-top">
-			<div class="container">
-				<a class="navbar-brand" href="index.html">
-					Code Modules — Sample</a>
-				<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-					<span class="navbar-toggler-icon"></span>
-				</button>
-				<div class="collapse navbar-collapse" id="navbarResponsive">
-					<ul class="navbar-nav ml-auto">
-						<li class="nav-item">
-							<a class="nav-link" href="about.html">
-								About</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="services.html">
-								Services</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="contact.html">
-								Contact</a>
-						</li>
-						<li class="nav-item dropdown">
-							<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownPortfolio" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-								Portfolio</a>
-							<ul class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownPortfolio">
-								<li>
-									<a class="dropdown-item" href="portfolio-1-col.html">
-										1 Column Portfolio</a>
-								</li>
-								<li>
-									<a class="dropdown-item" href="portfolio-2-col.html">
-										2 Column Portfolio</a>
-								</li>
-								<li>
-									<a class="dropdown-item" href="portfolio-3-col.html">
-										3 Column Portfolio</a>
-								</li>
-								<li>
-									<a class="dropdown-item" href="portfolio-4-col.html">
-										4 Column Portfolio</a>
-								</li>
-								<li>
-									<a class="dropdown-item" href="portfolio-item.html">
-										Single Portfolio Item</a>
-								</li>
-							</ul>
-						</li>
-						<li class="nav-item dropdown">
-							<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownBlog" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-								Blog</a>
-							<ul class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownBlog">
-								<li>
-									<a class="dropdown-item" href="blog-home-1.html">
-										Blog Home 1</a>
-								</li>
-								<li>
-									<a class="dropdown-item" href="blog-home-2.html">
-										Blog Home 2</a>
-								</li>
-								<li>
-									<a class="dropdown-item" href="blog-post.html">
-										Blog Post</a>
-								</li>
-							</ul>
-						</li>
-						<li class="nav-item dropdown">
-							<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownOther" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-								Other Pages</a>
-							<ul class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownOther">
-								<li>
-									<a class="dropdown-item" href="404.html">
-										404</a>
-								</li>
-								<li>
-									<a class="dropdown-item" href="faq.html">
-										FAQ</a>
-								</li>
-								<li>
-									<a class="dropdown-item" href="full-width.html">
-										Full Width Page</a>
-								</li>
-								<li>
-									<a class="dropdown-item" href="pricing.html">
-										Pricing Table</a>
-								</li>
-								<li>
-									<a class="dropdown-item" href="sidebar.html">
-										Sidebar Page</a>
-								</li>
-							</ul>
-						</li>
-					</ul>
-				</div>
-			</div>
-		</nav>
+<!-- end bbinclude -->
 <!-- Page Content -->
 		<div class="container">
 <!-- Page Heading/Breadcrumbs -->
@@ -329,18 +195,4 @@
 <!-- /.row -->
 		</div>
 <!-- /.container -->
-<!-- Footer -->
-		<footer class="py-5 bg-dark">
-			<div class="container">
-									<p class="m-0 text-center text-white">
-										Copyright © 2021 <a href="https://pipsqueak.com/">Pipsqueak Productions, LLC</a> Open Source using MIT License
-									</p>								
-			</div>
-<!-- /.container -->
-		</footer>
-<!-- JavaScript Bundle (includes jQuery and Bootstrap) -->
-		<script src="/../app/js/app.js">
-		</script>
-	</body>
-</html>
-<!-- end bbinclude -->
+#bbinclude "parts/bottom.shtml"

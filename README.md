@@ -153,6 +153,11 @@ _Begin Date - 2021-07-17_
 *	Continue work on the Tech module.
 *	The Home and About pages are templated for head, header, nav, footer, and foot.
 *	About page uses the Team module.
+*	Integrate Services page.
+*	Integrate Contact page.
+*	Integrate Portfolio 1, Portfolio 2, Portfolio 3, Portfolio 4, and Portfolio Item pages.
+*	Integrate Blog Home 1, Blog Home 2, Blog Post.
+*	Integrate Full Width, FAQ, Pricing page, Sidebar page, 404 page.
 
 
 

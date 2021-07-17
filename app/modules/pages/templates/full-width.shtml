@@ -1,0 +1,38 @@
+<!-- #bbinclude "parts/top.shtml"
+#bbincludeoptions#="inline=true"
+#PAGE_TITLE# 		= "Full Width Page"
+#SUBHEAD#			= ""
+#DESCRIPTION_ITEM#	= "#PAGE#"
+#KEYWORD_ITEM#		= "#PAGE#"
+#CANONICAL-URL# 	= "/full-width"
+#ID#				= "fullWidthPage"
+#CLASS#				= "secondary"
+-->
+<!-- end bbinclude -->
+<!-- Page Content -->
+		<div class="container">
+<!-- Page Heading/Breadcrumbs -->
+			<h1 class="mt-4 mb-3">
+				Full Width 
+				<small>Subheading</small>
+			</h1>
+			<ol class="breadcrumb">
+				<li class="breadcrumb-item">
+					<a href="index.html">
+						Home</a>
+				</li>
+				<li class="breadcrumb-item">
+					Other
+				</li>
+				<li class="breadcrumb-item active">
+					Full Width
+				</li>
+			</ol>
+			<p>
+				Most of Start Bootstrap's unstyled templates can be directly integrated into the Modern Business template. You can view all of our unstyled templates on our website at 
+				<a href="https://startbootstrap.com/template-categories/unstyled">
+					https://startbootstrap.com/template-categories/unstyled</a>.
+			</p>
+		</div>
+<!-- /.container -->
+#bbinclude "parts/bottom.shtml"
