@@ -1,4 +1,4 @@
-<!-- #bbinclude "/#MODULE#/types/dropdown.shtml"
+<!-- #bbinclude "/#MODULE#/types/#DROPDOWN-TYPE#.shtml"
 #bbincludeoptions#="inline=true"
 #URL#				= '#'
 #TEXT#				= 'Other Pages'

@@ -1,4 +1,4 @@
-<!-- #bbinclude "/#MODULE#/types/dropdown-item.shtml"
+<!-- #bbinclude "/#MODULE#/types/#DROPDOWN-ITEM-TYPE#.shtml"
 #bbincludeoptions#="inline=true"
 #URL#				= 'portfolio-3-col.html'
 #TEXT#				= '3 Column Portfolio'

@@ -1,0 +1,12 @@
+#INDENT#<div class="list-group">
+<!-- #bbinclude "/#MODULE#/lists/default-with-home.shtml"
+#bbincludeoptions#="inline=true"
+#SIMPLE-TYPE#			= 'simple-bare'
+#DROPDOWN-TYPE#			= 'dropdown-bare-link'
+#DROPDOWN-ITEM-TYPE#	= 'simple-bare'
+#ACTIVE-CLASS#			= ''
+#COMMENT#				= 'Since this is only used for the sidebar page, the active class is overridden in the sidebar item only for this type.'
+-->
+<!-- end bbinclude -->
+#INDENT#</div>
+<!-- /.list-group -->

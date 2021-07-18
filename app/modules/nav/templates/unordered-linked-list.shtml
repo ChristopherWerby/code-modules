@@ -1,0 +1,9 @@
+#INDENT#<ul>
+<!-- #bbinclude "/#MODULE#/lists/default-with-home.shtml"
+#bbincludeoptions#="inline=true"
+#SIMPLE-TYPE#			= 'simple-ul'
+#DROPDOWN-TYPE#			= 'dropdown-ul'
+#DROPDOWN-ITEM-TYPE#	= 'dropdown-item-ul'
+-->
+<!-- end bbinclude -->
+#INDENT#</ul>

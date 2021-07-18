@@ -1,4 +1,4 @@
-<!-- #bbinclude "/#MODULE#/types/simple.shtml"
+<!-- #bbinclude "/#MODULE#/types/#SIMPLE-TYPE#.shtml"
 #bbincludeoptions#="inline=true"
 #URL#				= 'index.html'
 #TEXT#				= 'Home'

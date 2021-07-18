@@ -1,6 +1,8 @@
-<!-- #bbinclude "/#MODULE#/types/dropdown-item.shtml"
+<!-- #bbinclude "/#MODULE#/types/#DROPDOWN-ITEM-TYPE#.shtml"
 #bbincludeoptions#="inline=true"
 #URL#				= 'sidebar.html'
 #TEXT#				= 'Sidebar Page'
+#ACTIVE-CLASS#		= ' active'
+#COMMENT#			= 'Active class only used for type simple-bare which is only used on the sidebar page.'
 -->
 <!-- end bbinclude -->
