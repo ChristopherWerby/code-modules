@@ -1,0 +1,7 @@
+<!-- #bbinclude "/markup/#MODULE#/types/default.shtml"
+#bbincludeoptions#="inline=true"
+#QUESTION#		= ''
+#ANSWER#		= ''
+#ID#			= ''
+-->
+<!-- end bbinclude -->

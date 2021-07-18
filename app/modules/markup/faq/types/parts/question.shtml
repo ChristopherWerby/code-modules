@@ -1,0 +1,6 @@
+#INDENT#		<div class="card-header" role="tab" id="heading-#ID#">
+#INDENT#			<h5 class="mb-0">
+#INDENT#				<a class="collapsed" data-toggle="collapse" data-parent="##ID-WIDGET#" href="##ID#" aria-expanded="false" aria-controls="#ID#">
+#INDENT#					#QUESTION#</a>
+#INDENT#			</h5>
+#INDENT#		</div>

@@ -1,0 +1,6 @@
+<!-- #bbinclude "templates/default.shtml"
+#bbincludeoptions#="inline=true"
+#MODULE# 		= "faq"
+#ID-WIDGET# 	= "faq-accordion"
+-->
+<!-- end bbinclude -->

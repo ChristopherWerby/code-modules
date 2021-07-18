@@ -161,6 +161,7 @@ _Begin Date - 2021-07-17_
 *	Refactor Nav module to allow for multiple output types.
 	*	It can now output the nav bar (as before), a div containing a list of bare anchor tags for the Sidebar page, and an unordered list for the 404 page
 	*	The Sidebar page item is the only one using simple-bare type. So the active class is hard-coded into the sidebar item file which overwrites the template div-links.shtml definition for the ACTIVE-CLASS variable.
+*	Begun work on FAQ module. Got to the point where I should create items.
 
 
 
