@@ -1,7 +1,7 @@
 Calls to the module go here.
 
-<!-- #bbinclude "/markup/blank/default.shtml"
+<!-- #bbinclude "/markup/faq/default.shtml"
 #bbincludeoptions#="inline=true"
-#INDENT#	= "				"
+#INDENT#	= "			"
 -->
 <!-- end bbinclude -->

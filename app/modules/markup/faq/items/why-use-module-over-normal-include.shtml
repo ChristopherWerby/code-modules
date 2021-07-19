@@ -1,0 +1,7 @@
+<!-- #bbinclude "/markup/#MODULE#/types/default.shtml"
+#bbincludeoptions#="inline=true"
+#QUESTION#		= 'Why use a module rather than a normal include file?'
+#ANSWER#		= 'Modules have a number of advantages. They can return markup with data — like a list. Modules can use variables. Modules can return different markup for different pages using the same data.'
+#ID#			= 'whyUseModuleOverNormalInclude'
+-->
+<!-- end bbinclude -->

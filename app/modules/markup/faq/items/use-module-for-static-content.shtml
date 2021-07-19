@@ -1,0 +1,7 @@
+<!-- #bbinclude "/markup/#MODULE#/types/default.shtml"
+#bbincludeoptions#="inline=true"
+#QUESTION#		= 'Do I have to use a module when I just want to include some static markup?'
+#ANSWER#		= 'Sometimes a whole module is overkill. If you want to replicate the simplicity of a traditional include, explore the top-level <a href="https://codemodules.net/usage/elements-module">Elements module</a>. This one module can contain many traditional includes. One added benefit is that these includes can use the global variables or variables defined in the calling chain. The Elements module is a great place to tuck away a large hunk of markup, e.g. a form. By putting it in its own include, the calling file’s markup is made more readable.'
+#ID#			= 'useModuleForStaticContent'
+-->
+<!-- end bbinclude -->

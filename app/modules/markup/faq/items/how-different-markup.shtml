@@ -1,0 +1,7 @@
+<!-- #bbinclude "/markup/#MODULE#/types/default.shtml"
+#bbincludeoptions#="inline=true"
+#QUESTION#		= 'How can one module return different markup?'
+#ANSWER#		= 'This is what the <code>templates/</code> subfolder of Markup modules is for. Different templates represent different uses of the module. Each template can call a different list, if a different subset or order of the items are required. Each template can determine the Type file that each item calls by overwriting variables used later in the chain. The different type files can return different markup using the same data contained in the item files.'
+#ID#			= 'howDifferentMarkup'
+-->
+<!-- end bbinclude -->

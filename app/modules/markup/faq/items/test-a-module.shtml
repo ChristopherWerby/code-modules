@@ -1,0 +1,7 @@
+<!-- #bbinclude "/markup/#MODULE#/types/default.shtml"
+#bbincludeoptions#="inline=true"
+#QUESTION#		= 'How do you test a module?'
+#ANSWER#		= '<p>When you’re creating a module, the test is the correctness of the markup that it outputs.</p><ul><li> If the top or bottom of the markup is wrong, you look in <code>templates/</code>.</li><li>If the order of the items is wrong, you look in <code>lists/</code>.</li><li>If the individual items themselves are wrong, you look in <code>items/</code>.</li><li>If the markup of each item is malformed, then you look in the <code>types/</code>.</li><li>If a variable name (e.g. <code>&num;URL&num;</code>) slips its way into the final markup, then it hasn’t been defined and you fix that.</li></ul></p><p>More interesting is how you refactor a module while retaining confidence that you haven’t broken it. For this, I copy the final page into a new file. Then I use BBEdit’s command ”Seach ⟶ Find Differences ⟶ Compare Two Front Windows” to compare the new module output to the old. If the new output is identical to the old, or only different in desired ways, then it isn’t broken. Since each module is encapsulated, so long as the module’s “promises” are kept and the markup doesn’t change, the refactor has been successful.</p>'
+#ID#			= 'testAModule'
+-->
+<!-- end bbinclude -->

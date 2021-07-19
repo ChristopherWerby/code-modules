@@ -1,0 +1,52 @@
+<!-- #bbinclude "/markup/#MODULE#/types/default.shtml"
+#bbincludeoptions#="inline=true"
+#QUESTION#		= 'What’s the purpose of the <code>_notes.txt</code> file?'
+#ANSWER#		= '<p>This is a no-op text file containing general notes relevant to the module. I record information about the “promises” of the module here by copying all the different calls (persistent includes, usually) to the module. The <code>_notes.txt</code> file for the Faq module on this sample site is:</p>
+
+<code><pre>
+Calls to the module go here.
+
+&lt;!-- &num;bbinclude &quot;/markup/faq/default.shtml&quot;
+&num;bbincludeoptions&num;=&quot;inline=true&quot;
+&num;INDENT&num;	= &quot;			&quot;
+--&gt;
+&lt;!-- end bbinclude --&gt;
+</pre></code>
+
+<p>A more complex example is the <code>_notes.txt</code> file for the Nav module:</p>
+
+<code><pre>
+The Nav module returns the main navigation for each page header — template: default. 
+
+It also can return an unordered ul list of links with sub sections for each dropdown (for 404) — template: div-links.
+
+It can also return a div with a flat set of links (for sidebar; since only for sidebar, this one has an active class on the sidebar link) — template: unordered-linked-list.
+
+
+&lt;!-- &num;bbinclude &quot;/nav/default.shtml&quot;
+&num;bbincludeoptions&num;=&quot;inline=true&quot;
+&num;TEMPLATE&num;	= &apos;default&apos;
+&num;INDENT&num;	= &apos;		&apos;
+--&gt;
+&lt;!-- end bbinclude --&gt;
+
+
+&lt;!-- &num;bbinclude &quot;/nav/default.shtml&quot;
+&num;bbincludeoptions&num;=&quot;inline=true&quot;
+&num;TEMPLATE&num;	= &apos;div-links&apos;
+&num;INDENT&num;	= &apos;					&apos;
+--&gt;
+&lt;!-- end bbinclude --&gt;
+
+
+&lt;!-- &num;bbinclude &quot;/nav/default.shtml&quot;
+&num;bbincludeoptions&num;=&quot;inline=true&quot;
+&num;TEMPLATE&num;	= &apos;unordered-linked-list&apos;
+&num;INDENT&num;	= &apos;				&apos;
+--&gt;
+&lt;!-- end bbinclude --&gt;
+</pre></code>'
+#ID#			= 'purposeOfNotesFile'
+-->
+<!-- end bbinclude -->
+

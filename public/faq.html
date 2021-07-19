@@ -164,45 +164,211 @@
 			</ol>
 			<div class="mb-4" id="faq-accordion" role="tablist" aria-multiselectable="true">
 				<div class="card">
-					<div class="card-header" role="tab" id="headingOne">
+					<div class="card-header" role="tab" id="heading-mustUseBBEdit">
 						<h5 class="mb-0">
-							<a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-								Collapsible Group Item #1</a>
+							<a class="collapsed" data-toggle="collapse" data-parent="#faq-accordion" href="#mustUseBBEdit" aria-expanded="false" aria-controls="mustUseBBEdit">
+								Can I use Code Modules with another Text Editor than <cite>BBEdit</cite>?</a>
 						</h5>
 					</div>
-					<div id="collapseOne" class="collapse show" role="tabpanel" aria-labelledby="headingOne">
+					<div id="mustUseBBEdit" class="collapse" role="tabpanel" aria-labelledby="heading-mustUseBBEdit">
 						<div class="card-body">
-							Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS. 
+							Code Modules depends upon <cite>BBEdit’s</cite> include and variable syntax. There may be a way to replicate that functionality in another text editor, but I haven’t discovered it.
 						</div>
 					</div>
 				</div>
+<!-- /.card -->
 				<div class="card">
-					<div class="card-header" role="tab" id="headingTwo">
+					<div class="card-header" role="tab" id="heading-whyUseModuleOverNormalInclude">
 						<h5 class="mb-0">
-							<a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-								Collapsible Group Item #2</a>
+							<a class="collapsed" data-toggle="collapse" data-parent="#faq-accordion" href="#whyUseModuleOverNormalInclude" aria-expanded="false" aria-controls="whyUseModuleOverNormalInclude">
+								Why use a module rather than a normal include file?</a>
 						</h5>
 					</div>
-					<div id="collapseTwo" class="collapse" role="tabpanel" aria-labelledby="headingTwo">
+					<div id="whyUseModuleOverNormalInclude" class="collapse" role="tabpanel" aria-labelledby="heading-whyUseModuleOverNormalInclude">
 						<div class="card-body">
-							Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS. 
+							Modules have a number of advantages. They can return markup with data — like a list. Modules can use variables. Modules can return different markup for different pages using the same data.
 						</div>
 					</div>
 				</div>
+<!-- /.card -->
 				<div class="card">
-					<div class="card-header" role="tab" id="headingThree">
+					<div class="card-header" role="tab" id="heading-howDifferentMarkup">
 						<h5 class="mb-0">
-							<a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-								Collapsible Group Item #3</a>
+							<a class="collapsed" data-toggle="collapse" data-parent="#faq-accordion" href="#howDifferentMarkup" aria-expanded="false" aria-controls="howDifferentMarkup">
+								How can one module return different markup?</a>
 						</h5>
 					</div>
-					<div id="collapseThree" class="collapse" role="tabpanel" aria-labelledby="headingThree">
+					<div id="howDifferentMarkup" class="collapse" role="tabpanel" aria-labelledby="heading-howDifferentMarkup">
 						<div class="card-body">
-							Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS. 
+							This is what the <code>templates/</code> subfolder of Markup modules is for. Different templates represent different uses of the module. Each template can call a different list, if a different subset or order of the items are required. Each template can determine the Type file that each item calls by overwriting variables used later in the chain. The different type files can return different markup using the same data contained in the item files.
 						</div>
 					</div>
 				</div>
+<!-- /.card -->
+				<div class="card">
+					<div class="card-header" role="tab" id="heading-whereBBEditLookForModules">
+						<h5 class="mb-0">
+							<a class="collapsed" data-toggle="collapse" data-parent="#faq-accordion" href="#whereBBEditLookForModules" aria-expanded="false" aria-controls="whereBBEditLookForModules">
+								Where does <cite>BBEdit</cite> look for modules?</a>
+						</h5>
+					</div>
+					<div id="whereBBEditLookForModules" class="collapse" role="tabpanel" aria-labelledby="heading-whereBBEditLookForModules">
+						<div class="card-body">
+							<cite>BBEdit</cite> organizes projects using a Project file. Each Project file has a “Site Settings” pane where you can specify where <cite>BBEdit</cite> looks for includes and templates. My convention, which you are free to ignore, is to put mine in an <code>/app/modules/</code> folder and to put the public files in <code>/public/</code> (or in <code>/dist/</code> if the public files are built).
+						</div>
+					</div>
+				</div>
+<!-- /.card -->
+				<div class="card">
+					<div class="card-header" role="tab" id="heading-differencePersistentSimpleIncludes">
+						<h5 class="mb-0">
+							<a class="collapsed" data-toggle="collapse" data-parent="#faq-accordion" href="#differencePersistentSimpleIncludes" aria-expanded="false" aria-controls="differencePersistentSimpleIncludes">
+								What’s the difference between a “simple” and a “persistent” include?</a>
+						</h5>
+					</div>
+					<div id="differencePersistentSimpleIncludes" class="collapse" role="tabpanel" aria-labelledby="heading-differencePersistentSimpleIncludes">
+						<div class="card-body">
+							<p><strong>Simple includes</strong> just pull in the contents of the child file. If that child file calls another include, then that is processed first. If variables have already been defined higher up in the chain, then they are passed down unaltered. But a simple include can’t define or overwrite variables on its own. If the simple include is in the top-level html page file, then it will be replaced by the child file. Simple includes aren’t often used in top-level html pages for this reason. Simple includes are not replaced when they do not appear in the top-level html page. An example of a simple include is: <code><pre>
+&num;bbinclude &apos;header.shtml&apos;
+</pre></code></p><p><strong>Persistent includes</strong> are wrapped in HTML comment tags. They can define or overwrite variables. And they will not be replaced in a top-level html page file. Instead, the content of the include will be placed between the two parts of an persistent include, each of which are wrapped in an html comment. The boilerplate #bbincludeoptions# variable just prevents a blank line from being inserted. An example of a persistent include is: 
+<code><pre>
+&lt;!-- &num;bbinclude &apos;/markup/faq/default.shtml&apos;
+&num;bbincludeoptions&num;=&quot;inline=true&quot;
+&num;INDENT&num;	= &quot;			&quot;
+--&gt;
+&lt;!-- end bbinclude --&gt;
+</pre></code></p>
+						</div>
+					</div>
+				</div>
+<!-- /.card -->
+				<div class="card">
+					<div class="card-header" role="tab" id="heading-useModuleForStaticContent">
+						<h5 class="mb-0">
+							<a class="collapsed" data-toggle="collapse" data-parent="#faq-accordion" href="#useModuleForStaticContent" aria-expanded="false" aria-controls="useModuleForStaticContent">
+								Do I have to use a module when I just want to include some static markup?</a>
+						</h5>
+					</div>
+					<div id="useModuleForStaticContent" class="collapse" role="tabpanel" aria-labelledby="heading-useModuleForStaticContent">
+						<div class="card-body">
+							Sometimes a whole module is overkill. If you want to replicate the simplicity of a traditional include, explore the top-level <a href="https://codemodules.net/usage/elements-module">Elements module</a>. This one module can contain many traditional includes. One added benefit is that these includes can use the global variables or variables defined in the calling chain. The Elements module is a great place to tuck away a large hunk of markup, e.g. a form. By putting it in its own include, the calling file’s markup is made more readable.
+						</div>
+					</div>
+				</div>
+<!-- /.card -->
+				<div class="card">
+					<div class="card-header" role="tab" id="heading-purposeOfBlankModule">
+						<h5 class="mb-0">
+							<a class="collapsed" data-toggle="collapse" data-parent="#faq-accordion" href="#purposeOfBlankModule" aria-expanded="false" aria-controls="purposeOfBlankModule">
+								What’s the purpose of the Blank module?</a>
+						</h5>
+					</div>
+					<div id="purposeOfBlankModule" class="collapse" role="tabpanel" aria-labelledby="heading-purposeOfBlankModule">
+						<div class="card-body">
+							The Blank module is a subfolder of the top-level Markup module. Duplicate the Blank module and rename it appropriately: i.e. <code>faq</code>. Then go into the root default.shtml file and change the &num;MODULE&num; variable value to the same value as the name of the module: i.e. <code>faq</code>. Now you have the skeleton of a Faq module, ready to alter to make it work for your purpose. By copying and renaming the Blank module, you’ve reduced the repetitive boilerplate that is an undeniable downside to the Code Modules system.
+						</div>
+					</div>
+				</div>
+<!-- /.card -->
+				<div class="card">
+					<div class="card-header" role="tab" id="heading-purposeOfBlankFile">
+						<h5 class="mb-0">
+							<a class="collapsed" data-toggle="collapse" data-parent="#faq-accordion" href="#purposeOfBlankFile" aria-expanded="false" aria-controls="purposeOfBlankFile">
+								What’s the purpose of the <code>items/blank.shtml</code> file?</a>
+						</h5>
+					</div>
+					<div id="purposeOfBlankFile" class="collapse" role="tabpanel" aria-labelledby="heading-purposeOfBlankFile">
+						<div class="card-body">
+							Each item is a persistent include that contains a number of variables. In the case of the Faq markup module responsible for this webpage section, there’s a Question, an Answer, and an ID variable. Here, an optional comment variable is used; I use these comments to provide instructions to those who are filling in the values of the variables. The <code>blank.shtml</code> file—which you customize and update as you create and modify the module—contains this starting framework for new items. The <code>blank.shtml</code> file for the Faq module on this sample site is: <br /><br /><code><pre>
+&lt;!-- &num;bbinclude &quot;/markup/&num;MODULE&num;/types/default.shtml&quot;
+&num;bbincludeoptions&num;=&quot;inline=true&quot;
+&num;QUESTION&num;		= &apos;&apos;
+&num;ANSWER&num;		= &apos;&apos;
+&num;ID&num;			= &apos;&apos;
+&num;COMMENT&num;		= &apos;The ID must be unique from the IDs of the other Faq items.&apos;
+--&gt;
+&lt;!-- end bbinclude --&gt;
+</pre></code>
+						</div>
+					</div>
+				</div>
+<!-- /.card -->
+				<div class="card">
+					<div class="card-header" role="tab" id="heading-purposeOfNotesFile">
+						<h5 class="mb-0">
+							<a class="collapsed" data-toggle="collapse" data-parent="#faq-accordion" href="#purposeOfNotesFile" aria-expanded="false" aria-controls="purposeOfNotesFile">
+								What’s the purpose of the <code>_notes.txt</code> file?</a>
+						</h5>
+					</div>
+					<div id="purposeOfNotesFile" class="collapse" role="tabpanel" aria-labelledby="heading-purposeOfNotesFile">
+						<div class="card-body">
+							<p>This is a no-op text file containing general notes relevant to the module. I record information about the “promises” of the module here by copying all the different calls (persistent includes, usually) to the module. The <code>_notes.txt</code> file for the Faq module on this sample site is:</p>
+
+<code><pre>
+Calls to the module go here.
+
+&lt;!-- &num;bbinclude &quot;/markup/faq/default.shtml&quot;
+&num;bbincludeoptions&num;=&quot;inline=true&quot;
+&num;INDENT&num;	= &quot;			&quot;
+--&gt;
+&lt;!-- end bbinclude --&gt;
+</pre></code>
+
+<p>A more complex example is the <code>_notes.txt</code> file for the Nav module:</p>
+
+<code><pre>
+The Nav module returns the main navigation for each page header — template: default. 
+
+It also can return an unordered ul list of links with sub sections for each dropdown (for 404) — template: div-links.
+
+It can also return a div with a flat set of links (for sidebar; since only for sidebar, this one has an active class on the sidebar link) — template: unordered-linked-list.
+
+
+&lt;!-- &num;bbinclude &quot;/nav/default.shtml&quot;
+&num;bbincludeoptions&num;=&quot;inline=true&quot;
+&num;TEMPLATE&num;	= &apos;default&apos;
+&num;INDENT&num;	= &apos;		&apos;
+--&gt;
+&lt;!-- end bbinclude --&gt;
+
+
+&lt;!-- &num;bbinclude &quot;/nav/default.shtml&quot;
+&num;bbincludeoptions&num;=&quot;inline=true&quot;
+&num;TEMPLATE&num;	= &apos;div-links&apos;
+&num;INDENT&num;	= &apos;					&apos;
+--&gt;
+&lt;!-- end bbinclude --&gt;
+
+
+&lt;!-- &num;bbinclude &quot;/nav/default.shtml&quot;
+&num;bbincludeoptions&num;=&quot;inline=true&quot;
+&num;TEMPLATE&num;	= &apos;unordered-linked-list&apos;
+&num;INDENT&num;	= &apos;				&apos;
+--&gt;
+&lt;!-- end bbinclude --&gt;
+</pre></code>
+						</div>
+					</div>
+				</div>
+<!-- /.card -->
+
+
+				<div class="card">
+					<div class="card-header" role="tab" id="heading-testAModule">
+						<h5 class="mb-0">
+							<a class="collapsed" data-toggle="collapse" data-parent="#faq-accordion" href="#testAModule" aria-expanded="false" aria-controls="testAModule">
+								How do you test a module?</a>
+						</h5>
+					</div>
+					<div id="testAModule" class="collapse" role="tabpanel" aria-labelledby="heading-testAModule">
+						<div class="card-body">
+							<p>When you’re creating a module, the test is the correctness of the markup that it outputs.</p><ul><li> If the top or bottom of the markup is wrong, you look in <code>templates/</code>.</li><li>If the order of the items is wrong, you look in <code>lists/</code>.</li><li>If the individual items themselves are wrong, you look in <code>items/</code>.</li><li>If the markup of each item is malformed, then you look in the <code>types/</code>.</li><li>If a variable name (e.g. <code>&num;URL&num;</code>) slips its way into the final markup, then it hasn’t been defined and you fix that.</li></ul></p><p>More interesting is how you refactor a module while retaining confidence that you haven’t broken it. For this, I copy the final page into a new file. Then I use BBEdit’s command ”Seach ⟶ Find Differences ⟶ Compare Two Front Windows” to compare the new module output to the old. If the new output is identical to the old, or only different in desired ways, then it isn’t broken. Since each module is encapsulated, so long as the module’s “promises” are kept and the markup doesn’t change, the refactor has been successful.</p>
+						</div>
+					</div>
+				</div>
+<!-- /.card -->
 			</div>
+<!-- /#faq-accordion -->
 		</div>
 <!-- /.container -->
 <!-- Footer -->

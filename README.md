@@ -165,6 +165,13 @@ _Begin Date - 2021-07-17_
 
 
 
+**v0.4.10** 
+_Begin Date - 2021-07-19_
+
+*	Write the FAQ content and build out the Faq module.
+
+
+
 
 
 [![][piplogo]][pipurl]
