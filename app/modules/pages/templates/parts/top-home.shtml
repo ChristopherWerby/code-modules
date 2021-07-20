@@ -1,0 +1,9 @@
+#bbinclude 'top-default.shtml'
+		<header>
+#bbinclude "carousel.shtml"
+		</header>
+<!-- Page Content -->
+		<div class="container">
+			<h1 class="my-4 text-center">
+				Code Modules — Sample Files
+			</h1>

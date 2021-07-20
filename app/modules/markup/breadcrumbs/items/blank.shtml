@@ -1,0 +1,8 @@
+<!-- #bbinclude "/markup/#MODULE#/types/default.shtml"
+#bbincludeoptions#="inline=true"
+#URL#			= ''
+#LINK-TEXT#		= ''
+#ACTIVE-CLASS#	= ''
+#COMMENT#		= 'LINK-TEXT should be all lowercase. ACTIVE-CLASS should be active with a space in front for the current item only.'
+-->
+<!-- end bbinclude -->

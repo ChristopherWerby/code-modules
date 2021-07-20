@@ -1,0 +1,7 @@
+<!-- #bbinclude "/markup/#MODULE#/types/default.shtml"
+#bbincludeoptions#="inline=true"
+#URL#			= 'index.html'
+#LINK-TEXT#		= 'home'
+#ACTIVE-CLASS#	= ''
+-->
+<!-- end bbinclude -->

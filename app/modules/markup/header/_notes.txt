@@ -1,5 +1,0 @@
-<!-- #bbinclude "/markup/header/default.shtml"
-#bbincludeoptions#="inline=true"
-#INDENT#	= '						'
--->
-<!-- end bbinclude -->

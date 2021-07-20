@@ -1,38 +1,18 @@
 <!-- #bbinclude "parts/top.shtml"
 #bbincludeoptions#="inline=true"
-#PAGE_TITLE# 		= "FAQ Page"
+#PAGE_TITLE# 		= "FAQ"
 #SUBHEAD#			= ""
 #DESCRIPTION_ITEM#	= "#PAGE#"
 #KEYWORD_ITEM#		= "#PAGE#"
 #CANONICAL-URL# 	= "/faq"
+#DROPDOWN#			= "other"
 #ID#				= "faqPage"
-#CLASS#				= "secondary"
+#HIERARCHY#			= "tertiary"
 -->
 <!-- end bbinclude -->
-<!-- Page Content -->
-		<div class="container">
-<!-- Page Heading/Breadcrumbs -->
-			<h1 class="mt-4 mb-3">
-				FAQ 
-				<small>Subheading</small>
-			</h1>
-			<ol class="breadcrumb">
-				<li class="breadcrumb-item">
-					<a href="index.html">
-						Home</a>
-				</li>
-				<li class="breadcrumb-item">
-					Other
-				</li>
-				<li class="breadcrumb-item active">
-					FAQ
-				</li>
-			</ol>
 <!-- #bbinclude "/markup/faq/default.shtml"
 #bbincludeoptions#="inline=true"
 #INDENT#	= "			"
 -->
 <!-- end bbinclude -->
-		</div>
-<!-- /.container -->
 #bbinclude "parts/bottom.shtml"

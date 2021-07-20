@@ -1,0 +1,7 @@
+<!-- #bbinclude "/markup/#MODULE#/types/no-link.shtml"
+#bbincludeoptions#="inline=true"
+#URL#			= ''
+#LINK-TEXT#		= '#DROPDOWN#'
+#ACTIVE-CLASS#	= ''
+-->
+<!-- end bbinclude -->

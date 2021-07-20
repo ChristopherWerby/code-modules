@@ -5,31 +5,11 @@
 #DESCRIPTION_ITEM#	= "#PAGE#"
 #KEYWORD_ITEM#		= "#PAGE#"
 #CANONICAL-URL# 	= "/blog-post"
+#DROPDOWN#			= "blog"
 #ID#				= "blogPostPage"
-#CLASS#				= "secondary"
+#HIERARCHY#			= "tertiary"
 -->
 <!-- end bbinclude -->
-<!-- Page Content -->
-		<div class="container">
-<!-- Page Heading/Breadcrumbs -->
-			<h1 class="mt-4 mb-3">
-				Post Title 
-				<small>by 
-					<a href="#">
-						Start Bootstrap</a></small>
-			</h1>
-			<ol class="breadcrumb">
-				<li class="breadcrumb-item">
-					<a href="index.html">
-						Home</a>
-				</li>
-				<li class="breadcrumb-item">
-					Blog
-				</li>
-				<li class="breadcrumb-item active">
-					Blog Home 2
-				</li>
-			</ol>
 			<div class="row">
 <!-- Post Content Column -->
 				<div class="col-lg-8">

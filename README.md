@@ -169,6 +169,9 @@ _Begin Date - 2021-07-17_
 _Begin Date - 2021-07-19_
 
 *	Write the FAQ content and build out the Faq module.
+*	Put the Title and Subtitle for each page into a page part.
+	*	Delete the old Header markup module.
+*	Create a Breadcrumb module and implement for all pages (other than home page).
 
 
 

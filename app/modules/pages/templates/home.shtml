@@ -1,4 +1,4 @@
-<!-- #bbinclude "parts/top.shtml"
+<!-- #bbinclude "parts/top-home.shtml"
 #bbincludeoptions#="inline=true"
 #PAGE_TITLE# 		= "Home"
 #SUBHEAD#			= ""
@@ -6,17 +6,9 @@
 #KEYWORD_ITEM#		= "#PAGE#"
 #CANONICAL-URL# 	= "/index.html"
 #ID#				= "homePage"
-#CLASS#				= "primary"
+#HIERARCHY#			= "primary"
 -->
 <!-- end bbinclude -->
-		<header>
-#bbinclude "parts/carousel.shtml"
-		</header>
-<!-- Page Content -->
-		<div class="container">
-			<h1 class="my-4 text-center">
-				Code Modules — Sample Files
-			</h1>
 			<p>
 				This is a silly sample website built using code modules techniques. Code Modules hasn’t been released yet — we’re aiming at September 1, 2021. When released, the open source files for building this site can be accessed at <a href="#URL-SAMPLE-REPO#" target="#SAMPLE-REPO-TARGET#">GitHub</a>.
 			</p>
@@ -74,6 +66,4 @@
 						Visit Documentation</a>
 				</div>
 			</div>
-		</div>
-<!-- /.container -->
 #bbinclude "parts/bottom.shtml"

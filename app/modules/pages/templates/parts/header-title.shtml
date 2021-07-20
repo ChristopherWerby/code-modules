@@ -1,6 +1,7 @@
-<!-- #bbinclude "/markup/header/default.shtml"
-#bbincludeoptions#="inline=true"
-#TEXT#		= #PAGE_TITLE#
-#INDENT#	= '		'
--->
-<!-- end bbinclude -->
+<!-- Page Headline -->
+			<h1 class="mt-4 mb-3">
+				#PAGE_TITLE#
+				<small>
+					#SUBHEAD#
+				</small>
+			</h1>

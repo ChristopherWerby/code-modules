@@ -1,8 +1,0 @@
-<!-- #bbinclude "parts/top.shtml"
-#bbincludeoptions#="inline=true"
-#HEADERIMAGE#	= '#HEADERIMAGEHOME#'
--->
-<!-- end bbinclude -->
-#bbinclude "parts/middle.shtml"
-#bbinclude "parts/motto.shtml"
-#bbinclude "parts/bottom.shtml"

@@ -1,0 +1,7 @@
+<!-- #bbinclude "/markup/#MODULE#/types/default.shtml"
+#bbincludeoptions#="inline=true"
+#URL#			= '#CANONICAL-URL#'
+#LINK-TEXT#		= '#PAGE#'
+#ACTIVE-CLASS#	= ' active'
+-->
+<!-- end bbinclude -->

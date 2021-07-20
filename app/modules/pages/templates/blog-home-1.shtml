@@ -1,33 +1,15 @@
 <!-- #bbinclude "parts/top.shtml"
 #bbincludeoptions#="inline=true"
 #PAGE_TITLE# 		= "Blog Home 1"
-#SUBHEAD#			= "Subheading"
+#SUBHEAD#			= ""
 #DESCRIPTION_ITEM#	= "#PAGE#"
 #KEYWORD_ITEM#		= "#PAGE#"
 #CANONICAL-URL# 	= "/blog-home-1"
+#DROPDOWN#			= "blog"
 #ID#				= "blogHome1Page"
-#CLASS#				= "secondary"
+#HIERARCHY#			= "tertiary"
 -->
 <!-- end bbinclude -->
-<!-- Page Content -->
-		<div class="container">
-<!-- Page Heading/Breadcrumbs -->
-			<h1 class="mt-4 mb-3">
-				Blog Home One 
-				<small>Subheading</small>
-			</h1>
-			<ol class="breadcrumb">
-				<li class="breadcrumb-item">
-					<a href="index.html">
-						Home</a>
-				</li>
-				<li class="breadcrumb-item">
-					Blog
-				</li>
-				<li class="breadcrumb-item active">
-					Blog Home 1
-				</li>
-			</ol>
 			<div class="row">
 <!-- Blog Entries Column -->
 				<div class="col-md-8">

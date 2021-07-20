@@ -5,27 +5,11 @@
 #DESCRIPTION_ITEM#	= "#PAGE#"
 #KEYWORD_ITEM#		= "#PAGE#"
 #CANONICAL-URL# 	= "/about"
+#DROPDOWN#			= "none"
 #ID#				= "aboutPage"
-#CLASS#				= "secondary"
+#HIERARCHY#			= "secondary"
 -->
 <!-- end bbinclude -->
-<!-- Page Content -->
-		<div class="container">
-<!-- Page Heading/Breadcrumbs -->
-			<h1 class="mt-4 mb-3">
-				About 
-				<small>Subheading</small>
-			</h1>
-			<ol class="breadcrumb">
-				<li class="breadcrumb-item">
-					<a href="index.html">
-						Home</a>
-				</li>
-				<li class="breadcrumb-item active">
-					About
-				</li>
-			</ol>
-<!-- Intro Content -->
 			<div class="row">
 				<div class="col-lg-6">
 					<img class="img-fluid rounded mb-4" src="https://dummyimage.com/750x450/CCC/999.gif" alt=""> 
@@ -81,6 +65,4 @@
 				</div>
 			</div>
 <!-- /.row -->
-		</div>
-<!-- /.container -->
 #bbinclude "parts/bottom.shtml"

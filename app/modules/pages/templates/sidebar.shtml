@@ -5,29 +5,11 @@
 #DESCRIPTION_ITEM#	= "#PAGE#"
 #KEYWORD_ITEM#		= "#PAGE#"
 #CANONICAL-URL# 	= "/sidebar"
+#DROPDOWN#			= "other"
 #ID#				= "sidebarPage"
-#CLASS#				= "secondary"
+#HIERARCHY#			= "tertiary"
 -->
 <!-- end bbinclude -->
-<!-- Page Content -->
-		<div class="container">
-<!-- Page Heading/Breadcrumbs -->
-			<h1 class="mt-4 mb-3">
-				Sidebar Page 
-				<small>Subheading</small>
-			</h1>
-			<ol class="breadcrumb">
-				<li class="breadcrumb-item">
-					<a href="index.html">
-						Home</a>
-				</li>
-				<li class="breadcrumb-item">
-					Other
-				</li>
-				<li class="breadcrumb-item active">
-					Sidebar
-				</li>
-			</ol>
 <!-- Content Row -->
 			<div class="row">
 <!-- Sidebar Column -->

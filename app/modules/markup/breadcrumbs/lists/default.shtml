@@ -1,0 +1,2 @@
+#bbinclude "/markup/#MODULE#/items/home.shtml"
+#bbinclude "/markup/#MODULE#/items/current.shtml"

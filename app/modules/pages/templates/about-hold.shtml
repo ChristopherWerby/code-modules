@@ -6,7 +6,7 @@
 #KEYWORD_ITEM#		= "#PAGE#"
 #CANONICAL-URL# 	= "/about"
 #ID#				= "aboutPage"
-#CLASS#				= "secondary"
+#HIERARCHY#			= "secondary"
 -->
 <!-- end bbinclude -->
 		<div class="section">
