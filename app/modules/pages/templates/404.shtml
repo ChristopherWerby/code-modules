@@ -4,7 +4,7 @@
 #SUBHEAD#			= "Page Not Found"
 #DESCRIPTION_ITEM#	= "#PAGE#"
 #KEYWORD_ITEM#		= "#PAGE#"
-#CANONICAL-URL# 	= "/404"
+#CANONICAL-URL# 	= "/404.html"
 #DROPDOWN#			= "other"
 #ID#				= "404Page"
 #HIERARCHY#			= "tertiary"

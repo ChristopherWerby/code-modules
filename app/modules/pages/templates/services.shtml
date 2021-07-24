@@ -4,7 +4,7 @@
 #SUBHEAD#			= ""
 #DESCRIPTION_ITEM#	= "#PAGE#"
 #KEYWORD_ITEM#		= "#PAGE#"
-#CANONICAL-URL# 	= "/services"
+#CANONICAL-URL# 	= "/services.html"
 #DROPDOWN#			= "other"
 #ID#				= "servicesPage"
 #HIERARCHY#			= "secondary"

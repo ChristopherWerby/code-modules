@@ -4,7 +4,7 @@
 #SUBHEAD#			= ""
 #DESCRIPTION_ITEM#	= "#PAGE#"
 #KEYWORD_ITEM#		= "#PAGE#"
-#CANONICAL-URL# 	= "/about"
+#CANONICAL-URL# 	= "/about.html"
 #DROPDOWN#			= "none"
 #ID#				= "aboutPage"
 #HIERARCHY#			= "secondary"

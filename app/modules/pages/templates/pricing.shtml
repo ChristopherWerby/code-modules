@@ -4,7 +4,7 @@
 #SUBHEAD#			= ""
 #DESCRIPTION_ITEM#	= "#PAGE#"
 #KEYWORD_ITEM#		= "#PAGE#"
-#CANONICAL-URL# 	= "/pricing"
+#CANONICAL-URL# 	= "/pricing.html"
 #DROPDOWN#			= "other"
 #ID#				= "pricingPage"
 #HIERARCHY#			= "tertiary"

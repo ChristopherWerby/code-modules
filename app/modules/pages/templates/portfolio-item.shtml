@@ -4,7 +4,7 @@
 #SUBHEAD#			= "Single Project"
 #DESCRIPTION_ITEM#	= "#PAGE#"
 #KEYWORD_ITEM#		= "#PAGE#"
-#CANONICAL-URL# 	= "/portfolio-item"
+#CANONICAL-URL# 	= "/portfolio-item.html"
 #DROPDOWN#			= "portfolio"
 #ID#				= "portfolioItemPage"
 #HIERARCHY#			= "tertiary"

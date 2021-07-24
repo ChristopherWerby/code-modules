@@ -7,7 +7,7 @@
 <!-- #bbinclude "/markup/#MODULE#/lists/#TEMPLATE#.shtml"
 #bbincludeoptions#="inline=true"
 #TYPE#		= 'item-with-hero-image-and-link'
-#COLUMNS#	= '4'
+#COLUMNS#	= '#COLUMNS#'
 -->
 <!-- end bbinclude -->
 #bbinclude "parts/bottom.shtml"

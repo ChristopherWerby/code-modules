@@ -4,7 +4,7 @@
 #SUBHEAD#			= ""
 #DESCRIPTION_ITEM#	= "#PAGE#"
 #KEYWORD_ITEM#		= "#PAGE#"
-#CANONICAL-URL# 	= "/sidebar"
+#CANONICAL-URL# 	= "/sidebar.html"
 #DROPDOWN#			= "other"
 #ID#				= "sidebarPage"
 #HIERARCHY#			= "tertiary"

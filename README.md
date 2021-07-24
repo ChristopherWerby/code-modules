@@ -172,6 +172,14 @@ _Begin Date - 2021-07-19_
 *	Put the Title and Subtitle for each page into a page part.
 	*	Delete the old Header markup module.
 *	Create a Breadcrumb module and implement for all pages (other than home page).
+*	Replace hard coded column numbers in Cards module with variables.
+
+
+
+**v0.4.11** 
+_Begin Date - 2021-07-24_
+
+*	Fix canonical URLs by adding html extension.
 
 
 

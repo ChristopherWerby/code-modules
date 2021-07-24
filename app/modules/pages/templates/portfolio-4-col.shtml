@@ -4,7 +4,7 @@
 #SUBHEAD#			= "4 Columns"
 #DESCRIPTION_ITEM#	= "#PAGE#"
 #KEYWORD_ITEM#		= "#PAGE#"
-#CANONICAL-URL# 	= "/portfolio-4-col"
+#CANONICAL-URL# 	= "/portfolio-4-col.html"
 #DROPDOWN#			= "portfolio"
 #ID#				= "portfolio4Page"
 #HIERARCHY#			= "tertiary"
