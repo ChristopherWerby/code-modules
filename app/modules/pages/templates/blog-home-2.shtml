@@ -126,6 +126,4 @@
 						Newer &rarr;</a>
 				</li>
 			</ul>
-		</div>
-<!-- /.container -->
 #bbinclude "parts/bottom.shtml"

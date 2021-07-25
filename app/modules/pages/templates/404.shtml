@@ -25,6 +25,4 @@
 <!-- end bbinclude -->
 			</div>
 <!-- /.jumbotron -->
-		</div>
-<!-- /.container -->
 #bbinclude "parts/bottom.shtml"

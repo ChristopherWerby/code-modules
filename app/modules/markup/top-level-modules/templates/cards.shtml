@@ -1,12 +1,12 @@
 <!-- #bbinclude "/parts/top.shtml"
 #bbincludeoptions#="inline=true"
-#ID#	= '#TEMPLATE#Cards'
+#ID#	= 'topLevelModuleCards'
 #CLASS#	= ''
 -->
 <!-- end bbinclude -->
-<!-- #bbinclude "/markup/#MODULE#/lists/#TEMPLATE#.shtml"
+<!-- #bbinclude "/markup/#MODULE#/lists/default.shtml"
 #bbincludeoptions#="inline=true"
-#TYPE#		= 'item-with-hero-image-and-link'
+#TYPE#		= 'card'
 #COLUMNS#	= '#COLUMNS#'
 -->
 <!-- end bbinclude -->

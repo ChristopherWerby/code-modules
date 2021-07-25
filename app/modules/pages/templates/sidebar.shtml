@@ -32,6 +32,4 @@
 				</div>
 			</div>
 <!-- /.row -->
-		</div>
-<!-- /.container -->
 #bbinclude "parts/bottom.shtml"

@@ -1,4 +1,6 @@
-Calls to the module go here.
+Refactored and moved the top-level-modules to its own module. It still calls this module for the single card markup. The Online template continues to be part of this module.
+
+Note that columns is the number used out of 12. So 6 columns is 2 cards per row; 4 columns is 3 cards per row; 3 columns is 4 cards per row.
 
 <!-- #bbinclude "/markup/cards/default.shtml"
 #bbincludeoptions#="inline=true"
@@ -11,8 +13,14 @@ Calls to the module go here.
 
 <!-- #bbinclude "/markup/cards/default.shtml"
 #bbincludeoptions#="inline=true"
-#TEMPLATE#	= 'top-level-modules'
-#COLUMNS#	= '4'
-#INDENT#	= "			"
+#TEMPLATE#	= 'single'
+#TYPE#		= 'item-with-hero-image-and-link'
+#URL#		= '#URL#'
+#TARGET#	= '#TARGET#'
+#IMAGE#		= '#IMAGE#'
+#ALT#		= '#ALT#'
+#TITLE#		= '#TITLE#'
+#TEXT#		= '#TEXT#'
+#COLUMNS#	= '#COLUMNS#'
 -->
 <!-- end bbinclude -->

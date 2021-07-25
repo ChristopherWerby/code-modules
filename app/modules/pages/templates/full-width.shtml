@@ -15,6 +15,4 @@
 				<a href="https://startbootstrap.com/template-categories/unstyled">
 					https://startbootstrap.com/template-categories/unstyled</a>.
 			</p>
-		</div>
-<!-- /.container -->
 #bbinclude "parts/bottom.shtml"

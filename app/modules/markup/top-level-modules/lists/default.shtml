@@ -1,0 +1,5 @@
+#bbinclude "/markup/#MODULE#/items/markup.shtml"
+#bbinclude "/markup/#MODULE#/items/page.shtml"
+#bbinclude "/markup/#MODULE#/items/nav.shtml"
+#bbinclude "/markup/#MODULE#/items/elements.shtml"
+#bbinclude "/markup/#MODULE#/items/tech.shtml"

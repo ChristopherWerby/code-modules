@@ -1,0 +1,6 @@
+<!-- #bbinclude "/markup/#MODULE#/lists/single.shtml"
+#bbincludeoptions#="inline=true"
+#TYPE#		= '#TYPE#'
+#COLUMNS#	= '#COLUMNS#'
+-->
+<!-- end bbinclude -->
