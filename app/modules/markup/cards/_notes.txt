@@ -1,19 +1,21 @@
-Refactored and moved the top-level-modules to its own module. It still calls this module for the single card markup. The Online template continues to be part of this module.
+Refactored and moved the top-level-modules and online (now Links module) to their own modules. They still call this module for the single card markup. After refactor, the Cards module no longer has any items. It is just used for layout, currently for the Links module and Top-level-modules module.
 
 Note that columns is the number used out of 12. So 6 columns is 2 cards per row; 4 columns is 3 cards per row; 3 columns is 4 cards per row.
 
 <!-- #bbinclude "/markup/cards/default.shtml"
 #bbincludeoptions#="inline=true"
-#TEMPLATE#	= 'online'
-#COLUMNS#	= '6'
-#INDENT#	= "			"
+#TYPE#		= 'item-with-button'
+#URL#		= '#URL#'
+#TARGET#	= '#TARGET#'
+#TITLE#		= '#TITLE#'
+#TEXT#		= '#TEXT#'
+#LINKTEXT#	= '#LINKTEXT#'
+#COLUMNS#	= '#COLUMNS#'
 -->
 <!-- end bbinclude -->
 
-
 <!-- #bbinclude "/markup/cards/default.shtml"
 #bbincludeoptions#="inline=true"
-#TEMPLATE#	= 'single'
 #TYPE#		= 'item-with-hero-image-and-link'
 #URL#		= '#URL#'
 #TARGET#	= '#TARGET#'

@@ -16,9 +16,8 @@
 				Code Modules is built upon the use of BBEdit’s include system which is a dependency. If you don’t wish to use BBEdit, a paid program, Code Modules won’t work for you.
 			</p>
 <!-- Online Location Cards -->
-<!-- #bbinclude "/markup/cards/default.shtml"
+<!-- #bbinclude "/markup/links/default.shtml"
 #bbincludeoptions#="inline=true"
-#TEMPLATE#	= 'online'
 #COLUMNS#	= '6'
 #INDENT#	= "			"
 -->

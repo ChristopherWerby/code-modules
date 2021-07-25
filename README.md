@@ -182,9 +182,10 @@ _Begin Date - 2021-07-24_
 *	Fix canonical URLs by adding html extension.
 *	Move unused pagination markup to Elements/markup module.
 *	Remove extra end div for container from templates.
-*	Refactor the Cards module to pull the top-level-modules function out to a new Top-level-modules module.
-	*	The Top-level-modules module calls the Cards module when it needs to make a card for the home page.
-	*	The online items still reside within the Cards module.
+*	Refactor the Cards module.
+	*	The Cards module is just about layout now. There is no content inside of it.
+	*	Pull the top-level-modules and online functions out to a new Top-level-modules and Links module respectively.
+		*	Each module calls the Cards module when it needs to make a card for the home page.
 
 
 

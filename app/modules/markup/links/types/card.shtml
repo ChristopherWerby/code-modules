@@ -1,12 +1,11 @@
 <!-- #bbinclude "/markup/cards/default.shtml"
 #bbincludeoptions#="inline=true"
-#TYPE#		= 'item-with-hero-image-and-link'
+#TYPE#		= 'item-with-button'
 #URL#		= '#URL#'
 #TARGET#	= '#TARGET#'
-#IMAGE#		= '#IMAGE#'
-#ALT#		= '#ALT#'
 #TITLE#		= '#TITLE#'
 #TEXT#		= '#TEXT#'
+#LINKTEXT#	= '#LINKTEXT#'
 #COLUMNS#	= '#COLUMNS#'
 -->
 <!-- end bbinclude -->

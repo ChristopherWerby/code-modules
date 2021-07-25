@@ -1,12 +1,6 @@
 <!-- #bbinclude "/markup/#MODULE#/types/default.shtml"
 #bbincludeoptions#="inline=true"
-#TITLE#			= ''
-#TEXT#			= ''
-#IMAGE#			= ''
-#ALT#			= ''
-#URL#			= ''
-#LINKTEXT#		= ''
-#TARGET#		= ''
 #COMMENT#		= 'TEXT will be wrapped within P tags. If there’s inner HTML, omit the open and close p tags from TEXT. TYPE can be item-with-button (for online template) or item-with-hero-image-and-link (for module types template) or item-with-hero-image. IMAGE and ALT can be omitted from item-with-button. URL and LINKTEXT can be omitted from item-with-hero-image, LINKTEXT can be omitted in item-with-hero-image-and-link.'
+#COMMENT#		= 'After refactor, the Cards module no longer has any items. It is just used for layout, currently for the Links module and Top-level-modules module.'
 -->
 <!-- end bbinclude -->

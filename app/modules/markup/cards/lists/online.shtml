@@ -1,2 +1,0 @@
-#bbinclude "/markup/#MODULE#/items/#TEMPLATE#/documentation.shtml"
-#bbinclude "/markup/#MODULE#/items/#TEMPLATE#/sample-repo.shtml"

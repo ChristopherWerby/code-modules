@@ -1,7 +1,6 @@
 <!-- #bbinclude "templates/default.shtml"
 #bbincludeoptions#="inline=true"
-#MODULE# 		= 'cards'
-#COLUMNS#		= '#COLUMNS#'
-#INDENT# 		= '#INDENT#'
+#MODULE# 		= "links"
+#INDENT# 		= "#INDENT#"
 -->
 <!-- end bbinclude -->
