@@ -9,3 +9,34 @@ Refactored from Cards module to be a separate module. The types/card file calls 
 #INDENT#	= "			"
 -->
 <!-- end bbinclude -->
+
+
+<!-- #bbinclude "/markup/top-level-modules/default.shtml"
+#bbincludeoptions#="inline=true"
+#TEMPLATE#	= 'portfolio'
+#TYPE#		= 'portfolio-1'
+#INDENT#	= "			"
+-->
+<!-- end bbinclude -->
+
+
+<!-- #bbinclude "/markup/top-level-modules/default.shtml"
+#bbincludeoptions#="inline=true"
+#TEMPLATE#		= 'portfolio-multi'
+#COLUMNS-LG#	= '3'
+#COLUMNS-MD#	= '4'
+#COLUMNS-SM#	= '6'
+#INDENT#		= "			"
+-->
+<!-- end bbinclude -->
+
+
+<!-- #bbinclude "/markup/top-level-modules/default.shtml"
+#bbincludeoptions#="inline=true"
+#TEMPLATE#		= 'portfolio-multi'
+#COLUMNS-LG#	= '4'
+#COLUMNS-MD#	= '6'
+#COLUMNS-SM#	= '6'
+#INDENT#		= "			"
+-->
+<!-- end bbinclude -->

@@ -1,0 +1,15 @@
+#INDENT#	<div class="col-lg-#COLUMNS-LG# col-md-#COLUMNS-MD# col-sm-#COLUMNS-SM# portfolio-item">
+#INDENT#		<div class="card h-100">
+#INDENT#			<a href="#URL#">
+#INDENT#				<img class="card-img-top" src="#IMAGE#" alt="#ALT#"></a>
+#INDENT#			<div class="card-body">
+#INDENT#				<h4 class="card-title">
+#INDENT#					<a href="#URL#">
+#INDENT#						#TITLE#</a>
+#INDENT#				</h4>
+#INDENT#				<p class="card-text">
+#INDENT#					#TEXT#
+#INDENT#				</p>
+#INDENT#			</div>
+#INDENT#		</div>
+#INDENT#	</div>

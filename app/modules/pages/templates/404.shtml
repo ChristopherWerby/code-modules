@@ -25,4 +25,29 @@
 <!-- end bbinclude -->
 			</div>
 <!-- /.jumbotron -->
+<!-- Content Row -->
+			<div class="row">
+<!-- Content Column -->
+				<div class="col-lg-9 mb-4">
+					<h2>
+						Content for 404 Page Comes from Nav Module 
+					</h2>
+					<p>
+						This 404 page displays an unordered list version of the content in the Nav module. The 
+						<a href="sidebar.html">
+							Sidebar page</a>
+						also uses a different version of the markup from the Nav module. 
+					</p>
+					<p>
+						A 
+						<strong>
+							key point
+						</strong>
+						of Code Modules is that the maintainer of the site can add a new item to the Nav module without worrying about how it needs to be marked up for various sections of the website. The Nav module takes care of the details of delivering markup appropriate for the Navigation bar at the top of each page, the 404 ordered list for this page, and the div list for the 
+						<a href="sidebar.html">
+							Sidebar page</a>. 
+					</p>
+				</div>
+			</div>
+<!-- /.row -->
 #bbinclude "parts/bottom.shtml"

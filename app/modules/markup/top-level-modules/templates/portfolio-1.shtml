@@ -1,0 +1,6 @@
+<!-- #bbinclude "/markup/#MODULE#/lists/default.shtml"
+#bbincludeoptions#="inline=true"
+#TYPE#		= 'portfolio-1'
+#LINK-TEXT#	= 'More'
+-->
+<!-- end bbinclude -->

@@ -14,12 +14,12 @@
 		<meta name="viewport"
 			content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 		<title>
-			Code Modules Sample Files — Portfolio 3
+			Code Modules Sample Files — Top Level Modules
 		</title>
 		<meta name="DC.title"
-			content="Portfolio 3 — Code Modules Sample Files" />
+			content="Top Level Modules — Code Modules Sample Files" />
 		<meta property="og:title"
-			content="Portfolio 3 — Code Modules Sample Files" />
+			content="Top Level Modules — Code Modules Sample Files" />
 		<meta name="author"
 			content="Site Design and Maintenance by Pipsqueak Productions, LLC.  If you’re looking at the code, you must care.  So do we.  Pipsqueak.com" />
 		<meta name="DC.creator"
@@ -29,7 +29,7 @@
 		<link rel="canonical"
 			href="https://sample.codemodules.net/portfolio-3-col.html" />
 <!-- Open Graph -->
-		<meta property="og:title"				key="ogtitle"		content="Portfolio 3 — Code Modules" />
+		<meta property="og:title"				key="ogtitle"		content="Top Level Modules — Code Modules" />
 		<meta property="og:site_name" 			key="ogsitename"	content="Code Modules" />
 		<meta property="og:url" 				key="ogurl"			content="https://sample.codemodules.net/portfolio-3-col.html" />
 		<meta property="og:description"			key="ogdesc"		content="#DESCRIPTION#" />
@@ -42,6 +42,7 @@
 			content="4GJB6vfaFCLoRaWjwRKQs6DNTpDDez6hGhnWPaHk" />
 		<meta name="msvalidate.01"
 			content="VH9OYWHAOBUYHNC68XAVBT2DTLVVMDCJMXVJTDPT" />
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
 		<link rel="stylesheet"
 			href="/../app/styles/main.less"
 			media="all" />
@@ -90,7 +91,7 @@
 										4 Column Portfolio</a>
 								</li>
 								<li>
-									<a class="dropdown-item" href="portfolio-item.html">
+									<a class="dropdown-item" href="portfolio-markup.html">
 										Single Portfolio Item</a>
 								</li>
 							</ul>
@@ -147,9 +148,9 @@
 		<div class="container">
 <!-- Page Headline -->
 			<h1 class="mt-4 mb-3">
-				Portfolio 3
+				Top Level Modules
 				<small>
-					3 Columns
+					— Displayed in 3 Columns
 				</small>
 			</h1>
 <!-- Breadcrumbs -->
@@ -167,92 +168,77 @@
 				</li>
 			</ol>
 			<div class="row">
-				<div class="col-lg-4 col-sm-6 portfolio-item">
+				<div class="col-lg-4 col-md-6 col-sm-6 portfolio-item">
 					<div class="card h-100">
-						<a href="#">
-							<img class="card-img-top" src="https://dummyimage.com/700x400/CCC/999.gif" alt=""></a>
+						<a href="/portfolio-markup.html">
+							<img class="card-img-top" src="https://source.unsplash.com/DGHy9KgdTj0/700x400" alt="Hotdogs with Scattered Condiments"></a>
 						<div class="card-body">
 							<h4 class="card-title">
-								<a href="#">
-									Project One</a>
+								<a href="/portfolio-markup.html">
+									Markup Modules</a>
 							</h4>
 							<p class="card-text">
-								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur eum quasi sapiente nesciunt? Voluptatibus sit, repellat sequi itaque deserunt, dolores in, nesciunt, illum tempora ex quae? Nihil, dolorem!
+								<strong>Markup modules</strong> return a bit of markup. Each of these modules live as a subfolder of <code>app/modules/markup/</code>. Most websites will have many markup modules. This card comes from the markup/cards module.
 							</p>
 						</div>
 					</div>
 				</div>
-				<div class="col-lg-4 col-sm-6 portfolio-item">
+				<div class="col-lg-4 col-md-6 col-sm-6 portfolio-item">
 					<div class="card h-100">
-						<a href="#">
-							<img class="card-img-top" src="https://dummyimage.com/700x400/CCC/999.gif" alt=""></a>
+						<a href="/portfolio-page.html">
+							<img class="card-img-top" src="https://source.unsplash.com/-zmHJsYXjqM/700x400" alt="Scattered Hotdogs"></a>
 						<div class="card-body">
 							<h4 class="card-title">
-								<a href="#">
-									Project Two</a>
+								<a href="/portfolio-page.html">
+									Page Module</a>
 							</h4>
 							<p class="card-text">
-								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.
+								The <strong>Page module</strong> is located at <code>app/modules/pages/</code>. Top level HTML pages contain almost no content other than a call to the Pages module. The Pages module sets a number of global variables and then calls all the other modules needed to build the top level page.
 							</p>
 						</div>
 					</div>
 				</div>
-				<div class="col-lg-4 col-sm-6 portfolio-item">
+				<div class="col-lg-4 col-md-6 col-sm-6 portfolio-item">
 					<div class="card h-100">
-						<a href="#">
-							<img class="card-img-top" src="https://dummyimage.com/700x400/CCC/999.gif" alt=""></a>
+						<a href="/portfolio-nav.html">
+							<img class="card-img-top" src="https://source.unsplash.com/VNcWRWZn4Dw/700x400" alt="Hotdogs"></a>
 						<div class="card-body">
 							<h4 class="card-title">
-								<a href="#">
-									Project Three</a>
+								<a href="/portfolio-nav.html">
+									Nav Module</a>
 							</h4>
 							<p class="card-text">
-								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos quisquam, error quod sed cumque, odio distinctio velit nostrum temporibus necessitatibus et facere atque iure perspiciatis mollitia recusandae vero vel quam!
+								Navigation is always an important website feature. The <strong>Nav module</strong> returns the markup necessary for both desktop and mobile navigation. Sometimes, nav markup will be used for headers, and sometimes for sidebars and footers. But, with a nav module, it all comes from the same source of data.
 							</p>
 						</div>
 					</div>
 				</div>
-				<div class="col-lg-4 col-sm-6 portfolio-item">
+				<div class="col-lg-4 col-md-6 col-sm-6 portfolio-item">
 					<div class="card h-100">
-						<a href="#">
-							<img class="card-img-top" src="https://dummyimage.com/700x400/CCC/999.gif" alt=""></a>
+						<a href="/portfolio-elements.html">
+							<img class="card-img-top" src="https://source.unsplash.com/0GDN7NSoYRI/700x400" alt="Dressed Hotdogs"></a>
 						<div class="card-body">
 							<h4 class="card-title">
-								<a href="#">
-									Project Four</a>
+								<a href="/portfolio-elements.html">
+									Elements Module</a>
 							</h4>
 							<p class="card-text">
-								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.
+								Websites usually have pieces of markup that don’t deserve a whole module — they need to be served via something akin to a traditional include. It can still be handy to separate them into a separate file and allow them to use global variables. I use a special <strong>Elements module</strong> for this purpose.
 							</p>
 						</div>
 					</div>
 				</div>
-				<div class="col-lg-4 col-sm-6 portfolio-item">
+				<div class="col-lg-4 col-md-6 col-sm-6 portfolio-item">
 					<div class="card h-100">
-						<a href="#">
-							<img class="card-img-top" src="https://dummyimage.com/700x400/CCC/999.gif" alt=""></a>
+						<a href="/portfolio-tech.html">
+							<img class="card-img-top" src="https://source.unsplash.com/MTny44oAFx0/700x400" alt="Plate with a Coke, French Fries, Ketchup, and Assorted Others"></a>
 						<div class="card-body">
 							<h4 class="card-title">
-								<a href="#">
-									Project Five</a>
+								<a href="/portfolio-tech.html">
+									Tech Module</a>
 							</h4>
 							<p class="card-text">
-								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.
-							</p>
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-4 col-sm-6 portfolio-item">
-					<div class="card h-100">
-						<a href="#">
-							<img class="card-img-top" src="https://dummyimage.com/700x400/CCC/999.gif" alt=""></a>
-						<div class="card-body">
-							<h4 class="card-title">
-								<a href="#">
-									Project Six</a>
-							</h4>
-							<p class="card-text">
-								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque earum nostrum suscipit ducimus nihil provident, perferendis rem illo, voluptate atque, sit eius in voluptates, nemo repellat fugiat excepturi! Nemo, esse.
+								The <strong>Tech module</strong> builds the &lt;head&gt; section and the non-displaying “foot” section of a web page. This is where metatags, stylesheets, font links, keywords, analytics, and javascripts are placed.
 							</p>
 						</div>
 					</div>

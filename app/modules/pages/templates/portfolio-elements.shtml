@@ -1,19 +1,21 @@
 <!-- #bbinclude "parts/top.shtml"
 #bbincludeoptions#="inline=true"
-#PAGE_TITLE# 		= "Top Level Modules"
-#SUBHEAD#			= "— Displayed in 1 Column"
+#PAGE_TITLE# 		= "Elements"
+#SUBHEAD#			= "— A Top Level Module Type"
 #DESCRIPTION_ITEM#	= "#PAGE#"
 #KEYWORD_ITEM#		= "#PAGE#"
-#CANONICAL-URL# 	= "/portfolio-1-col.html"
+#CANONICAL-URL# 	= "/portfolio-elements.html"
 #DROPDOWN#			= "portfolio"
-#ID#				= "portfolio1Page"
+#ID#				= "portfolioElementsPage"
 #HIERARCHY#			= "tertiary"
 -->
 <!-- end bbinclude -->
+<!-- Portfolio Item Row -->
 <!-- #bbinclude "/markup/top-level-modules/default.shtml"
 #bbincludeoptions#="inline=true"
-#TEMPLATE#	= 'portfolio-1'
-#INDENT#	= "			"
+#TEMPLATE#		= 'portfolio-single'
+#NAME#			= 'elements'
+#INDENT#		= '			'
 -->
 <!-- end bbinclude -->
 #bbinclude "parts/bottom.shtml"

@@ -3,8 +3,10 @@
 #IMAGE#			= 'https://source.unsplash.com/-zmHJsYXjqM/700x400'
 #ALT#			= 'Scattered Hotdogs'
 #TITLE#			= 'Page Module'
+#NAME-CLASS#	= 'page'
 #TEXT#			= 'The <strong>Page module</strong> is located at <code>app/modules/pages/</code>. Top level HTML pages contain almost no content other than a call to the Pages module. The Pages module sets a number of global variables and then calls all the other modules needed to build the top level page.'
-#URL#			= '#URL-DOCUMENTATION#/usage/pages-module'
+#URL#			= '/portfolio-page.html'
+#URL-DOCS#		= '#URL-DOCUMENTATION#/usage/pages-module'
 #TARGET#		= '#DOCUMENTATION-TARGET#'
 -->
 <!-- end bbinclude -->

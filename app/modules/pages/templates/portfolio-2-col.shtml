@@ -1,7 +1,7 @@
 <!-- #bbinclude "parts/top.shtml"
 #bbincludeoptions#="inline=true"
-#PAGE_TITLE# 		= "Portfolio 2"
-#SUBHEAD#			= "2 Columns"
+#PAGE_TITLE# 		= "Top Level Modules"
+#SUBHEAD#			= "— Displayed in 2 Columns"
 #DESCRIPTION_ITEM#	= "#PAGE#"
 #KEYWORD_ITEM#		= "#PAGE#"
 #CANONICAL-URL# 	= "/portfolio-2-col.html"
@@ -10,97 +10,13 @@
 #HIERARCHY#			= "tertiary"
 -->
 <!-- end bbinclude -->
-			<div class="row">
-				<div class="col-lg-6 portfolio-item">
-					<div class="card h-100">
-						<a href="#">
-							<img class="card-img-top" src="https://dummyimage.com/700x400/CCC/999.gif" alt=""></a>
-						<div class="card-body">
-							<h4 class="card-title">
-								<a href="#">
-									Project One</a>
-							</h4>
-							<p class="card-text">
-								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.
-							</p>
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-6 portfolio-item">
-					<div class="card h-100">
-						<a href="#">
-							<img class="card-img-top" src="https://dummyimage.com/700x400/CCC/999.gif" alt=""></a>
-						<div class="card-body">
-							<h4 class="card-title">
-								<a href="#">
-									Project Two</a>
-							</h4>
-							<p class="card-text">
-								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit aliquam aperiam nulla perferendis dolor nobis numquam, rem expedita, aliquid optio, alias illum eaque. Non magni, voluptates quae, necessitatibus unde temporibus.
-							</p>
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-6 portfolio-item">
-					<div class="card h-100">
-						<a href="#">
-							<img class="card-img-top" src="https://dummyimage.com/700x400/CCC/999.gif" alt=""></a>
-						<div class="card-body">
-							<h4 class="card-title">
-								<a href="#">
-									Project Three</a>
-							</h4>
-							<p class="card-text">
-								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.
-							</p>
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-6 portfolio-item">
-					<div class="card h-100">
-						<a href="#">
-							<img class="card-img-top" src="https://dummyimage.com/700x400/CCC/999.gif" alt=""></a>
-						<div class="card-body">
-							<h4 class="card-title">
-								<a href="#">
-									Project Four</a>
-							</h4>
-							<p class="card-text">
-								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit aliquam aperiam nulla perferendis dolor nobis numquam, rem expedita, aliquid optio, alias illum eaque. Non magni, voluptates quae, necessitatibus unde temporibus.
-							</p>
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-6 portfolio-item">
-					<div class="card h-100">
-						<a href="#">
-							<img class="card-img-top" src="https://dummyimage.com/700x400/CCC/999.gif" alt=""></a>
-						<div class="card-body">
-							<h4 class="card-title">
-								<a href="#">
-									Project Five</a>
-							</h4>
-							<p class="card-text">
-								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.
-							</p>
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-6 portfolio-item">
-					<div class="card h-100">
-						<a href="#">
-							<img class="card-img-top" src="https://dummyimage.com/700x400/CCC/999.gif" alt=""></a>
-						<div class="card-body">
-							<h4 class="card-title">
-								<a href="#">
-									Project Six</a>
-							</h4>
-							<p class="card-text">
-								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit aliquam aperiam nulla perferendis dolor nobis numquam, rem expedita, aliquid optio, alias illum eaque. Non magni, voluptates quae, necessitatibus unde temporibus.
-							</p>
-						</div>
-					</div>
-				</div>
-			</div>
-<!-- /.row -->
+<!-- #bbinclude "/markup/top-level-modules/default.shtml"
+#bbincludeoptions#="inline=true"
+#TEMPLATE#	= 'portfolio-multi'
+#COLUMNS-LG#	= '6'
+#COLUMNS-MD#	= '6'
+#COLUMNS-SM#	= '6'
+#INDENT#		= "			"
+-->
+<!-- end bbinclude -->
 #bbinclude "parts/bottom.shtml"

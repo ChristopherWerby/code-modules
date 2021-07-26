@@ -1,6 +1,6 @@
 <!-- #bbinclude "/#MODULE#/types/#DROPDOWN-ITEM-TYPE#.shtml"
 #bbincludeoptions#="inline=true"
-#URL#				= 'portfolio-item.html'
+#URL#				= 'portfolio-markup.html'
 #TEXT#				= 'Single Portfolio Item'
 -->
 <!-- end bbinclude -->

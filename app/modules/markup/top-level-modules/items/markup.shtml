@@ -1,10 +1,12 @@
 <!-- #bbinclude "/markup/#MODULE#/types/#TYPE#.shtml"
 #bbincludeoptions#="inline=true"
 #IMAGE#			= 'https://source.unsplash.com/DGHy9KgdTj0/700x400'
-#ALT#			= 'Hotdogs with scattered condiments'
+#ALT#			= 'Hotdogs with Scattered Condiments'
 #TITLE#			= 'Markup Modules'
+#NAME-CLASS#	= 'markup'
 #TEXT#			= '<strong>Markup modules</strong> return a bit of markup. Each of these modules live as a subfolder of <code>app/modules/markup/</code>. Most websites will have many markup modules. This card comes from the markup/cards module.'
-#URL#			= '#URL-DOCUMENTATION#/usage/markup-modules'
+#URL#			= '/portfolio-markup.html'
+#URL-DOCS#		= '#URL-DOCUMENTATION#/usage/markup-modules'
 #TARGET#		= '#DOCUMENTATION-TARGET#'
 -->
 <!-- end bbinclude -->

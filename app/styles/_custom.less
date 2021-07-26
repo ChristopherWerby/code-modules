@@ -32,3 +32,162 @@ a {
 	}
 } //.cards
 
+.flex
+{
+	display: flex;
+}
+
+.relatedPortfolioItems
+{
+	flex-wrap: wrap;
+	
+	li
+	{
+		margin-right: 1em;
+		margin-bottom: 1em;
+		flex: 0 0 250px;
+	
+		&:last-child
+		{
+			margin-right: inherit;
+		}
+		
+		&.skip
+		{
+			display: none;
+		}
+	}
+	
+	&.markup > .markup,
+	&.page > .page,
+	&.nav > .nav,
+	&.elements > .elements,
+	&.tech > .tech,
+	{
+		display: none;
+	}
+} //.relatedPortfolioItems
+
+/* 
+====================================================
+@group PIPSQUEAK STANDARD LIST CLASSES 
+==================================================== */
+ol, ul //Special Classes applied to ol or ul.
+{
+
+	&.nobullets,
+	&.noBullets,
+	&.unstyled
+	{
+		>li
+		{
+			list-style-type: none;
+			list-style-position: outside;
+		}
+	}
+	
+	&.unstyled
+	{
+		>li
+		{
+			padding-left: 0;
+		}
+	}
+	
+	&.inline
+	{
+		>li
+		{
+			display: inline-block;
+		}
+	}
+	
+	&.decimal  //1, 2, 3
+	{
+		>li
+		{
+			list-style-type: decimal !important;
+		}
+	}
+	
+	&.latin, 
+	&.alpha, 
+	&.lowerLatin, 
+	&.lowerAlpha //a, b, c
+	{
+		>li
+		{
+			list-style-type: lower-latin !important;
+		}
+	}
+	
+	&.roman, 
+	&.lowerRoman //i, ii, iii
+	{
+		>li
+		{
+			list-style-type: lower-roman !important;
+		}
+	}
+	
+	&.decimalLeadingZero //01, 02, 03
+	{
+		>li
+		{
+			list-style-type: decimal-leading-zero !important;
+		}
+	}
+	
+	&.upperLatin, 
+	&.upperAlpha //A, B, C
+	{
+		>li
+		{
+			list-style-type: upper-latin !important;
+		}
+	}
+	
+	&.upperRoman //I, II, III
+	{
+		>li
+		{
+			list-style-type: upper-roman !important;
+		}
+	}
+	
+	&.disc, &.bullet, &.bullets
+	{
+		>li
+		{
+			list-style-type: disc !important;
+		}
+	}
+	
+	&.circle
+	{
+		>li
+		{
+			list-style-type: circle !important;
+		}
+	}
+	
+	&.square, 
+	&.squareBullet
+	{
+		>li
+		{
+			list-style-type: square !important;
+		}
+	}
+	
+	&.none
+	{
+		>li
+		{
+			list-style-type: none !important;
+		}
+	}
+} //ol, ul
+		
+
+/* @end PIPSQUEAK STANDARD LIST CLASSES */

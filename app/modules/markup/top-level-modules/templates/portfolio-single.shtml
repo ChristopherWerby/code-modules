@@ -1,0 +1,12 @@
+<!-- #bbinclude "/markup/#MODULE#/items/#NAME#.shtml"
+#bbincludeoptions#="inline=true"
+#TYPE#			= 'portfolio-single'
+#LINK-TEXT#		= 'See Documentation'
+-->
+<!-- end bbinclude -->
+<!-- #bbinclude "/markup/top-level-modules/default.shtml"
+#bbincludeoptions#="inline=true"
+#TEMPLATE#		= 'related'
+#NAME#			= '#NAME#'
+-->
+<!-- end bbinclude -->

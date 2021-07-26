@@ -1,0 +1,4 @@
+#INDENT#		<li class="#NAME-CLASS#">
+#INDENT#			<a href="#URL#">
+#INDENT#			<img class="img-fluid" src="#IMAGE#" alt="#ALT#"></a>
+#INDENT#		</li>

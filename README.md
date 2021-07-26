@@ -189,6 +189,23 @@ _Begin Date - 2021-07-24_
 
 
 
+**v0.4.12** 
+_Begin Date - 2021-07-26_
+
+*	Update home page text.
+*	Create Portfolio template for Top-level-modules module.
+*	Add [Font-Awesome][9], [v4.7.0][10]
+	*	Include new link item in Tech module.
+	*	[Explore Icons][11]
+*	Add an icon markup in Elements module; pass in the particular desired icon.
+*	Populate portfolio pages with multiple columns and breakpoints.
+*	"Related Projects" section of single portfolio item.
+	*	Change from hard coded to flex items.
+	*	Use classes to eliminate the current item from the list.
+*	Create individual portfolio item pages for each top-level module.
+
+
+
 
 [![][piplogo]][pipurl]
 
@@ -211,3 +228,6 @@ _Begin Date - 2021-07-24_
 [6]: https://dummyimage.com/
 [7]: https://medium.com/@JSdevelop/compiling-less-to-css-in-gulp-7dddf30a63e1
 [8]: https://unsplash.com/
+[9]: https://fontawesome.com/
+[10]: https://fontawesome.com/v4.7/
+[11]: https://fontawesome.com/v4.7/icons/

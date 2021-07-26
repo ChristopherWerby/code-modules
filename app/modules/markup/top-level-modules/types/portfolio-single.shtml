@@ -1,0 +1,25 @@
+			<div class="row">
+				<div class="col-md-8">
+					<img class="img-fluid" src="#IMAGE#" alt="#ALT#"> 
+				</div>
+				<div class="col-md-4">
+					<h3 class="my-3">
+						#TITLE#
+					</h3>
+					<p>
+						#TEXT#
+					</p>
+					<a class="btn btn-primary" href="#URL-DOCS#" target="#TARGET#">
+						#LINK-TEXT#
+<!-- #bbinclude "/elements/default.shtml"
+#bbincludeoptions#="inline=true"
+#TEMPLATE#	= 'markup'
+#ITEM#		= 'icon'
+#ICON#		= 'external-link'
+#INDENT#	= "						"
+-->
+<!-- end bbinclude -->
+					</a>
+				</div>
+			</div>
+<!-- /.row -->

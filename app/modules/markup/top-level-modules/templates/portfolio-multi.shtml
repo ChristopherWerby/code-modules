@@ -1,0 +1,11 @@
+#INDENT#<div class="row">
+<!-- #bbinclude "/markup/#MODULE#/lists/default.shtml"
+#bbincludeoptions#="inline=true"
+#TYPE#			= 'portfolio-multi'
+#COLUMNS-LG#	= '#COLUMNS-LG#'
+#COLUMNS-MD#	= '#COLUMNS-MD#'
+#COLUMNS-SM#	= '#COLUMNS-SM#'
+-->
+<!-- end bbinclude -->
+#INDENT#</div>
+<!-- /.row -->

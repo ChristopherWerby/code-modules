@@ -14,12 +14,12 @@
 		<meta name="viewport"
 			content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 		<title>
-			Code Modules Sample Files — Portfolio 1
+			Code Modules Sample Files — Top Level Modules
 		</title>
 		<meta name="DC.title"
-			content="Portfolio 1 — Code Modules Sample Files" />
+			content="Top Level Modules — Code Modules Sample Files" />
 		<meta property="og:title"
-			content="Portfolio 1 — Code Modules Sample Files" />
+			content="Top Level Modules — Code Modules Sample Files" />
 		<meta name="author"
 			content="Site Design and Maintenance by Pipsqueak Productions, LLC.  If you’re looking at the code, you must care.  So do we.  Pipsqueak.com" />
 		<meta name="DC.creator"
@@ -29,7 +29,7 @@
 		<link rel="canonical"
 			href="https://sample.codemodules.net/portfolio-1-col.html" />
 <!-- Open Graph -->
-		<meta property="og:title"				key="ogtitle"		content="Portfolio 1 — Code Modules" />
+		<meta property="og:title"				key="ogtitle"		content="Top Level Modules — Code Modules" />
 		<meta property="og:site_name" 			key="ogsitename"	content="Code Modules" />
 		<meta property="og:url" 				key="ogurl"			content="https://sample.codemodules.net/portfolio-1-col.html" />
 		<meta property="og:description"			key="ogdesc"		content="#DESCRIPTION#" />
@@ -42,6 +42,7 @@
 			content="4GJB6vfaFCLoRaWjwRKQs6DNTpDDez6hGhnWPaHk" />
 		<meta name="msvalidate.01"
 			content="VH9OYWHAOBUYHNC68XAVBT2DTLVVMDCJMXVJTDPT" />
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
 		<link rel="stylesheet"
 			href="/../app/styles/main.less"
 			media="all" />
@@ -90,7 +91,7 @@
 										4 Column Portfolio</a>
 								</li>
 								<li>
-									<a class="dropdown-item" href="portfolio-item.html">
+									<a class="dropdown-item" href="portfolio-markup.html">
 										Single Portfolio Item</a>
 								</li>
 							</ul>
@@ -147,9 +148,9 @@
 		<div class="container">
 <!-- Page Headline -->
 			<h1 class="mt-4 mb-3">
-				Portfolio 1
+				Top Level Modules
 				<small>
-					1 Column
+					— Displayed in 1 Column
 				</small>
 			</h1>
 <!-- Breadcrumbs -->
@@ -166,85 +167,111 @@
 						portfolio-1-col</a>
 				</li>
 			</ol>
-<!-- Project One -->
 			<div class="row mb-3">
 				<div class="col-md-7">
 					<a href="#">
-						<img class="img-fluid rounded mb-3 mb-md-0" src="https://dummyimage.com/700x300/CCC/999.gif" alt=""></a>
+						<img class="img-fluid rounded mb-3 mb-md-0" src="https://source.unsplash.com/DGHy9KgdTj0/700x400" alt="Hotdogs with Scattered Condiments"></a>
 				</div>
 				<div class="col-md-5">
 					<h3>
-						Project One
+						Markup Modules
 					</h3>
 					<p>
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium veniam exercitationem expedita laborum at voluptate. Labore, voluptates totam at aut nemo deserunt rem magni pariatur quos perspiciatis atque eveniet unde.
+						<strong>Markup modules</strong> return a bit of markup. Each of these modules live as a subfolder of <code>app/modules/markup/</code>. Most websites will have many markup modules. This card comes from the markup/cards module.
 					</p>
-					<a class="btn btn-primary" href="#">
-						View Project 
-						<span class="glyphicon glyphicon-chevron-right"></span></a>
+					<a class="btn btn-primary" href="/portfolio-markup.html" target="CodeModulesDocs">
+						More
+						<i class="fa fa-chevron-right" aria-hidden="true"></i>
+
+					</a>
 				</div>
 			</div>
 <!-- /.row -->
-			<hr> 
-<!-- Project Two -->
+			<hr>
 			<div class="row mb-3">
 				<div class="col-md-7">
 					<a href="#">
-						<img class="img-fluid rounded mb-3 mb-md-0" src="https://dummyimage.com/700x300/CCC/999.gif" alt=""></a>
+						<img class="img-fluid rounded mb-3 mb-md-0" src="https://source.unsplash.com/-zmHJsYXjqM/700x400" alt="Scattered Hotdogs"></a>
 				</div>
 				<div class="col-md-5">
 					<h3>
-						Project Two
+						Page Module
 					</h3>
 					<p>
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut, odit velit cumque vero doloremque repellendus distinctio maiores rem expedita a nam vitae modi quidem similique ducimus! Velit, esse totam tempore.
+						The <strong>Page module</strong> is located at <code>app/modules/pages/</code>. Top level HTML pages contain almost no content other than a call to the Pages module. The Pages module sets a number of global variables and then calls all the other modules needed to build the top level page.
 					</p>
-					<a class="btn btn-primary" href="#">
-						View Project 
-						<span class="glyphicon glyphicon-chevron-right"></span></a>
+					<a class="btn btn-primary" href="/portfolio-page.html" target="CodeModulesDocs">
+						More
+						<i class="fa fa-chevron-right" aria-hidden="true"></i>
+
+					</a>
 				</div>
 			</div>
 <!-- /.row -->
-			<hr> 
-<!-- Project Three -->
+			<hr>
 			<div class="row mb-3">
 				<div class="col-md-7">
 					<a href="#">
-						<img class="img-fluid rounded mb-3 mb-md-0" src="https://dummyimage.com/700x300/CCC/999.gif" alt=""></a>
+						<img class="img-fluid rounded mb-3 mb-md-0" src="https://source.unsplash.com/VNcWRWZn4Dw/700x400" alt="Hotdogs"></a>
 				</div>
 				<div class="col-md-5">
 					<h3>
-						Project Three
+						Nav Module
 					</h3>
 					<p>
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis, temporibus, dolores, at, praesentium ut unde repudiandae voluptatum sit ab debitis suscipit fugiat natus velit excepturi amet commodi deleniti alias possimus!
+						Navigation is always an important website feature. The <strong>Nav module</strong> returns the markup necessary for both desktop and mobile navigation. Sometimes, nav markup will be used for headers, and sometimes for sidebars and footers. But, with a nav module, it all comes from the same source of data.
 					</p>
-					<a class="btn btn-primary" href="#">
-						View Project 
-						<span class="glyphicon glyphicon-chevron-right"></span></a>
+					<a class="btn btn-primary" href="/portfolio-nav.html" target="CodeModulesDocs">
+						More
+						<i class="fa fa-chevron-right" aria-hidden="true"></i>
+
+					</a>
 				</div>
 			</div>
 <!-- /.row -->
-			<hr> 
-<!-- Project Four -->
+			<hr>
 			<div class="row mb-3">
 				<div class="col-md-7">
 					<a href="#">
-						<img class="img-fluid rounded mb-3 mb-md-0" src="https://dummyimage.com/700x300/CCC/999.gif" alt=""></a>
+						<img class="img-fluid rounded mb-3 mb-md-0" src="https://source.unsplash.com/0GDN7NSoYRI/700x400" alt="Dressed Hotdogs"></a>
 				</div>
 				<div class="col-md-5">
 					<h3>
-						Project Four
+						Elements Module
 					</h3>
 					<p>
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo, quidem, consectetur, officia rem officiis illum aliquam perspiciatis aspernatur quod modi hic nemo qui soluta aut eius fugit quam in suscipit?
+						Websites usually have pieces of markup that don’t deserve a whole module — they need to be served via something akin to a traditional include. It can still be handy to separate them into a separate file and allow them to use global variables. I use a special <strong>Elements module</strong> for this purpose.
 					</p>
-					<a class="btn btn-primary" href="#">
-						View Project 
-						<span class="glyphicon glyphicon-chevron-right"></span></a>
+					<a class="btn btn-primary" href="/portfolio-elements.html" target="CodeModulesDocs">
+						More
+						<i class="fa fa-chevron-right" aria-hidden="true"></i>
+
+					</a>
 				</div>
 			</div>
 <!-- /.row -->
+			<hr>
+			<div class="row mb-3">
+				<div class="col-md-7">
+					<a href="#">
+						<img class="img-fluid rounded mb-3 mb-md-0" src="https://source.unsplash.com/MTny44oAFx0/700x400" alt="Plate with a Coke, French Fries, Ketchup, and Assorted Others"></a>
+				</div>
+				<div class="col-md-5">
+					<h3>
+						Tech Module
+					</h3>
+					<p>
+						The <strong>Tech module</strong> builds the &lt;head&gt; section and the non-displaying “foot” section of a web page. This is where metatags, stylesheets, font links, keywords, analytics, and javascripts are placed.
+					</p>
+					<a class="btn btn-primary" href="/portfolio-tech.html" target="CodeModulesDocs">
+						More
+						<i class="fa fa-chevron-right" aria-hidden="true"></i>
+
+					</a>
+				</div>
+			</div>
+<!-- /.row -->
+			<hr>
 		</div>
 <!-- /.container -->
 <!-- Footer -->

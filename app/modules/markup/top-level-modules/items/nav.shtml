@@ -3,8 +3,10 @@
 #IMAGE#			= 'https://source.unsplash.com/VNcWRWZn4Dw/700x400'
 #ALT#			= 'Hotdogs'
 #TITLE#			= 'Nav Module'
+#NAME-CLASS#	= 'nav'
 #TEXT#			= 'Navigation is always an important website feature. The <strong>Nav module</strong> returns the markup necessary for both desktop and mobile navigation. Sometimes, nav markup will be used for headers, and sometimes for sidebars and footers. But, with a nav module, it all comes from the same source of data.'
-#URL#			= '#URL-DOCUMENTATION#/usage/nav-module'
+#URL#			= '/portfolio-nav.html'
+#URL-DOCS#		= '#URL-DOCUMENTATION#/usage/nav-module'
 #TARGET#		= '#DOCUMENTATION-TARGET#'
 -->
 <!-- end bbinclude -->

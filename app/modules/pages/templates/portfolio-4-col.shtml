@@ -1,7 +1,7 @@
 <!-- #bbinclude "parts/top.shtml"
 #bbincludeoptions#="inline=true"
-#PAGE_TITLE# 		= "Portfolio 4"
-#SUBHEAD#			= "4 Columns"
+#PAGE_TITLE# 		= "Top Level Modules"
+#SUBHEAD#			= "— Displayed in 4 Columns"
 #DESCRIPTION_ITEM#	= "#PAGE#"
 #KEYWORD_ITEM#		= "#PAGE#"
 #CANONICAL-URL# 	= "/portfolio-4-col.html"
@@ -10,127 +10,13 @@
 #HIERARCHY#			= "tertiary"
 -->
 <!-- end bbinclude -->
-			<div class="row">
-				<div class="col-lg-3 col-md-4 col-sm-6 portfolio-item">
-					<div class="card h-100">
-						<a href="#">
-							<img class="card-img-top" src="https://dummyimage.com/700x400/CCC/999.gif" alt=""></a>
-						<div class="card-body">
-							<h4 class="card-title">
-								<a href="#">
-									Project One</a>
-							</h4>
-							<p class="card-text">
-								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur eum quasi sapiente nesciunt? Voluptatibus sit, repellat sequi itaque deserunt, dolores in, nesciunt, illum tempora ex quae? Nihil, dolorem!
-							</p>
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-3 col-md-4 col-sm-6 portfolio-item">
-					<div class="card h-100">
-						<a href="#">
-							<img class="card-img-top" src="https://dummyimage.com/700x400/CCC/999.gif" alt=""></a>
-						<div class="card-body">
-							<h4 class="card-title">
-								<a href="#">
-									Project Two</a>
-							</h4>
-							<p class="card-text">
-								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.
-							</p>
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-3 col-md-4 col-sm-6 portfolio-item">
-					<div class="card h-100">
-						<a href="#">
-							<img class="card-img-top" src="https://dummyimage.com/700x400/CCC/999.gif" alt=""></a>
-						<div class="card-body">
-							<h4 class="card-title">
-								<a href="#">
-									Project Three</a>
-							</h4>
-							<p class="card-text">
-								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos quisquam, error quod sed cumque, odio distinctio velit nostrum temporibus necessitatibus et facere atque iure perspiciatis mollitia recusandae vero vel quam!
-							</p>
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-3 col-md-4 col-sm-6 portfolio-item">
-					<div class="card h-100">
-						<a href="#">
-							<img class="card-img-top" src="https://dummyimage.com/700x400/CCC/999.gif" alt=""></a>
-						<div class="card-body">
-							<h4 class="card-title">
-								<a href="#">
-									Project Four</a>
-							</h4>
-							<p class="card-text">
-								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.
-							</p>
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-3 col-md-4 col-sm-6 portfolio-item">
-					<div class="card h-100">
-						<a href="#">
-							<img class="card-img-top" src="https://dummyimage.com/700x400/CCC/999.gif" alt=""></a>
-						<div class="card-body">
-							<h4 class="card-title">
-								<a href="#">
-									Project Five</a>
-							</h4>
-							<p class="card-text">
-								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.
-							</p>
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-3 col-md-4 col-sm-6 portfolio-item">
-					<div class="card h-100">
-						<a href="#">
-							<img class="card-img-top" src="https://dummyimage.com/700x400/CCC/999.gif" alt=""></a>
-						<div class="card-body">
-							<h4 class="card-title">
-								<a href="#">
-									Project Six</a>
-							</h4>
-							<p class="card-text">
-								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque earum nostrum suscipit ducimus nihil provident, perferendis rem illo, voluptate atque, sit eius in voluptates, nemo repellat fugiat excepturi! Nemo, esse.
-							</p>
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-3 col-md-4 col-sm-6 portfolio-item">
-					<div class="card h-100">
-						<a href="#">
-							<img class="card-img-top" src="https://dummyimage.com/700x400/CCC/999.gif" alt=""></a>
-						<div class="card-body">
-							<h4 class="card-title">
-								<a href="#">
-									Project Seven</a>
-							</h4>
-							<p class="card-text">
-								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.
-							</p>
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-3 col-md-4 col-sm-6 portfolio-item">
-					<div class="card h-100">
-						<a href="#">
-							<img class="card-img-top" src="https://dummyimage.com/700x400/CCC/999.gif" alt=""></a>
-						<div class="card-body">
-							<h4 class="card-title">
-								<a href="#">
-									Project Eight</a>
-							</h4>
-							<p class="card-text">
-								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius adipisci dicta dignissimos neque animi ea, veritatis, provident hic consequatur ut esse! Commodi ea consequatur accusantium, beatae qui deserunt tenetur ipsa.
-							</p>
-						</div>
-					</div>
-				</div>
-			</div>
-<!-- /.row -->
+<!-- #bbinclude "/markup/top-level-modules/default.shtml"
+#bbincludeoptions#="inline=true"
+#TEMPLATE#		= 'portfolio-multi'
+#COLUMNS-LG#	= '3'
+#COLUMNS-MD#	= '4'
+#COLUMNS-SM#	= '6'
+#INDENT#		= "			"
+-->
+<!-- end bbinclude -->
 #bbinclude "parts/bottom.shtml"

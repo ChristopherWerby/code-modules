@@ -1,0 +1,27 @@
+			<div class="row mb-3">
+				<div class="col-md-7">
+					<a href="#">
+						<img class="img-fluid rounded mb-3 mb-md-0" src="#IMAGE#" alt="#ALT#"></a>
+				</div>
+				<div class="col-md-5">
+					<h3>
+						#TITLE#
+					</h3>
+					<p>
+						#TEXT#
+					</p>
+					<a class="btn btn-primary" href="#URL#" target="#TARGET#">
+						#LINK-TEXT#
+<!-- #bbinclude "/elements/default.shtml"
+#bbincludeoptions#="inline=true"
+#TEMPLATE#	= 'markup'
+#ITEM#		= 'icon'
+#ICON#		= 'chevron-right'
+#INDENT#	= "						"
+-->
+<!-- end bbinclude -->
+					</a>
+				</div>
+			</div>
+<!-- /.row -->
+			<hr>
