@@ -203,7 +203,7 @@ _Begin Date - 2021-07-26_
 	*	Change from hard coded to flex items.
 	*	Use classes to eliminate the current item from the list.
 *	Create individual portfolio item pages for each top-level module.
-*	Add a new "npm run webdev" command to start up development for Code Modules sample files.
+*	Add a new "npm run webdev" command to start up development for Code Modules sample files on my local system.
 
 
 
