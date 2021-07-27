@@ -198,12 +198,15 @@ _Begin Date - 2021-07-26_
 	*	Include new link item in Tech module.
 	*	[Explore Icons][11]
 *	Add an icon markup in Elements module; pass in the particular desired icon.
+	*	Also can pass in an optional ICON-SIZE-CLASS variable. Defaults to fa-1x. Can be fa-lg, or fa-2x, fa-3x, fa-4x, fa-5x.
 *	Populate portfolio pages with multiple columns and breakpoints.
 *	"Related Projects" section of single portfolio item.
 	*	Change from hard coded to flex items.
 	*	Use classes to eliminate the current item from the list.
 *	Create individual portfolio item pages for each top-level module.
 *	Add a new "npm run webdev" command to start up development for Code Modules sample files on my local system.
+*	Replace direct calls to Unsplash with local versions of the Editorial images.
+	*	Original Image URLs for [Markup][13], [Page][15], [Nav][14], [Elements][12], [Tech][16]
 
 
 
@@ -232,3 +235,8 @@ _Begin Date - 2021-07-26_
 [9]: https://fontawesome.com/
 [10]: https://fontawesome.com/v4.7/
 [11]: https://fontawesome.com/v4.7/icons/
+[12]: https://source.unsplash.com/0GDN7NSoYRI/700x400
+[13]: https://source.unsplash.com/DGHy9KgdTj0/700x400
+[14]: https://source.unsplash.com/VNcWRWZn4Dw/700x400
+[15]: https://source.unsplash.com/-zmHJsYXjqM/700x400
+[16]: https://source.unsplash.com/MTny44oAFx0/700x400

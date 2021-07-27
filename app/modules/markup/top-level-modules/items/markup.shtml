@@ -1,6 +1,6 @@
 <!-- #bbinclude "/markup/#MODULE#/types/#TYPE#.shtml"
 #bbincludeoptions#="inline=true"
-#IMAGE#			= 'https://source.unsplash.com/DGHy9KgdTj0/700x400'
+#IMAGE#			= '/images/editorial/Markup-Hot_Dog_and_Condiments-by_Unsplash-RCV-700x400.jpg'
 #ALT#			= 'Hotdogs with Scattered Condiments'
 #TITLE#			= 'Markup Modules'
 #NAME-CLASS#	= 'markup'

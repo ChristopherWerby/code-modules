@@ -1,6 +1,6 @@
 <!-- #bbinclude "/markup/#MODULE#/types/#TYPE#.shtml"
 #bbincludeoptions#="inline=true"
-#IMAGE#			= 'https://source.unsplash.com/0GDN7NSoYRI/700x400'
+#IMAGE#			= '/images/editorial/Elements-Five_Hot_Dogs_Offset-by_Unsplash-RCV-700x400.jpg'
 #ALT#			= 'Dressed Hotdogs'
 #TITLE#			= 'Elements Module'
 #NAME-CLASS#	= 'elements'

@@ -1,1 +1,1 @@
-#INDENT#<i class="fa fa-#ICON#" aria-hidden="true"></i>
+#INDENT#<i class="fa fa-#ICON# #ICON-SIZE-CLASS#" aria-hidden="true"></i>

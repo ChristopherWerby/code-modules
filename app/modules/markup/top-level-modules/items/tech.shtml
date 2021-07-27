@@ -1,6 +1,6 @@
 <!-- #bbinclude "/markup/#MODULE#/types/#TYPE#.shtml"
 #bbincludeoptions#="inline=true"
-#IMAGE#			= 'https://source.unsplash.com/MTny44oAFx0/700x400'
+#IMAGE#			= '/images/editorial/Tech-A_Food_Plate-by_Unsplash-RCV-700x400.jpg'
 #ALT#			= 'Plate with a Coke, French Fries, Ketchup, and Assorted Others'
 #TITLE#			= 'Tech Module'
 #NAME-CLASS#	= 'tech'

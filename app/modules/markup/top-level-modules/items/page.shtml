@@ -1,6 +1,6 @@
 <!-- #bbinclude "/markup/#MODULE#/types/#TYPE#.shtml"
 #bbincludeoptions#="inline=true"
-#IMAGE#			= 'https://source.unsplash.com/-zmHJsYXjqM/700x400'
+#IMAGE#			= '/images/editorial/Page-Scattered_Hot_Dogs-by_Unsplash-RCV-700x400.jpg'
 #ALT#			= 'Scattered Hotdogs'
 #TITLE#			= 'Page Module'
 #NAME-CLASS#	= 'page'

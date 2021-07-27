@@ -1,6 +1,6 @@
 <!-- #bbinclude "/markup/#MODULE#/types/#TYPE#.shtml"
 #bbincludeoptions#="inline=true"
-#IMAGE#			= 'https://source.unsplash.com/VNcWRWZn4Dw/700x400'
+#IMAGE#			= '/images/editorial/Nav-Five_Hot_Dogs_in_Line-by_Unsplash-RCV-700x400.jpg'
 #ALT#			= 'Hotdogs'
 #TITLE#			= 'Nav Module'
 #NAME-CLASS#	= 'nav'
