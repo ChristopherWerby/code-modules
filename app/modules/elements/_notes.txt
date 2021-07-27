@@ -19,8 +19,8 @@
 #TEMPLATE#			= 'markup'
 #ITEM#				= 'icon'
 #ICON#				= 'chevron-right'
-#ICON-SIZE-CLASS#	= '#ICON-SIZE-CLASS#'
+#ICON-CLASS#		= '#ICON-CLASS#'
 #INDENT#			= "						"
-#COMMENT#			= 'ICON-SIZE-CLASS is optional; defaults to fa-1x. Can be fa-lg, or fa-2x, fa-3x, fa-4x, fa-5x.'
+#COMMENT#			= 'ICON-CLASS is optional; defaults to fa-1x. Can be fa-lg, or fa-2x, fa-3x, fa-4x, fa-5x for size. Can include fa-fw for fixed width. Can include fa-li for use in lists. Can include fa-spin or fa-pulse to animate. Can include classes to flip and rotate: fa-rotate-90, fa-rotate-180, fa-rotate-270, fa-flip-horizontal, fa-flip-vertical.'
 -->
 <!-- end bbinclude -->

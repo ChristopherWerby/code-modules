@@ -196,9 +196,14 @@ _Begin Date - 2021-07-26_
 *	Create Portfolio template for Top-level-modules module.
 *	Add [Font-Awesome][9], [v4.7.0][10]
 	*	Include new link item in Tech module.
-	*	[Explore Icons][11]
+	*	[Browse Icons][11]
 *	Add an icon markup in Elements module; pass in the particular desired icon.
-	*	Also can pass in an optional ICON-SIZE-CLASS variable. Defaults to fa-1x. Can be fa-lg, or fa-2x, fa-3x, fa-4x, fa-5x.
+	*	Also can pass in an optional ICON-CLASS variable; defaults to fa-1x. [Ref][17].
+		*	Can be fa-lg, or fa-2x, fa-3x, fa-4x, fa-5x for size. 
+		*	Can include fa-fw for fixed width. 
+		*	Can include fa-li for use in lists. 
+		*	Can include fa-spin or fa-pulse to animate. 
+		*	Can include classes to flip and rotate: fa-rotate-90, fa-rotate-180, fa-rotate-270, fa-flip-horizontal, fa-flip-vertical.
 *	Populate portfolio pages with multiple columns and breakpoints.
 *	"Related Projects" section of single portfolio item.
 	*	Change from hard coded to flex items.
@@ -240,3 +245,4 @@ _Begin Date - 2021-07-26_
 [14]: https://source.unsplash.com/VNcWRWZn4Dw/700x400
 [15]: https://source.unsplash.com/-zmHJsYXjqM/700x400
 [16]: https://source.unsplash.com/MTny44oAFx0/700x400
+[17]: https://fontawesome.com/v4.7/examples/
