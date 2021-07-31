@@ -179,10 +179,12 @@
 					<p>
 						Websites usually have pieces of markup that don’t deserve a whole module — they need to be served via something akin to a traditional include. It can still be handy to separate them into a separate file and allow them to use global variables. I use a special <strong>Elements module</strong> for this purpose.
 					</p>
+					<p>
+						An example here in the sample file website is the include for Icons. We’re using the Font Awesome icons which has markup that looks like: <code>&lt;i class=&quot;fa fa-external-link fa-1x&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt;</code>. The markup for the icons happens in an include at <code>modules/elements/</code>; all we do is pass <code>external-link</code> to the Elements module. If we decided to switch to glyphicons, we could change the markup in the include (and change the link in the Tech module, and clean up icons with different names between the two sets, and adjust any special classes) and we’d be mostly finished. That’s better than hunting down the markup for every icon on the site.
+					</p>
 					<a class="btn btn-primary" href="https://codemodules.net/usage/elements-module" target="CodeModulesDocs">
 						See Documentation
 						<i class="fa fa-external-link fa-1x" aria-hidden="true"></i>
-
 					</a>
 				</div>
 			</div>

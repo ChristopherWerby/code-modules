@@ -5,6 +5,7 @@
 #TITLE#			= 'Tech Module'
 #NAME-CLASS#	= 'tech'
 #TEXT#			= 'The <strong>Tech module</strong> builds the &lt;head&gt; section and the non-displaying “foot” section of a web page. This is where metatags, stylesheets, font links, keywords, analytics, and javascripts are placed.'
+#EXTRA-TEXT#	= 'The Tech module tends to be a bit like a kitchen’s tool drawer; there are many different bits that don’t fit in a neat taxonomy. My Tech modules are divided into three main sections: <code>js/</code>, <code>links/</code>, and <code>meta/</code>. The templates within the Tech module are foot and head (not to be confused with visible footer and header) that correspond to the &lt;head&gt; and non-displaying foot section of the page. When the maintainer wants to add a new javascript call, it’s a matter of adding a new <code>js/item/</code> item and then adding that item to any <code>js/lists/</code> in the proper order.</p><p>Since everything in the Tech module can contain variables from the calling page and from the Pages default.shtml file, filling in metadata descriptions and images passed from the calling page can be handled in a simple, templatized manner.'
 #URL#			= '/portfolio-tech.html'
 #URL-DOCS#		= '#URL-DOCUMENTATION#/usage/tech-module'
 #TARGET#		= '#DOCUMENTATION-TARGET#'

@@ -90,7 +90,7 @@
 #DESCRIPTION_ITEM#			= 'default'
 #KEYWORD_ITEM#				= 'default'
 #CONTACT_FORM#				= 'contact'
-#ICON-SIZE-CLASS#			= 'fa-1x'
+#ICON-CLASS#				= 'fa-1x'
 #INDENT#					= '		'
 #COLUMNS#					= '4'
 #COMMENT#					= 'Default columns is for three items - 4 columns out of 12'

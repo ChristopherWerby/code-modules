@@ -2,7 +2,7 @@
 
 # Code Modules — Sample Files
 
-This is an HTML5 project using BBEdit and Parcel. Theme is [Modern Business][4] from Start Bootstrap.
+This is an HTML5 project using BBEdit and Parcel. Theme is [Modern Business][1] from Start Bootstrap.
 
 `npm start` — development using Parcel process
 
@@ -16,11 +16,11 @@ gitpush no longer works to push to dev or production server. Instead, use rsync 
 
 
 
-Code Modules documentation can be found at [https://codemodules.net][1]
+Code Modules documentation can be found at [https://codemodules.net][2]
 
-These sample files can be demoed at [https://sample.codemodules.net/][2]
+These sample files can be demoed at [https://sample.codemodules.net/][3]
 
-Development server version of these files at [https://dev.codemodules.net/][3]
+Development server version of these files at [https://dev.codemodules.net/][4]
 
 
 ## To Do
@@ -52,7 +52,7 @@ _Release Date - 2021-04-20_
 **v0.4.0** 
 _Release Date - 2021-04-26_
 
-*	Adopt [Start Bootstrap’s Modern Business Theme][4] + [GitHub][5] and its build process using Gulp.
+*	Adopt [Start Bootstrap’s Modern Business Theme][1] + [GitHub][5] and its build process using Gulp.
 	*	`npm i startbootstrap-modern-business`
 	*	Make adjustments to paths so that `public/` is separate and thinned from `theme/`
 
@@ -198,12 +198,12 @@ _Begin Date - 2021-07-26_
 	*	Include new link item in Tech module.
 	*	[Browse Icons][11]
 *	Add an icon markup in Elements module; pass in the particular desired icon.
-	*	Also can pass in an optional ICON-CLASS variable; defaults to fa-1x. [Ref][17].
-		*	Can be fa-lg, or fa-2x, fa-3x, fa-4x, fa-5x for size. 
-		*	Can include fa-fw for fixed width. 
-		*	Can include fa-li for use in lists. 
-		*	Can include fa-spin or fa-pulse to animate. 
-		*	Can include classes to flip and rotate: fa-rotate-90, fa-rotate-180, fa-rotate-270, fa-flip-horizontal, fa-flip-vertical.
+	*	Also can pass in an optional ICON-CLASS variable; defaults to `fa-1x`. [Ref][12].
+		*	Can be `fa-lg`, or `fa-2x`, `fa-3x`, `fa-4x`, `fa-5x` for size. 
+		*	Can include `fa-fw` for fixed width. 
+		*	Can include `fa-li` for use in lists. 
+		*	Can include `fa-spin` or `fa-pulse` to animate. 
+		*	Can include classes to rotate and flip: `fa-rotate-90`, `fa-rotate-180`, `fa-rotate-270`, `fa-flip-horizontal`, `fa-flip-vertical`.
 *	Populate portfolio pages with multiple columns and breakpoints.
 *	"Related Projects" section of single portfolio item.
 	*	Change from hard coded to flex items.
@@ -211,7 +211,15 @@ _Begin Date - 2021-07-26_
 *	Create individual portfolio item pages for each top-level module.
 *	Add a new "npm run webdev" command to start up development for Code Modules sample files on my local system.
 *	Replace direct calls to Unsplash with local versions of the Editorial images.
-	*	Original Image URLs for [Markup][13], [Page][15], [Nav][14], [Elements][12], [Tech][16]
+	*	Original Image URLs for [Markup][13], [Page][14], [Nav][15], [Elements][16], [Tech][17]
+
+
+
+**v0.4.13** 
+_Begin Date - 2021-07-31_
+
+*	Fill out EXTRA-TEXT variables for each of the five Top-level-modules items.
+*	Modify the webdev command.
 
 
 
@@ -229,10 +237,10 @@ _Begin Date - 2021-07-26_
 ✔	✘	⚪	⇧	∧	⌥	⌘	↩	← → ⟵ ⟶
 
 
-[1]: https://codemodules.net
-[2]: https://sample.codemodules.net/
-[3]: https://dev.codemodules.net/
-[4]: https://startbootstrap.com/template/modern-business
+[1]: https://startbootstrap.com/template/modern-business
+[2]: https://codemodules.net
+[3]: https://sample.codemodules.net/
+[4]: https://dev.codemodules.net/
 [5]: https://github.com/startbootstrap/startbootstrap-modern-business
 [6]: https://dummyimage.com/
 [7]: https://medium.com/@JSdevelop/compiling-less-to-css-in-gulp-7dddf30a63e1
@@ -240,9 +248,9 @@ _Begin Date - 2021-07-26_
 [9]: https://fontawesome.com/
 [10]: https://fontawesome.com/v4.7/
 [11]: https://fontawesome.com/v4.7/icons/
-[12]: https://source.unsplash.com/0GDN7NSoYRI/700x400
+[12]: https://fontawesome.com/v4.7/examples/
 [13]: https://source.unsplash.com/DGHy9KgdTj0/700x400
-[14]: https://source.unsplash.com/VNcWRWZn4Dw/700x400
-[15]: https://source.unsplash.com/-zmHJsYXjqM/700x400
-[16]: https://source.unsplash.com/MTny44oAFx0/700x400
-[17]: https://fontawesome.com/v4.7/examples/
+[14]: https://source.unsplash.com/-zmHJsYXjqM/700x400
+[15]: https://source.unsplash.com/VNcWRWZn4Dw/700x400
+[16]: https://source.unsplash.com/0GDN7NSoYRI/700x400
+[17]: https://source.unsplash.com/MTny44oAFx0/700x400

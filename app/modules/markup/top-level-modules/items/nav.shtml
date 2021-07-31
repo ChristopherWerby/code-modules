@@ -5,6 +5,7 @@
 #TITLE#			= 'Nav Module'
 #NAME-CLASS#	= 'nav'
 #TEXT#			= 'Navigation is always an important website feature. The <strong>Nav module</strong> returns the markup necessary for both desktop and mobile navigation. Sometimes, nav markup will be used for headers, and sometimes for sidebars and footers. But, with a nav module, it all comes from the same source of data.'
+#EXTRA-TEXT#	= 'On this sample site, the <a href="/sidebar.html">Sidebar</a> and <a href="/404.html">404</a> pages both use different markup versions of the main navigation that’s also on the top of each page. Same data but different markup is one of the main advantages of Code Modules.'
 #URL#			= '/portfolio-nav.html'
 #URL-DOCS#		= '#URL-DOCUMENTATION#/usage/nav-module'
 #TARGET#		= '#DOCUMENTATION-TARGET#'
