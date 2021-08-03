@@ -1,8 +1,9 @@
 {
     "title": "Code Modules Sample Files",
     "name": "code-modules-sample",
-    "description": "Code Modules is a BBEdit Module System for Web Development. These are sample files using that system.",
     "version": "0.4.13",
+    "description": "Code Modules is a BBEdit Module System for Web Development. These are sample files using that system.",
+	"private": true,
     "scripts": {
         "start-legacy": "node_modules/.bin/gulp watch",
         "start": "parcel public/index.html",
