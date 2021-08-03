@@ -1,6 +1,7 @@
 {
     "title": "Code Modules Sample Files",
     "name": "code-modules-sample",
+    "description": "Code Modules is a BBEdit Module System for Web Development. These are sample files using that system.",
     "version": "0.4.13",
     "scripts": {
         "start-legacy": "node_modules/.bin/gulp watch",
@@ -8,9 +9,8 @@
         "build": "parcel build public/index.html",
         "pushdev": "rsync -rlptDP '/Volumes/Condor/Code Modules/Web/code-modules-sample/Current/dist/' pip_cm@198.199.92.62:/var/www/codemodules/sample/dev/public",
         "pushlive": "rsync -rlptDP '/Volumes/Condor/Code Modules/Web/code-modules-sample/Current/dist/' pip_cm@198.199.92.62:/var/www/codemodules/sample/production/public",
-        "webdev": "open '/Volumes/Condor/Code Modules/Text/2021-07-26-Module_Outline-v02.mcn';cd '/Volumes/Condor/Code Modules/Web/code-modules-sample/Current/';bbedit cm-sample.bbprojectd;open README.md;bbedit package.json;bbedit app/styles/_custom.less;bbedit app/styles/main.less;bbedit public/index.html;bbedit app/modules/pages/default.shtml;bbedit app/modules/pages/templates/home.shtml;bbedit README.md;open .;open http://localhost:1234/;npm start;"
+        "webdev": "open '/Volumes/Condor/Code Modules/Text/2021-07-26-Module_Outline-v02.mcn'; cd '/Volumes/Condor/Code Modules/Web/code-modules-sample/Current/'; bbedit cm-sample.bbprojectd; open README.md; bbedit package.json; bbedit app/styles/_custom.less; bbedit app/styles/main.less; bbedit public/index.html; bbedit app/modules/pages/default.shtml; bbedit app/modules/pages/templates/home.shtml; bbedit README.md; open .; open http://localhost:1234/; npm start;"
     },
-    "description": "Code Modules is a BBEdit Module System for Web Development. These are sample files using that system.",
     "keywords": [
         "bbedit",
         "modules",
@@ -32,7 +32,9 @@
     ],
     "repository": {
         "type": "git",
-        "url": "https://github.com/ChristopherWerby/code-modules"
+        "origin": "git@github.com:ChristopherWerby/code-modules.git",
+        "local": "/Volumes/Scrub/Backups/repos/Code_Modules/Code-Modules-Sample/repo.git",
+        "production": "pip_cm@sample.codemodules.net:codemodules/repo.git"
     },
     "dependencies": {
         "bootstrap": "4.5.3",
