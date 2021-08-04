@@ -234,7 +234,7 @@ _Begin Date - 2021-07-31_
 
 
 
-✔	✘	⚪	⇧	∧	⌥	⌘	↩	← → ⟵ ⟶
+✔	✘	⚪	⇧	∧	⌥	⌘	↩	⇧∧⌥⌘↩	← → ⟵ ⟶
 
 
 [1]: https://startbootstrap.com/template/modern-business
