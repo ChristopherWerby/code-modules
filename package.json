@@ -1,54 +1,64 @@
 {
-    "title": "Code Modules Sample Files",
-    "name": "code-modules-sample",
-    "version": "0.4.13",
-    "description": "Code Modules is a BBEdit Module System for Web Development. These are sample files using that system.",
+	"title": "Code Modules Sample Files",
+	"name": "code-modules-sample",
+	"version": "0.4.13",
+	"description": "Code Modules is a BBEdit Module System for Web Development. These are sample files using that system.",
 	"private": true,
-    "scripts": {
-        "start-legacy": "node_modules/.bin/gulp watch",
-        "start": "parcel public/index.html",
-        "build": "parcel build public/index.html",
-        "pushdev": "rsync -rlptDP '/Volumes/Condor/Code Modules/Web/code-modules-sample/Current/dist/' pip_cm@198.199.92.62:/var/www/codemodules/sample/dev/public",
-        "pushlive": "rsync -rlptDP '/Volumes/Condor/Code Modules/Web/code-modules-sample/Current/dist/' pip_cm@198.199.92.62:/var/www/codemodules/sample/production/public",
-        "webdev": "open '/Volumes/Condor/Code Modules/Text/2021-07-26-Module_Outline-v02.mcn'; cd '/Volumes/Condor/Code Modules/Web/code-modules-sample/Current/'; bbedit cm-sample.bbprojectd; open README.md; bbedit package.json; bbedit app/styles/_custom.less; bbedit app/styles/main.less; bbedit public/index.html; bbedit app/modules/pages/default.shtml; bbedit app/modules/pages/templates/home.shtml; bbedit README.md; open .; open http://localhost:1234/; npm start;"
-    },
-    "keywords": [
-        "bbedit",
-        "modules",
-        "html",
-        "html5",
-        "markup",
-        "code modules"
-    ],
-    "homepage": "https://sample.codemodules.net",
-    "bugs": {
-        "url": "https://github.com/ChristopherWerby/code-modules",
-        "email": "cwerby@pipsqueak.com"
-    },
-    "documentation": "https://codemodules.net",
-    "license": "MIT",
-    "author": "Christopher Werby",
-    "contributors": [
-        "David Miller — Start Bootstrap Modern Business Theme (https://davidmiller.io/)"
-    ],
-    "repository": {
-        "type": "git",
-        "origin": "git@github.com:ChristopherWerby/code-modules.git",
-        "local": "/Volumes/Scrub/Backups/repos/Code_Modules/Code-Modules-Sample/repo.git",
-        "production": "pip_cm@sample.codemodules.net:codemodules/repo.git"
-    },
-    "dependencies": {
-        "bootstrap": "4.5.3",
-        "jquery": "3.5.1",
-        "vendor": "^1.7.0"
-    },
-    "devDependencies": {
-        "browser-sync": "2.26.13",
-        "del": "6.0.0",
-        "gulp": "4.0.2",
-        "gulp-autoprefixer": "^7.0.1",
-        "gulp-less": "^4.0.1",
-        "merge-stream": "2.0.0",
-        "parcel-bundler": "^1.12.5"
-    }
+	"scripts": {
+		"start-legacy": "node_modules/.bin/gulp watch",
+		"start": "parcel public/index.html",
+		"build": "parcel build public/index.html",
+		"pushdev": "rsync -rlptDP '/Volumes/Condor/Code Modules/Web/code-modules-sample/Current/dist/' pip_cm@198.199.92.62:/var/www/codemodules/sample/dev/public",
+		"pushlive": "rsync -rlptDP '/Volumes/Condor/Code Modules/Web/code-modules-sample/Current/dist/' pip_cm@198.199.92.62:/var/www/codemodules/sample/production/public",
+		"webdev": "open '/Volumes/Condor/Code Modules/Text/2021-07-26-Module_Outline-v02.mcn'; cd '/Volumes/Condor/Code Modules/Web/code-modules-sample/Current/'; bbedit cm-sample.bbprojectd; open README.md; bbedit package.json; bbedit app/styles/_custom.less; bbedit app/styles/main.less; bbedit public/index.html; bbedit app/modules/pages/default.shtml; bbedit app/modules/pages/templates/home.shtml; bbedit README.md; open .; open http://localhost:1234/; npm start;"
+	},
+	"keywords": [
+		"bbedit",
+		"modules",
+		"html",
+		"html5",
+		"markup",
+		"code modules"
+	],
+	"hostname": "sample.codemodules.net",
+	"hostnameProxy": "http://localhost:1234/",
+	"bugs": {
+		"url": "https://github.com/ChristopherWerby/code-modules",
+		"email": "cwerby@pipsqueak.com"
+	},
+	"documentation": "https://codemodules.net",
+	"license": "MIT",
+	"author": {
+		"name": "Christopher Werby",
+		"email": "cwerby@pipsqueak.com",
+		"url": "https://pipsqueak.com/",
+		"twitter": "@pipsqueaks"
+	},
+	"contributors": [
+		{
+			"name": "David Miller",
+			"project": "Start Bootstrap Modern Business Theme",
+			"url": "https://davidmiller.io/"
+		}
+	],
+	"repository": {
+		"type": "git",
+		"origin": "git@github.com:ChristopherWerby/code-modules.git",
+		"local": "/Volumes/Scrub/Backups/repos/Code_Modules/Code-Modules-Sample/repo.git",
+		"production": "pip_cm@sample.codemodules.net:codemodules/repo.git"
+	},
+	"dependencies": {
+		"bootstrap": "4.5.3",
+		"jquery": "3.5.1",
+		"vendor": "^1.7.0"
+	},
+	"devDependencies": {
+		"browser-sync": "2.26.13",
+		"del": "6.0.0",
+		"gulp": "4.0.2",
+		"gulp-autoprefixer": "^7.0.1",
+		"gulp-less": "^4.0.1",
+		"merge-stream": "2.0.0",
+		"parcel-bundler": "^1.12.5"
+	}
 }
