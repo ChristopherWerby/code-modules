@@ -1,0 +1,7 @@
+<!-- #bbinclude "/markup/#MODULE#/types/#TYPE#.shtml"
+#bbincludeoptions#="inline=true"
+#TITLE#			= 'Homemade Hot Dog Buns?'
+#TEASER#		= 'They’re just a soft roll, after all. But I’ve never had a homemade hot dog bun. Have you?'
+#URL-EXT#		= 'https://www.hanielas.com/best-hot-dog-buns/'
+-->
+<!-- end bbinclude -->

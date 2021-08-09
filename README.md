@@ -223,6 +223,16 @@ _Begin Date - 2021-07-31_
 
 
 
+**v0.4.14** 
+_Begin Date - 2021-08-08_
+
+*	Work on the Blog module.
+	*	Use for the Services page.
+*	Refactor of Cards module types.
+	*	Abstract out the buttons to parts/
+
+
+
 
 [![][piplogo]][pipurl]
 

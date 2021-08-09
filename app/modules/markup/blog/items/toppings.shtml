@@ -1,0 +1,7 @@
+<!-- #bbinclude "/markup/#MODULE#/types/#TYPE#.shtml"
+#bbincludeoptions#="inline=true"
+#TITLE#			= 'Best Toppings for Hot Dogs?'
+#TEASER#		= 'Are you a sauerkraut fan? How about chili and cheddar? Those are far from the oddest things to use on top of a hot dog. From chopped kimchi to diced pineapple, take a look at some toppings that are some people’s favorites.'
+#URL-EXT#		= 'https://www.thehotdog.org/best-hot-dog-toppings/'
+-->
+<!-- end bbinclude -->

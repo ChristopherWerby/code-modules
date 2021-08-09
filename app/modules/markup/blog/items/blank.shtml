@@ -1,0 +1,10 @@
+<!-- #bbinclude "/markup/#MODULE#/types/#TYPE#.shtml"
+#bbincludeoptions#="inline=true"
+#TITLE#			= ''
+#TEASER#		= ''
+#URL#			= ''
+#URL-EXT#		= ''
+#ICON#			= '#ICON#'
+#COMMENT#		= 'ICON is external-link by default but can be overridden.'
+-->
+<!-- end bbinclude -->

@@ -9,6 +9,7 @@
 #INDENT#			</div>
 #INDENT#			<div class="card-footer">
 #bbinclude "parts/button-top.shtml"
+#bbinclude "parts/icon.shtml"
 #bbinclude "parts/button-bottom.shtml"
 #INDENT#			</div>
 #bbinclude "parts/bottom.shtml"

@@ -1,0 +1,3 @@
+#bbinclude "/markup/#MODULE#/items/sausages.shtml"
+#bbinclude "/markup/#MODULE#/items/buns.shtml"
+#bbinclude "/markup/#MODULE#/items/toppings.shtml"

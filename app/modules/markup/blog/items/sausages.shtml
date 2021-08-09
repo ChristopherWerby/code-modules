@@ -1,0 +1,7 @@
+<!-- #bbinclude "/markup/#MODULE#/types/#TYPE#.shtml"
+#bbincludeoptions#="inline=true"
+#TITLE#			= 'Are Hot Dogs Sausages?'
+#TEASER#		= 'Instinctively, you know that they are. But there’s an unmistakable difference between a sausage sandwich and a hot dog. So what’s the deal?'
+#URL-EXT#		= 'https://difference.guru/difference-between-a-hot-dog-and-a-sausage/'
+-->
+<!-- end bbinclude -->

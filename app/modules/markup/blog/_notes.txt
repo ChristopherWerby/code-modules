@@ -1,0 +1,6 @@
+<!-- #bbinclude "/markup/blog/default.shtml"
+#bbincludeoptions#="inline=true"
+#TEMPLATE#	= 'services'
+#INDENT#	= '			'
+-->
+<!-- end bbinclude -->

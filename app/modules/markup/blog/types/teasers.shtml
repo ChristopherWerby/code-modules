@@ -1,0 +1,11 @@
+<!-- #bbinclude "/markup/cards/default.shtml"
+#bbincludeoptions#="inline=true"
+#TYPE#		= 'item-with-button-and-icon'
+#URL#		= '#URL-EXT#'
+#TARGET#	= '#TARGET#'
+#TITLE#		= '#TITLE#'
+#TEXT#		= '#TEASER#'
+#LINKTEXT#	= '#LINKTEXT#'
+#COLUMNS#	= '#COLUMNS#'
+-->
+<!-- end bbinclude -->

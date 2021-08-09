@@ -1,0 +1,10 @@
+<!-- #bbinclude "templates/#TEMPLATE#.shtml"
+#bbincludeoptions#="inline=true"
+#MODULE# 		= "blog"
+#ICON#			= "external-link"
+#TARGET#		= "_blank"
+#COLUMNS#		= "4"
+#LINKTEXT#		= "Article"
+#INDENT# 		= "#INDENT#"
+-->
+<!-- end bbinclude -->
