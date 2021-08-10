@@ -228,6 +228,9 @@ _Begin Date - 2021-08-08_
 
 *	Work on the Blog module.
 	*	Use for the Services page.
+	*	Create a single blog post template.
+	*	Create a Recent Blog Posts sidebar widget.
+	*	Add individual blog posts to navigation.
 *	Refactor of Cards module types.
 	*	Abstract out the buttons to parts/
 
@@ -238,7 +241,7 @@ _Begin Date - 2021-08-08_
 
 
 [header]: https://pipsqueak.com/images/Logo-Code_Modules-OW-256-scaled-fgBlack-bgTrans-600x600.png
-[siteurl]: https://sample.codemodules.com
+[siteurl]: https://sample.codemodules.com/
 [piplogo]: https://pipsqueak.com/images/Logo-Pipsqueak_Bookplate-Red_Text-bgTrans-200x190.png
 [pipurl]: https://pipsqueak.com/
 
