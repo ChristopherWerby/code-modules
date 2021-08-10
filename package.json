@@ -10,7 +10,9 @@
 		"build": "parcel build public/index.html",
 		"pushdev": "rsync -rlptDP '/Volumes/Condor/Code Modules/Web/code-modules-sample/Current/dist/' pip_cm@198.199.92.62:/var/www/codemodules/sample/dev/public",
 		"pushlive": "rsync -rlptDP '/Volumes/Condor/Code Modules/Web/code-modules-sample/Current/dist/' pip_cm@198.199.92.62:/var/www/codemodules/sample/production/public",
-		"webdev": "open '/Volumes/Condor/Code Modules/Text/2021-07-26-Module_Outline-v02.mcn'; cd '/Volumes/Condor/Code Modules/Web/code-modules-sample/Current/'; bbedit cm-sample.bbprojectd; open README.md; bbedit package.json; bbedit app/styles/_custom.less; bbedit app/styles/main.less; bbedit public/index.html; bbedit app/modules/pages/default.shtml; bbedit app/modules/pages/templates/home.shtml; bbedit README.md; open .; open http://localhost:1234/; npm start;"
+		"loadfiles": "cd '/Volumes/Condor/Code Modules/Web/code-modules-sample/Current/'; open '/Volumes/Condor/Code Modules/Text/2021-07-26-Module_Outline-v02.mcn'; bbedit cm-sample.bbprojectd; bbedit package.json; bbedit app/styles/_custom.less; bbedit app/styles/main.less; bbedit public/index.html; bbedit app/modules/pages/default.shtml; bbedit app/modules/pages/templates/home.shtml; bbedit README.md; open .; open README.md;",
+		"browsers": "open http://localhost:1234/;",
+		"webdev": "npm run loadfiles; npm run browsers; npm start;"
 	},
 	"keywords": [
 		"bbedit",
