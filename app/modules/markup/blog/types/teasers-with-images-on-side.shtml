@@ -1,0 +1,15 @@
+<!-- #bbinclude "/markup/cards/default.shtml"
+#bbincludeoptions#="inline=true"
+#TYPE#			= 'image-side-text-button'
+#URL#			= '#URL#'
+#TARGET#		= '#TARGET#'
+#TITLE#			= '#TITLE#'
+#TEXT#			= '#TEASER#'
+#LINKTEXT#		= '#LINKTEXT#'
+#COLUMNS#		= '#COLUMNS#'
+#COLUMNS-ALT#	= '#COLUMNS-ALT#'
+#IMAGE#			= '#IMAGE-PATH#/#IMAGE#'
+#ALT#			= '#ALT#'
+#FOOTER#		= 'Posted #DATE-SLUG#'
+-->
+<!-- end bbinclude -->

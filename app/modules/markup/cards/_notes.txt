@@ -26,3 +26,19 @@ Note that columns is the number used out of 12. So 6 columns is 2 cards per row;
 #COLUMNS#	= '#COLUMNS#'
 -->
 <!-- end bbinclude -->
+
+
+<!-- #bbinclude "/markup/cards/default.shtml"
+#bbincludeoptions#="inline=true"
+#TYPE#		= 'image-with-hero-image-button-footer'
+#URL#		= '#URL#'
+#TARGET#	= '#TARGET#'
+#TITLE#		= '#TITLE#'
+#TEXT#		= '#TEASER#'
+#LINKTEXT#	= '#LINKTEXT#'
+#COLUMNS#	= '#COLUMNS#'
+#IMAGE#		= '#IMAGE-PATH#/#IMAGE#'
+#ALT#		= '#ALT#'
+#FOOTER#	= 'Posted #DATE-SLUG#'
+-->
+<!-- end bbinclude -->

@@ -234,6 +234,7 @@ _Begin Date - 2021-08-08_
 	*	Build out three blog pages.
 *	Refactor of Cards module types.
 	*	Abstract out the buttons to parts/
+*	Populate the Blog List Pages - Blog Home 1 and Blog Home 2.
 
 
 

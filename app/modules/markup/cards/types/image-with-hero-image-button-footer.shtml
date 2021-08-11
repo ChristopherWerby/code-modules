@@ -1,0 +1,16 @@
+#bbinclude "parts/top.shtml"
+#INDENT#			<a href="#URL#" target="#TARGET#"><img class="card-img-top" src="#IMAGE#" alt="#ALT#"></a>
+#INDENT#			<div class="card-body">
+#INDENT#				<h4 class="card-header">
+#INDENT#					#TITLE#
+#INDENT#				</h4>
+#INDENT#				<p class="card-text">
+#INDENT#					#TEXT#
+#INDENT#				</p>
+#bbinclude "parts/button-top.shtml"
+#bbinclude "parts/button-bottom.shtml"
+#INDENT#			</div>
+#INDENT#			<div class="card-footer text-muted">
+#INDENT#				#FOOTER#
+#INDENT#			</div>
+#bbinclude "parts/bottom.shtml"

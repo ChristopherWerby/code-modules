@@ -1,2 +1,2 @@
-#INDENT#	<div class="col-lg-#COLUMNS# mb-#COLUMNS#">
+#INDENT#	<div class="col-md-#COLUMNS# col-lg-#COLUMNS# mb-5">
 #INDENT#		<div class="card h-100">
