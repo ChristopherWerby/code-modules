@@ -1,0 +1,7 @@
+<!-- #bbinclude "/#MODULE#/types/dropdown-item.shtml"
+#bbincludeoptions#="inline=true"
+#TEXT#			= '#TEXT#'
+#URL#			= '#URL#'
+#COMMENT#		= 'This is used to convert Blog module items to dropdown links'
+-->
+<!-- end bbinclude -->

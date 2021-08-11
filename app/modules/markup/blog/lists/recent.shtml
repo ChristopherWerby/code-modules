@@ -1,0 +1,5 @@
+<!-- #bbinclude "default.shtml"
+#bbincludeoptions#="inline=true"
+#COMMENT#	= 'Recent list is the same as default list until there are more blog items.'
+-->
+<!-- end bbinclude -->

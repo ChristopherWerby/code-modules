@@ -1,0 +1,6 @@
+<!-- #bbinclude "/markup/#MODULE#/items/#ITEM#.shtml"
+#bbincludeoptions#="inline=true"
+#TYPE#		= 'single'
+#COLUMNS#	= '8'
+-->
+<!-- end bbinclude -->

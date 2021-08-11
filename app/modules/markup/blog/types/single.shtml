@@ -1,0 +1,21 @@
+<!-- Post Content Column -->
+				<div id="blogPostContent" class="col-lg-#COLUMNS#">
+<!-- Preview Image -->
+					<img class="img-fluid rounded" src="#IMAGE-PATH#/#IMAGE#" alt="#ALT#">
+					<hr> 
+<!-- Date/Time -->
+					<p>
+						Posted on #DATE-SLUG#
+					</p>
+					<hr> 
+<!-- Post Content -->
+					<h4 class="mb-4">
+						#TITLE#
+					</h4>
+					<p class="lead">
+						#TEASER#
+					</p>
+					#TEXT#
+					<hr> 
+				</div>
+<!-- /#blogPostContent /.col-lg-#COLUMNS# -->

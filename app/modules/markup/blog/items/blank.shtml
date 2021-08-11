@@ -4,7 +4,11 @@
 #TEASER#		= ''
 #URL#			= ''
 #URL-EXT#		= ''
-#ICON#			= '#ICON#'
-#COMMENT#		= 'ICON is external-link by default but can be overridden.'
+#NAV-NAME#		= ''
+#IMAGE#			= ''
+#ALT#			= ''
+#DATE-SLUG#		= ''
+#TEXT#			= ''
+#COMMENT#		= 'DATE-SLUG is in the form Monday, August 9, 2021. TEXT should be formatted as HTML within p tags. NAV-NAME is the link text for navigation, i.e. Sausage. ICON is external-link by default but can be overridden. IMAGE-PATH can be overridden.'
 -->
 <!-- end bbinclude -->

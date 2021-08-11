@@ -5,6 +5,7 @@
 #TARGET#		= "_blank"
 #COLUMNS#		= "4"
 #LINKTEXT#		= "Article"
+#IMAGE-PATH#	= 'images/editorial'
 #INDENT# 		= "#INDENT#"
 -->
 <!-- end bbinclude -->

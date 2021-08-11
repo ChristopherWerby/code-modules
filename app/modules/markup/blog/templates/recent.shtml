@@ -1,0 +1,22 @@
+<!-- Recent Blog Posts Widget -->
+#INDENT#<div class="card my-4">
+#INDENT#	<h5 class="card-header">
+#INDENT#		Recent Blog Posts
+#INDENT#	</h5>
+#INDENT#	<div class="card-body">
+#INDENT#		<div class="row">
+#INDENT#			<div class="col-lg-12">
+<!-- #bbinclude "/markup/#MODULE#/lists/recent.shtml"
+#bbincludeoptions#="inline=true"
+#TYPE#		= 'list'
+#INDENT#	= '#INDENT#				'
+-->
+<!-- end bbinclude -->
+#INDENT#			</div>
+<!-- /.col-lg-12 -->
+#INDENT#		</div>
+<!-- /.row -->
+#INDENT#	</div>
+<!-- /.card-body -->
+#INDENT#</div>
+<!-- /.card /.my-4 -->

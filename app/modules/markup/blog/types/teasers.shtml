@@ -1,7 +1,7 @@
 <!-- #bbinclude "/markup/cards/default.shtml"
 #bbincludeoptions#="inline=true"
-#TYPE#		= 'item-with-button-and-icon'
-#URL#		= '#URL-EXT#'
+#TYPE#		= 'item-with-button'
+#URL#		= '#URL#'
 #TARGET#	= '#TARGET#'
 #TITLE#		= '#TITLE#'
 #TEXT#		= '#TEASER#'

@@ -1,0 +1,8 @@
+#INDENT#<div class="card mt-4">
+#INDENT#	<h5 class="card-header">
+#INDENT#		#TITLE#
+#INDENT#	</h5>
+#INDENT#	<div class="card-body">
+#INDENT#		#TEXT#
+#INDENT#	</div>
+#INDENT#</div>

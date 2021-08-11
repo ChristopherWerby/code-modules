@@ -231,6 +231,7 @@ _Begin Date - 2021-08-08_
 	*	Create a single blog post template.
 	*	Create a Recent Blog Posts sidebar widget.
 	*	Add individual blog posts to navigation.
+	*	Build out three blog pages.
 *	Refactor of Cards module types.
 	*	Abstract out the buttons to parts/
 

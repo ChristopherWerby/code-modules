@@ -1,0 +1,40 @@
+<!-- #bbinclude "parts/top.shtml"
+#bbincludeoptions#="inline=true"
+#PAGE_TITLE# 		= "Toppings"
+#SUBHEAD#			= "Blog Post"
+#DESCRIPTION_ITEM#	= "#PAGE#"
+#KEYWORD_ITEM#		= "#PAGE#"
+#CANONICAL-URL# 	= "/blog-toppings.html"
+#DROPDOWN#			= "blog"
+#ID#				= "blogToppingsPage"
+#HIERARCHY#			= "tertiary"
+-->
+<!-- end bbinclude -->
+			<div class="row">
+<!-- #bbinclude "/markup/blog/default.shtml"
+#bbincludeoptions#="inline=true"
+#TEMPLATE#	= 'post'
+#ITEM#		= 'toppings'
+#INDENT#	= '				'
+-->
+<!-- end bbinclude -->
+<!-- Sidebar Widgets Column -->
+				<div class="col-md-4">
+<!-- #bbinclude "/markup/blog/default.shtml"
+#bbincludeoptions#="inline=true"
+#TEMPLATE#	= 'recent'
+#INDENT#	= '					'
+-->
+<!-- end bbinclude -->
+<!-- #bbinclude "/elements/default.shtml"
+#bbincludeoptions#  ="inline=true"
+#TEMPLATE#  = 'markup'
+#ITEM#      = 'hot-dogs-relation-to-code-modules'
+#INDENT#	= '					'
+-->
+<!-- end bbinclude -->
+				</div>
+<!-- /.col-md-4 -->
+			</div>
+<!-- /.row -->
+#bbinclude "parts/bottom.shtml"

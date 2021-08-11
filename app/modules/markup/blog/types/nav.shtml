@@ -1,0 +1,7 @@
+<!-- #bbinclude "/nav/default.shtml"
+#bbincludeoptions#="inline=true"
+#TEMPLATE#	= 'dropdown-single'
+#TEXT#		= '#NAV-NAME#'
+#URL#		= '#URL#'
+-->
+<!-- end bbinclude -->

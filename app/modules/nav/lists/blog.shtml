@@ -1,3 +1,4 @@
 #bbinclude "/#MODULE#/items/tertiary/blog/home-1.shtml"
 #bbinclude "/#MODULE#/items/tertiary/blog/home-2.shtml"
 #bbinclude "/#MODULE#/items/tertiary/blog/post.shtml"
+#bbinclude "/#MODULE#/items/tertiary/blog/all-posts.shtml"

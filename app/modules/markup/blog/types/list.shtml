@@ -1,0 +1,9 @@
+#INDENT#<li class="mb-3">
+#INDENT#	<a href="#URL#">
+#INDENT#		<small>
+#INDENT#			#DATE-SLUG#
+#INDENT#		</small>
+#INDENT#		<br />
+#INDENT#		#TITLE#
+#INDENT#	</a>
+#INDENT#</li>
