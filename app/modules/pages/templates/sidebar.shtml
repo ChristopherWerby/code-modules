@@ -17,6 +17,7 @@
 <!-- #bbinclude "/nav/default.shtml"
 #bbincludeoptions#="inline=true"
 #TEMPLATE#	= 'div-links'
+#TYPE#		= 'simple-bare'
 #INDENT#	= '					'
 -->
 <!-- end bbinclude -->

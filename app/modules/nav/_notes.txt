@@ -27,3 +27,22 @@ It can also return a div with a flat set of links (for sidebar; since only for s
 #INDENT#	= '				'
 -->
 <!-- end bbinclude -->
+
+
+<!-- #bbinclude "/nav/default.shtml"
+#bbincludeoptions#="inline=true"
+#TEMPLATE#	= 'dropdown-single'
+#TYPE#		= '#SIMPLE-TYPE#'
+#TEXT#		= '#NAV-NAME#'
+#URL#		= '#URL#'
+-->
+<!-- end bbinclude -->
+
+
+<!-- #bbinclude "/nav/default.shtml"
+#bbincludeoptions#="inline=true"
+#TEMPLATE#	= 'div-links'
+#TYPE#		= 'simple-bare'
+#INDENT#	= '					'
+-->
+<!-- end bbinclude -->

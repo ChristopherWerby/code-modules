@@ -238,6 +238,15 @@ _Begin Date - 2021-08-08_
 
 
 
+**v0.4.15** 
+_Begin Date - 2021-08-13_
+
+*	Make the blog items appear on the various nav lists automatically.
+	*	This was tricky and will be a bit difficult to explain in documentation. 
+	*	But it's a good example of the power of Code Modules.
+
+
+
 
 [![][piplogo]][pipurl]
 

@@ -1,5 +1,5 @@
 <!-- Recent Blog Posts Widget -->
-#INDENT#<div class="card my-4">
+#INDENT#<div class="card">
 #INDENT#	<h5 class="card-header">
 #INDENT#		Recent Blog Posts
 #INDENT#	</h5>
