@@ -4,7 +4,7 @@ It also can return an unordered ul list of links with sub sections for each drop
 
 It can also return a div with a flat set of links (for sidebar; since only for sidebar, this one has an active class on the sidebar link) — template: unordered-linked-list.
 
-BLOG-POSTS-TYPE variable defines the form of the markup which comes from the Blog module when getting individual blog posts.
+TERTIARY-NAV-TYPE variable defines the form of the markup which comes from the Blog module when getting individual blog posts.
 
 SIMPLE-TYPE is for simple nav links that aren't dropdown items.
 
@@ -12,7 +12,7 @@ SIMPLE-TYPE is for simple nav links that aren't dropdown items.
 <!-- #bbinclude "/nav/default.shtml"
 #bbincludeoptions#="inline=true"
 #SIMPLE-TYPE#		= 'simple'
-#BLOG-POSTS-TYPE#	= 'dropdown-item'
+#TERTIARY-NAV-TYPE#	= 'dropdown-item'
 #TEMPLATE#			= 'default'
 #INDENT#			= '		'
 -->
@@ -31,7 +31,7 @@ SIMPLE-TYPE is for simple nav links that aren't dropdown items.
 #bbincludeoptions#="inline=true"
 #TEMPLATE#			= 'unordered-linked-list'
 #SIMPLE-TYPE#		= 'dropdown-item-ul'
-#BLOG-POSTS-TYPE#	= 'dropdown-item-ul'
+#TERTIARY-NAV-TYPE#	= 'dropdown-item-ul'
 #INDENT#			= '				'
 -->
 <!-- end bbinclude -->
@@ -52,7 +52,7 @@ SIMPLE-TYPE is for simple nav links that aren't dropdown items.
 #bbincludeoptions#="inline=true"
 #TEMPLATE#			= 'div-links'
 #SIMPLE-TYPE#		= 'simple-bare'
-#BLOG-POSTS-TYPE#	= 'simple-bare'
+#TERTIARY-NAV-TYPE#	= 'simple-bare'
 #INDENT#			= '					'
 -->
 <!-- end bbinclude -->

@@ -15,7 +15,7 @@
 <!-- #bbinclude "/nav/default.shtml"
 #bbincludeoptions#="inline=true"
 #SIMPLE-TYPE#		= 'simple'
-#BLOG-POSTS-TYPE#	= 'dropdown-item'
+#TERTIARY-NAV-TYPE#	= 'dropdown-item'
 #TEMPLATE#			= 'default'
 #INDENT#			= '		'
 -->

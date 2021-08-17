@@ -250,14 +250,14 @@ _Begin Date - 2021-08-13_
 **v0.4.16** 
 _Begin Date - 2021-08-16_
 
-*	Got the Blog items to work in the various navigation markup forms.
-	*	Uses BLOG-POSTS-TYPE variable
-		*	This defines how the Blog Post item will look in the navigation list.
+*	Got the Blog and Portfolio (top-level-modules) items to work in the various navigation markup forms.
+	*	Uses TERTIARY-NAV-TYPE variable
+		*	This defines how the Blog Post and Portfolio items will look in the navigation list.
 			*	There are three different navigation placements: top, sidebar, 404.  
 			*	Top is a dropdown-item, sidebar is simple-bare, and 404 is dropdown-item-ul.
 	*	Uses the recent blog posts list.
 		*	Right now, that's the same as all blog posts.
-*	The Portfolio (top-level-modules) items work now in the various navigation markup forms.
+	*	The Portfolio (top-level-modules) items work now in the various navigation markup forms.
 
 
 
