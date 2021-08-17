@@ -2,6 +2,6 @@
 #bbincludeoptions#="inline=true"
 #TEXT#			= '#TEXT#'
 #URL#			= '#URL#'
-#COMMENT#		= 'This is used to convert Blog module items to dropdown links. The SIMPLE-TYPE variable is either simple-bare (for just an <a> link) or dropdown-item-ul (for an <li> element).'
+#COMMENT#		= 'This is used to convert Blog module items to dropdown links. The BLOG-POSTS-TYPE variable is defined in the Pages default (for top nav) or the template for sidebar or 404 page and is either simple-bare (for just an <a> link) or dropdown-item-ul (for an <li> element).'
 -->
 <!-- end bbinclude -->

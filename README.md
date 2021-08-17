@@ -242,11 +242,7 @@ _Begin Date - 2021-08-08_
 _Begin Date - 2021-08-13_
 
 *	Make the blog items appear on the various nav lists automatically.
-	*	This was tricky and will be a bit difficult to explain in documentation. Info below is obsolete.
-		*	pages/templates/sidebar defines SIMPLE-TYPE (simple-bare)
-		*	pages/templates/404 defines SIMPLE-TYPE (dropdown-item-ul)
-		*	nav/templates/default defines SIMPLE-TYPE (simple)
-		*	nav/templates/unordered-linked-list defines SIMPLE-TYPE (simple-ul)
+	*	This was tricky and will be a bit difficult to explain in documentation. 
 	*	But it's a good example of the power of Code Modules.
 
 
@@ -256,7 +252,8 @@ _Begin Date - 2021-08-16_
 
 *	Got the Blog items to work in the various navigation markup forms.
 	*	Uses BLOG-POSTS-TYPE variable
-	*	Needs to be refactored.
+	*	Uses the recent blog posts list.
+		*	Right now, that's the same as all blog posts.
 
 
 

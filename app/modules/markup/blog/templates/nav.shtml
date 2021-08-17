@@ -1,4 +1,4 @@
-<!-- #bbinclude "/markup/#MODULE#/lists/default.shtml"
+<!-- #bbinclude "/markup/#MODULE#/lists/recent.shtml"
 #bbincludeoptions#="inline=true"
 #TYPE#			= 'nav'
 -->
