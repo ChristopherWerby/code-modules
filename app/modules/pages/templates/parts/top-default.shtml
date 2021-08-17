@@ -14,7 +14,9 @@
 	<body id="#ID#" class="#HIERARCHY#" data-preloader="2">
 <!-- #bbinclude "/nav/default.shtml"
 #bbincludeoptions#="inline=true"
-#TEMPLATE#	= 'default'
-#INDENT#	= '		'
+#SIMPLE-TYPE#		= 'simple'
+#BLOG-POSTS-TYPE#	= 'dropdown-item'
+#TEMPLATE#			= 'default'
+#INDENT#			= '		'
 -->
 <!-- end bbinclude -->

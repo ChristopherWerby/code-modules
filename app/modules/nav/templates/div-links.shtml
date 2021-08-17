@@ -1,7 +1,6 @@
 #INDENT#<div class="list-group">
 <!-- #bbinclude "/#MODULE#/lists/default-with-home.shtml"
 #bbincludeoptions#="inline=true"
-#SIMPLE-TYPE#			= 'simple-bare'
 #DROPDOWN-TYPE#			= 'dropdown-bare-link'
 #DROPDOWN-ITEM-TYPE#	= 'simple-bare'
 #ACTIVE-CLASS#			= ''

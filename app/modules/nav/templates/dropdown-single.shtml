@@ -1,7 +1,7 @@
-<!-- #bbinclude "/#MODULE#/types/#TYPE#.shtml"
+<!-- #bbinclude "/#MODULE#/types/#BLOG-POSTS-TYPE#.shtml"
 #bbincludeoptions#="inline=true"
-#TEXT#					= '#TEXT#'
-#URL#					= '#URL#'
-#COMMENT#		= 'This is used to convert Blog module items to dropdown links. The TYPE variable is either simple-bare (for just an <a> link) or dropdown-item (for an <li> element).'
+#TEXT#			= '#TEXT#'
+#URL#			= '#URL#'
+#COMMENT#		= 'This is used to convert Blog module items to dropdown links. The SIMPLE-TYPE variable is either simple-bare (for just an <a> link) or dropdown-item-ul (for an <li> element).'
 -->
 <!-- end bbinclude -->

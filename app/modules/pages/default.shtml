@@ -91,6 +91,7 @@
 #KEYWORD_ITEM#				= 'default'
 #CONTACT_FORM#				= 'contact'
 #ICON-CLASS#				= 'fa-1x'
+#SIMPLE-TYPE#				= 'simple'
 #INDENT#					= '		'
 #COLUMNS#					= '4'
 #COMMENT#					= 'Default columns is for three items - 4 columns out of 12'

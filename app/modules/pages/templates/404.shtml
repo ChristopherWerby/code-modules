@@ -19,8 +19,10 @@
 				</p>
 <!-- #bbinclude "/nav/default.shtml"
 #bbincludeoptions#="inline=true"
-#TEMPLATE#	= 'unordered-linked-list'
-#INDENT#	= '				'
+#TEMPLATE#			= 'unordered-linked-list'
+#SIMPLE-TYPE#		= 'dropdown-item-ul'
+#BLOG-POSTS-TYPE#	= 'dropdown-item-ul'
+#INDENT#			= '				'
 -->
 <!-- end bbinclude -->
 			</div>

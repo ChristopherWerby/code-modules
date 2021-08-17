@@ -16,9 +16,10 @@
 				<div class="col-lg-3 mb-4">
 <!-- #bbinclude "/nav/default.shtml"
 #bbincludeoptions#="inline=true"
-#TEMPLATE#	= 'div-links'
-#TYPE#		= 'simple-bare'
-#INDENT#	= '					'
+#TEMPLATE#			= 'div-links'
+#SIMPLE-TYPE#		= 'simple-bare'
+#BLOG-POSTS-TYPE#	= 'simple-bare'
+#INDENT#			= '					'
 -->
 <!-- end bbinclude -->
 				</div>

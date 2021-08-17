@@ -1,5 +1,5 @@
 <!-- #bbinclude "/markup/#MODULE#/lists/default.shtml"
 #bbincludeoptions#="inline=true"
-#TYPE#		= 'nav'
+#TYPE#			= 'nav'
 -->
 <!-- end bbinclude -->

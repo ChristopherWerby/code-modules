@@ -1,7 +1,6 @@
 #bbinclude "parts/top.shtml"
 <!-- #bbinclude "/#MODULE#/lists/default.shtml"
 #bbincludeoptions#="inline=true"
-#SIMPLE-TYPE#			= 'simple'
 #DROPDOWN-TYPE#			= 'dropdown'
 #DROPDOWN-ITEM-TYPE#	= 'dropdown-item'
 -->

@@ -1,6 +1,6 @@
 <!-- #bbinclude "/markup/blog/default.shtml"
 #bbincludeoptions#="inline=true"
-#TEMPLATE#	= 'nav'
-#INDENT#	= '#INDENT#'
+#TEMPLATE#			= 'nav'
+#INDENT#			= '#INDENT#		'
 -->
 <!-- end bbinclude -->
