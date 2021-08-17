@@ -16,6 +16,7 @@
 #bbincludeoptions#="inline=true"
 #SIMPLE-TYPE#		= 'simple'
 #TERTIARY-NAV-TYPE#	= 'dropdown-item'
+#DROPDOWN-DIVIDER#	= 'dropdown-divider'
 #TEMPLATE#			= 'default'
 #INDENT#			= '		'
 -->

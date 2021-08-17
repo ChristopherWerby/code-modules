@@ -1,3 +1,4 @@
+#bbinclude "#DROPDOWN-DIVIDER#.shtml"
 <!-- #bbinclude "/markup/blog/default.shtml"
 #bbincludeoptions#="inline=true"
 #TEMPLATE#			= 'nav'

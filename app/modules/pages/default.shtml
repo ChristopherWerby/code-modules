@@ -90,6 +90,7 @@
 #DESCRIPTION_ITEM#			= 'default'
 #KEYWORD_ITEM#				= 'default'
 #CONTACT_FORM#				= 'contact'
+#DROPDOWN-DIVIDER#			= 'null'
 #ICON-CLASS#				= 'fa-1x'
 #INDENT#					= '		'
 #COLUMNS#					= '4'
