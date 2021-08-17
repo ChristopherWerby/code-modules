@@ -260,7 +260,7 @@ _Begin Date - 2021-08-16_
 	*	The Portfolio (top-level-modules) items now work in the various navigation markup forms.
 *	Some clean-up for navigation changes.
 *	Add a Dropdown Divider for top navigation that's null on the other navigation forms.
-
+*	Remove single blog post and single portfolio item from navigation.
 
 
 [![][piplogo]][pipurl]
