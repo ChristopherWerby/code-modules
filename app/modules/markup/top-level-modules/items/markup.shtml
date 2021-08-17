@@ -3,10 +3,11 @@
 #IMAGE#			= '/images/editorial/Markup-Hot_Dog_and_Condiments-by_Unsplash-RCV-700x400.jpg'
 #ALT#			= 'Hotdogs with Scattered Condiments'
 #TITLE#			= 'Markup Modules'
+#NAV-NAME#		= 'Markup Modules'
 #NAME-CLASS#	= 'markup'
 #TEXT#			= '<strong>Markup modules</strong> return a bit of markup. Each of these modules live as a subfolder of <code>app/modules/markup/</code>. Most websites will have many markup modules.'
 #EXTRA-TEXT#	= 'In this sample file website, the content for this page and all the Portfolio pages and the section on the Home page comes from the Top-level-module which is found at <code>markup/top-level-module/</code>. Each of those pages call the same module which returns the same data within slightly different markup depending on the needs of the page.'
-#URL#			= '/portfolio-markup.html'
+#URL#			= 'portfolio-markup.html'
 #URL-DOCS#		= '#URL-DOCUMENTATION#/usage/markup-modules'
 #TARGET#		= '#DOCUMENTATION-TARGET#'
 -->

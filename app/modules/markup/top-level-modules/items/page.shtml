@@ -3,10 +3,11 @@
 #IMAGE#			= '/images/editorial/Page-Scattered_Hot_Dogs-by_Unsplash-RCV-700x400.jpg'
 #ALT#			= 'Scattered Hotdogs'
 #TITLE#			= 'Page Module'
+#NAV-NAME#		= 'Page Module'
 #NAME-CLASS#	= 'page'
 #TEXT#			= 'The <strong>Page module</strong> is located at <code>app/modules/pages/</code>. Top level HTML pages contain almost no content other than a call to the Pages module. The Pages module sets a number of global variables and then calls all the other modules needed to build the top level page.'
 #EXTRA-TEXT#	= 'Every page on this sample website is built in this way. There’s a doppelgänger page behind each public-facing page that calls other modules to build the public page.'
-#URL#			= '/portfolio-page.html'
+#URL#			= 'portfolio-page.html'
 #URL-DOCS#		= '#URL-DOCUMENTATION#/usage/pages-module'
 #TARGET#		= '#DOCUMENTATION-TARGET#'
 -->

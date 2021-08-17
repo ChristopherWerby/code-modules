@@ -257,6 +257,7 @@ _Begin Date - 2021-08-16_
 			*	Top is a dropdown-item, sidebar is simple-bare, and 404 is dropdown-item-ul.
 	*	Uses the recent blog posts list.
 		*	Right now, that's the same as all blog posts.
+*	The Portfolio (top-level-modules) items work now in the various navigation markup forms.
 
 
 

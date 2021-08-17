@@ -22,6 +22,7 @@
 #TEMPLATE#			= 'unordered-linked-list'
 #SIMPLE-TYPE#		= 'dropdown-item-ul'
 #BLOG-POSTS-TYPE#	= 'dropdown-item-ul'
+#PORTFOLIO-TYPE#	= 'dropdown-item-ul'
 #INDENT#			= '				'
 -->
 <!-- end bbinclude -->

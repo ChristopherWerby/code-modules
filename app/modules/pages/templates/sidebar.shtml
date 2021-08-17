@@ -19,6 +19,7 @@
 #TEMPLATE#			= 'div-links'
 #SIMPLE-TYPE#		= 'simple-bare'
 #BLOG-POSTS-TYPE#	= 'simple-bare'
+#PORTFOLIO-TYPE#	= 'simple-bare'
 #INDENT#			= '					'
 -->
 <!-- end bbinclude -->
