@@ -1,6 +1,6 @@
 Calls to the module go here.
 
-<!-- #bbinclude "/markup/blank/default.shtml"
+<!-- #bbinclude "/markup/customers/default.shtml"
 #bbincludeoptions#="inline=true"
 #INDENT#	= "				"
 -->
