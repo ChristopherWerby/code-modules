@@ -1,0 +1,7 @@
+<!-- #bbinclude "/markup/#MODULE#/types/default.shtml"
+#bbincludeoptions#="inline=true"
+#NAME#			= 'Beanstalk Investments'
+#IMAGE#			= 'Logo-Swoop_with_Leaves-1446293-32-400x400.png'
+#ALT#			= 'Fake Logo for Beanstalk Investments, courtesy Gorkhs via Pixabay'
+-->
+<!-- end bbinclude -->

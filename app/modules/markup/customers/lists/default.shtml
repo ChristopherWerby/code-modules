@@ -1,0 +1,6 @@
+#bbinclude "/markup/#MODULE#/items/bird-stylized.shtml"
+#bbinclude "/markup/#MODULE#/items/fire-in-circle.shtml"
+#bbinclude "/markup/#MODULE#/items/flower-petal.shtml"
+#bbinclude "/markup/#MODULE#/items/origami-bird.shtml"
+#bbinclude "/markup/#MODULE#/items/swoop-with-leaves.shtml"
+#bbinclude "/markup/#MODULE#/items/tree-with-birds.shtml"

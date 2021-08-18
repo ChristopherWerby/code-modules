@@ -1,0 +1,7 @@
+<!-- #bbinclude "/markup/#MODULE#/types/default.shtml"
+#bbincludeoptions#="inline=true"
+#NAME#			= 'Birdy'
+#IMAGE#			= 'Logo-Bird_Stylized-1933884-32-400x400.png'
+#ALT#			= 'Fake Logo for Birdy, courtesy Ptra via Pixabay'
+-->
+<!-- end bbinclude -->

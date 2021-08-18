@@ -1,0 +1,7 @@
+<!-- #bbinclude "/markup/#MODULE#/types/default.shtml"
+#bbincludeoptions#="inline=true"
+#NAME#			= 'Nature Paint'
+#IMAGE#			= 'Logo-Flower_Petal-304573-32-400x400.png'
+#ALT#			= 'Fake Logo for Nature Paint, courtesy Clker Free via Pixabay'
+-->
+<!-- end bbinclude -->

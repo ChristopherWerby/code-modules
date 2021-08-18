@@ -1,4 +1,4 @@
-#INDENT#	<div class="col-lg-3 mb-4">
+#INDENT#	<div class="col-lg-#COLUMNS-LG# col-md-#COLUMNS-MD# col-sm-#COLUMNS-SM# mb-4">
 #INDENT#		<div class="card h-100 text-center">
 #INDENT#			<img class="portrait card-img-top" src="#PORTRAITPATH##PORTRAIT#" alt="Portrait of #NAME#" />
 #INDENT#			<div class="card-body">

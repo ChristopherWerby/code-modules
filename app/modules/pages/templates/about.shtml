@@ -16,53 +16,40 @@
 				</div>
 				<div class="col-lg-6">
 					<h2>
-						About Modern Business
+						Fake Company and Fake Profiles
 					</h2>
 					<p>
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed voluptate nihil eum consectetur similique? Consectetur, quod, incidunt, harum nisi dolores delectus reprehenderit voluptatem perferendis dicta dolorem non blanditiis ex fugiat.
+						There is no “Code Modules” company. It’s an open source software idea fleshed out with a sample website showing how it might be used in production.
 					</p>
 					<p>
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe, magni, aperiam vitae illum voluptatum aut sequi impedit non velit ab ea pariatur sint quidem corporis eveniet. Odit, temporibus reprehenderit dolorum!
+						Most websites have an About section which features photos and profiles of company leaders. To that end, here are some fake profiles of our imaginary leadership.
 					</p>
 					<p>
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et, consequuntur, modi mollitia corporis ipsa voluptate corrupti eum ratione ex ea praesentium quibusdam? Aut, in eum facere corrupti necessitatibus perspiciatis quis?
+						Oh, and the customer logos at the bottom of the page? Those are fake too!
 					</p>
 				</div>
 			</div>
 <!-- /.row -->
 <!-- Team Members -->
 			<h2>
-				Our Team
+				Our (Fake) Team
 			</h2>
 <!-- #bbinclude "/markup/team/default.shtml"
 #bbincludeoptions#="inline=true"
 #TEMPLATE#	= 'default'
+#COLUMNS-LG#	= '6'
+#COLUMNS-MD#	= '6'
+#COLUMNS-SM#	= '12'
 #INDENT#	= "				"
 -->
 <!-- end bbinclude -->
 <!-- Our Customers -->
 			<h2>
-				Our Customers
+				Our (Fake) Customers
 			</h2>
-			<div class="row">
-				<div class="col-lg-2 col-sm-4 mb-4">
-					<img class="img-fluid" src="https://dummyimage.com/500x300/CCC/999.gif" alt=""> 
-				</div>
-				<div class="col-lg-2 col-sm-4 mb-4">
-					<img class="img-fluid" src="https://dummyimage.com/500x300/CCC/999.gif" alt=""> 
-				</div>
-				<div class="col-lg-2 col-sm-4 mb-4">
-					<img class="img-fluid" src="https://dummyimage.com/500x300/CCC/999.gif" alt=""> 
-				</div>
-				<div class="col-lg-2 col-sm-4 mb-4">
-					<img class="img-fluid" src="https://dummyimage.com/500x300/CCC/999.gif" alt=""> 
-				</div>
-				<div class="col-lg-2 col-sm-4 mb-4">
-					<img class="img-fluid" src="https://dummyimage.com/500x300/CCC/999.gif" alt=""> 
-				</div>
-				<div class="col-lg-2 col-sm-4 mb-4">
-					<img class="img-fluid" src="https://dummyimage.com/500x300/CCC/999.gif" alt=""> 
-				</div>
-			</div>
-<!-- /.row -->
+<!-- #bbinclude "/markup/customers/default.shtml"
+#bbincludeoptions#="inline=true"
+#INDENT#	= "			"
+-->
+<!-- end bbinclude -->
 #bbinclude "parts/bottom.shtml"

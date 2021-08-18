@@ -1,0 +1,3 @@
+#INDENT#	<li class="col-lg-2 col-sm-4 mb-4">
+#INDENT#		<img class="img-fluid" src="#IMAGEPATH#/#IMAGE#" alt="#ALT#"> 
+#INDENT#	</li>

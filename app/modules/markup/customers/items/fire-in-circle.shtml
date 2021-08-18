@@ -1,0 +1,7 @@
+<!-- #bbinclude "/markup/#MODULE#/types/default.shtml"
+#bbincludeoptions#="inline=true"
+#NAME#			= 'Camp Gas'
+#IMAGE#			= 'Logo-Fire_in_Circle-303309-32-400x400.png'
+#ALT#			= 'Fake Logo for Camp Gas, courtesy Clkr Free via Pixabay'
+-->
+<!-- end bbinclude -->

@@ -1,0 +1,7 @@
+<!-- #bbinclude "/markup/#MODULE#/types/default.shtml"
+#bbincludeoptions#="inline=true"
+#NAME#			= 'Fold and Fly'
+#IMAGE#			= 'Logo-Origami_Bird-1913689-32-400x400.png'
+#ALT#			= 'Fake Logo for Fold and Fly, courtesy Ptra via Pixabay'
+-->
+<!-- end bbinclude -->

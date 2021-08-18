@@ -1,0 +1,7 @@
+<!-- #bbinclude "/markup/#MODULE#/types/default.shtml"
+#bbincludeoptions#="inline=true"
+#NAME#			= 'Wellness Center'
+#IMAGE#			= 'Logo-Tree_with_Birds-Silhouette-5334773-32-400x400.png'
+#ALT#			= 'Fake Logo for Wellness Center, courtesy Pixabay'
+-->
+<!-- end bbinclude -->

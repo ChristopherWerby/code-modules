@@ -260,7 +260,17 @@ _Begin Date - 2021-08-16_
 	*	The Portfolio (top-level-modules) items now work in the various navigation markup forms.
 *	Some clean-up for navigation changes.
 *	Add a Dropdown Divider for top navigation that's null on the other navigation forms.
+	*	Defined as null by default and as 'dropdown-divider' for top navigation.
 *	Remove single blog post and single portfolio item from navigation.
+
+
+
+**v0.4.17** 
+_Begin Date - 2021-08-17_
+
+*	Flesh out the About page.
+*	Add photos for fake team members.
+*	Create a Customers module with fake logos.
 
 
 [![][piplogo]][pipurl]
