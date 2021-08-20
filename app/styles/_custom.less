@@ -191,3 +191,49 @@ ol, ul //Special Classes applied to ol or ul.
 		
 
 /* @end PIPSQUEAK STANDARD LIST CLASSES */
+
+
+
+
+
+
+
+/*
+====================================================
+@group Overrides
+==================================================== */
+
+//Bootstrap requires that each li tag in a list group (within a card) has the class list-group-item.  Instead, if the ul or ol tag has the new class list-group-items, then all the li tags within it are treated as if they had the class, even if they don't.
+
+.list-group-items
+{
+	
+	
+	
+	&.list-group-flush > li {
+		border-width: 0 0 1px;
+	}
+
+	li:first-child {
+		border-top-left-radius: inherit;
+		border-top-right-radius: inherit;
+	}
+
+	li {
+		position: relative;
+		display: block;
+		padding: 0.75rem 1.25rem;
+		background-color: #fff;
+		border: 1px solid rgba(0, 0, 0, 0.125);
+	
+	}
+}
+
+
+
+
+
+
+/* @end Overrides
+--------------------------------------------------------------------------------------- */
+

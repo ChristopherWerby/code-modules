@@ -1,0 +1,11 @@
+<!-- #bbinclude "/markup/#MODULE#/types/#TYPE#.shtml"
+#bbincludeoptions#="inline=true"
+#TITLE#			= 'Loaded'
+#PRICE#			= '$5.99'
+#IMAGE#			= 'Hand_Holds_Loaded_Hot_Dog-40-1400x933.jpg'
+#ALT#			= 'Hand Holding Loaded Hot Dog, by Ion &#350;ipilov via Unsplash'
+#LIST#			= '<li>All beef hot dog</li><li>Grilled</li><li>Homemade bun</li><li>Huge selection of interesting toppings</li><li>It’s a bit messy</li>'
+#TEXT#			= 'For the full hot dog experience, try a loaded dog, pictured with Canadian bacon.'
+#BUTTON-TEXT#	= 'Sold Out'
+-->
+<!-- end bbinclude -->

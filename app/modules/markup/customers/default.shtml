@@ -1,7 +1,7 @@
 <!-- #bbinclude "templates/default.shtml"
 #bbincludeoptions#="inline=true"
 #MODULE# 		= "customers"
-#IMAGEPATH#		= '/images/logos/'
+#IMAGE-PATH#	= '/images/logos'
 #INDENT# 		= "#INDENT#"
 -->
 <!-- end bbinclude -->

@@ -1,6 +1,8 @@
 <!-- #bbinclude "templates/#TEMPLATE#.shtml"
 #bbincludeoptions#="inline=true"
-#MODULE# 		= 'team'
-#IMAGE-PATH#	= '/images/portraits'
+#MODULE# 		= "products"
+#ACTIVE-CLASS#	= ''
+#IMAGE-PATH#	= '/images/products'
+#INDENT# 		= "#INDENT#"
 -->
 <!-- end bbinclude -->

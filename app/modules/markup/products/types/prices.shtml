@@ -1,0 +1,20 @@
+#bbinclude "parts/top.shtml"
+#INDENT#			<h3 class="card-header#ACTIVE-CLASS#">
+#INDENT#				#TITLE#
+#INDENT#			</h3>
+#INDENT#			<img class="card-img-top" src="#IMAGE-PATH#/#IMAGE#" alt="#ALT#">
+#INDENT#			<div class="card-body">
+#INDENT#				<div class="display-4">
+#INDENT#					#PRICE#
+#INDENT#				</div>
+#INDENT#				<ul class="list-group list-group-flush list-group-items">
+#INDENT#					#LIST#
+#INDENT#				</ul>
+#INDENT#				<p class="card-text mt-3">
+#INDENT#					#TEXT#
+#INDENT#				</p>
+#INDENT#			</div>
+<!-- /.card-body -->
+#INDENT#			<a href="#" class="btn btn-primary">
+#INDENT#				#BUTTON-TEXT#</a>
+#bbinclude "parts/bottom.shtml"

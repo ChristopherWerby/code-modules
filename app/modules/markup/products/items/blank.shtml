@@ -1,0 +1,12 @@
+<!-- #bbinclude "/markup/#MODULE#/types/#TYPE#.shtml"
+#bbincludeoptions#="inline=true"
+#TITLE#			= ''
+#PRICE#			= ''
+#IMAGE#			= ''
+#ALT#			= ''
+#LIST#			= ''
+#TEXT#			= ''
+#BUTTON-TEXT#	= 'Sold Out'
+#COMMENT#		= 'LIST is just wrapped with li tags, not with ul or ol. One product has the active class, which should be bg-primary text-white'
+-->
+<!-- end bbinclude -->

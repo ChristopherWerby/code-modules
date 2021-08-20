@@ -1,0 +1,7 @@
+#bbinclude "parts/top.shtml"
+<!-- #bbinclude "/markup/#MODULE#/lists/default.shtml"
+#bbincludeoptions#="inline=true"
+#TYPE#		= 'prices'
+-->
+<!-- end bbinclude -->
+#bbinclude "parts/bottom.shtml"

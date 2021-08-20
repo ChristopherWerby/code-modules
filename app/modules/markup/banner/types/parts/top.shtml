@@ -1,2 +1,2 @@
-					<div class="carousel-item #ACTIVECLASS#" style="background-image: url('#IMAGEPATH##IMAGE#')">
+					<div class="carousel-item #ACTIVECLASS#" style="background-image: url('#IMAGE-PATH#/#IMAGE#')">
 						<div class="carousel-caption d-none d-md-block">

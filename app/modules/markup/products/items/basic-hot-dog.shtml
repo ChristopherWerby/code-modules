@@ -1,0 +1,11 @@
+<!-- #bbinclude "/markup/#MODULE#/types/#TYPE#.shtml"
+#bbincludeoptions#="inline=true"
+#TITLE#			= 'Basic'
+#PRICE#			= '$3.99'
+#IMAGE#			= 'Single_Hot_Dog-Simple-40-1400x933.jpg'
+#ALT#			= 'Single basic hot dog on plate, by Jessica Loaiza via Unsplash'
+#LIST#			= '<li>All beef hot dog</li><li>Boiled</li><li>Sesame bun</li><li>Mustard, ketchup, or both</li>'
+#TEXT#			= 'Want a great hot dog without all the fuss? An excellent choice for the frugal eater on the go.'
+#BUTTON-TEXT#	= 'Sold Out'
+-->
+<!-- end bbinclude -->

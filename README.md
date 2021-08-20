@@ -273,6 +273,19 @@ _Begin Date - 2021-08-17_
 *	Create a Customers module with fake logos.
 
 
+
+**v0.4.18** 
+_Begin Date - 2021-08-20_
+
+*	Normalized the #IMAGE-PATH# variable.
+*	Add a Products module.
+	*	Use it for the Pricing page.
+	*	Set up initially so that it can be used for other pages, even though it's only used on Pricing page at the moment.
+		*	This means that there's a prices template which needs to be called when calling Products for the pricing page.
+*	Special styling for lists (add class `list-group-items` to parent ul tag) within cards so that individual li tags don't need classes applied.
+	* `ul.list-group li.list-group-item` (old) is now equivalent to `ul.list-group-items li` 
+
+
 [![][piplogo]][pipurl]
 
 
