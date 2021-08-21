@@ -1,7 +1,7 @@
 <!-- #bbinclude "parts/top.shtml"
 #bbincludeoptions#="inline=true"
 #PAGE_TITLE# 		= "Sidebar Page"
-#SUBHEAD#			= ""
+#SUBHEAD#			= "— Alternative Navigation Markup"
 #DESCRIPTION_ITEM#	= "#PAGE#"
 #KEYWORD_ITEM#		= "#PAGE#"
 #CANONICAL-URL# 	= "/sidebar.html"

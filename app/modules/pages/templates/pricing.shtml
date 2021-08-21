@@ -1,7 +1,7 @@
 <!-- #bbinclude "parts/top.shtml"
 #bbincludeoptions#="inline=true"
-#PAGE_TITLE# 		= "Pricing"
-#SUBHEAD#			= ""
+#PAGE_TITLE# 		= "Hot Dogs for Sale"
+#SUBHEAD#			= "— Pricing Page Template"
 #DESCRIPTION_ITEM#	= "#PAGE#"
 #KEYWORD_ITEM#		= "#PAGE#"
 #CANONICAL-URL# 	= "/pricing.html"
@@ -10,6 +10,23 @@
 #HIERARCHY#			= "tertiary"
 -->
 <!-- end bbinclude -->
+			<div class="row">
+				<div class="col-lg-6">
+					<h2>
+						Fake Products
+					</h2>
+					<p>
+						Sorry, but we don’t really have hot dogs to sell. They look good though, don’t they? This sample website is for Code Modules, an open source software idea.
+					</p>
+					<p>
+						Many websites have a Prices page where products are featured or subscriptions are offered. If we sold hot dogs, we might have a page like this. We even highlight “Goldilock’s option,” just like all those other websites.
+					</p>
+				</div>
+				<div class="col-lg-6">
+					<img class="img-fluid rounded mb-4" src="/images/editorial/Four_Hot_Dogs_Grilling_in_Pan_Over_Open_Flame-40-1430x760.jpg" alt="Four hot dogs grilling in a pan over open flame, by Rachel Clark via Unsplash"> 
+				</div>
+			</div>
+<!-- /.row -->
 <!-- #bbinclude "/markup/products/default.shtml"
 #bbincludeoptions#="inline=true"
 #TEMPLATE#	= 'prices'

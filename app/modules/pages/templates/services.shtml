@@ -1,7 +1,7 @@
 <!-- #bbinclude "parts/top.shtml"
 #bbincludeoptions#="inline=true"
 #PAGE_TITLE# 		= "Services"
-#SUBHEAD#			= ""
+#SUBHEAD#			= "— A Sample Template Using Blog Posts"
 #DESCRIPTION_ITEM#	= "#PAGE#"
 #KEYWORD_ITEM#		= "#PAGE#"
 #CANONICAL-URL# 	= "/services.html"

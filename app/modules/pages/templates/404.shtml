@@ -1,7 +1,7 @@
 <!-- #bbinclude "parts/top.shtml"
 #bbincludeoptions#="inline=true"
 #PAGE_TITLE# 		= "404"
-#SUBHEAD#			= "Page Not Found"
+#SUBHEAD#			= "— Page Not Found"
 #DESCRIPTION_ITEM#	= "#PAGE#"
 #KEYWORD_ITEM#		= "#PAGE#"
 #CANONICAL-URL# 	= "/404.html"

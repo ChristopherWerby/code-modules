@@ -48,10 +48,11 @@
 
 #MAILTO#					= '&#x6d;&#x61;&#x69;&#x6c;&#x74;&#x6f;&#x3a;'
 
-#PHONE#						= '(415) 668-4372'
+#PHONE#						= '(415) 555-1212'
 #PHONE-LABEL#				= 'main'
-#PHONE-MARKUP#				= '<a class="nobreak" href="tel:+14156684372">(415) 668-4372</a>'
-#STREET#					= '120 El Camino Del Mar'
+#PHONE-MARKUP#				= '<a class="nobreak" href="tel:+14155551212">(415) 555-1212</a>'
+#STREET1#					= 'Palace of the Legion of Honor'
+#STREET2#					= '100 34th Avenue'
 #CITY#						= 'San Francisco'
 #STATE#						= 'CA'
 #ZIP#						= '94121'
@@ -65,8 +66,7 @@
 
 #VERIFICATION-MICROSOFT# 	= 'VH9OYWHAOBUYHNC68XAVBT2DTLVVMDCJMXVJTDPT'
 
-#GOOGLE-MAP-LINK#			= 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.0940685880796!2d-122.48680608419546!3d37.78783517975703!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808587024ca21c33%3A0xf0a5a00686d9b273!2s120%20El%20Camino%20Del%20Mar%2C%20San%20Francisco%2C%20CA%2094121!5e0!3m2!1sen!2sus!4v1626559514351!5m2!1sen!2sus'
-
+#GOOGLE-MAP-LINK#			= 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3045.8267028129117!2d-122.50295383731373!3d37.784474796290105!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808587acd6e2ba69%3A0xb9ffd88c77154d2c!2sLegion%20of%20Honor!5e0!3m2!1sen!2sus!4v1629506249997!5m2!1sen!2sus'
 #LINKEDIN#					= 'https://www.linkedin.com/company/example/'
 #FACEBOOK#					= 'https://www.facebook.com/example/'
 #TWITTER#					= 'https://twitter.com/example'

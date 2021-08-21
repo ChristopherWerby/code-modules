@@ -1,7 +1,7 @@
 <!-- #bbinclude "parts/top-home.shtml"
 #bbincludeoptions#="inline=true"
 #PAGE_TITLE# 		= "Home"
-#SUBHEAD#			= ""
+#SUBHEAD#			= "— Sample Website Showing Code Modules in Action"
 #DESCRIPTION_ITEM#	= "#PAGE#"
 #KEYWORD_ITEM#		= "#PAGE#"
 #CANONICAL-URL# 	= "/index.html"
