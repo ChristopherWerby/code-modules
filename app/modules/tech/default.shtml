@@ -1,5 +1,6 @@
-<!-- #bbinclude "/#MODULE#/templates/#TEMPLATE#/default.shtml"
+<!-- #bbinclude "/#MODULE#/templates/#TEMPLATE#.shtml"
 #bbincludeoptions#="inline=true" 
-#MODULE#	= "tech"
+#MODULE#		= 'tech'
+#DESCRIPTION#	= '#BASE_DESCRIPTION# #LONG_DESC_DEFAULT#'
 -->
 <!-- end bbinclude -->

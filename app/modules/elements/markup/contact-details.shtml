@@ -1,0 +1,18 @@
+#INDENT#<h3>
+#INDENT#	Contact Details
+#INDENT#</h3>
+#INDENT#<p>
+#INDENT#	#STREET1# <br /> #STREET2# <br />#CITY#, #STATE# #ZIP# <br> 
+#INDENT#</p>
+#INDENT#<p>
+#INDENT#	<abbr title="Phone">
+#INDENT#		Phone</abbr>: #PHONE-MARKUP#
+#INDENT#</p>
+#INDENT#<p>
+#INDENT#	<abbr title="Email">
+#INDENT#		Email</abbr>: #EMAIL#
+#INDENT#</p>
+#INDENT#<p>
+#INDENT#	<abbr title="Hours">
+#INDENT#		Hours</abbr>: Monday - Friday: 9:00 AM to 5:00 PM 
+#INDENT#</p>

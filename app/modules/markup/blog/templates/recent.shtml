@@ -9,7 +9,7 @@
 #INDENT#				<ul class="unstyled pl-0">
 <!-- #bbinclude "/markup/#MODULE#/lists/recent.shtml"
 #bbincludeoptions#="inline=true"
-#TYPE#		= 'list'
+#TYPE#		= 'text-list'
 #INDENT#	= '#INDENT#					'
 -->
 <!-- end bbinclude -->

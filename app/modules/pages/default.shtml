@@ -14,7 +14,7 @@
 
 #URL-ROOT#					= 'https://sample.codemodules.net'
 #URL-DOCUMENTATION#			= 'https://codemodules.net'
-#DOCUMENTATION-TARGET#		= 'CodeModulesDocs'
+#DOCUMENTATION-TARGET#		= 'Documentation'
 #COMMENT#					= 'no trailing slash'
 
 #URL-SAMPLE-REPO#			= 'https://github.com/ChristopherWerby/code-modules'
@@ -31,8 +31,8 @@
 #PAGEIMAGEPATH#				= '/images/logos'
 #PAGEIMAGEALT#				= 'Page Image for Code Modules'
 
-#BASE_DESCRIPTION#			= 'Code Modules Sample Files have not yet launched. Check back after August 1, 2021.'
-#LONG_DESC_DEFAULT#			= 'Code Modules Sample Files have not yet launched. Check back after August 1, 2021.'
+#BASE_DESCRIPTION#			= 'This sample website is a demonstration of the Code Modules system in use.'
+#LONG_DESC_DEFAULT#			= 'Code Modules is an MIT licensed open source project maintained by Pipsqueak Productions LLC. Source code for this website can be found on GitHub. Documentation for Code Modules can be found at codemodules.net.'
 #COMMENT#					= 'Note: The base description is used at the beginning of each description type and is the entirety of the short description.'
 
 #AUTHOR-DESCRIPTION#		= 'Site Design and Maintenance by Pipsqueak Productions, LLC.  If you’re looking at the code, you must care.  So do we.  Pipsqueak.com'
@@ -60,11 +60,9 @@
 #URL-COPYRIGHT#				= 'https://pipsqueak.com'
 #US#						= 'Pipsqueak Productions, LLC'
 
-#VERIFICATION-GOOGLE# 		= 'Lejd9JgDKjKKFoBAUjMxNCCe9vULVPmQhih7T4cq'
-#VERIFICATION2-GOOGLE# 		= '4GJB6vfaFCLoRaWjwRKQs6DNTpDDez6hGhnWPaHk'
-#COMMENT#					= 'verification 1 is for Google Analytics; 2 is for G-Suite'
+#VERIFICATION-GOOGLE# 		= 'baHVvnxq7WqCDN3edWSTnZPoO0wOWwgBBiO9Nk9DA0s'
 
-#VERIFICATION-MICROSOFT# 	= 'VH9OYWHAOBUYHNC68XAVBT2DTLVVMDCJMXVJTDPT'
+#VERIFICATION-MICROSOFT# 	= 'baHVvnxq7WqCDN3edWSTnZPoO0wOWwgBBiO9Nk9DA0s'
 
 #GOOGLE-MAP-LINK#			= 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3045.8267028129117!2d-122.50295383731373!3d37.784474796290105!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808587acd6e2ba69%3A0xb9ffd88c77154d2c!2sLegion%20of%20Honor!5e0!3m2!1sen!2sus!4v1629506249997!5m2!1sen!2sus'
 #LINKEDIN#					= 'https://www.linkedin.com/company/example/'

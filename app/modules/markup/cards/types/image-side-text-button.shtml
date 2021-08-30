@@ -1,22 +1,27 @@
-#INDENT#<div class="card mb-5">
-#INDENT#	<div class="card-body">
-#INDENT#		<div class="row">
-#INDENT#			<div class="col-lg-#COLUMNS#">
-#INDENT#				<a href="#URL#" target="#TARGET#"><img class="img-fluid rounded" src="#IMAGE#" alt="#ALT#"></a>
-#INDENT#			</div>
-#INDENT#			<div class="col-lg-#COLUMNS-ALT#">
-#INDENT#				<h2 class="card-title">
-#INDENT#					#TITLE#
-#INDENT#				</h2>
-#INDENT#				<p class="card-text">
-#INDENT#					#TEXT#
-#INDENT#				</p>
+#INDENT#	<div class="card mb-5">
+#INDENT#		<div class="card-body">
+#INDENT#			<div class="row">
+#INDENT#				<div class="col-lg-#COLUMNS#">
+#INDENT#					<a href="#URL#" target="#TARGET#"><img class="img-fluid rounded" src="#IMAGE#" alt="#ALT#"></a>
+#INDENT#				</div>
+#INDENT#				<div class="col-lg-#COLUMNS-ALT#">
+#INDENT#					<h2 class="card-title">
+#INDENT#						#TITLE#
+#INDENT#					</h2>
+#INDENT#					<p class="card-text">
+#INDENT#						#TEXT#
+#INDENT#					</p>
 #bbinclude "parts/button-top.shtml"
 #bbinclude "parts/button-bottom.shtml"
+#INDENT#				</div>
+<!-- /.col-lg-#COLUMNS-ALT# -->
 #INDENT#			</div>
+<!-- /.row -->
 #INDENT#		</div>
+<!-- /.card-body -->
+#INDENT#		<div class="card-footer text-muted">
+#INDENT#			#FOOTER#
+#INDENT#		</div>
+<!-- /.card-footer -->
 #INDENT#	</div>
-#INDENT#	<div class="card-footer text-muted">
-#INDENT#		#FOOTER#
-#INDENT#	</div>
-#INDENT#</div>
+<!-- /.card -->

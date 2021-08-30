@@ -1,6 +1,0 @@
-<!-- #bbinclude "/markup/descriptions/default.shtml"
-#bbincludeoptions#="inline=true"
-#ITEM#		= "#DESCRIPTION_ITEM#"
-#INDENT#	= "#INDENT#"
--->
-<!-- end bbinclude -->

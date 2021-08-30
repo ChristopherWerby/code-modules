@@ -10,7 +10,9 @@
 #bbinclude "parts/button-top.shtml"
 #bbinclude "parts/button-bottom.shtml"
 #INDENT#			</div>
+<!-- /.card-body -->
 #INDENT#			<div class="card-footer text-muted">
 #INDENT#				#FOOTER#
 #INDENT#			</div>
+<!-- /.card-footer -->
 #bbinclude "parts/bottom.shtml"

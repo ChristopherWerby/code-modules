@@ -7,9 +7,11 @@
 #INDENT#					#TEXT#
 #INDENT#				</p>
 #INDENT#			</div>
+<!-- /.card-body -->
 #INDENT#			<div class="card-footer">
 #bbinclude "parts/button-top.shtml"
 #bbinclude "parts/icon.shtml"
 #bbinclude "parts/button-bottom.shtml"
 #INDENT#			</div>
+<!-- /.card-footer -->
 #bbinclude "parts/bottom.shtml"

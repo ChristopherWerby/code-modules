@@ -1,0 +1,43 @@
+<!-- In order to set the email address and subject line for the contact form go to the bin/contact_me.php file. -->
+#INDENT#<form name="sentMessage" id="contactForm" novalidate>
+#INDENT#	<div class="control-group form-group">
+#INDENT#		<div class="controls">
+#INDENT#			<label>
+#INDENT#				Full Name:
+#INDENT#			</label>
+#INDENT#			<input type="text" class="form-control" id="name" required data-validation-required-message="Please enter your name." placeholder="Sample Only — Form Does Not Work"> 
+#INDENT#			<p class="help-block">
+#INDENT#			</p>
+#INDENT#		</div>
+#INDENT#	</div>
+#INDENT#	<div class="control-group form-group">
+#INDENT#		<div class="controls">
+#INDENT#			<label>
+#INDENT#				Phone Number:
+#INDENT#			</label>
+#INDENT#			<input type="tel" class="form-control" id="phone" required data-validation-required-message="Please enter your phone number."> 
+#INDENT#		</div>
+#INDENT#	</div>
+#INDENT#	<div class="control-group form-group">
+#INDENT#		<div class="controls">
+#INDENT#			<label>
+#INDENT#				Email Address:
+#INDENT#			</label>
+#INDENT#			<input type="email" class="form-control" id="email" required data-validation-required-message="Please enter your email address."> 
+#INDENT#		</div>
+#INDENT#	</div>
+#INDENT#	<div class="control-group form-group">
+#INDENT#		<div class="controls">
+#INDENT#			<label>
+#INDENT#				Message:
+#INDENT#			</label>
+#INDENT#			<textarea rows="10" cols="100" class="form-control" id="message" required data-validation-required-message="Please enter your message" maxlength="999" style="resize:none"></textarea> 
+#INDENT#		</div>
+#INDENT#	</div>
+#INDENT#	<div id="success">
+#INDENT#	</div>
+<!-- For success/fail messages -->
+#INDENT#	<button type="submit" class="btn btn-primary" id="sendMessageButton">
+#INDENT#		Send Message
+#INDENT#	</button>
+#INDENT#</form>

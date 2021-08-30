@@ -1,3 +1,0 @@
-#bbinclude "default.shtml"
-#bbinclude "/#MODULE#/js/items/load/video-js.shtml"
-#bbinclude "/#MODULE#/links/items/video-js.shtml"

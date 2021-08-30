@@ -14,20 +14,17 @@
 				<div class="col-lg-6">
 					<img class="img-fluid rounded mb-4" src="/images/editorial/Conference_Room-40-1100x643.jpg" alt="A fake conference room by Christina Wocintechchat via Unsplash"> 
 				</div>
+<!-- /.col-lg-6 -->
 				<div class="col-lg-6">
-					<h2>
-						Fake Company and Fake Profiles
-					</h2>
-					<p>
-						There is no “Code Modules” company. It’s an open source software idea fleshed out with a sample website showing how it might be used in production.
-					</p>
-					<p>
-						Most websites have an About section which features photos and profiles of company leaders. To that end, here are some fake profiles of our imaginary leadership.
-					</p>
-					<p>
-						Oh, and the customer logos at the bottom of the page? Those are fake too!
-					</p>
+<!-- #bbinclude "/elements/default.shtml"
+#bbincludeoptions#  ="inline=true"
+#TEMPLATE#  	= 'markup'
+#ITEM#      	= 'about-intro'
+#INDENT#		= '					'
+-->
+<!-- end bbinclude -->
 				</div>
+<!-- /.col-lg-6 -->
 			</div>
 <!-- /.row -->
 <!-- Team Members -->
@@ -40,7 +37,7 @@
 #COLUMNS-LG#	= '6'
 #COLUMNS-MD#	= '6'
 #COLUMNS-SM#	= '12'
-#INDENT#	= "				"
+#INDENT#		= "				"
 -->
 <!-- end bbinclude -->
 <!-- Our Customers -->
@@ -49,7 +46,7 @@
 			</h2>
 <!-- #bbinclude "/markup/customers/default.shtml"
 #bbincludeoptions#="inline=true"
-#INDENT#	= "			"
+#INDENT#		= "			"
 -->
 <!-- end bbinclude -->
 #bbinclude "parts/bottom.shtml"

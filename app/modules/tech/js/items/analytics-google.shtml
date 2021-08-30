@@ -1,7 +1,0 @@
-#INDENT#<script async src="https://www.googletagmanager.com/gtag/js?id=#ANALYTICS-GOOGLE#"></script>
-#INDENT#<script>
-#INDENT#	window.dataLayer = window.dataLayer || [];
-#INDENT#	function gtag(){dataLayer.push(arguments);}
-#INDENT#	gtag('js', new Date());
-#INDENT#	gtag('config', '#ANALYTICS-GOOGLE#');
-#INDENT#</script>

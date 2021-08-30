@@ -1,5 +1,3 @@
-<!-- #bbinclude "default.shtml"
-#bbincludeoptions#="inline=true"
-#COMMENT#	= 'Recent list is the same as default list until there are more blog items. Recent list is what is used for the navigation items.'
--->
-<!-- end bbinclude -->
+#bbinclude "/markup/#MODULE#/items/sausages.shtml"
+#bbinclude "/markup/#MODULE#/items/buns.shtml"
+#bbinclude "/markup/#MODULE#/items/toppings.shtml"

@@ -1,7 +1,7 @@
 <!-- #bbinclude "/markup/cards/default.shtml"
 #bbincludeoptions#="inline=true"
 #TYPE#		= 'item-simple'
-#TITLE#		= 'What do Hot Dogs Have to do with Code Modules?'
+#TITLE#		= 'What do Hot Dogs have to do with Code Modules?'
 #TEXT#		= 'Each one of these blog posts are featured on a multitude of pages in a variety of different markup styles. But they all come from the one Blog module.'
 #INDENT#	= '					'
 -->

@@ -34,3 +34,29 @@
 -->
 <!-- end bbinclude -->
 
+<!-- #bbinclude "/elements/default.shtml"
+#bbincludeoptions#  ="inline=true"
+#TEMPLATE#  = 'markup'
+#ITEM#      = 'google-map-iframe'
+#INDENT#	= '					'
+-->
+<!-- end bbinclude -->
+
+<!-- #bbinclude "/elements/default.shtml"
+#bbincludeoptions#  ="inline=true"
+#TEMPLATE#  = 'markup'
+#ITEM#      = 'contact-details'
+#INDENT#	= '					'
+-->
+<!-- end bbinclude -->
+
+
+<!-- #bbinclude "/elements/default.shtml"
+#bbincludeoptions#  ="inline=true"
+#TEMPLATE#  = 'markup'
+#ITEM#      = 'form-contact'
+#INDENT#	= '					'
+-->
+<!-- end bbinclude -->
+
+

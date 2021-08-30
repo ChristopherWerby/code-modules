@@ -290,6 +290,17 @@ _Begin Date - 2021-08-20_
 	*	Using the Palace of the Legion of Honor as the location.
 
 
+
+**v0.4.19** 
+_Begin Date - 2021-08-30_
+
+*	Refactor and slim the Tech module.
+*	Lots of format changes for the Blog and Card modules.
+*	Move content out of About page and into Elements module items.
+*	Add Google and Microsoft verification metatags.
+*	Create a base and extended description.
+
+
 [![][piplogo]][pipurl]
 
 
