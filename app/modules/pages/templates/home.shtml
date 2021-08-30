@@ -10,7 +10,7 @@
 -->
 <!-- end bbinclude -->
 			<p>
-				This sample website is built using Code Modules’ techniques. Code Modules hasn’t been released yet — we’re aiming at September 1, 2021. When released, the open source files for building this site can be accessed at <a href="#URL-SAMPLE-REPO#" target="#SAMPLE-REPO-TARGET#">GitHub</a>. This website uses content derived from Code Modules’ documentation and repurposed to fit various page templates (altered for this site) provided by Start Bootstrap’s <a href="https://startbootstrap.com/template/modern-business" target="StartBootstrap">Modern Business</a> theme.
+				This sample website is built using Code Modules’ techniques. Code Modules hasn’t been released yet — we’re aiming at #RELEASE-DATE#. When released, the open source files for building this site can be accessed at <a href="#URL-SAMPLE-REPO#" target="#SAMPLE-REPO-TARGET#">GitHub</a>. This website uses content derived from Code Modules’ documentation and repurposed to fit various page templates (altered for this site) provided by Start Bootstrap’s <a href="https://startbootstrap.com/template/modern-business" target="StartBootstrap">Modern Business</a> theme.
 			</p>
 			<p>
 				Code Modules itself is built upon the use of BBEdit’s include system which is a dependency. If you don’t wish to use BBEdit, a paid program, Code Modules won’t work for you.
