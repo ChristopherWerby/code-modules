@@ -32,16 +32,20 @@
 		<meta property="og:title"				key="ogtitle"		content="Home — Code Modules" />
 		<meta property="og:site_name" 			key="ogsitename"	content="Code Modules" />
 		<meta property="og:url" 				key="ogurl"			content="https://sample.codemodules.net/index.html" />
-		<meta property="og:description"			key="ogdesc"		content="#DESCRIPTION#" />
+		<meta property="og:description"			key="ogdesc"		content="This sample website is a demonstration of the Code Modules system in use. Code Modules is an MIT licensed open source project maintained by Pipsqueak Productions LLC. Source code for this website can be found on GitHub. Documentation for Code Modules can be found at codemodules.net." />
 		<meta property="og:type" 				key="ogtype"		content="website" />
 		<meta property="og:locale" 				key="oglocale"		content="en_US" />
 		<meta property="og:image"				key="ogimage"		content="https://sample.codemodules.net/images/logos/Logo-Code_Modules-OW-256-scaled-fgBlack-bgTrans-600x600.png" />
+<!-- Twitter Card -->
+		<meta name="twitter:card"				content="summary" />			
+		<meta name="twitter:title"				content="Home — Code Modules" />			
+		<meta name="twitter:description"		content="This sample website is a demonstration of the Code Modules system in use. Code Modules is an MIT licensed open source project maintained by Pipsqueak Productions LLC. Source code for this website can be found on GitHub. Documentation for Code Modules can be found at codemodules.net." />			
+		<meta name="twitter:url" 				content="https://sample.codemodules.net/index.html" />
+		<meta name="twitter:image"				content="https://sample.codemodules.net/images/logos/Logo-Code_Modules-OW-256-scaled-fgBlack-bgTrans-600x600.png" />
 		<meta name="google-site-verification"
-			content="Lejd9JgDKjKKFoBAUjMxNCCe9vULVPmQhih7T4cq" />
-		<meta name="google-site-verification"
-			content="4GJB6vfaFCLoRaWjwRKQs6DNTpDDez6hGhnWPaHk" />
+			content="baHVvnxq7WqCDN3edWSTnZPoO0wOWwgBBiO9Nk9DA0s" />
 		<meta name="msvalidate.01"
-			content="VH9OYWHAOBUYHNC68XAVBT2DTLVVMDCJMXVJTDPT" />
+			content="baHVvnxq7WqCDN3edWSTnZPoO0wOWwgBBiO9Nk9DA0s" />
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
 		<link rel="stylesheet"
 			href="/../app/styles/main.less"
@@ -265,13 +269,17 @@
 								There’s a website for Code Modules documentation.
 							</p>
 						</div>
+<!-- /.card-body -->
 						<div class="card-footer">
-							<a href="https://codemodules.net/" class="btn btn-primary" target="CodeModulesDocs">
+							<a href="https://codemodules.net/" class="btn btn-primary" target="Documentation">
 								View Docs
 							</a>
 						</div>
+<!-- /.card-footer -->
 					</div>
+<!-- /.card -->
 				</div>
+<!-- /.col-md-6 /.col-lg-6 -->
 				<div class="col-md-6 col-lg-6 mb-5">
 					<div class="card h-100">
 						<h4 class="card-header">
@@ -282,13 +290,17 @@
 								GitHub repo for the files that make this website. Shows Code Modules in use.
 							</p>
 						</div>
+<!-- /.card-body -->
 						<div class="card-footer">
 							<a href="https://github.com/ChristopherWerby/code-modules" class="btn btn-primary" target="GitHub">
 								GitHub Repo
 							</a>
 						</div>
+<!-- /.card-footer -->
 					</div>
+<!-- /.card -->
 				</div>
+<!-- /.col-md-6 /.col-lg-6 -->
 			</div>
 <!-- /.row -->
 <!-- Module Types Section -->
@@ -302,68 +314,83 @@
 				<div class="col-md-4 col-lg-4 mb-5">
 					<div class="card h-100">
 						<div class="card-body">
-							<a href="portfolio-markup.html" target="CodeModulesDocs"><img class="card-img-top" src="/images/editorial/Markup-Hot_Dog_and_Condiments-by_Unsplash-RCV-700x400.jpg" alt="Hotdogs with Scattered Condiments"></a>
+							<a href="portfolio-markup.html" target="Documentation"><img class="card-img-top" src="/images/editorial/Markup-Hot_Dog_and_Condiments-by_Unsplash-RCV-700x400.jpg" alt="Hotdogs with Scattered Condiments"></a>
 							<h4 class="card-title mt-3">
-								<a href="portfolio-markup.html" target="CodeModulesDocs">Markup Modules</a>
+								<a href="portfolio-markup.html" target="Documentation">Markup Modules</a>
 							</h4>
 							<p class="card-text">
 								<strong>Markup modules</strong> return a bit of markup. Each of these modules live as a subfolder of <code>app/modules/markup/</code>. Most websites will have many markup modules.
 							</p>
 						</div>
+<!-- /.card-body -->
 					</div>
+<!-- /.card -->
 				</div>
+<!-- /.col-md-4 /.col-lg-4 -->
 				<div class="col-md-4 col-lg-4 mb-5">
 					<div class="card h-100">
 						<div class="card-body">
-							<a href="portfolio-page.html" target="CodeModulesDocs"><img class="card-img-top" src="/images/editorial/Page-Scattered_Hot_Dogs-by_Unsplash-RCV-700x400.jpg" alt="Scattered Hotdogs"></a>
+							<a href="portfolio-page.html" target="Documentation"><img class="card-img-top" src="/images/editorial/Page-Scattered_Hot_Dogs-by_Unsplash-RCV-700x400.jpg" alt="Scattered Hotdogs"></a>
 							<h4 class="card-title mt-3">
-								<a href="portfolio-page.html" target="CodeModulesDocs">Page Module</a>
+								<a href="portfolio-page.html" target="Documentation">Page Module</a>
 							</h4>
 							<p class="card-text">
 								The <strong>Page module</strong> is located at <code>app/modules/pages/</code>. Top level HTML pages contain almost no content other than a call to the Pages module. The Pages module sets a number of global variables and then calls all the other modules needed to build the top level page.
 							</p>
 						</div>
+<!-- /.card-body -->
 					</div>
+<!-- /.card -->
 				</div>
+<!-- /.col-md-4 /.col-lg-4 -->
 				<div class="col-md-4 col-lg-4 mb-5">
 					<div class="card h-100">
 						<div class="card-body">
-							<a href="portfolio-nav.html" target="CodeModulesDocs"><img class="card-img-top" src="/images/editorial/Nav-Five_Hot_Dogs_in_Line-by_Unsplash-RCV-700x400.jpg" alt="Hotdogs"></a>
+							<a href="portfolio-nav.html" target="Documentation"><img class="card-img-top" src="/images/editorial/Nav-Five_Hot_Dogs_in_Line-by_Unsplash-RCV-700x400.jpg" alt="Hotdogs"></a>
 							<h4 class="card-title mt-3">
-								<a href="portfolio-nav.html" target="CodeModulesDocs">Nav Module</a>
+								<a href="portfolio-nav.html" target="Documentation">Nav Module</a>
 							</h4>
 							<p class="card-text">
 								Navigation is always an important website feature. The <strong>Nav module</strong> returns the markup necessary for both desktop and mobile navigation. Sometimes, nav markup will be used for headers, and sometimes for sidebars and footers. But, with a nav module, it all comes from the same source of data.
 							</p>
 						</div>
+<!-- /.card-body -->
 					</div>
+<!-- /.card -->
 				</div>
+<!-- /.col-md-4 /.col-lg-4 -->
 				<div class="col-md-4 col-lg-4 mb-5">
 					<div class="card h-100">
 						<div class="card-body">
-							<a href="portfolio-elements.html" target="CodeModulesDocs"><img class="card-img-top" src="/images/editorial/Elements-Five_Hot_Dogs_Offset-by_Unsplash-RCV-700x400.jpg" alt="Dressed Hotdogs"></a>
+							<a href="portfolio-elements.html" target="Documentation"><img class="card-img-top" src="/images/editorial/Elements-Five_Hot_Dogs_Offset-by_Unsplash-RCV-700x400.jpg" alt="Dressed Hotdogs"></a>
 							<h4 class="card-title mt-3">
-								<a href="portfolio-elements.html" target="CodeModulesDocs">Elements Module</a>
+								<a href="portfolio-elements.html" target="Documentation">Elements Module</a>
 							</h4>
 							<p class="card-text">
 								Websites usually have pieces of markup that don’t deserve a whole module — they need to be served via something akin to a traditional include. It can still be handy to separate them into a separate file and allow them to use global variables. I use a special <strong>Elements module</strong> for this purpose.
 							</p>
 						</div>
+<!-- /.card-body -->
 					</div>
+<!-- /.card -->
 				</div>
+<!-- /.col-md-4 /.col-lg-4 -->
 				<div class="col-md-4 col-lg-4 mb-5">
 					<div class="card h-100">
 						<div class="card-body">
-							<a href="portfolio-tech.html" target="CodeModulesDocs"><img class="card-img-top" src="/images/editorial/Tech-A_Food_Plate-by_Unsplash-RCV-700x400.jpg" alt="Plate with a Coke, French Fries, Ketchup, and Assorted Others"></a>
+							<a href="portfolio-tech.html" target="Documentation"><img class="card-img-top" src="/images/editorial/Tech-A_Food_Plate-by_Unsplash-RCV-700x400.jpg" alt="Plate with a Coke, French Fries, Ketchup, and Assorted Others"></a>
 							<h4 class="card-title mt-3">
-								<a href="portfolio-tech.html" target="CodeModulesDocs">Tech Module</a>
+								<a href="portfolio-tech.html" target="Documentation">Tech Module</a>
 							</h4>
 							<p class="card-text">
 								The <strong>Tech module</strong> builds the &lt;head&gt; section and the non-displaying “foot” section of a web page. This is where metatags, stylesheets, font links, keywords, analytics, and javascripts are placed.
 							</p>
 						</div>
+<!-- /.card-body -->
 					</div>
+<!-- /.card -->
 				</div>
+<!-- /.col-md-4 /.col-lg-4 -->
 			</div>
 <!-- /.row -->
 <!-- Features Section -->
@@ -409,11 +436,11 @@
 			<div class="row mb-4">
 				<div class="col-md-8">
 					<p>
-						This site demonstrates a website built using Code Modules. The source code for this website is available on <a href="https://github.com/ChristopherWerby/code-modules" target="GitHub">GitHub</a>. Documentation for Code Modules is on a separate <a href="https://codemodules.net/" target="CodeModulesDocs">website.</a>
+						This site demonstrates a website built using Code Modules. The source code for this website is available on <a href="https://github.com/ChristopherWerby/code-modules" target="GitHub">GitHub</a>. Documentation for Code Modules is on a separate <a href="https://codemodules.net/" target="Documentation">website.</a>
 					</p>
 				</div>
 				<div class="col-md-4">
-					<a class="btn btn-lg btn-secondary btn-block" href="https://codemodules.net/" target="CodeModulesDocs">
+					<a class="btn btn-lg btn-secondary btn-block" href="https://codemodules.net/" target="Documentation">
 						Visit Documentation</a>
 				</div>
 			</div>
