@@ -1,6 +1,0 @@
-<!-- #bbinclude "/#MODULE#/types/#SIMPLE-TYPE#.shtml"
-#bbincludeoptions#="inline=true"
-#URL#				= 'types.html'
-#TEXT#				= 'Top Level Types'
--->
-<!-- end bbinclude -->

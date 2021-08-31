@@ -13,7 +13,6 @@
 			<div class="container">
 <!-- #bbinclude "/elements/default.shtml"
 #bbincludeoptions#="inline=true"
-#TEMPLATE#	= "markup"
 #ITEM#		= "subhead"
 #TITLE#		= "The Team"
 -->
@@ -43,7 +42,6 @@
 			<div class="container">
 <!-- #bbinclude "/elements/default.shtml"
 #bbincludeoptions#="inline=true"
-#TEMPLATE#	= "markup"
 #ITEM#		= "subhead"
 #TITLE#		= "Featured Social Media for #DATETIME MMMM#"
 -->
@@ -73,7 +71,6 @@
 			<div class="container">
 <!-- #bbinclude "/elements/default.shtml"
 #bbincludeoptions#="inline=true"
-#TEMPLATE#	= "markup"
 #ITEM#		= "subhead"
 #TITLE#		= "Inspirational Quote"
 #INDENT#	= "				"

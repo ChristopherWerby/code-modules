@@ -18,7 +18,6 @@
 				<div class="col-lg-6">
 <!-- #bbinclude "/elements/default.shtml"
 #bbincludeoptions#  ="inline=true"
-#TEMPLATE#  	= 'markup'
 #ITEM#      	= 'about-intro'
 #INDENT#		= '					'
 -->

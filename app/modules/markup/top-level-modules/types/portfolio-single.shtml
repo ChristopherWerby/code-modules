@@ -16,7 +16,6 @@
 						#LINK-TEXT#
 <!-- #bbinclude "/elements/default.shtml"
 #bbincludeoptions#="inline=true"
-#TEMPLATE#	= 'markup'
 #ITEM#		= 'icon'
 #ICON#		= 'external-link'
 #INDENT#	= "						"

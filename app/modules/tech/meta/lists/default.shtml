@@ -6,5 +6,5 @@
 #bbinclude "/#MODULE#/meta/items/copyright.shtml"
 #bbinclude "/#MODULE#/meta/items/canonical_url.shtml"
 #bbinclude "/#MODULE#/meta/items/open-graph.shtml"
-#bbinclude "/#MODULE#/meta/items/twitter.shtml"
+#bbinclude "/#MODULE#/meta/items/twitter-card.shtml"
 #bbinclude "/#MODULE#/meta/items/site_verification.shtml"

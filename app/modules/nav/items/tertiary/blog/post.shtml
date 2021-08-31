@@ -1,6 +1,0 @@
-<!-- #bbinclude "/#MODULE#/types/#DROPDOWN-ITEM-TYPE#.shtml"
-#bbincludeoptions#="inline=true"
-#URL#				= 'blog-post.html'
-#TEXT#				= 'Blog Post'
--->
-<!-- end bbinclude -->

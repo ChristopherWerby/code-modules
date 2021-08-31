@@ -6,7 +6,6 @@
 			</h2>
 <!-- #bbinclude "/elements/default.shtml"
 #bbincludeoptions#="inline=true"
-#TEMPLATE#	= "markup"
 #ITEM#		= "divider"
 -->
 <!-- end bbinclude -->

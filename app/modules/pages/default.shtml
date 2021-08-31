@@ -10,7 +10,7 @@
 
 #MOTTO#						= 'Fancy BBEdit Include System'
 
-#COMMENT#					= 'Code Modules Sample Files have not yet launched. Check back after August 1, 2021.'
+#COMMENT#					= 'Code Modules Sample Files have not yet launched. Check back after October 1, 2021.'
 
 #URL-ROOT#					= 'https://sample.codemodules.net'
 #URL-DOCUMENTATION#			= 'https://codemodules.net'
@@ -93,7 +93,7 @@
 #ICON-CLASS#				= 'fa-1x'
 #INDENT#					= '		'
 #COLUMNS#					= '4'
-#COMMENT#					= 'Default columns is for three items - 4 columns out of 12'
+#COMMENT#					= 'Default columns is for three items across - 4 columns out of 12'
 
 #CSSCACHE#					= '001'
 #JSCACHE#					= '001'

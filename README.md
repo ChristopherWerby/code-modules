@@ -2,7 +2,7 @@
 
 # Code Modules — Sample Files
 
-This is an HTML5 project using BBEdit and Parcel. Theme is [Modern Business][1] from Start Bootstrap.
+This is an HTML5 project using BBEdit, Bootstrap 5, and Parcel. Theme is [Modern Business][1] from Start Bootstrap.
 
 `npm start` — development using Parcel process
 
@@ -299,6 +299,8 @@ _Begin Date - 2021-08-30_
 *	Move content out of About page and into Elements module items.
 *	Add Google and Microsoft verification metatags.
 *	Create a base and extended description.
+*	Simplify the Elements top-level module by removing the subfolders.
+	*	Adjust all the calls to the Elements module by removing the templates variable.
 
 
 [![][piplogo]][pipurl]

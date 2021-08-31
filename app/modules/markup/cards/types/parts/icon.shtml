@@ -1,6 +1,5 @@
 <!-- #bbinclude "/elements/default.shtml"
 #bbincludeoptions#="inline=true"
-#TEMPLATE#	= 'markup'
 #ITEM#		= 'icon'
 #ICON#		= '#ICON#'
 #INDENT#	= "#INDENT#					"

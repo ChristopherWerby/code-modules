@@ -1,4 +1,4 @@
-<!-- #bbinclude "#TEMPLATE#/#ITEM#.shtml"
+<!-- #bbinclude "items/#ITEM#.shtml"
 #bbincludeoptions#  ="inline=true"
 #MODULE#            = "elements"
 -->

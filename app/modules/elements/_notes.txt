@@ -1,13 +1,11 @@
 <!-- #bbinclude "/elements/default.shtml"
 #bbincludeoptions#  ="inline=true"
-#TEMPLATE#  = "contact"
 #ITEM#      = "vcard-christopher-werby"
 -->
 <!-- end bbinclude -->
 
 <!-- #bbinclude "/elements/default.shtml"
 #bbincludeoptions#  ="inline=true"
-#TEMPLATE#  = 'markup'
 #ITEM#      = 'features'
 #INDENT#	= '					'
 -->
@@ -16,7 +14,6 @@
 
 <!-- #bbinclude "/elements/default.shtml"
 #bbincludeoptions#="inline=true"
-#TEMPLATE#			= 'markup'
 #ITEM#				= 'icon'
 #ICON#				= 'chevron-right'
 #ICON-CLASS#		= '#ICON-CLASS#'
@@ -28,7 +25,6 @@
 
 <!-- #bbinclude "/elements/default.shtml"
 #bbincludeoptions#  ="inline=true"
-#TEMPLATE#  = 'markup'
 #ITEM#      = 'hot-dogs-relation-to-code-modules'
 #INDENT#	= '					'
 -->
@@ -36,7 +32,6 @@
 
 <!-- #bbinclude "/elements/default.shtml"
 #bbincludeoptions#  ="inline=true"
-#TEMPLATE#  = 'markup'
 #ITEM#      = 'google-map-iframe'
 #INDENT#	= '					'
 -->
@@ -44,7 +39,6 @@
 
 <!-- #bbinclude "/elements/default.shtml"
 #bbincludeoptions#  ="inline=true"
-#TEMPLATE#  = 'markup'
 #ITEM#      = 'contact-details'
 #INDENT#	= '					'
 -->
@@ -53,7 +47,6 @@
 
 <!-- #bbinclude "/elements/default.shtml"
 #bbincludeoptions#  ="inline=true"
-#TEMPLATE#  = 'markup'
 #ITEM#      = 'form-contact'
 #INDENT#	= '					'
 -->
