@@ -304,7 +304,7 @@ _Begin Date - 2021-08-30_
 
 
 
-**v0.5.0-dev.0** 
+**v0.5.0** 
 _Begin Date - 2021-08-31_
 
 *	Change the default.shtml entry file in every module to entry.shtml.
