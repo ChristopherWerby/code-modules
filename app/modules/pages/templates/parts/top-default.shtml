@@ -4,7 +4,7 @@
 <html lang="en">
 <!--<![endif]-->
 	<head data-fold="true">
-<!-- #bbinclude "/tech/default.shtml"
+<!-- #bbinclude "/tech/entry.shtml"
 #bbincludeoptions#="inline=true"
 #TEMPLATE#	= 'head'
 #INDENT#	= '		'
@@ -12,7 +12,7 @@
 <!-- end bbinclude -->
 	</head>
 	<body id="#ID#" class="#HIERARCHY#" data-preloader="2">
-<!-- #bbinclude "/nav/default.shtml"
+<!-- #bbinclude "/nav/entry.shtml"
 #bbincludeoptions#="inline=true"
 #SIMPLE-TYPE#		= 'simple'
 #TERTIARY-NAV-TYPE#	= 'dropdown-item'

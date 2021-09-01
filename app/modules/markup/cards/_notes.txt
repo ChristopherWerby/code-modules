@@ -2,7 +2,7 @@ Refactored and moved the top-level-modules and online (now Links module) to thei
 
 Note that columns is the number used out of 12. So 6 columns is 2 cards per row; 4 columns is 3 cards per row; 3 columns is 4 cards per row.
 
-<!-- #bbinclude "/markup/cards/default.shtml"
+<!-- #bbinclude "/markup/cards/entry.shtml"
 #bbincludeoptions#="inline=true"
 #TYPE#		= 'item-with-button'
 #URL#		= '#URL#'
@@ -14,7 +14,7 @@ Note that columns is the number used out of 12. So 6 columns is 2 cards per row;
 -->
 <!-- end bbinclude -->
 
-<!-- #bbinclude "/markup/cards/default.shtml"
+<!-- #bbinclude "/markup/cards/entry.shtml"
 #bbincludeoptions#="inline=true"
 #TYPE#		= 'item-with-hero-image-and-link'
 #URL#		= '#URL#'
@@ -28,7 +28,7 @@ Note that columns is the number used out of 12. So 6 columns is 2 cards per row;
 <!-- end bbinclude -->
 
 
-<!-- #bbinclude "/markup/cards/default.shtml"
+<!-- #bbinclude "/markup/cards/entry.shtml"
 #bbincludeoptions#="inline=true"
 #TYPE#		= 'image-with-hero-image-button-footer'
 #URL#		= '#URL#'

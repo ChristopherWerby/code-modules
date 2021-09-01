@@ -11,7 +11,7 @@
 -->
 <!-- end bbinclude -->
 <!-- Page Content -->
-<!-- #bbinclude "/markup/blog/default.shtml"
+<!-- #bbinclude "/markup/blog/entry.shtml"
 #bbincludeoptions#="inline=true"
 #TEMPLATE#	= 'teasers-with-images-on-side'
 #INDENT#	= '			'

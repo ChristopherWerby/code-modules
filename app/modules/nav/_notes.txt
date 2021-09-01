@@ -9,7 +9,7 @@ TERTIARY-NAV-TYPE variable defines the form of the markup which comes from the B
 SIMPLE-TYPE is for simple nav links that aren't dropdown items.
 
 
-<!-- #bbinclude "/nav/default.shtml"
+<!-- #bbinclude "/nav/entry.shtml"
 #bbincludeoptions#="inline=true"
 #SIMPLE-TYPE#		= 'simple'
 #TERTIARY-NAV-TYPE#	= 'dropdown-item'
@@ -19,7 +19,7 @@ SIMPLE-TYPE is for simple nav links that aren't dropdown items.
 <!-- end bbinclude -->
 
 
-<!-- #bbinclude "/nav/default.shtml"
+<!-- #bbinclude "/nav/entry.shtml"
 #bbincludeoptions#="inline=true"
 #TEMPLATE#	= 'div-links'
 #INDENT#	= '					'
@@ -27,7 +27,7 @@ SIMPLE-TYPE is for simple nav links that aren't dropdown items.
 <!-- end bbinclude -->
 
 
-<!-- #bbinclude "/nav/default.shtml"
+<!-- #bbinclude "/nav/entry.shtml"
 #bbincludeoptions#="inline=true"
 #TEMPLATE#			= 'unordered-linked-list'
 #SIMPLE-TYPE#		= 'dropdown-item-ul'
@@ -38,7 +38,7 @@ SIMPLE-TYPE is for simple nav links that aren't dropdown items.
 
 
 
-<!-- #bbinclude "/nav/default.shtml"
+<!-- #bbinclude "/nav/entry.shtml"
 #bbincludeoptions#="inline=true"
 #TEMPLATE#	= 'dropdown-single'
 #TYPE#		= '#SIMPLE-TYPE#'
@@ -48,7 +48,7 @@ SIMPLE-TYPE is for simple nav links that aren't dropdown items.
 <!-- end bbinclude -->
 
 
-<!-- #bbinclude "/nav/default.shtml"
+<!-- #bbinclude "/nav/entry.shtml"
 #bbincludeoptions#="inline=true"
 #TEMPLATE#			= 'div-links'
 #SIMPLE-TYPE#		= 'simple-bare'

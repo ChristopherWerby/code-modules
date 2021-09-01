@@ -11,7 +11,7 @@
 -->
 <!-- end bbinclude -->
 <!-- Portfolio Item Row -->
-<!-- #bbinclude "/markup/top-level-modules/default.shtml"
+<!-- #bbinclude "/markup/top-level-modules/entry.shtml"
 #bbincludeoptions#="inline=true"
 #TEMPLATE#		= 'portfolio-single'
 #NAME#			= 'page'

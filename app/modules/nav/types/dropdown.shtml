@@ -2,7 +2,7 @@
 #INDENT#					<a class="nav-link dropdown-toggle" href="#URL#" id="navbarDropdown#IDPART#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 #INDENT#						#TEXT#</a>
 #INDENT#					<ul class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown#IDPART#">
-<!-- #bbinclude "/nav/default.shtml"
+<!-- #bbinclude "/nav/entry.shtml"
 #bbincludeoptions#="inline=true"
 #TEMPLATE#	= 'dropdown'
 #LIST#		= #LIST#

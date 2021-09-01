@@ -1,4 +1,4 @@
-<!-- #bbinclude "/markup/team/default.shtml"
+<!-- #bbinclude "/markup/team/entry.shtml"
 #bbincludeoptions#="inline=true"
 #INDENT#	= "				"
 -->

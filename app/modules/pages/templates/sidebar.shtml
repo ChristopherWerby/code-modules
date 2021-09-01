@@ -14,7 +14,7 @@
 			<div class="row">
 <!-- Sidebar Column -->
 				<div class="col-lg-3 mb-4">
-<!-- #bbinclude "/nav/default.shtml"
+<!-- #bbinclude "/nav/entry.shtml"
 #bbincludeoptions#="inline=true"
 #TEMPLATE#			= 'div-links'
 #SIMPLE-TYPE#		= 'simple-bare'

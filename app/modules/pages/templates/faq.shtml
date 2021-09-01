@@ -10,7 +10,7 @@
 #HIERARCHY#			= "tertiary"
 -->
 <!-- end bbinclude -->
-<!-- #bbinclude "/markup/faq/default.shtml"
+<!-- #bbinclude "/markup/faq/entry.shtml"
 #bbincludeoptions#="inline=true"
 #INDENT#	= "			"
 -->

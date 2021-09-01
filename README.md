@@ -303,6 +303,14 @@ _Begin Date - 2021-08-30_
 	*	Adjust all the calls to the Elements module by removing the templates variable.
 
 
+
+**v0.5.0-dev.0** 
+_Begin Date - 2021-08-31_
+
+*	Change the default.shtml entry file in every module to entry.shtml.
+	*	Affects all the calls and all the documentation.
+
+
 [![][piplogo]][pipurl]
 
 

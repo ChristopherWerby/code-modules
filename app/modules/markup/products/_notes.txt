@@ -1,6 +1,6 @@
 Calls to the module go here.
 
-<!-- #bbinclude "/markup/products/default.shtml"
+<!-- #bbinclude "/markup/products/entry.shtml"
 #bbincludeoptions#="inline=true"
 #TEMPLATE#	= 'prices'
 #COL-LG#	= '4'

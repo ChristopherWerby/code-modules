@@ -14,7 +14,7 @@
 					</p>
 					<a class="btn btn-primary" href="#URL-DOCS#" target="#TARGET#">
 						#LINK-TEXT#
-<!-- #bbinclude "/elements/default.shtml"
+<!-- #bbinclude "/elements/entry.shtml"
 #bbincludeoptions#="inline=true"
 #ITEM#		= 'icon'
 #ICON#		= 'external-link'

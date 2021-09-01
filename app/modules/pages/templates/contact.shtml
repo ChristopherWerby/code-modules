@@ -14,7 +14,7 @@
 			<div class="row">
 <!-- Map Column -->
 				<div class="col-lg-8 mb-4">
-<!-- #bbinclude "/elements/default.shtml"
+<!-- #bbinclude "/elements/entry.shtml"
 #bbincludeoptions#  ="inline=true"
 #ITEM#      = 'google-map-iframe'
 #INDENT#	= '					'
@@ -23,7 +23,7 @@
 				</div>
 <!-- Contact Details Column -->
 				<div class="col-lg-4 mb-4">
-<!-- #bbinclude "/elements/default.shtml"
+<!-- #bbinclude "/elements/entry.shtml"
 #bbincludeoptions#  ="inline=true"
 #ITEM#      = 'contact-details'
 #INDENT#	= '					'
@@ -38,7 +38,7 @@
 					<h3>
 						Send us a Message
 					</h3>
-<!-- #bbinclude "/elements/default.shtml"
+<!-- #bbinclude "/elements/entry.shtml"
 #bbincludeoptions#  ="inline=true"
 #ITEM#      = 'form-contact'
 #INDENT#	= '					'

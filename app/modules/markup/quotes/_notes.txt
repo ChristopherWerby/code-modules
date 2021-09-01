@@ -1,6 +1,6 @@
 Calls to the module go here.
 
-<!-- #bbinclude "/markup/quotes/default.shtml"
+<!-- #bbinclude "/markup/quotes/entry.shtml"
 #bbincludeoptions#="inline=true"
 #QUOTETYPE#	= 'team'
 #ITEM#		= 'we-always-give-110'
@@ -8,7 +8,7 @@ Calls to the module go here.
 <!-- end bbinclude -->
 
 
-<!-- #bbinclude "/markup/quotes/default.shtml"
+<!-- #bbinclude "/markup/quotes/entry.shtml"
 #bbincludeoptions#="inline=true"
 #QUOTETYPE#	= 'famous'
 #ITEM#		= 'be-yourself'

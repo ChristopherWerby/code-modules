@@ -17,7 +17,7 @@
 				<p>
 					The page you're looking for could not be found. Here are some helpful links to get you back on track:
 				</p>
-<!-- #bbinclude "/nav/default.shtml"
+<!-- #bbinclude "/nav/entry.shtml"
 #bbincludeoptions#="inline=true"
 #TEMPLATE#			= 'unordered-linked-list'
 #SIMPLE-TYPE#		= 'dropdown-item-ul'

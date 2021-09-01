@@ -2,7 +2,7 @@ Calls to the module go here.
 
 Refactored from Cards module to be a separate module. The types/card file calls the Cards module to get the markup.
 
-<!-- #bbinclude "/markup/top-level-modules/default.shtml"
+<!-- #bbinclude "/markup/top-level-modules/entry.shtml"
 #bbincludeoptions#="inline=true"
 #TEMPLATE#	= 'cards'
 #COLUMNS#	= '4'
@@ -11,7 +11,7 @@ Refactored from Cards module to be a separate module. The types/card file calls 
 <!-- end bbinclude -->
 
 
-<!-- #bbinclude "/markup/top-level-modules/default.shtml"
+<!-- #bbinclude "/markup/top-level-modules/entry.shtml"
 #bbincludeoptions#="inline=true"
 #TEMPLATE#	= 'portfolio'
 #TYPE#		= 'portfolio-1'
@@ -20,7 +20,7 @@ Refactored from Cards module to be a separate module. The types/card file calls 
 <!-- end bbinclude -->
 
 
-<!-- #bbinclude "/markup/top-level-modules/default.shtml"
+<!-- #bbinclude "/markup/top-level-modules/entry.shtml"
 #bbincludeoptions#="inline=true"
 #TEMPLATE#		= 'portfolio-multi'
 #COLUMNS-LG#	= '3'
@@ -31,7 +31,7 @@ Refactored from Cards module to be a separate module. The types/card file calls 
 <!-- end bbinclude -->
 
 
-<!-- #bbinclude "/markup/top-level-modules/default.shtml"
+<!-- #bbinclude "/markup/top-level-modules/entry.shtml"
 #bbincludeoptions#="inline=true"
 #TEMPLATE#		= 'portfolio-multi'
 #COLUMNS-LG#	= '4'

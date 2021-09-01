@@ -1,18 +1,18 @@
-<!-- #bbinclude "/markup/social/default.shtml"
+<!-- #bbinclude "/markup/social/entry.shtml"
 #bbincludeoptions#="inline=true"
 #TEMPLATE#	= 'header'
 -->
 <!-- end bbinclude -->
 
 
-<!-- #bbinclude "/markup/social/default.shtml"
+<!-- #bbinclude "/markup/social/entry.shtml"
 #bbincludeoptions#="inline=true"
 #TEMPLATE#	= 'footer'
 -->
 <!-- end bbinclude -->
 
 
-<!-- #bbinclude "/markup/social/default.shtml"
+<!-- #bbinclude "/markup/social/entry.shtml"
 #bbincludeoptions#="inline=true"
 #TEMPLATE#	= 'featured'
 -->

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<!-- #bbinclude "/pages/default.shtml" 
+<!-- #bbinclude "/pages/entry.shtml" 
 #bbincludeoptions#="inline=true"
 #TEMPLATE#		= 'home'
 #PAGE#			= 'default'
@@ -10,7 +10,7 @@
 
 
 <!DOCTYPE html>
-<!-- #bbinclude "/pages/default.shtml" 
+<!-- #bbinclude "/pages/entry.shtml" 
 #bbincludeoptions#="inline=true"
 #TEMPLATE#		= 'placeholder'
 #PAGE#			= 'default'

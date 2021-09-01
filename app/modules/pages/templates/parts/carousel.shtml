@@ -1,4 +1,4 @@
-<!-- #bbinclude "/markup/banner/default.shtml"
+<!-- #bbinclude "/markup/banner/entry.shtml"
 #bbincludeoptions#="inline=true"
 #TEMPLATE#  = 'default'
 -->

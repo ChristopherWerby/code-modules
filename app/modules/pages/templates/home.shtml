@@ -16,7 +16,7 @@
 				Code Modules itself is built upon the use of BBEdit’s include system which is a dependency. If you don’t wish to use BBEdit, a paid program, Code Modules won’t work for you.
 			</p>
 <!-- Online Location Cards -->
-<!-- #bbinclude "/markup/links/default.shtml"
+<!-- #bbinclude "/markup/links/entry.shtml"
 #bbincludeoptions#="inline=true"
 #COLUMNS#	= '6'
 #INDENT#	= "			"
@@ -29,7 +29,7 @@
 			<p>
 				There are five top level module types. Each of the items below are linked to the documentation for that type. See the <a href="/portfolio-1-col.html">Portfolio pages</a> to see this same content used differently—part of the power of code modules.
 			</p>
-<!-- #bbinclude "/markup/top-level-modules/default.shtml"
+<!-- #bbinclude "/markup/top-level-modules/entry.shtml"
 #bbincludeoptions#="inline=true"
 #TEMPLATE#	= 'cards'
 #COLUMNS#	= '4'
@@ -39,7 +39,7 @@
 <!-- Features Section -->
 			<div class="row">
 				<div class="col-lg-6">
-<!-- #bbinclude "/elements/default.shtml"
+<!-- #bbinclude "/elements/entry.shtml"
 #bbincludeoptions#  ="inline=true"
 #ITEM#      = 'features'
 #INDENT#	= '					'

@@ -1,4 +1,4 @@
-<!-- #bbinclude "/markup/cards/default.shtml"
+<!-- #bbinclude "/markup/cards/entry.shtml"
 #bbincludeoptions#="inline=true"
 #TYPE#		= 'item-with-hero-image-and-link'
 #URL#		= '#URL#'

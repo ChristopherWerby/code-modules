@@ -11,7 +11,7 @@
 -->
 <!-- end bbinclude -->
 			<div class="row">
-<!-- #bbinclude "/markup/blog/default.shtml"
+<!-- #bbinclude "/markup/blog/entry.shtml"
 #bbincludeoptions#="inline=true"
 #TEMPLATE#	= 'post'
 #ITEM#		= 'buns'
@@ -20,13 +20,13 @@
 <!-- end bbinclude -->
 <!-- Sidebar Widgets Column -->
 				<div class="col-md-4">
-<!-- #bbinclude "/markup/blog/default.shtml"
+<!-- #bbinclude "/markup/blog/entry.shtml"
 #bbincludeoptions#="inline=true"
 #TEMPLATE#	= 'recent'
 #INDENT#	= '					'
 -->
 <!-- end bbinclude -->
-<!-- #bbinclude "/elements/default.shtml"
+<!-- #bbinclude "/elements/entry.shtml"
 #bbincludeoptions#  ="inline=true"
 #ITEM#      = 'hot-dogs-relation-to-code-modules'
 #INDENT#	= '					'

@@ -1,4 +1,4 @@
-<!-- #bbinclude "/markup/cards/default.shtml"
+<!-- #bbinclude "/markup/cards/entry.shtml"
 #bbincludeoptions#="inline=true"
 #TYPE#		= 'image-with-hero-image-button-footer'
 #URL#		= '#URL#'

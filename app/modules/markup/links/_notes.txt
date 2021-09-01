@@ -1,6 +1,6 @@
 Calls to the module go here.
 
-<!-- #bbinclude "/markup/links/default.shtml"
+<!-- #bbinclude "/markup/links/entry.shtml"
 #bbincludeoptions#="inline=true"
 #COLUMNS#	= '6'
 #INDENT#	= "			"

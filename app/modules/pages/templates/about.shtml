@@ -16,7 +16,7 @@
 				</div>
 <!-- /.col-lg-6 -->
 				<div class="col-lg-6">
-<!-- #bbinclude "/elements/default.shtml"
+<!-- #bbinclude "/elements/entry.shtml"
 #bbincludeoptions#  ="inline=true"
 #ITEM#      	= 'about-intro'
 #INDENT#		= '					'
@@ -30,7 +30,7 @@
 			<h2>
 				Our (Fake) Team
 			</h2>
-<!-- #bbinclude "/markup/team/default.shtml"
+<!-- #bbinclude "/markup/team/entry.shtml"
 #bbincludeoptions#="inline=true"
 #TEMPLATE#	= 'default'
 #COLUMNS-LG#	= '6'
@@ -43,7 +43,7 @@
 			<h2>
 				Our (Fake) Customers
 			</h2>
-<!-- #bbinclude "/markup/customers/default.shtml"
+<!-- #bbinclude "/markup/customers/entry.shtml"
 #bbincludeoptions#="inline=true"
 #INDENT#		= "			"
 -->

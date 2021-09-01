@@ -1,4 +1,4 @@
-<!-- #bbinclude "/markup/videos/default.shtml"
+<!-- #bbinclude "/markup/videos/entry.shtml"
 #bbincludeoptions#="inline=true"
 #INDENT#	= '			'
 -->

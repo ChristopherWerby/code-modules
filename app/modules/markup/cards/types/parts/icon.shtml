@@ -1,4 +1,4 @@
-<!-- #bbinclude "/elements/default.shtml"
+<!-- #bbinclude "/elements/entry.shtml"
 #bbincludeoptions#="inline=true"
 #ITEM#		= 'icon'
 #ICON#		= '#ICON#'

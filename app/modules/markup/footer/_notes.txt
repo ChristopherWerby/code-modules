@@ -1,4 +1,4 @@
-<!-- #bbinclude "/markup/footer/default.shtml"
+<!-- #bbinclude "/markup/footer/entry.shtml"
 #bbincludeoptions#="inline=true"
 #INDENT#	= '		'
 -->

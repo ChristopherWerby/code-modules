@@ -4,7 +4,7 @@
 			<h2>
 				#TITLE#
 			</h2>
-<!-- #bbinclude "/elements/default.shtml"
+<!-- #bbinclude "/elements/entry.shtml"
 #bbincludeoptions#="inline=true"
 #ITEM#		= "divider"
 -->

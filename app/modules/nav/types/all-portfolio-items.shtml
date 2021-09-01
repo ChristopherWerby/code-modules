@@ -1,5 +1,5 @@
 #bbinclude "#DROPDOWN-DIVIDER#.shtml"
-<!-- #bbinclude "/markup/top-level-modules/default.shtml"
+<!-- #bbinclude "/markup/top-level-modules/entry.shtml"
 #bbincludeoptions#="inline=true"
 #TEMPLATE#			= 'nav'
 -->

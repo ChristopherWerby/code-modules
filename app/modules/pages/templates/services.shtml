@@ -13,7 +13,7 @@
 <!-- Image Header -->
 			<img class="img-fluid rounded mb-4" src="/images/editorial/Hot_Dog-Single-40-2220x555.jpg" alt="Single hot dog, loaded, by David Thielan via Unsplash"> 
 <!-- Marketing Icons Section -->
-<!-- #bbinclude "/markup/blog/default.shtml"
+<!-- #bbinclude "/markup/blog/entry.shtml"
 #bbincludeoptions#="inline=true"
 #TEMPLATE#	= 'teasers'
 #INDENT#	= '			'

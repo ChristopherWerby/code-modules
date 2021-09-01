@@ -1,4 +1,4 @@
-<!-- #bbinclude "/markup/breadcrumbs/default.shtml"
+<!-- #bbinclude "/markup/breadcrumbs/entry.shtml"
 #bbincludeoptions#="inline=true"
 #TEMPLATE#	= '#HIERARCHY#'
 #DROPDOWN#	= '#DROPDOWN#'

@@ -1,4 +1,4 @@
-<!-- #bbinclude "/nav/default.shtml"
+<!-- #bbinclude "/nav/entry.shtml"
 #bbincludeoptions#="inline=true"
 #TEMPLATE#	= 'dropdown'
 #LIST#		= #LIST#
