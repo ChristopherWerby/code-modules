@@ -42,7 +42,7 @@
 				</div>
 			</div>
 <!-- /.row -->
-<!-- #bbinclude "/markup/top-level-modules/entry.shtml"
+<!-- #bbinclude "/markup/high-level-modules/entry.shtml"
 #bbincludeoptions#="inline=true"
 #TEMPLATE#		= 'related'
 #NAME#			= 'elements'

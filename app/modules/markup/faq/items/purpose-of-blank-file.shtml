@@ -1,7 +1,7 @@
 <!-- #bbinclude "/markup/#MODULE#/types/default.shtml"
 #bbincludeoptions#="inline=true"
 #QUESTION#		= 'What’s the purpose of the <code>items/blank.shtml</code> file?'
-#ANSWER#		= 'Each item is a persistent include that contains a number of variables. In the case of the Faq markup module responsible for this webpage section, there’s a Question, an Answer, and an ID variable. Here, an optional comment variable is used; I use these comments to provide instructions to those who are filling in the values of the variables. The <code>blank.shtml</code> file—which you customize and update as you create and modify the module—contains this starting framework for new items. The <code>blank.shtml</code> file for the Faq module on this sample site is: <br /><br /><code><pre>
+#ANSWER#		= 'Each item is a persistent include that contains a number of variables. In the case of the Faq markup module responsible for this web page section, there’s a Question, an Answer, and an ID variable. Here, an optional comment variable is used; I use these comments to provide instructions to those who are filling in the values of the variables. The <code>blank.shtml</code> file—which you customize and update as you create and modify the module—contains this starting framework for new items. The <code>blank.shtml</code> file for the Faq module on this sample site is: <br /><br /><code><pre>
 &lt;!-- &num;bbinclude &quot;/markup/&num;MODULE&num;/types/default.shtml&quot;
 &num;bbincludeoptions&num;=&quot;inline=true&quot;
 &num;QUESTION&num;		= &apos;&apos;

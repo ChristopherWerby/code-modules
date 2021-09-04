@@ -29,7 +29,7 @@
 			<p>
 				There are five top level module types. Each of the items below are linked to the documentation for that type. See the <a href="/portfolio-1-col.html">Portfolio pages</a> to see this same content used differently—part of the power of code modules.
 			</p>
-<!-- #bbinclude "/markup/top-level-modules/entry.shtml"
+<!-- #bbinclude "/markup/high-level-modules/entry.shtml"
 #bbincludeoptions#="inline=true"
 #TEMPLATE#	= 'cards'
 #COLUMNS#	= '4'

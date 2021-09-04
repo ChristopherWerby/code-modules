@@ -1,6 +1,6 @@
 <!-- #bbinclude "templates/#TEMPLATE#.shtml"
 #bbincludeoptions#="inline=true"
-#MODULE# 		= 'top-level-modules'
+#MODULE# 		= 'high-level-modules'
 #EXTRA-TEXT#	= ''
 #COLUMNS#		= '#COLUMNS#'
 #INDENT# 		= '#INDENT#'

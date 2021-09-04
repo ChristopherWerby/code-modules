@@ -4,7 +4,7 @@
 #LINK-TEXT#		= 'See Documentation'
 -->
 <!-- end bbinclude -->
-<!-- #bbinclude "/markup/top-level-modules/entry.shtml"
+<!-- #bbinclude "/markup/high-level-modules/entry.shtml"
 #bbincludeoptions#="inline=true"
 #TEMPLATE#		= 'related'
 #NAME#			= '#NAME#'

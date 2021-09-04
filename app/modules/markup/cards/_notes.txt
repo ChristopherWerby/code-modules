@@ -1,4 +1,4 @@
-Refactored and moved the top-level-modules and online (now Links module) to their own modules. They still call this module for the single card markup. After refactor, the Cards module no longer has any items. It is just used for layout, currently for the Links module and Top-level-modules module.
+Refactored and moved the high-level modules and online (now Links module) to their own modules. They still call this module for the single card markup. After refactor, the Cards module no longer has any items. It is just used for layout, currently for the Links module and high-level-modules module.
 
 Note that columns is the number used out of 12. So 6 columns is 2 cards per row; 4 columns is 3 cards per row; 3 columns is 4 cards per row.
 

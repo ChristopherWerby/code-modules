@@ -78,7 +78,7 @@ _Release Date - 2021-04-27_
 *	Update `package.json`
 *	Change javascript to a bundle using Parcel.
 *	Test js modules with Parcel.
-*	Update theme html files to use new styles and js when moved to public.
+*	Update theme HTML files to use new styles and js when moved to public.
 *	Add .htaccess with Pipsqueak Shortcuts system.
 	*	This didn't work with Parcel and was removed in v0.4.8
 *	Remove git push to production or dev.
@@ -179,12 +179,12 @@ _Begin Date - 2021-07-19_
 **v0.4.11** 
 _Begin Date - 2021-07-24_
 
-*	Fix canonical URLs by adding html extension.
+*	Fix canonical URLs by adding HTML extension.
 *	Move unused pagination markup to Elements/markup module.
 *	Remove extra end div for container from templates.
 *	Refactor the Cards module.
 	*	The Cards module is just about layout now. There is no content inside of it.
-	*	Pull the top-level-modules and online functions out to a new Top-level-modules and Links module respectively.
+	*	Pull the high-level-modules and online functions out to a new Top-level-modules and Links module respectively.
 		*	Each module calls the Cards module when it needs to make a card for the home page.
 
 
@@ -250,14 +250,14 @@ _Begin Date - 2021-08-13_
 **v0.4.16** 
 _Begin Date - 2021-08-16_
 
-*	Got the Blog and Portfolio (top-level-modules) items to work in the various navigation markup forms.
+*	Got the Blog and Portfolio (high-level-modules) items to work in the various navigation markup forms.
 	*	Uses TERTIARY-NAV-TYPE variable
 		*	This defines how the Blog Post and Portfolio items will look in the navigation list.
 			*	There are three different navigation placements: top, sidebar, 404.  
 			*	Top is a dropdown-item, sidebar is simple-bare, and 404 is dropdown-item-ul.
 	*	Uses the recent blog posts list.
 		*	Right now, that's the same as all blog posts.
-	*	The Portfolio (top-level-modules) items now work in the various navigation markup forms.
+	*	The Portfolio (high-level-modules) items now work in the various navigation markup forms.
 *	Some clean-up for navigation changes.
 *	Add a Dropdown Divider for top navigation that's null on the other navigation forms.
 	*	Defined as null by default and as 'dropdown-divider' for top navigation.
@@ -320,6 +320,7 @@ _Begin Date - 2021-09-04_
 *	Add image preload links to the head of the home page for the banner carousel.
 	*	Just on the home page.
 *	Update some text.
+*	Rename top-level-modules module to high-level-modules.
 
 
 
