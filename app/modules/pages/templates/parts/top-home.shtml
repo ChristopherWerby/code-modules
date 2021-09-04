@@ -1,4 +1,8 @@
-#bbinclude 'top-default.shtml'
+<!-- #bbinclude 'top-default.shtml'
+#bbincludeoptions#="inline=true"
+#TECH-HEAD-TEMPLATE#	= 'head-home'
+-->
+<!-- end bbinclude -->
 		<header>
 #bbinclude "carousel.shtml"
 		</header>

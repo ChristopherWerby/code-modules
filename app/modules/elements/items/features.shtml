@@ -3,7 +3,7 @@
 #INDENT#</h2>
 #INDENT#<ul>
 #INDENT#	<li>
-#INDENT#		Static Websites
+#INDENT#		Improves Authoring of Static Websites
 #INDENT#	</li>
 #INDENT#	<li>
 #INDENT#		DRY principle — “don’t repeat yourself”
@@ -22,8 +22,5 @@
 #INDENT#	</li>
 #INDENT#	<li>
 #INDENT#		Avoid Messy Markup
-#INDENT#	</li>
-#INDENT#	<li>
-#INDENT#		Favor Composition Over Inheritance
 #INDENT#	</li>
 #INDENT#</ul>

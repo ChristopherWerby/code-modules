@@ -206,7 +206,7 @@
 					<div class="card-header" role="tab" id="heading-mustUseBBEdit">
 						<h5 class="mb-0">
 							<a class="collapsed" data-toggle="collapse" data-parent="#faq-accordion" href="#mustUseBBEdit" aria-expanded="false" aria-controls="mustUseBBEdit">
-								Can I use Code Modules with another Text Editor than <cite>BBEdit</cite>?</a>
+								Can I use Code Modules with another text editor than <cite>BBEdit</cite>?</a>
 						</h5>
 					</div>
 					<div id="mustUseBBEdit" class="collapse" role="tabpanel" aria-labelledby="heading-mustUseBBEdit">
@@ -271,7 +271,7 @@
 &num;bbinclude &apos;header.shtml&apos;
 </pre></code></p><p><strong>Persistent includes</strong> are wrapped in HTML comment tags. They can define or overwrite variables. And they will not be replaced in a top-level html page file. Instead, the content of the include will be placed between the two parts of an persistent include, each of which are wrapped in an html comment. The boilerplate #bbincludeoptions# variable just prevents a blank line from being inserted. An example of a persistent include is: 
 <code><pre>
-&lt;!-- &num;bbinclude &apos;/markup/faq/default.shtml&apos;
+&lt;!-- &num;bbinclude &apos;/markup/faq/entry.shtml&apos;
 &num;bbincludeoptions&num;=&quot;inline=true&quot;
 &num;INDENT&num;	= &quot;			&quot;
 --&gt;
@@ -304,7 +304,7 @@
 					</div>
 					<div id="purposeOfBlankModule" class="collapse" role="tabpanel" aria-labelledby="heading-purposeOfBlankModule">
 						<div class="card-body">
-							The Blank module is a subfolder of the top-level Markup module. Duplicate the Blank module and rename it appropriately: i.e. <code>faq</code>. Then go into the root default.shtml file and change the &num;MODULE&num; variable value to the same value as the name of the module: i.e. <code>faq</code>. Now you have the skeleton of a Faq module, ready to alter to make it work for your purpose. By copying and renaming the Blank module, you’ve reduced the repetitive boilerplate that is an undeniable downside to the Code Modules system.
+							The Blank module is a subfolder of the top-level Markup module. Duplicate the Blank module and rename it appropriately: i.e. <code>faq</code>. Then go into the root <code>entry.shtml</code> file and change the &num;MODULE&num; variable value to the same value as the name of the module: i.e. <code>faq</code>. Now you have the skeleton of a Faq module, ready to alter to make it work for your purpose. By copying and renaming the Blank module, you’ve reduced the repetitive boilerplate that is an undeniable downside to the Code Modules system.
 						</div>
 					</div>
 				</div>
@@ -346,7 +346,7 @@
 <code><pre>
 Calls to the module go here.
 
-&lt;!-- &num;bbinclude &quot;/markup/faq/default.shtml&quot;
+&lt;!-- &num;bbinclude &quot;/markup/faq/entry.shtml&quot;
 &num;bbincludeoptions&num;=&quot;inline=true&quot;
 &num;INDENT&num;	= &quot;			&quot;
 --&gt;
@@ -362,16 +362,22 @@ It also can return an unordered ul list of links with sub sections for each drop
 
 It can also return a div with a flat set of links (for sidebar; since only for sidebar, this one has an active class on the sidebar link) — template: unordered-linked-list.
 
+TERTIARY-NAV-TYPE variable defines the form of the markup which comes from the Blog module when getting individual blog posts.
 
-&lt;!-- &num;bbinclude &quot;/nav/default.shtml&quot;
+SIMPLE-TYPE is for simple nav links that aren&apos;t dropdown items.
+
+
+&lt;!-- &num;bbinclude &quot;/nav/entry.shtml&quot;
 &num;bbincludeoptions&num;=&quot;inline=true&quot;
-&num;TEMPLATE&num;	= &apos;default&apos;
-&num;INDENT&num;	= &apos;		&apos;
+&num;SIMPLE-TYPE&num;		= &apos;simple&apos;
+&num;TERTIARY-NAV-TYPE&num;	= &apos;dropdown-item&apos;
+&num;TEMPLATE&num;		= &apos;default&apos;
+&num;INDENT&num;		= &apos;		&apos;
 --&gt;
 &lt;!-- end bbinclude --&gt;
 
 
-&lt;!-- &num;bbinclude &quot;/nav/default.shtml&quot;
+&lt;!-- &num;bbinclude &quot;/nav/entry.shtml&quot;
 &num;bbincludeoptions&num;=&quot;inline=true&quot;
 &num;TEMPLATE&num;	= &apos;div-links&apos;
 &num;INDENT&num;	= &apos;					&apos;
@@ -379,10 +385,33 @@ It can also return a div with a flat set of links (for sidebar; since only for s
 &lt;!-- end bbinclude --&gt;
 
 
-&lt;!-- &num;bbinclude &quot;/nav/default.shtml&quot;
+&lt;!-- &num;bbinclude &quot;/nav/entry.shtml&quot;
 &num;bbincludeoptions&num;=&quot;inline=true&quot;
-&num;TEMPLATE&num;	= &apos;unordered-linked-list&apos;
-&num;INDENT&num;	= &apos;				&apos;
+&num;TEMPLATE&num;		= &apos;unordered-linked-list&apos;
+&num;SIMPLE-TYPE&num;		= &apos;dropdown-item-ul&apos;
+&num;TERTIARY-NAV-TYPE&num;	= &apos;dropdown-item-ul&apos;
+&num;INDENT&num;		= &apos;				&apos;
+--&gt;
+&lt;!-- end bbinclude --&gt;
+
+
+
+&lt;!-- &num;bbinclude &quot;/nav/entry.shtml&quot;
+&num;bbincludeoptions&num;=&quot;inline=true&quot;
+&num;TEMPLATE&num;	= &apos;dropdown-single&apos;
+&num;TYPE&num;		= &apos;&num;SIMPLE-TYPE&num;&apos;
+&num;TEXT&num;		= &apos;&num;NAV-NAME&num;&apos;
+&num;URL&num;		= &apos;&num;URL&num;&apos;
+--&gt;
+&lt;!-- end bbinclude --&gt;
+
+
+&lt;!-- &num;bbinclude &quot;/nav/entry.shtml&quot;
+&num;bbincludeoptions&num;=&quot;inline=true&quot;
+&num;TEMPLATE&num;		= &apos;div-links&apos;
+&num;SIMPLE-TYPE&num;		= &apos;simple-bare&apos;
+&num;TERTIARY-NAV-TYPE&num;	= &apos;simple-bare&apos;
+&num;INDENT&num;		= &apos;					&apos;
 --&gt;
 &lt;!-- end bbinclude --&gt;
 </pre></code>

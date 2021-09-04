@@ -308,7 +308,20 @@ _Begin Date - 2021-08-30_
 _Begin Date - 2021-08-31_
 
 *	Change the default.shtml entry file in every module to entry.shtml.
-	*	Affects all the calls and all the documentation.
+	*	Affects all the calls and the documentation.
+	*	`====#bbinclude ("|')(/[A-Za-z0-9/_-]*)/default.shtml("|')==== s/r CAREFULLY ====#bbinclude "\2/entry.shtml"====`
+	*	Check through the text -- e.g. Faq page -- to normalize the use of entry.
+
+
+
+**v0.5.1** 
+_Begin Date - 2021-09-04_
+
+*	Add image preload links to the head of the home page for the banner carousel.
+	*	Just on the home page.
+*	Update some text.
+
+
 
 
 [![][piplogo]][pipurl]

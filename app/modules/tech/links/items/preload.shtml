@@ -1,5 +1,5 @@
 <!-- #bbinclude "/markup/banner/entry.shtml"
 #bbincludeoptions#="inline=true"
-#TEMPLATE#	= 'default'
+#TEMPLATE#	= 'preload'
 -->
 <!-- end bbinclude -->

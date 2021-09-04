@@ -5,7 +5,7 @@
 &num;bbinclude &apos;header.shtml&apos;
 </pre></code></p><p><strong>Persistent includes</strong> are wrapped in HTML comment tags. They can define or overwrite variables. And they will not be replaced in a top-level html page file. Instead, the content of the include will be placed between the two parts of an persistent include, each of which are wrapped in an html comment. The boilerplate #bbincludeoptions# variable just prevents a blank line from being inserted. An example of a persistent include is: 
 <code><pre>
-&lt;!-- &num;bbinclude &apos;/markup/faq/default.shtml&apos;
+&lt;!-- &num;bbinclude &apos;/markup/faq/entry.shtml&apos;
 &num;bbincludeoptions&num;=&quot;inline=true&quot;
 &num;INDENT&num;	= &quot;			&quot;
 --&gt;

@@ -85,6 +85,7 @@
 #HEADTEMPLATE#				= 'default'
 #HEADERTEMPLATE#			= 'default'
 #FOOTTEMPLATE#				= 'default'
+#TECH-HEAD-TEMPLATE#		= 'head'
 #TYPE#						= 'default'
 #DESCRIPTION_ITEM#			= 'default'
 #KEYWORD_ITEM#				= 'default'

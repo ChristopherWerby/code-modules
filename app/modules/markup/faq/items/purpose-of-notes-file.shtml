@@ -6,7 +6,7 @@
 <code><pre>
 Calls to the module go here.
 
-&lt;!-- &num;bbinclude &quot;/markup/faq/default.shtml&quot;
+&lt;!-- &num;bbinclude &quot;/markup/faq/entry.shtml&quot;
 &num;bbincludeoptions&num;=&quot;inline=true&quot;
 &num;INDENT&num;	= &quot;			&quot;
 --&gt;
@@ -22,16 +22,22 @@ It also can return an unordered ul list of links with sub sections for each drop
 
 It can also return a div with a flat set of links (for sidebar; since only for sidebar, this one has an active class on the sidebar link) — template: unordered-linked-list.
 
+TERTIARY-NAV-TYPE variable defines the form of the markup which comes from the Blog module when getting individual blog posts.
 
-&lt;!-- &num;bbinclude &quot;/nav/default.shtml&quot;
+SIMPLE-TYPE is for simple nav links that aren&apos;t dropdown items.
+
+
+&lt;!-- &num;bbinclude &quot;/nav/entry.shtml&quot;
 &num;bbincludeoptions&num;=&quot;inline=true&quot;
-&num;TEMPLATE&num;	= &apos;default&apos;
-&num;INDENT&num;	= &apos;		&apos;
+&num;SIMPLE-TYPE&num;		= &apos;simple&apos;
+&num;TERTIARY-NAV-TYPE&num;	= &apos;dropdown-item&apos;
+&num;TEMPLATE&num;		= &apos;default&apos;
+&num;INDENT&num;		= &apos;		&apos;
 --&gt;
 &lt;!-- end bbinclude --&gt;
 
 
-&lt;!-- &num;bbinclude &quot;/nav/default.shtml&quot;
+&lt;!-- &num;bbinclude &quot;/nav/entry.shtml&quot;
 &num;bbincludeoptions&num;=&quot;inline=true&quot;
 &num;TEMPLATE&num;	= &apos;div-links&apos;
 &num;INDENT&num;	= &apos;					&apos;
@@ -39,10 +45,33 @@ It can also return a div with a flat set of links (for sidebar; since only for s
 &lt;!-- end bbinclude --&gt;
 
 
-&lt;!-- &num;bbinclude &quot;/nav/default.shtml&quot;
+&lt;!-- &num;bbinclude &quot;/nav/entry.shtml&quot;
 &num;bbincludeoptions&num;=&quot;inline=true&quot;
-&num;TEMPLATE&num;	= &apos;unordered-linked-list&apos;
-&num;INDENT&num;	= &apos;				&apos;
+&num;TEMPLATE&num;		= &apos;unordered-linked-list&apos;
+&num;SIMPLE-TYPE&num;		= &apos;dropdown-item-ul&apos;
+&num;TERTIARY-NAV-TYPE&num;	= &apos;dropdown-item-ul&apos;
+&num;INDENT&num;		= &apos;				&apos;
+--&gt;
+&lt;!-- end bbinclude --&gt;
+
+
+
+&lt;!-- &num;bbinclude &quot;/nav/entry.shtml&quot;
+&num;bbincludeoptions&num;=&quot;inline=true&quot;
+&num;TEMPLATE&num;	= &apos;dropdown-single&apos;
+&num;TYPE&num;		= &apos;&num;SIMPLE-TYPE&num;&apos;
+&num;TEXT&num;		= &apos;&num;NAV-NAME&num;&apos;
+&num;URL&num;		= &apos;&num;URL&num;&apos;
+--&gt;
+&lt;!-- end bbinclude --&gt;
+
+
+&lt;!-- &num;bbinclude &quot;/nav/entry.shtml&quot;
+&num;bbincludeoptions&num;=&quot;inline=true&quot;
+&num;TEMPLATE&num;		= &apos;div-links&apos;
+&num;SIMPLE-TYPE&num;		= &apos;simple-bare&apos;
+&num;TERTIARY-NAV-TYPE&num;	= &apos;simple-bare&apos;
+&num;INDENT&num;		= &apos;					&apos;
 --&gt;
 &lt;!-- end bbinclude --&gt;
 </pre></code>'

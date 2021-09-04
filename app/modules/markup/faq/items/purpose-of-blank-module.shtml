@@ -1,7 +1,7 @@
 <!-- #bbinclude "/markup/#MODULE#/types/default.shtml"
 #bbincludeoptions#="inline=true"
 #QUESTION#		= 'What’s the purpose of the Blank module?'
-#ANSWER#		= 'The Blank module is a subfolder of the top-level Markup module. Duplicate the Blank module and rename it appropriately: i.e. <code>faq</code>. Then go into the root default.shtml file and change the &num;MODULE&num; variable value to the same value as the name of the module: i.e. <code>faq</code>. Now you have the skeleton of a Faq module, ready to alter to make it work for your purpose. By copying and renaming the Blank module, you’ve reduced the repetitive boilerplate that is an undeniable downside to the Code Modules system.'
+#ANSWER#		= 'The Blank module is a subfolder of the top-level Markup module. Duplicate the Blank module and rename it appropriately: i.e. <code>faq</code>. Then go into the root <code>entry.shtml</code> file and change the &num;MODULE&num; variable value to the same value as the name of the module: i.e. <code>faq</code>. Now you have the skeleton of a Faq module, ready to alter to make it work for your purpose. By copying and renaming the Blank module, you’ve reduced the repetitive boilerplate that is an undeniable downside to the Code Modules system.'
 #ID#			= 'purposeOfBlankModule'
 -->
 <!-- end bbinclude -->

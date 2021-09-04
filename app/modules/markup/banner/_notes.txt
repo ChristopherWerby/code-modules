@@ -1,7 +1,12 @@
 <!-- #bbinclude "/markup/banner/entry.shtml"
 #bbincludeoptions#="inline=true"
-#INDENT#	= '			'
+#TEMPLATE#	= 'default'
 -->
 <!-- end bbinclude -->
 
 
+<!-- #bbinclude "/markup/banner/entry.shtml"
+#bbincludeoptions#="inline=true"
+#TEMPLATE#	= 'preload'
+-->
+<!-- end bbinclude -->

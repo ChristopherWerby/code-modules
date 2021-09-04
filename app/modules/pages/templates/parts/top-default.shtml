@@ -6,7 +6,8 @@
 	<head data-fold="true">
 <!-- #bbinclude "/tech/entry.shtml"
 #bbincludeoptions#="inline=true"
-#TEMPLATE#	= 'head'
+#TEMPLATE#	= '#TECH-HEAD-TEMPLATE#'
+#COMMENT#	= 'TECH-HEAD-TEMPLATE is "head" by default, but sometimes "head-home"'
 #INDENT#	= '		'
 -->
 <!-- end bbinclude -->
