@@ -322,7 +322,7 @@ _Begin Date - 2021-09-04_
 *	Update some text.
 *	Rename top-level-modules module to high-level-modules; adjust documentation.
 *	Remove unused global variables.
-*	Normalize variable names to all caps kabab case.
+*	Normalize variable names to all caps kebab case.
 *	Create a **modules-starter/** folder with a skeleton of the modules system.
 	*	This is what users would download and use to start their own projects.
 	*	Still needs work.
