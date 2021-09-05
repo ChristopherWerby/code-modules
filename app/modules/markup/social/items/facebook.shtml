@@ -1,6 +1,6 @@
 <!-- #bbinclude "/markup/#MODULE#/types/#TEMPLATE#.shtml"
 #bbincludeoptions#="inline=true"
 #CLASS#		= 'facebook'
-#LINK#		= 'https://www.facebook.com/example/'
+#LINK#		= '#FACEBOOK#'
 -->
 <!-- end bbinclude -->

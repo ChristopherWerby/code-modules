@@ -1,0 +1,5 @@
+<!-- #bbinclude "/#MODULE#/templates/default.shtml" 
+#bbincludeoptions#="inline=true"
+#MODULE# 			= "nav"
+-->
+<!-- end bbinclude -->

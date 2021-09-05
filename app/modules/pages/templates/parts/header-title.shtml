@@ -1,6 +1,6 @@
 <!-- Page Headline -->
 			<h1 class="mt-4 mb-3">
-				#PAGE_TITLE#
+				#PAGE-TITLE#
 				<small>
 					#SUBHEAD#
 				</small>

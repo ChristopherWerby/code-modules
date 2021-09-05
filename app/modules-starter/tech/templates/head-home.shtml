@@ -1,0 +1,2 @@
+#bbinclude "/#MODULE#/meta/lists/default.shtml"
+#bbinclude "/#MODULE#/links/lists/home.shtml"

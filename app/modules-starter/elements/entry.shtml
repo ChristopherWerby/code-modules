@@ -1,0 +1,5 @@
+<!-- #bbinclude "items/#ITEM#.shtml"
+#bbincludeoptions#  ="inline=true"
+#MODULE#            = "elements"
+-->
+<!-- end bbinclude -->

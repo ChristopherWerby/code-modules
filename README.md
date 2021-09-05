@@ -129,7 +129,7 @@ _Begin Date - 2021-05-31_
 **v0.4.7** 
 _Begin Date - 2021-07-03_
 
-*	Set up the Nav top-level module using navigation from the theme.
+*	Set up the Nav high level module using navigation from the theme.
 
 
 
@@ -184,7 +184,7 @@ _Begin Date - 2021-07-24_
 *	Remove extra end div for container from templates.
 *	Refactor the Cards module.
 	*	The Cards module is just about layout now. There is no content inside of it.
-	*	Pull the high-level-modules and online functions out to a new Top-level-modules and Links module respectively.
+	*	Pull the high-level-modules and online functions out to a new high-level-modules and Links module respectively.
 		*	Each module calls the Cards module when it needs to make a card for the home page.
 
 
@@ -193,7 +193,7 @@ _Begin Date - 2021-07-24_
 _Begin Date - 2021-07-26_
 
 *	Update home page text.
-*	Create Portfolio template for Top-level-modules module.
+*	Create Portfolio template for high-level-modules module.
 *	Add [Font-Awesome][9], [v4.7.0][10]
 	*	Include new link item in Tech module.
 	*	[Browse Icons][11]
@@ -208,7 +208,7 @@ _Begin Date - 2021-07-26_
 *	"Related Projects" section of single portfolio item.
 	*	Change from hard coded to flex items.
 	*	Use classes to eliminate the current item from the list.
-*	Create individual portfolio item pages for each top-level module.
+*	Create individual portfolio item pages for each high level module.
 *	Add a new "npm run webdev" command to start up development for Code Modules sample files on my local system.
 *	Replace direct calls to Unsplash with local versions of the Editorial images.
 	*	Original Image URLs for [Markup][13], [Page][14], [Nav][15], [Elements][16], [Tech][17]
@@ -218,7 +218,7 @@ _Begin Date - 2021-07-26_
 **v0.4.13** 
 _Begin Date - 2021-07-31_
 
-*	Fill out EXTRA-TEXT variables for each of the five Top-level-modules items.
+*	Fill out EXTRA-TEXT variables for each of the five high-level-modules items.
 *	Modify the webdev command.
 
 
@@ -299,7 +299,7 @@ _Begin Date - 2021-08-30_
 *	Move content out of About page and into Elements module items.
 *	Add Google and Microsoft verification metatags.
 *	Create a base and extended description.
-*	Simplify the Elements top-level module by removing the subfolders.
+*	Simplify the Elements high level module by removing the subfolders.
 	*	Adjust all the calls to the Elements module by removing the templates variable.
 
 
@@ -320,7 +320,12 @@ _Begin Date - 2021-09-04_
 *	Add image preload links to the head of the home page for the banner carousel.
 	*	Just on the home page.
 *	Update some text.
-*	Rename top-level-modules module to high-level-modules.
+*	Rename top-level-modules module to high-level-modules; adjust documentation.
+*	Remove unused global variables.
+*	Normalize variable names to all caps kabab case.
+*	Create a **modules-starter/** folder with a skeleton of the modules system.
+	*	This is what users would download and use to start their own projects.
+	*	Still needs work.
 
 
 

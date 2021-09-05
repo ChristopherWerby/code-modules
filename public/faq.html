@@ -267,9 +267,9 @@
 					</div>
 					<div id="differencePersistentSimpleIncludes" class="collapse" role="tabpanel" aria-labelledby="heading-differencePersistentSimpleIncludes">
 						<div class="card-body">
-							<p><strong>Simple includes</strong> just pull in the contents of the child file. If that child file calls another include, then that is processed first. If variables have already been defined higher up in the chain, then they are passed down unaltered. But a simple include can’t define or overwrite variables on its own. If the simple include is in the top-level html page file, then it will be replaced by the child file. Simple includes aren’t often used in top-level html pages for this reason. Simple includes are not replaced when they do not appear in the top-level html page. An example of a simple include is: <code><pre>
+							<p><strong>Simple includes</strong> just pull in the contents of the child file. If that child file calls another include, then that is processed first. If variables have already been defined higher up in the chain, then they are passed down unaltered. But a simple include can’t define or overwrite variables on its own. If the simple include is in the top level HTML page file, then it will be replaced by the child file. Simple includes aren’t often used in top level HTML pages for this reason. Simple includes are not replaced when they do not appear in the top level HTML page. An example of a simple include is: <code><pre>
 &num;bbinclude &apos;header.shtml&apos;
-</pre></code></p><p><strong>Persistent includes</strong> are wrapped in HTML comment tags. They can define or overwrite variables. And they will not be replaced in a top-level html page file. Instead, the content of the include will be placed between the two parts of an persistent include, each of which are wrapped in an html comment. The boilerplate #bbincludeoptions# variable just prevents a blank line from being inserted. An example of a persistent include is: 
+</pre></code></p><p><strong>Persistent includes</strong> are wrapped in HTML comment tags. They can define or overwrite variables. And they will not be replaced in a top level HTML page file. Instead, the content of the include will be placed between the two parts of an persistent include, each of which are wrapped in an HTML comment. The boilerplate #bbincludeoptions# variable just prevents a blank line from being inserted. An example of a persistent include is: 
 <code><pre>
 &lt;!-- &num;bbinclude &apos;/markup/faq/entry.shtml&apos;
 &num;bbincludeoptions&num;=&quot;inline=true&quot;
@@ -290,7 +290,7 @@
 					</div>
 					<div id="useModuleForStaticContent" class="collapse" role="tabpanel" aria-labelledby="heading-useModuleForStaticContent">
 						<div class="card-body">
-							Sometimes a whole module is overkill. If you want to replicate the simplicity of a traditional include, explore the top-level <a href="https://codemodules.net/usage/elements-module">Elements module</a>. This one module can contain many traditional includes. One added benefit is that these includes can use the global variables or variables defined in the calling chain. The Elements module is a great place to tuck away a large hunk of markup, e.g. a form. By putting it in its own include, the calling file’s markup is made more readable.
+							Sometimes a whole module is overkill. If you want to replicate the simplicity of a traditional include, explore the high level <a href="https://codemodules.net/usage/elements-module">Elements module</a>. This one module can contain many traditional includes. One added benefit is that these includes can use the global variables or variables defined in the calling chain. The Elements module is a great place to tuck away a large hunk of markup, e.g. a form. By putting it in its own include, the calling file’s markup is made more readable.
 						</div>
 					</div>
 				</div>
@@ -304,7 +304,7 @@
 					</div>
 					<div id="purposeOfBlankModule" class="collapse" role="tabpanel" aria-labelledby="heading-purposeOfBlankModule">
 						<div class="card-body">
-							The Blank module is a subfolder of the top-level Markup module. Duplicate the Blank module and rename it appropriately: i.e. <code>faq</code>. Then go into the root <code>entry.shtml</code> file and change the &num;MODULE&num; variable value to the same value as the name of the module: i.e. <code>faq</code>. Now you have the skeleton of a Faq module, ready to alter to make it work for your purpose. By copying and renaming the Blank module, you’ve reduced the repetitive boilerplate that is an undeniable downside to the Code Modules system.
+							The Blank module is a subfolder of the high level Markup module. Duplicate the Blank module and rename it appropriately: i.e. <code>faq</code>. Then go into the root <code>entry.shtml</code> file and change the &num;MODULE&num; variable value to the same value as the name of the module: i.e. <code>faq</code>. Now you have the skeleton of a Faq module, ready to alter to make it work for your purpose. By copying and renaming the Blank module, you’ve reduced the repetitive boilerplate that is an undeniable downside to the Code Modules system.
 						</div>
 					</div>
 				</div>

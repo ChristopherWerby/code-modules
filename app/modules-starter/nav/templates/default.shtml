@@ -1,0 +1,7 @@
+#bbinclude "parts/top.shtml"
+<!-- #bbinclude "/#MODULE#/lists/default.shtml"
+#bbincludeoptions#="inline=true"
+#TYPE#			= 'default'
+-->
+<!-- end bbinclude -->
+#bbinclude "parts/bottom.shtml"

@@ -1,0 +1,12 @@
+<!-- #bbinclude "parts/top.shtml"
+#bbincludeoptions#="inline=true"
+#PAGE-TITLE# 		= "Home"
+#SUBHEAD#			= "— This is a subhead"
+#CANONICAL-URL# 	= "/index.html"
+#ID#				= "homePage"
+-->
+<!-- end bbinclude -->
+			<p>
+				This is where the content for the home page would go. It can consist of  markup or calls to modules.
+			</p>
+#bbinclude "parts/bottom.shtml"

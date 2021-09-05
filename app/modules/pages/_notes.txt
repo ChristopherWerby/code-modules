@@ -15,5 +15,6 @@
 #TEMPLATE#		= 'placeholder'
 #PAGE#			= 'default'
 -->
+<!-- end bbinclude -->
 
 

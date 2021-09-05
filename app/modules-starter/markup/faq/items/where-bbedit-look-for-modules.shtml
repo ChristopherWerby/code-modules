@@ -1,0 +1,7 @@
+<!-- #bbinclude "/markup/#MODULE#/types/default.shtml"
+#bbincludeoptions#="inline=true"
+#QUESTION#		= 'Where does <cite>BBEdit</cite> look for modules?'
+#ANSWER#		= '<cite>BBEdit</cite> organizes projects using a Project file. Each Project file has a “Site Settings” pane where you can specify where <cite>BBEdit</cite> looks for includes and templates. My convention, which you are free to ignore, is to put mine in an <code>/app/modules/</code> folder and to put the public files in <code>/public/</code> (or in <code>/dist/</code> if the public files are built).'
+#ID#			= 'whereBBEditLookForModules'
+-->
+<!-- end bbinclude -->

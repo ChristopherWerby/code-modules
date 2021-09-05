@@ -1,0 +1,10 @@
+
+
+This would be the entirety of the public/index.html page; note it includes the DOCTYPE and the call to the Pages module.  All the content comes from the Pages module's home.shtml template and the modules that it calls.
+
+<!DOCTYPE html>
+<!-- #bbinclude "/pages/entry.shtml" 
+#bbincludeoptions#="inline=true"
+#PAGE#			= 'home'
+-->
+<!-- end bbinclude -->

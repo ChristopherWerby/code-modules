@@ -1,0 +1,4 @@
+#bbinclude "/#MODULE#/items/home.shtml"
+#bbinclude "/#MODULE#/items/about.shtml"
+#bbinclude "/#MODULE#/items/services.shtml"
+#bbinclude "/#MODULE#/items/contact.shtml"

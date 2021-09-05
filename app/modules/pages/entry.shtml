@@ -2,15 +2,12 @@
 #bbincludeoptions#="inline=true"
 #COMPANY# 					= 'Code Modules'
 #NAME#						= 'Code Modules'
-#NAMEALLCAPS#				= 'CODE MODULES'
-#NAVNAME#					= 'Code Modules — Sample'
+#NAV-NAME#					= 'Code Modules — Sample'
 #MAIN-TITLE#				= 'Code Modules — Sample Files'
-#TITLE_PHRASE#				= 'Code Modules Sample Files'
+#TITLE-PHRASE#				= 'Code Modules Sample Files'
 #LICENSE#					= 'MIT License'
 
-#MOTTO#						= 'Fancy BBEdit Include System'
-
-#COMMENT#					= 'Code Modules Sample Files have not yet launched. Check back after October 1, 2021.'
+#COMMENT#					= 'Code Modules Sample Files Website has not yet launched. Check back after October 1, 2021.'
 
 #URL-ROOT#					= 'https://sample.codemodules.net'
 #URL-DOCUMENTATION#			= 'https://codemodules.net'
@@ -19,34 +16,28 @@
 
 #URL-SAMPLE-REPO#			= 'https://github.com/ChristopherWerby/code-modules'
 #SAMPLE-REPO-TARGET#		= 'GitHub'
-#COMMENT#					= 'Plan is for sample repo to be public.'
+#COMMENT#					= 'Sample repo will be public.'
 #URL-DOCS-REPO#				= 'https://gitlab.com/ChristopherWerby/code-modules-docs'
 #DOCS-REPO-TARGET#			= 'GitLab'
-#COMMENT#					= 'Plan is for docs repo to remain private.'
+#COMMENT#					= 'Docs repo to remain private.'
 
 #LOGO#						= '/images/logos/Logo-Code_Modules-OW-256-scaled-fgBlack-bgTrans-600x600.png'
 #COMMENT#					= 'From URL Root'
 
-#PAGEIMAGE#					= 'Logo-Code_Modules-OW-256-scaled-fgBlack-bgTrans-600x600.png'
-#PAGEIMAGEPATH#				= '/images/logos'
-#PAGEIMAGEALT#				= 'Page Image for Code Modules'
+#PAGE-IMAGE#					= 'Logo-Code_Modules-OW-256-scaled-fgBlack-bgTrans-600x600.png'
+#PAGE-IMAGE-PATH#				= '/images/logos'
+#PAGE-IMAGE-ALT#				= 'Page Image for Code Modules'
 
-#BASE_DESCRIPTION#			= 'This sample website is a demonstration of the Code Modules system in use.'
-#LONG_DESC_DEFAULT#			= 'Code Modules is an MIT licensed open source project maintained by Pipsqueak Productions LLC. Source code for this website can be found on GitHub. Documentation for Code Modules can be found at codemodules.net.'
-#COMMENT#					= 'Note: The base description is used at the beginning of each description type and is the entirety of the short description.'
+#BASE-DESCRIPTION#			= 'This sample website is a demonstration of the Code Modules system in use.'
+#LONG-DESCRIPTION#			= 'Code Modules is an MIT licensed open source project maintained by Pipsqueak Productions LLC. Source code for this website can be found on GitHub. Documentation for Code Modules can be found at codemodules.net.'
+#COMMENT#					= 'Note: The base description is used at the beginning of each description type. When the long description is used, it is compound of the base and long description. The base description is the entirety of the short description.'
 
 #AUTHOR-DESCRIPTION#		= 'Site Design and Maintenance by Pipsqueak Productions, LLC.  If you’re looking at the code, you must care.  So do we.  Pipsqueak.com'
-
-#KEYWORDS_BASE#				= 'bbedit,code,modules,include,html,markup,html5'
-#KEYWORDS_ADD_DEFAULT#		= ''
 
 #EMAIL#						= '<a href="&#x6d;&#x61;&#x69;&#x6c;&#x74;&#x6f;&#x3a;&#x69;&#x6e;&#x66;&#x6f;&#x40;&#x65;&#x78;&#x61;&#x6d;&#x70;&#x6c;&#x65;&#x2e;&#x63;&#x6f;&#x6d;">&#x69;&#x6e;&#x66;&#x6f;&#x40;&#x65;&#x78;&#x61;&#x6d;&#x70;&#x6c;&#x65;&#x2e;&#x63;&#x6f;&#x6d;</a>'
 #COMMENT#					= 'encoded: <a href="mailto:info@example.com">info@example.com</a>'
 
-#EMAIL_PART#				= '&#x69;&#x6e;&#x66;&#x6f;&#x40;&#x65;&#x78;&#x61;&#x6d;&#x70;&#x6c;&#x65;&#x2e;&#x63;&#x6f;&#x6d;'
 #COMMENT#					= 'encoded: info@example.com'
-
-#MAILTO#					= '&#x6d;&#x61;&#x69;&#x6c;&#x74;&#x6f;&#x3a;'
 
 #RELEASE-DATE#				= 'October 1, 2021'
 
@@ -60,7 +51,7 @@
 #ZIP#						= '94121'
 
 #URL-COPYRIGHT#				= 'https://pipsqueak.com'
-#US#						= 'Pipsqueak Productions, LLC'
+#AUTHOR#					= 'Pipsqueak Productions, LLC'
 
 #VERIFICATION-GOOGLE# 		= 'baHVvnxq7WqCDN3edWSTnZPoO0wOWwgBBiO9Nk9DA0s'
 #VERIFICATION-MICROSOFT# 	= 'DA6A1633A5DB646EB79EB58E4DC11EF7'
@@ -71,34 +62,19 @@
 #TWITTER#					= 'https://twitter.com/example'
 #YOUTUBE#					= 'https://www.youtube.com/user/example'
 
-#YEARSTART#					= '2021'
-#GOOGLE_ACCOUNT#			= 'UA-123456789-1'
-
-#PRIVACY-POLICY-UPDATE#		= 'April 17, 2021'
-#TERMS-OF-USE-UPDATE#		= 'April 17, 2021'
-
-#US#						= '<span class="us"><span class="lightBlue">A</span><span class="gray e">B</span><span class="red">C</span> <span class="lightBlue">School</span></span>'
-
-#STEM#						= '<abbr title="Science, Technology, Engineering, and Mathematics">STEM</abbr>'
-
-#HEADMETA#					= 'default'
-#HEADTEMPLATE#				= 'default'
-#HEADERTEMPLATE#			= 'default'
-#FOOTTEMPLATE#				= 'default'
 #TECH-HEAD-TEMPLATE#		= 'head'
+#COMMENT#					= 'TECH-HEAD-TEMPLATE is head by default but sometimes head-home'
+
 #TYPE#						= 'default'
-#DESCRIPTION_ITEM#			= 'default'
-#KEYWORD_ITEM#				= 'default'
-#CONTACT_FORM#				= 'contact'
+#DESCRIPTION-ITEM#			= 'default'
 #DROPDOWN-DIVIDER#			= 'null'
 #ICON-CLASS#				= 'fa-1x'
-#INDENT#					= '		'
-#COLUMNS#					= '4'
-#COMMENT#					= 'Default columns is for three items across - 4 columns out of 12'
+#COMMENT#					= 'ICON-CLASS is optional; defaults to fa-1x. Can be fa-lg, or fa-2x, fa-3x, fa-4x, fa-5x for size. Can include fa-fw for fixed width. Can include fa-li for use in lists. Can include fa-spin or fa-pulse to animate. Can include classes to flip and rotate: fa-rotate-90, fa-rotate-180, fa-rotate-270, fa-flip-horizontal, fa-flip-vertical.'
 
-#CSSCACHE#					= '001'
-#JSCACHE#					= '001'
-#BUNDLECACHE#				= '001'
-#FAVICONCACHE#				= '002'
+#INDENT#					= '		'
+
+#COLUMNS#					= '4'
+#COMMENT#					= 'Default columns is for three items across; 12 ÷ 4 = 3'
+
 -->
 <!-- end bbinclude -->

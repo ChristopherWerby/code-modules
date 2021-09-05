@@ -1,0 +1,3 @@
+#bbinclude "parts/top.shtml"
+#bbinclude "/markup/#MODULE#/lists/default.shtml"
+#bbinclude "parts/bottom.shtml"

@@ -1,0 +1,5 @@
+#INDENT#		<div id="#ID#" class="collapse" role="tabpanel" aria-labelledby="heading-#ID#">
+#INDENT#			<div class="card-body">
+#INDENT#				#ANSWER#
+#INDENT#			</div>
+#INDENT#		</div>

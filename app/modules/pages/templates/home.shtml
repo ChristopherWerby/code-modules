@@ -1,9 +1,9 @@
 <!-- #bbinclude "parts/top-home.shtml"
 #bbincludeoptions#="inline=true"
-#PAGE_TITLE# 		= "Home"
+#PAGE-TITLE# 		= "Home"
 #SUBHEAD#			= "— Sample Website Showing Code Modules in Action"
-#DESCRIPTION_ITEM#	= "#PAGE#"
-#KEYWORD_ITEM#		= "#PAGE#"
+#DESCRIPTION-ITEM#	= "#PAGE#"
+#KEYWORD-ITEM#		= "#PAGE#"
 #CANONICAL-URL# 	= "/index.html"
 #ID#				= "homePage"
 #HIERARCHY#			= "primary"
@@ -24,10 +24,10 @@
 <!-- end bbinclude -->
 <!-- Module Types Section -->
 			<h2 class="text-center">
-				Top Level Module Types
+				High Level Module Types
 			</h2>
 			<p>
-				There are five top level module types. Each of the items below are linked to the documentation for that type. See the <a href="/portfolio-1-col.html">Portfolio pages</a> to see this same content used differently—part of the power of code modules.
+				There are five high level module types. Each of the items below are linked to the documentation for that type. See the <a href="/portfolio-1-col.html">Portfolio pages</a> to see this same content used differently—part of the power of code modules.
 			</p>
 <!-- #bbinclude "/markup/high-level-modules/entry.shtml"
 #bbincludeoptions#="inline=true"

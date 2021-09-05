@@ -1,0 +1,36 @@
+<!-- #bbinclude "/pages/templates/#PAGE#.shtml"
+#bbincludeoptions#="inline=true"
+
+#COMPANY# 					= 'ABC Company'
+
+#BASE-DESCRIPTION#			= 'This is some reasonably short text describing ABC Company in general.'
+
+#LONG-DESCRIPTION#			= 'This is longer text which can really get into the nitty gritty about ABC Company’s wonderful business.'
+
+#COMMENT#					= 'Note: The base description is used at the beginning of each description type and is the entirety of the short description.'
+
+#AUTHOR#					= 'Websites R Us'
+#AUTHOR-DESCRIPTION#		= 'Websites R Us at https://example.com'
+
+#URL-ROOT#					= 'https://sample.codemodules.net'
+
+#PAGE-IMAGE#				= 'Logo-ABC_Company.png'
+#PAGE-IMAGE-PATH#			= '/images/logos'
+#PAGE-IMAGE-ALT#			= 'Page Image for ABC Company'
+
+#VERIFICATION-GOOGLE# 		= 'ABC1234567890'
+#VERIFICATION-MICROSOFT# 	= 'ABC0987654321'
+
+#GOOGLE-MAP-LINK#			= 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3045.8267028129117!2d-122.50295383731373!3d37.784474796290105!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808587acd6e2ba69%3A0xb9ffd88c77154d2c!2sLegion%20of%20Honor!5e0!3m2!1sen!2sus!4v1629506249997!5m2!1sen!2sus'
+
+#TITLE-PHRASE#				= 'ABC Company Website'
+#URL-COPYRIGHT#				= 'https://example.com'
+
+#ICON-CLASS#				= 'fa-1x'
+#COMMENT#					= 'ICON-CLASS is optional; defaults to fa-1x. Can be fa-lg, or fa-2x, fa-3x, fa-4x, fa-5x for size. Can include fa-fw for fixed width. Can include fa-li for use in lists. Can include fa-spin or fa-pulse to animate. Can include classes to flip and rotate: fa-rotate-90, fa-rotate-180, fa-rotate-270, fa-flip-horizontal, fa-flip-vertical.'
+
+#INDENT#					= '		'
+
+
+-->
+<!-- end bbinclude -->

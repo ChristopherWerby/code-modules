@@ -1,0 +1,7 @@
+<!-- #bbinclude "/markup/#MODULE#/types/default.shtml"
+#bbincludeoptions#="inline=true"
+#QUESTION#		= 'Can I use Code Modules with another text editor than <cite>BBEdit</cite>?'
+#ANSWER#		= 'Code Modules depends upon <cite>BBEdit’s</cite> include and variable syntax. There may be a way to replicate that functionality in another text editor, but I haven’t discovered it.'
+#ID#			= 'mustUseBBEdit'
+-->
+<!-- end bbinclude -->

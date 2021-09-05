@@ -1,0 +1,4 @@
+#bbinclude "parts/top.shtml"
+#bbinclude "parts/question.shtml"
+#bbinclude "parts/answer.shtml"
+#bbinclude "parts/bottom.shtml"

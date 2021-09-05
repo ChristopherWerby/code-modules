@@ -1,6 +1,6 @@
 <!-- #bbinclude "/markup/#MODULE#/types/#TEMPLATE#.shtml"
 #bbincludeoptions#="inline=true"
 #CLASS#		= 'youtube'
-#LINK#		= 'https://www.youtube.com/user/example'
+#LINK#		= '#YOUTUBE#'
 -->
 <!-- end bbinclude -->

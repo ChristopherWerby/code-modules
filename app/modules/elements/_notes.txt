@@ -1,11 +1,5 @@
 <!-- #bbinclude "/elements/entry.shtml"
 #bbincludeoptions#  ="inline=true"
-#ITEM#      = "vcard-christopher-werby"
--->
-<!-- end bbinclude -->
-
-<!-- #bbinclude "/elements/entry.shtml"
-#bbincludeoptions#  ="inline=true"
 #ITEM#      = 'features'
 #INDENT#	= '					'
 -->
