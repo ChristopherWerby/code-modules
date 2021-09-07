@@ -34,6 +34,8 @@ gitpush no longer works to push to dev or production server. Instead, use rsync 
 
 `npm run pushlive` - Push to production server
 
+v1.0.0 released 2021-09-07.
+
 
 
 ### To Do
@@ -352,7 +354,7 @@ _Begin Date - 2021-09-06_
 
 
 **v1.0.0** 
-_Begin Date - 2021-09-07_
+_Release Date - 2021-09-07_
 
 *	Open GitHub repo.
 *	Change ACTIVECLASS variable to ACTIVE-CLASS.
@@ -360,6 +362,13 @@ _Begin Date - 2021-09-07_
 	*	Compress and scale images
 	*	Use new image names in Banner module items.
 *	Code Modules is released.
+
+
+
+**v1.0.1** 
+_Begin Date - 2021-09-07_
+
+*	Regularize em-dashes to be surrounded by spaces.
 
 
 
