@@ -3,7 +3,7 @@
 #TITLE#			= 'Repo for Sample Files'
 #TEXT#			= 'GitHub repo for the files that make this website. Shows #NAME# in use.'
 #URL#			= '#URL-SAMPLE-REPO#'
-#LINKTEXT#		= 'GitHub Repo'
+#LINK-TEXT#		= 'GitHub Repo'
 #TARGET#		= '#SAMPLE-REPO-TARGET#'
 -->
 <!-- end bbinclude -->

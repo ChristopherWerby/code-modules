@@ -3,7 +3,7 @@
 #TITLE#			= 'Documentation'
 #TEXT#			= 'There’s a website for #NAME# documentation.'
 #URL#			= '#URL-DOCUMENTATION#/'
-#LINKTEXT#		= 'View Docs'
+#LINK-TEXT#		= 'View Docs'
 #TARGET#		= '#DOCUMENTATION-TARGET#'
 -->
 <!-- end bbinclude -->

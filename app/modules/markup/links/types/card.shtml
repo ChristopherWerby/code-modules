@@ -5,7 +5,7 @@
 #TARGET#	= '#TARGET#'
 #TITLE#		= '#TITLE#'
 #TEXT#		= '#TEXT#'
-#LINKTEXT#	= '#LINKTEXT#'
+#LINK-TEXT#	= '#LINK-TEXT#'
 #COLUMNS#	= '#COLUMNS#'
 -->
 <!-- end bbinclude -->

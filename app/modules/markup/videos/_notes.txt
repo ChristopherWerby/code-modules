@@ -1,5 +1,0 @@
-<!-- #bbinclude "/markup/videos/entry.shtml"
-#bbincludeoptions#="inline=true"
-#INDENT#	= '			'
--->
-<!-- end bbinclude -->

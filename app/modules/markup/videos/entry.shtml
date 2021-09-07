@@ -1,6 +1,0 @@
-<!-- #bbinclude "templates/default.shtml"
-#bbincludeoptions#="inline=true"
-#MODULE# 		= "blank"
-#INDENT# 		= "#INDENT#"
--->
-<!-- end bbinclude -->

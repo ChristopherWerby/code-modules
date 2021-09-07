@@ -26,7 +26,6 @@
 <!-- /.col-lg-6 -->
 			</div>
 <!-- /.row -->
-<!-- Team Members -->
 			<h2>
 				Our (Fake) Team
 			</h2>
@@ -39,7 +38,6 @@
 #INDENT#		= "				"
 -->
 <!-- end bbinclude -->
-<!-- Our Customers -->
 			<h2>
 				Our (Fake) Customers
 			</h2>

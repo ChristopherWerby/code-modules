@@ -2,7 +2,7 @@
 #bbincludeoptions#="inline=true"
 #TITLE#			= 'This is a Dummy Image'
 #DESCRIPTION#	= 'Dummy Images Serve as Useful Placeholders for Carousels'
-#ALTTITLE#		= 'Dummy Image'
+#ALT-TITLE#		= 'Dummy Image'
 #IMAGEPATH#		= ''
 #IMAGE#			= 'https://dummyimage.com/2500x1260/AAA/fff.png'
 -->

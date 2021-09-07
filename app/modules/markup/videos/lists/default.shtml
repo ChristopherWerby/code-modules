@@ -1,4 +1,0 @@
-#bbinclude "/markup/#MODULE#/items/awesome-product.shtml"
-#bbinclude "/markup/#MODULE#/items/impressive-product.shtml"
-#bbinclude "/markup/#MODULE#/items/installation-for-awesome.shtml"
-#bbinclude "/markup/#MODULE#/items/installation-for-impressive.shtml"

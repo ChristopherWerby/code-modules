@@ -9,7 +9,7 @@ Note that columns is the number used out of 12. So 6 columns is 2 cards per row;
 #TARGET#	= '#TARGET#'
 #TITLE#		= '#TITLE#'
 #TEXT#		= '#TEXT#'
-#LINKTEXT#	= '#LINKTEXT#'
+#LINK-TEXT#	= '#LINK-TEXT#'
 #COLUMNS#	= '#COLUMNS#'
 -->
 <!-- end bbinclude -->
@@ -35,7 +35,7 @@ Note that columns is the number used out of 12. So 6 columns is 2 cards per row;
 #TARGET#	= '#TARGET#'
 #TITLE#		= '#TITLE#'
 #TEXT#		= '#TEASER#'
-#LINKTEXT#	= '#LINKTEXT#'
+#LINK-TEXT#	= '#LINK-TEXT#'
 #COLUMNS#	= '#COLUMNS#'
 #IMAGE#		= '#IMAGE-PATH#/#IMAGE#'
 #ALT#		= '#ALT#'

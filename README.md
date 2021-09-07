@@ -329,6 +329,15 @@ _Begin Date - 2021-09-04_
 
 
 
+**v0.5.2** 
+_Begin Date - 2021-09-06_
+
+*	Normalize more variables (e.g. ALTTITLE to ALT-TITLE).
+*	Remove the unused markup/videos/ module.
+	*	Keep the markup/quotes module which is unused.
+
+
+
 
 [![][piplogo]][pipurl]
 
