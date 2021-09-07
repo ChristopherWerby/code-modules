@@ -8,7 +8,7 @@ Code Modules is an approach to using the text editor BBEdit, particularly its in
 
 Code Modules documentation can be found at [https://codemodules.net][1]
 
-These sample files can be demoed at [https://sample.codemodules.net][2]
+The Sample Website can be demoed at [https://sample.codemodules.net][2]
 
 This [GitHub repo][3] contains the source code for the Sample Website so that you can take it apart and see how it works in practice.
 
