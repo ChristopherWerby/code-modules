@@ -16,7 +16,7 @@ There's a set of starter files for modules at [app/modules-starter/][4]. You can
 
 Other than Pipsqueak’s logo, Code Modules is open source under the MIT license.
 
-Below are just the notes for the Sample Website.  The links above should be of more interest.
+Below are just the notes for the creation of the Sample Website.  The links above should be of more interest.
 
 
 
@@ -355,6 +355,10 @@ _Begin Date - 2021-09-06_
 _Begin Date - 2021-09-07_
 
 *	Open GitHub repo.
+*	Change ACTIVECLASS variable to ACTIVE-CLASS.
+*	Banner module is using images from originals/ subfolder.
+	*	Compress and scale images
+	*	Use new image names in Banner module items.
 *	Code Modules is released.
 
 

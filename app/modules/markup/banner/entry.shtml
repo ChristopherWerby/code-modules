@@ -1,8 +1,8 @@
 <!-- #bbinclude "templates/#TEMPLATE#.shtml" 
 #bbincludeoptions#="inline=true"
 #MODULE# 		= "banner"
-#ACTIVECLASS#	= ''
-#IMAGE-PATH#	= '/images/slides/originals'
+#ACTIVE-CLASS#	= ''
+#IMAGE-PATH#	= '/images/slides'
 #ID#			= 'carouselBanner'
 -->
 <!-- end bbinclude -->

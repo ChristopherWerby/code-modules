@@ -1,1 +1,1 @@
-#INDENT#<li data-target="##ID#" data-slide-to="#ORDER#" class="#ACTIVECLASS#"></li>
+#INDENT#<li data-target="##ID#" data-slide-to="#ORDER#" class="#ACTIVE-CLASS#"></li>

@@ -1,7 +1,7 @@
 <!-- #bbinclude "/markup/#MODULE#/items/plasma-ball.shtml"
 #bbincludeoptions#="inline=true"
 #ORDER#			= '0'
-#ACTIVECLASS#	= 'active'
+#ACTIVE-CLASS#	= 'active'
 -->
 <!-- end bbinclude -->
 <!-- #bbinclude "/markup/#MODULE#/items/laptop.shtml"
