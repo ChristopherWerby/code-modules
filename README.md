@@ -1,8 +1,24 @@
 [![][header]][siteurl]
 
-# Code Modules — Sample Files
 
-This is an HTML5 project using BBEdit, Bootstrap 5, and Parcel. Theme is [Modern Business][1] from Start Bootstrap.
+
+# Code Modules
+
+Code Modules is an approach to using the text editor BBEdit, particularly its include and variables features, to make maintainable static websites without databases.
+
+Code Modules documentation can be found at [https://codemodules.net][1]
+
+These sample files can be demoed at [https://sample.codemodules.net][2]
+
+This [GitHub repo][3] contains the source code for the Sample Website so that you can take it apart and see how it works in practice.
+
+Below are just the notes for the Sample Website.  The links above should be of more interest.
+
+
+
+## Code Modules — Sample Website
+
+This is an HTML5 project using BBEdit, Bootstrap 5, and Parcel. Theme is [Modern Business][4] from Start Bootstrap.
 
 `npm start` — development using Parcel process
 
@@ -16,20 +32,13 @@ gitpush no longer works to push to dev or production server. Instead, use rsync 
 
 
 
-Code Modules documentation can be found at [https://codemodules.net][2]
+### To Do
 
-These sample files can be demoed at [https://sample.codemodules.net/][3]
-
-Development server version of these files at [https://dev.codemodules.net/][4]
-
-
-## To Do
-
-Set up `app/styles/` using less compiled to main.css in the root.
+⚪	Refactor Nav module
 
 
 
-## Changelog
+### Changelog
 
 **v0.2.0** 
 _Begin Date - 2021-04-16_
@@ -52,7 +61,7 @@ _Release Date - 2021-04-20_
 **v0.4.0** 
 _Release Date - 2021-04-26_
 
-*	Adopt [Start Bootstrap’s Modern Business Theme][1] + [GitHub][5] and its build process using Gulp.
+*	Adopt [Start Bootstrap’s Modern Business Theme][4] + [GitHub][5] and its build process using Gulp.
 	*	`npm i startbootstrap-modern-business`
 	*	Make adjustments to paths so that `public/` is separate and thinned from `theme/`
 
@@ -338,8 +347,8 @@ _Begin Date - 2021-09-06_
 
 
 
-
 [![][piplogo]][pipurl]
+
 
 
 [header]: https://pipsqueak.com/images/Logo-Code_Modules-OW-256-scaled-fgBlack-bgTrans-600x600.png
@@ -352,10 +361,11 @@ _Begin Date - 2021-09-06_
 ✔	✘	⚪	⇧	∧	⌥	⌘	↩	⇧∧⌥⌘↩	← → ⟵ ⟶
 
 
-[1]: https://startbootstrap.com/template/modern-business
-[2]: https://codemodules.net
-[3]: https://sample.codemodules.net/
-[4]: https://dev.codemodules.net/
+
+[1]: https://codemodules.net/
+[2]: https://sample.codemodules.net/
+[3]: https://github.com/ChristopherWerby/code-modules
+[4]: https://startbootstrap.com/template/modern-business
 [5]: https://github.com/startbootstrap/startbootstrap-modern-business
 [6]: https://dummyimage.com/
 [7]: https://medium.com/@JSdevelop/compiling-less-to-css-in-gulp-7dddf30a63e1
