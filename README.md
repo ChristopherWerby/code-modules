@@ -12,13 +12,17 @@ These sample files can be demoed at [https://sample.codemodules.net][2]
 
 This [GitHub repo][3] contains the source code for the Sample Website so that you can take it apart and see how it works in practice.
 
+There's a set of starter files for modules at [app/modules-starter/][4]. You can download this, rename it `app/modules/`, and alter them for your own projects.
+
+Other than Pipsqueak’s logo, Code Modules is open source under the MIT license.
+
 Below are just the notes for the Sample Website.  The links above should be of more interest.
 
 
 
 ## Code Modules — Sample Website
 
-This is an HTML5 project using BBEdit, Bootstrap 5, and Parcel. Theme is [Modern Business][4] from Start Bootstrap.
+This is an HTML5 project using BBEdit, Bootstrap 5, and Parcel. Theme is [Modern Business][5] from Start Bootstrap.
 
 `npm start` — development using Parcel process
 
@@ -61,7 +65,7 @@ _Release Date - 2021-04-20_
 **v0.4.0** 
 _Release Date - 2021-04-26_
 
-*	Adopt [Start Bootstrap’s Modern Business Theme][4] + [GitHub][5] and its build process using Gulp.
+*	Adopt [Start Bootstrap’s Modern Business Theme][5] + [GitHub][6] and its build process using Gulp.
 	*	`npm i startbootstrap-modern-business`
 	*	Make adjustments to paths so that `public/` is separate and thinned from `theme/`
 
@@ -70,10 +74,10 @@ _Release Date - 2021-04-26_
 **v0.4.1** 
 _Release Date - 2021-04-27_
 
-*	Change placehold.it to [dummyimage.com][6] links to support https://
+*	Change placehold.it to [dummyimage.com][7] links to support https://
 	*	`====http://placehold.it/(\d+x\d+)====` s/r All `====https://dummyimage.com/\1/CCC/999.gif====`
 	*	Here's a sample: `https://dummyimage.com/500x300/CCC/999.gif`
-*	Add the ability to process less files with gulp. [ref][7]
+*	Add the ability to process less files with gulp. [ref][8]
 	*	`npm install --save-dev gulp-less gulp-autoprefixer`
 *	Convert style system to less.
 
@@ -102,7 +106,7 @@ _Begin Date - 2021-04-27_
 	*	Created the doppelgänger home page in the Pages module.
 	*	Made a banner module.
 		*	Populated four slides.
-			*	Using images from [Unsplash][8]
+			*	Using images from [Unsplash][9]
 			*	Attribution in alt tags and in the filenames themselves.
 		*	Banner Module calls itself in order to make the nav indicator dashes using the same list of images.
 
@@ -203,11 +207,11 @@ _Begin Date - 2021-07-26_
 
 *	Update home page text.
 *	Create Portfolio template for high-level-modules module.
-*	Add [Font-Awesome][9], [v4.7.0][10]
+*	Add [Font-Awesome][10], [v4.7.0][11]
 	*	Include new link item in Tech module.
-	*	[Browse Icons][11]
+	*	[Browse Icons][12]
 *	Add an icon markup in Elements module; pass in the particular desired icon.
-	*	Also can pass in an optional ICON-CLASS variable; defaults to `fa-1x`. [Ref][12].
+	*	Also can pass in an optional ICON-CLASS variable; defaults to `fa-1x`. [Ref][13].
 		*	Can be `fa-lg`, or `fa-2x`, `fa-3x`, `fa-4x`, `fa-5x` for size. 
 		*	Can include `fa-fw` for fixed width. 
 		*	Can include `fa-li` for use in lists. 
@@ -220,7 +224,7 @@ _Begin Date - 2021-07-26_
 *	Create individual portfolio item pages for each high level module.
 *	Add a new "npm run webdev" command to start up development for Code Modules sample files on my local system.
 *	Replace direct calls to Unsplash with local versions of the Editorial images.
-	*	Original Image URLs for [Markup][13], [Page][14], [Nav][15], [Elements][16], [Tech][17]
+	*	Original Image URLs for [Markup][14], [Page][15], [Nav][16], [Elements][17], [Tech][18]
 
 
 
@@ -369,21 +373,21 @@ _Begin Date - 2021-09-07_
 ✔	✘	⚪	⇧	∧	⌥	⌘	↩	⇧∧⌥⌘↩	← → ⟵ ⟶
 
 
-
 [1]: https://codemodules.net/
 [2]: https://sample.codemodules.net/
 [3]: https://github.com/ChristopherWerby/code-modules
-[4]: https://startbootstrap.com/template/modern-business
-[5]: https://github.com/startbootstrap/startbootstrap-modern-business
-[6]: https://dummyimage.com/
-[7]: https://medium.com/@JSdevelop/compiling-less-to-css-in-gulp-7dddf30a63e1
-[8]: https://unsplash.com/
-[9]: https://fontawesome.com/
-[10]: https://fontawesome.com/v4.7/
-[11]: https://fontawesome.com/v4.7/icons/
-[12]: https://fontawesome.com/v4.7/examples/
-[13]: https://source.unsplash.com/DGHy9KgdTj0/700x400
-[14]: https://source.unsplash.com/-zmHJsYXjqM/700x400
-[15]: https://source.unsplash.com/VNcWRWZn4Dw/700x400
-[16]: https://source.unsplash.com/0GDN7NSoYRI/700x400
-[17]: https://source.unsplash.com/MTny44oAFx0/700x400
+[4]: https://github.com/ChristopherWerby/code-modules/tree/master/app/modules-starter
+[5]: https://startbootstrap.com/template/modern-business
+[6]: https://github.com/startbootstrap/startbootstrap-modern-business
+[7]: https://dummyimage.com/
+[8]: https://medium.com/@JSdevelop/compiling-less-to-css-in-gulp-7dddf30a63e1
+[9]: https://unsplash.com/
+[10]: https://fontawesome.com/
+[11]: https://fontawesome.com/v4.7/
+[12]: https://fontawesome.com/v4.7/icons/
+[13]: https://fontawesome.com/v4.7/examples/
+[14]: https://source.unsplash.com/DGHy9KgdTj0/700x400
+[15]: https://source.unsplash.com/-zmHJsYXjqM/700x400
+[16]: https://source.unsplash.com/VNcWRWZn4Dw/700x400
+[17]: https://source.unsplash.com/0GDN7NSoYRI/700x400
+[18]: https://source.unsplash.com/MTny44oAFx0/700x400
