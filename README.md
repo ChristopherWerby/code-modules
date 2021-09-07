@@ -347,6 +347,14 @@ _Begin Date - 2021-09-06_
 
 
 
+**v1.0.0** 
+_Begin Date - 2021-09-07_
+
+*	Open GitHub repo.
+*	Code Modules is released.
+
+
+
 [![][piplogo]][pipurl]
 
 
