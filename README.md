@@ -4,7 +4,7 @@
 
 # Code Modules
 
-Code Modules is an approach to using the text editor BBEdit, particularly its include and variables features, to make maintainable static websites without databases.
+Code Modules (CM) is an include-based architecture for static websites where the pages are created at build time. Code Modules uses the text editor BBEdit, particularly its include and variables features, to make maintainable static websites without databases. Code Modules doesn’t dictate a certain style of website. Code Modules organizes the way in which your pages get built, but what you build is entirely up to you. You can build anything you like using any markup you choose.
 
 Code Modules documentation can be found at [https://codemodules.net][1]
 
