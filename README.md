@@ -6,13 +6,12 @@
 
 Code Modules (CM) is an include-based architecture for static websites where the pages are created at build time. Code Modules uses the text editor BBEdit, particularly its include and variables features, to make maintainable static websites without databases. Code Modules doesn’t dictate a certain style of website. Code Modules organizes the way in which your pages get built, but what you build is entirely up to you. You can build anything you like using any markup you choose.
 
-Code Modules documentation can be found at [https://codemodules.net][1]
+*	Click for documentation: [codemodules.net][1]
 
-The Sample Website can be demoed at [https://sample.codemodules.net][2]
+*	Click for demo Sample Website: [sample.codemodules.net][2]. 
+	*	This [GitHub repo][3] contains the source code for the Sample Website so that you can take it apart and see how it works in practice.
 
-This [GitHub repo][3] contains the source code for the Sample Website so that you can take it apart and see how it works in practice.
-
-There's a set of starter files for modules at [app/modules-starter/][4]. You can download this, rename it `app/modules/`, and alter them for your own projects.
+*	Click for the starter files for modules at [app/modules-starter/][4]. You can download this, rename it `app/modules/`, and alter them for your own projects.
 
 Other than Pipsqueak’s logo, Code Modules is open source under the MIT license.
 
