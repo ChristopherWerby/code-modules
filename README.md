@@ -384,6 +384,17 @@ _Begin Date - 2021-09-10_
 
 
 
+**v1.0.3** 
+_Begin Date - 2021-09-11_
+
+*	Adjust the starter files set.
+	*	Tech has a links preload item that references banner markup module that's not in the starter set. Remove the preload item.
+		*	That makes the necessity of separating the home page from the rest moot.
+	*	Add a call to the FAQ module from the Home page doppelgänger.
+	*	Change call to Footer Markup module from persistent to simple include.
+
+
+
 [![][piplogo]][pipurl]
 
 

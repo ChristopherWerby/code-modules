@@ -1,10 +1,6 @@
 		</div>
 <!-- /.container -->
-<!-- #bbinclude "/markup/footer/entry.shtml"
-#bbincludeoptions#="inline=true"
-#INDENT#	= '		'
--->
-<!-- end bbinclude -->
+#bbinclude "/markup/footer/entry.shtml"
 <!-- #bbinclude "/tech/entry.shtml"
 #bbincludeoptions#="inline=true"
 #TEMPLATE#	= 'foot'

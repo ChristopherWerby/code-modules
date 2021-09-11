@@ -3,3 +3,6 @@
 #INDENT#	= '		'
 -->
 <!-- end bbinclude -->
+
+
+#bbinclude "/markup/footer/entry.shtml"

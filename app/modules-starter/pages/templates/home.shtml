@@ -7,6 +7,11 @@
 -->
 <!-- end bbinclude -->
 			<p>
-				This is where the content for the home page would go. It can consist of  markup or calls to modules.
+				This is where the content for the home page would go. It can consist of  markup or calls to modules. As an example, a call to the FAQ Markup module is shown below.
 			</p>
+<!-- #bbinclude "/markup/faq/entry.shtml"
+#bbincludeoptions#="inline=true"
+#INDENT#	= "			"
+-->
+<!-- end bbinclude -->
 #bbinclude "parts/bottom.shtml"
