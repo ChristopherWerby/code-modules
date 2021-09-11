@@ -8,8 +8,10 @@
 		"start-legacy": "node_modules/.bin/gulp watch",
 		"start": "parcel public/index.html",
 		"build": "parcel build public/index.html",
-		"pushdev": "rsync -rlptDP '/Volumes/Condor/Code Modules/Web/code-modules-sample/Current/dist/' pip_cm@198.199.92.62:/var/www/codemodules/sample/dev/public",
-		"pushlive": "rsync -rlptDP '/Volumes/Condor/Code Modules/Web/code-modules-sample/Current/dist/' pip_cm@198.199.92.62:/var/www/codemodules/sample/production/public",
+		"pushimages": "rsync -rlptDP --exclude 'tmp' --exclude '.DS_Store' '/Volumes/Condor/Code Modules/Web/code-modules-sample/Current/public/images/' pip_cm@sample.codemodules.net:/var/www/codemodules/sample/production/public/images",
+		"pushpublicdist": "rsync -rlptDP '/Volumes/Condor/Code Modules/Web/code-modules-sample/Current/dist/' pip_cm@sample.codemodules.net:/var/www/codemodules/sample/production/public",
+		"pushdev": "rsync -rlptDP '/Volumes/Condor/Code Modules/Web/code-modules-sample/Current/dist/' pip_cm@sample.codemodules.net:/var/www/codemodules/sample/dev/public",
+		"pushlive": "npm run pushpublicdist; npm run pushimages;",
 		"loadfiles": "cd '/Volumes/Condor/Code Modules/Web/code-modules-sample/Current/'; open '/Volumes/Condor/Code Modules/Text/2021-07-26-Module_Outline-v02.mcn'; bbedit cm-sample.bbprojectd; bbedit package.json; bbedit app/styles/_custom.less; bbedit app/styles/main.less; bbedit public/index.html; bbedit app/modules/pages/entry.shtml; bbedit app/modules/pages/templates/home.shtml; bbedit README.md; open .; open README.md;",
 		"browsers": "open http://localhost:1234/;",
 		"webdev": "npm run loadfiles; npm run browsers; npm start;"

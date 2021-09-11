@@ -372,6 +372,18 @@ _Begin Date - 2021-09-07_
 
 
 
+**v1.0.2** 
+_Begin Date - 2021-09-10_
+
+*	Add a pushimages script to push the whole image folder to the server.
+	*	Necessary for documentation to pull images from the Sample website. The Sample Website itself uses Parcel to build the site and doesn't use the images/ folder on the production server.
+*	Reorganize the push scripts a bit. Add the pushimages script to the end of pushlive.
+	*	Ignore the tmp folders in images/
+	*	Ignore .DS_Store files.
+*	Add some images -- screenshots and diagrams -- that are pulled from the server for Code Module docs.
+
+
+
 [![][piplogo]][pipurl]
 
 
