@@ -292,7 +292,7 @@ _Begin Date - 2021-08-17_
 **v0.4.18** 
 _Begin Date - 2021-08-20_
 
-*	Normalized the #IMAGE-PATH# variable.
+*	Normalized the #IMAGE-PATH# variable name.
 *	Add a Products module.
 	*	Use it for the Pricing page.
 	*	Set up initially so that it can be used for other pages, even though it's only used on Pricing page at the moment.
@@ -387,7 +387,7 @@ _Begin Date - 2021-09-10_
 **v1.0.3** 
 _Begin Date - 2021-09-11_
 
-*	Adjust the starter files set.
+*	Adjust the **modules-starter/** folder.
 	*	Tech has a links preload item that references banner markup module that's not in the starter set. Remove the preload item.
 		*	That makes the necessity of separating the home page from the rest moot.
 	*	Add a call to the FAQ module from the Home page doppelgänger.
