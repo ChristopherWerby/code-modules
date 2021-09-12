@@ -11,7 +11,7 @@ Code Modules (CM) is an include-based architecture for static websites where the
 *	Click for demo Sample Website: [sample.codemodules.net][2]. 
 	*	This [GitHub repo][3] contains the source code for the Sample Website so that you can take it apart and see how it works in practice.
 
-*	Click for the starter files for modules at [app/modules-starter/][4]. You can download this, rename it `app/modules/`, and alter them for your own projects.
+*	Click for the starter files for modules at [app/modules-starter/][4]. You can download them, rename the containing folder `app/modules/`, and alter them for your own projects.
 
 Other than Pipsqueak’s logo, Code Modules is open source under the MIT license.
 
