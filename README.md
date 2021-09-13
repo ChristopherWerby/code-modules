@@ -394,6 +394,14 @@ _Begin Date - 2021-09-11_
 
 
 
+**v1.0.4** 
+_Begin Date - 2021-09-13_
+
+*	It is more consistent to replace PAGE variable calls to the Pages module with TEMPLATE.
+	*	Sometimes, the PAGE variable is used within a module which may have overwritten the TEMPLATE variable. So define `#PAGE# = '#TEMPLATE#'` in the global variables so that it can be used further down the chain.
+
+
+
 [![][piplogo]][pipurl]
 
 

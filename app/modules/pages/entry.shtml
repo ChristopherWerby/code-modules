@@ -1,4 +1,4 @@
-<!-- #bbinclude "/pages/templates/#PAGE#.shtml"
+<!-- #bbinclude "/pages/templates/#TEMPLATE#.shtml"
 #bbincludeoptions#="inline=true"
 #COMPANY# 					= 'Code Modules'
 #NAME#						= 'Code Modules'
@@ -43,7 +43,7 @@
 
 #PHONE#						= '(415) 555-1212'
 #PHONE-LABEL#				= 'main'
-#PHONE-MARKUP#				= '<a class="nobreak" href="tel:+14155551212">(415) 555-1212</a>'
+#PHONE-MARKUP#				= '<a class="noWrap" href="tel:+14155551212">(415) 555-1212</a>'
 #STREET1#					= 'Palace of the Legion of Honor'
 #STREET2#					= '100 34th Avenue'
 #CITY#						= 'San Francisco'
@@ -65,9 +65,13 @@
 #TECH-HEAD-TEMPLATE#		= 'head'
 #COMMENT#					= 'TECH-HEAD-TEMPLATE is head by default but sometimes head-home'
 
+#PAGE#						= '#TEMPLATE#'
+#COMMENT#					= 'TEMPLATE can be overwritten down the calling chain. Save the value in the PAGE variable.'
+
 #TYPE#						= 'default'
 #DESCRIPTION-ITEM#			= 'default'
 #DROPDOWN-DIVIDER#			= 'null'
+
 #ICON-CLASS#				= 'fa-1x'
 #COMMENT#					= 'ICON-CLASS is optional; defaults to fa-1x. Can be fa-lg, or fa-2x, fa-3x, fa-4x, fa-5x for size. Can include fa-fw for fixed width. Can include fa-li for use in lists. Can include fa-spin or fa-pulse to animate. Can include classes to flip and rotate: fa-rotate-90, fa-rotate-180, fa-rotate-270, fa-flip-horizontal, fa-flip-vertical.'
 

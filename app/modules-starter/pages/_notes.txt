@@ -1,10 +1,10 @@
 
 
-This would be the entirety of the public/index.html page; note it includes the DOCTYPE and the call to the Pages module.  All the content comes from the Pages module's home.shtml template and the modules that it calls.
+This would be the entirety of the public/index.html page before it is built; note it just includes the DOCTYPE and the call to the Pages module.  All the content comes from the Pages module's home.shtml template and the modules that it calls which is inserted between the HTML comments (above the <!-- end bbinclude --> line). Anything in that area will be completely overwritten the next time it is built, so make all changes in the home.shtml template rather than the top level HTML page home.html.
 
 <!DOCTYPE html>
 <!-- #bbinclude "/pages/entry.shtml" 
 #bbincludeoptions#="inline=true"
-#PAGE#			= 'home'
+#TEMPLATE#	= 'home'
 -->
 <!-- end bbinclude -->
