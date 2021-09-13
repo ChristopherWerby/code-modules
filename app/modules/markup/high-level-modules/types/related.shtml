@@ -1,4 +1,5 @@
 #INDENT#		<li class="#NAME-CLASS#">
-#INDENT#			<a href="#URL#">
-#INDENT#			<img class="img-fluid" src="#IMAGE#" alt="#ALT#"></a>
+#INDENT#			<a href="#URL#" title="#TITLE#">
+#INDENT#				<img class="img-fluid" src="#IMAGE#" alt="#ALT#">
+#INDENT#			</a>
 #INDENT#		</li>
