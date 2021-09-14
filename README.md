@@ -406,6 +406,7 @@ _Begin Date - 2021-09-13_
 	*	Some remain markup without a type file.
 	*	Make these adjustments to the modules-starter set as well.
 	*	Move canonical-url from meta items to link items.
+*	Take off the notice that says Code Modules isn't released yet.
 
 
 
