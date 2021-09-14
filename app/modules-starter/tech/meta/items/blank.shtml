@@ -1,6 +1,6 @@
 <!-- #bbinclude "/#MODULE#/meta/types/default.shtml"
 #bbincludeoptions#="inline=true"
-#NAME#		= 'Copyright'
-#CONTENT#	= 'Copyright © #YEARNUM#, #COMPANY#.'
+#NAME#		= ''
+#CONTENT#	= ''
 -->
 <!-- end bbinclude -->

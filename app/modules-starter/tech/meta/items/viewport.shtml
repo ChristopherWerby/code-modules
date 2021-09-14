@@ -1,2 +1,6 @@
-#INDENT#<meta name="viewport"
-#INDENT#	content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+<!-- #bbinclude "/#MODULE#/meta/types/default.shtml"
+#bbincludeoptions#="inline=true"
+#NAME#		= 'viewport'
+#CONTENT#	= 'width=device-width, initial-scale=1, shrink-to-fit=no'
+-->
+<!-- end bbinclude -->
