@@ -1,6 +1,31 @@
 <!-- Twitter Card -->
-#INDENT#<meta name="twitter:card"				content="summary" />			
-#INDENT#<meta name="twitter:title"				content="#PAGE-TITLE# — #COMPANY#" />			
-#INDENT#<meta name="twitter:description"		content="#DESCRIPTION#" />			
-#INDENT#<meta name="twitter:url" 				content="#URL-ROOT##CANONICAL-URL#" />
-#INDENT#<meta name="twitter:image"				content="#URL-ROOT##PAGE-IMAGE-PATH#/#PAGE-IMAGE#" />
+<!-- #bbinclude "/#MODULE#/meta/types/default.shtml"
+#bbincludeoptions#="inline=true"
+#NAME#		= 'twitter:card'
+#CONTENT#	= 'summary'
+-->
+<!-- end bbinclude -->
+<!-- #bbinclude "/#MODULE#/meta/types/default.shtml"
+#bbincludeoptions#="inline=true"
+#NAME#		= 'twitter:title'
+#CONTENT#	= '#PAGE-TITLE# — #COMPANY#'
+-->
+<!-- end bbinclude -->
+<!-- #bbinclude "/#MODULE#/meta/types/default.shtml"
+#bbincludeoptions#="inline=true"
+#NAME#		= 'twitter:description'
+#CONTENT#	= '#DESCRIPTION#'
+-->
+<!-- end bbinclude -->
+<!-- #bbinclude "/#MODULE#/meta/types/default.shtml"
+#bbincludeoptions#="inline=true"
+#NAME#		= 'twitter:url'
+#CONTENT#	= '#URL-ROOT##CANONICAL-URL#'
+-->
+<!-- end bbinclude -->
+<!-- #bbinclude "/#MODULE#/meta/types/default.shtml"
+#bbincludeoptions#="inline=true"
+#NAME#		= 'twitter:image'
+#CONTENT#	= '#URL-ROOT##PAGE-IMAGE-PATH#/#PAGE-IMAGE#'
+-->
+<!-- end bbinclude -->

@@ -1,7 +1,9 @@
 #INDENT#<title>
 #INDENT#	#TITLE-PHRASE# — #PAGE-TITLE#
 #INDENT#</title>
-#INDENT#<meta name="DC.title"
-#INDENT#	content="#PAGE-TITLE# — #TITLE-PHRASE#" />
-#INDENT#<meta property="og:title"
-#INDENT#	content="#PAGE-TITLE# — #TITLE-PHRASE#" />
+<!-- #bbinclude "/#MODULE#/meta/types/default.shtml"
+#bbincludeoptions#="inline=true"
+#NAME#		= 'DC.title'
+#CONTENT#	= '#PAGE-TITLE# — #TITLE-PHRASE#'
+-->
+<!-- end bbinclude -->

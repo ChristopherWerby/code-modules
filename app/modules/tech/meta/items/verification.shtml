@@ -1,12 +1,12 @@
 <!-- #bbinclude "/#MODULE#/meta/types/default.shtml"
 #bbincludeoptions#="inline=true"
-#NAME#		= 'author'
-#CONTENT#	= '#AUTHOR-DESCRIPTION#'
+#NAME#		= 'google-site-verification'
+#CONTENT#	= '#VERIFICATION-GOOGLE#'
 -->
 <!-- end bbinclude -->
 <!-- #bbinclude "/#MODULE#/meta/types/default.shtml"
 #bbincludeoptions#="inline=true"
-#NAME#		= 'DC.creator'
-#CONTENT#	= '#COMPANY#'
+#NAME#		= 'msvalidate.01'
+#CONTENT#	= '#VERIFICATION-MICROSOFT#'
 -->
 <!-- end bbinclude -->

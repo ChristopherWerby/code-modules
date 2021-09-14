@@ -1,6 +1,6 @@
 <!-- #bbinclude "/#MODULE#/links/types/default.shtml"
 #bbincludeoptions#="inline=true"
-#REL#	= 'stylesheet'
-#URL#	= '/../app/styles/main.less'
+#REL#	= ''
+#URL#	= ''
 -->
 <!-- end bbinclude -->

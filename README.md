@@ -402,6 +402,10 @@ _Begin Date - 2021-09-13_
 *	Add a title attribute to the related Portfolio items anchor tags around related images.
 *	Add a color to the far background of all pages to match header and footer color.
 	*	Stops the white bounce when scroll up or down to the extremes of the page.
+*	Adjust the Tech module so that most items call a type file.
+	*	Some remain markup without a type file.
+	*	Make these adjustments to the modules-starter set as well.
+	*	Move canonical-url from meta items to link items.
 
 
 
