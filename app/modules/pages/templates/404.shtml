@@ -19,7 +19,7 @@
 				</p>
 <!-- #bbinclude "/nav/entry.shtml"
 #bbincludeoptions#="inline=true"
-#TEMPLATE#			= 'unordered-linked-list'
+#TEMPLATE#			= 'ul-links'
 #SIMPLE-TYPE#		= 'dropdown-item-ul'
 #TERTIARY-NAV-TYPE#	= 'dropdown-item-ul'
 #INDENT#			= '				'

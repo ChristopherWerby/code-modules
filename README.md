@@ -410,6 +410,14 @@ _Begin Date - 2021-09-13_
 
 
 
+**v1.0.5** 
+_Begin Date - 2021-09-17_
+
+*	Nav template `unordered-linked-list.shtml` has an unwieldy name. Change to `ul-links.shtml`
+	*	Update Sample Website and Documentation.
+
+
+
 [![][piplogo]][pipurl]
 
 

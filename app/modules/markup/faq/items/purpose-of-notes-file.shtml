@@ -20,7 +20,7 @@ The Nav module returns the main navigation for each page header — template: de
 
 It also can return an unordered ul list of links with sub sections for each dropdown (for 404) — template: div-links.
 
-It can also return a div with a flat set of links (for sidebar; since only for sidebar, this one has an active class on the sidebar link) — template: unordered-linked-list.
+It can also return a div with a flat set of links (for sidebar; since only for sidebar, this one has an active class on the sidebar link) — template: ul-links.
 
 TERTIARY-NAV-TYPE variable defines the form of the markup which comes from the Blog module when getting individual blog posts.
 
@@ -47,7 +47,7 @@ SIMPLE-TYPE is for simple nav links that aren&apos;t dropdown items.
 
 &lt;!-- &num;bbinclude &quot;/nav/entry.shtml&quot;
 &num;bbincludeoptions&num;=&quot;inline=true&quot;
-&num;TEMPLATE&num;		= &apos;unordered-linked-list&apos;
+&num;TEMPLATE&num;		= &apos;ul-links&apos;
 &num;SIMPLE-TYPE&num;		= &apos;dropdown-item-ul&apos;
 &num;TERTIARY-NAV-TYPE&num;	= &apos;dropdown-item-ul&apos;
 &num;INDENT&num;		= &apos;				&apos;
