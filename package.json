@@ -1,7 +1,7 @@
 {
 	"title": "Code Modules Sample Files",
 	"name": "code-modules-sample",
-	"version": "1.0.6",
+	"version": "1.0.7",
 	"description": "Code Modules is a BBEdit Module System for Web Development. These are sample files using that system.",
 	"private": true,
 	"scripts": {

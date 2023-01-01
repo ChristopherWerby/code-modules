@@ -425,6 +425,13 @@ _Begin Date - 2022-01-01_
 
 
 
+**v1.0.7** 
+_Begin Date - 2023-01-01_
+
+*	Update copyright date.
+
+
+
 [![][piplogo]][pipurl]
 
 
