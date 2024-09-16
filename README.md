@@ -365,14 +365,14 @@ _Release Date - 2021-09-07_
 
 
 **v1.0.1** 
-_Begin Date - 2021-09-07_
+_Release Date - 2021-09-07_
 
 *	Regularize em-dashes to be surrounded by spaces.
 
 
 
 **v1.0.2** 
-_Begin Date - 2021-09-10_
+_Release Date - 2021-09-10_
 
 *	Add a pushimages script to push the whole image folder to the server.
 	*	Necessary for documentation to pull images from the Sample website. The Sample Website itself uses Parcel to build the site and doesn't use the images/ folder on the production server.
@@ -384,7 +384,7 @@ _Begin Date - 2021-09-10_
 
 
 **v1.0.3** 
-_Begin Date - 2021-09-11_
+_Release Date - 2021-09-11_
 
 *	Adjust the **modules-starter/** folder.
 	*	Tech has a links preload item that references banner markup module that's not in the starter set. Remove the preload item.
@@ -395,7 +395,7 @@ _Begin Date - 2021-09-11_
 
 
 **v1.0.4** 
-_Begin Date - 2021-09-13_
+_Release Date - 2021-09-13_
 
 *	It is more consistent to replace PAGE variable calls to the Pages module with TEMPLATE.
 	*	Sometimes, the PAGE variable is used within a module which may have overwritten the TEMPLATE variable. So define `#PAGE# = '#TEMPLATE#'` in the global variables so that it can be used further down the chain.
@@ -411,7 +411,7 @@ _Begin Date - 2021-09-13_
 
 
 **v1.0.5** 
-_Begin Date - 2021-09-17_
+_Release Date - 2021-09-17_
 
 *	Nav template `unordered-linked-list.shtml` has an unwieldy name. Change to `ul-links.shtml`
 	*	Update Sample Website and Documentation.
@@ -419,23 +419,30 @@ _Begin Date - 2021-09-17_
 
 
 **v1.0.6** 
-_Begin Date - 2022-01-01_
+_Release Date - 2022-01-01_
 
 *	Update copyright date.
 
 
 
 **v1.0.7** 
-_Begin Date - 2023-01-01_
+_Release Date - 2023-01-01_
 
 *	Update copyright date.
 
 
 
 **v1.0.8** 
-_Begin Date - 2024-01-01_
+_Release Date - 2024-01-01_
 
 *	Update copyright date.
+
+
+
+**v1.0.9** 
+_Release Date - 2024-01-01_
+
+*	
 
 
 
