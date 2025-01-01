@@ -440,9 +440,16 @@ _Release Date - 2024-01-01_
 
 
 **v1.0.9** 
-_Release Date - 2024-01-01_
+_Release Date - 2024-09-16_
 
-*	
+*	Rename repo branch from master to main.
+
+
+
+**v1.0.10** 
+_Release Date - 2025-01-01_
+
+*	Update copyright date.
 
 
 
